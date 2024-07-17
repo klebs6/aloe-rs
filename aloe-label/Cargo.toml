@@ -1,0 +1,30 @@
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-font]
+path = "../aloe-font"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-texteditor]
+path = "../aloe-texteditor"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[package]
+edition = "2021"
+name = "aloe-label"
+version = "0.1.0"

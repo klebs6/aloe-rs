@@ -1,0 +1,36 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-parameter-type]
+path = "../aloe-parameter-type"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[package]
+edition = "2021"
+name = "aloe-mouse"
+version = "0.1.0"

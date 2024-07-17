@@ -1,0 +1,22 @@
+[dependencies.aloe-android]
+path = "../aloe-android"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-url]
+path = "../aloe-url"
+[dependencies.aloe-video]
+path = "../aloe-video"
+[package]
+edition = "2021"
+name = "aloe-android-video"
+version = "0.1.0"

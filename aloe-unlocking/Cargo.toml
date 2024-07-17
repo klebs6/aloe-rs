@@ -1,0 +1,77 @@
+[dependencies]
+crossbeam = "*"
+objc = "*"
+objc_id = "*"
+objc-foundation = "0.1"
+
+[dependencies.icrate]
+features = [ 
+    "StoreKit", 
+    "StoreKit_SKDownload",
+    "StoreKit_SKPaymentQueue",
+    "StoreKit_SKPaymentTransaction",
+    "StoreKit_SKProduct",
+    "StoreKit_SKProductsRequest",
+    "StoreKit_SKProductsResponse",
+    "StoreKit_SKReceiptRefreshRequest",
+    "StoreKit_SKRequest",
+    "Foundation", 
+    "Foundation_NSError", 
+]
+
+version  = "*"
+[dependencies.aloe-android]
+path = "../aloe-android"
+[dependencies.aloe-bubble]
+path = "../aloe-bubble"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-core]
+path = "../aloe-core"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-crypto]
+path = "../aloe-crypto"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-texteditor]
+path = "../aloe-texteditor"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[dependencies.aloe-url]
+path = "../aloe-url"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-unlocking"
+version = "0.1.0"
+
+[features]
+aloe-data-structures = []

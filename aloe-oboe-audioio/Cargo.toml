@@ -1,0 +1,22 @@
+[dependencies.aloe-android]
+path = "../aloe-android"
+[dependencies.aloe-audio-device-manager]
+path = "../aloe-audio-device-manager"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-bigint]
+path = "../aloe-bigint"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-oboe-core]
+path = "../aloe-oboe-core"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[package]
+edition = "2021"
+name = "aloe-oboe-audioio"
+version = "0.1.0"

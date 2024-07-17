@@ -1,0 +1,50 @@
+#!/usr/bin/env raku
+use Chomper::Case;
+
+my @list = <
+    get_parameter_history_info
+    save_state
+    save_extended_scopes
+    restore_state
+    get_parameter_value_strings
+    copy_clump_name
+    get_presets
+    new_factory_preset_set
+    new_custom_preset_set
+    get_num_custom_ui_components
+    get_ui_component_descs
+    copy_icon_location
+    get_latency
+    get_tail_time
+    supports_tail
+    supported_num_channels
+    valid_format
+    get_stream_format
+    change_stream_format
+    get_scope_extended
+    property_changed
+    create_element
+    start
+    stop
+    prepare_instrument
+    release_instrument
+    midi_event
+    sys_ex
+    start_note
+    stop_note
+    reallocate_buffers
+    deallocate_io_buffers
+    set_max_frames_per_slice
+    can_set_max_frames
+    get_channel_layout_tags
+    get_audio_channel_layout
+    set_audio_channel_layout
+    remove_audio_channel_layout
+    process_for_scheduled_params
+    process_scheduled_slice
+>;
+
+for @list -> $item {
+    my $camel = snake-to-camel($item);
+    say "pub trait $camel \{";
+}

@@ -1,0 +1,10 @@
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-oboe-stream]
+path = "../aloe-oboe-stream"
+[package]
+edition = "2021"
+name = "aloe-oboe-devicequirks"
+version = "0.1.0"

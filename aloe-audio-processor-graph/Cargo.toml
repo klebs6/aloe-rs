@@ -1,0 +1,36 @@
+[dependencies]
+num = "*"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-plugin-instance]
+path = "../aloe-audio-plugin-instance"
+[dependencies.aloe-audio-processor]
+path = "../aloe-audio-processor"
+[dependencies.aloe-audio-processor-editor]
+path = "../aloe-audio-processor-editor"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-playhead]
+path = "../aloe-playhead"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[package]
+edition = "2021"
+name = "aloe-audio-processor-graph"
+version = "0.1.0"

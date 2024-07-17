@@ -1,0 +1,36 @@
+[dependencies]
+num = "*"
+[dependencies.aloe-bigint]
+path = "../aloe-bigint"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-menus]
+path = "../aloe-menus"
+[dependencies.aloe-playhead]
+path = "../aloe-playhead"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-audio-interface"
+version = "0.1.0"

@@ -1,0 +1,79 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+typenum = "*"
+wchar = "*"
+[dependencies.aloe-audio-block]
+path = "../aloe-audio-block"
+[dependencies.aloe-audio-device-manager]
+path = "../aloe-audio-device-manager"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-processor-editor]
+path = "../aloe-audio-processor-editor"
+[dependencies.aloe-audio-source]
+path = "../aloe-audio-source"
+[dependencies.aloe-audio-source-player]
+path = "../aloe-audio-source-player"
+[dependencies.aloe-audio-thumbnail]
+path = "../aloe-audio-thumbnail"
+[dependencies.aloe-audio-transport-source]
+path = "../aloe-audio-transport-source"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-codec]
+path = "../aloe-codec"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-fft]
+path = "../aloe-fft"
+[dependencies.aloe-filebrowser]
+path = "../aloe-filebrowser"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-grid]
+path = "../aloe-grid"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-param]
+path = "../aloe-param"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[dependencies.aloe-smoothed-value]
+path = "../aloe-smoothed-value"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-url]
+path = "../aloe-url"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[package]
+edition = "2021"
+name = "aloe-dsp"
+version = "0.1.0"

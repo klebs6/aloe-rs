@@ -1,0 +1,17 @@
+#!/usr/bin/env raku
+use v6;
+my $in = $*IN.slurp;
+
+my $virtual = rule { '/*' virtual '*/' };
+my $static  = rule { '/*' static  '*/' };
+
+$in ~~ s:g/$static//;
+$in ~~ s:g/$virtual//;
+
+$in ~~ s:g/public\://;
+$in ~~ s:g/private\://;
+$in ~~ s:g/protected\://;
+
+$in ~~ s:g/\/\/\/\//\/\/\//;
+
+say $in

@@ -1,0 +1,17 @@
+[dependencies]
+libc = "*"
+coreaudio-sys = "*"
+[dependencies.aloe-au-imports]
+path = "../aloe-au-imports"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-windowing]
+path = "../aloe-windowing"
+[package]
+edition = "2021"
+name = "aloe-au-streams"
+version = "0.1.0"

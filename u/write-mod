@@ -1,0 +1,36 @@
+#!/usr/bin/env raku
+use v6;
+
+sub MAIN(Bool :$write = False) {
+
+    my @dirs = "src".IO.dir.grep: { $_.d };
+
+    for @dirs -> $dir {
+
+        my $modfile = $dir ~ "/mod.rs";
+
+        die $modfile ~ " DNE" if not $modfile.IO.e;
+
+        if $write {
+            shell "rm $modfile";
+        }
+
+        my @items = $dir.dir;
+
+        for @items {
+            if $_ ne $modfile {
+
+                my $name = $_.basename.split(".")[0];
+
+                my $modline = "x!\{$name\}\n";
+
+                if $write {
+                    $modfile.IO.spurt: $modline, :append;
+                } else {
+                    say $modline;
+                }
+            }
+        }
+        $modfile.IO.spurt: $modfile.IO.lines.sort.unique.join("\n");
+    }
+}

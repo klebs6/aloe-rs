@@ -1,0 +1,26 @@
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-bigint]
+path = "../aloe-bigint"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-level-meter]
+path = "../aloe-level-meter"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-audio-device-manager"
+version = "0.1.0"

@@ -1,0 +1,46 @@
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-menus]
+path = "../aloe-menus"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-param]
+path = "../aloe-param"
+[dependencies.aloe-resizable]
+path = "../aloe-resizable"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[package]
+edition = "2021"
+name = "aloe-audio-processor-editor"
+version = "0.1.0"

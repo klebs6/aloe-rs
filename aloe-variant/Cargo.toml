@@ -1,0 +1,12 @@
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[package]
+edition = "2021"
+name = "aloe-variant"
+version = "0.1.0"

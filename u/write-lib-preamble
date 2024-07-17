@@ -1,0 +1,100 @@
+#!/usr/bin/env raku
+use v6;
+
+our sub write-preamble($file) {
+    my $preamble = q:to/END/;
+    #![feature(test)]
+
+    extern crate test;
+    extern crate atomic;
+    extern crate libc;
+    extern crate bitfield;
+
+
+    pub fn no_op() {}
+
+    #[macro_use] extern crate static_assertions;
+    #[macro_use] extern crate lazy_static;
+
+    macro_rules! x { ($x:ident) => { mod $x; pub use $x::*; } }
+
+    macro_rules! ix { 
+        () => { 
+            use crate::{ 
+                imports::* , 
+            };
+        } 
+    }
+
+    macro_rules! ternary {
+        ($condition:expr,$if_true:expr,$if_false:expr) => {
+            match $condition {
+                true => $if_true,
+                false => $if_false,
+            }
+        }
+    }
+
+    //TODO: compile time error message?
+    macro_rules! static_assert {
+        ($b:expr) => {  
+            const_assert!(b);
+        }
+    }
+
+    pub mod imports;
+    END
+    my $cur-contents = $file.IO.slurp;
+
+    $file.IO.spurt: $cur-contents ~ "\n\n" ~ $preamble;
+}
+
+our sub file-just-x-macros($file) {
+
+    my $failed = False;
+
+    for $file.IO.lines {
+        if not $_.starts-with("x!") {
+            $failed = True;
+        }
+    }
+    not $failed
+}
+
+our sub get-lib-files($start) {
+
+    my @stack = $start.IO;
+
+    gather while @stack {
+        with @stack.pop {
+            when :d { 
+                if $_ ~~ rule {
+                    | 'aloe_' *
+                    | '.'
+                } {
+                    @stack.append: .dir 
+                }
+
+            }
+            .take when {
+                $_ ~~ /lib\.rs/
+            }
+        }
+    }
+}
+
+sub MAIN(Bool :$write = False) {
+
+    my @lib-files = get-lib-files(".");
+
+    for @lib-files {
+
+        if file-just-x-macros($_) {
+            if $write {
+                write-preamble($_);
+            } else {
+                say "need write $_";
+            }
+        }
+    }
+}

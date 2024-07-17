@@ -1,0 +1,88 @@
+[dependencies]
+core-foundation-sys = "*"
+num = "*"
+[dependencies.icrate]
+features = [ "AppKit_NSView" ]
+version = "*"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-plugin-format]
+path = "../aloe-audio-plugin-format"
+[dependencies.aloe-audio-plugin-instance]
+path = "../aloe-audio-plugin-instance"
+[dependencies.aloe-audio-processor]
+path = "../aloe-audio-processor"
+[dependencies.aloe-audio-processor-editor]
+path = "../aloe-audio-processor-editor"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-core]
+path = "../aloe-core"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-nsview]
+path = "../aloe-nsview"
+[dependencies.aloe-param]
+path = "../aloe-param"
+[dependencies.aloe-playhead]
+path = "../aloe-playhead"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[dependencies.aloe-vst-attributes]
+path = "../aloe-vst-attributes"
+[dependencies.aloe-vst-channel]
+path = "../aloe-vst-channel"
+[dependencies.aloe-vst-component]
+path = "../aloe-vst-component"
+[dependencies.aloe-vst-edit]
+path = "../aloe-vst-edit"
+[dependencies.aloe-vst-events]
+path = "../aloe-vst-events"
+[dependencies.aloe-vst-host]
+path = "../aloe-vst-host"
+[dependencies.aloe-vst-message]
+path = "../aloe-vst-message"
+[dependencies.aloe-vst-parameters]
+path = "../aloe-vst-parameters"
+[dependencies.aloe-vst-plugin]
+path = "../aloe-vst-plugin"
+[dependencies.aloe-vst-plugview]
+path = "../aloe-vst-plugview"
+[dependencies.aloe-vst-processor]
+path = "../aloe-vst-processor"
+[dependencies.aloe-vst-stream]
+path = "../aloe-vst-stream"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[dependencies.aloe-vst-units]
+path = "../aloe-vst-units"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-vst3"
+version = "0.1.0"

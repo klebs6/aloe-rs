@@ -1,0 +1,40 @@
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-editor]
+path = "../aloe-editor"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-font]
+path = "../aloe-font"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-listbox]
+path = "../aloe-listbox"
+[dependencies.aloe-random]
+path = "../aloe-random"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[dependencies.aloe-stretchable]
+path = "../aloe-stretchable"
+[dependencies.aloe-texteditor]
+path = "../aloe-texteditor"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-url]
+path = "../aloe-url"
+[package]
+edition = "2021"
+name = "aloe-demo"
+version = "0.1.0"

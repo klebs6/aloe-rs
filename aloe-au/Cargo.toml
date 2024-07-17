@@ -1,0 +1,46 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-au-base]
+path = "../aloe-au-base"
+[dependencies.aloe-au-buffer]
+path = "../aloe-au-buffer"
+[dependencies.aloe-au-carbon]
+path = "../aloe-au-carbon"
+[dependencies.aloe-au-channel]
+path = "../aloe-au-channel"
+[dependencies.aloe-au-component]
+path = "../aloe-au-component"
+[dependencies.aloe-au-coreaudio]
+path = "../aloe-au-coreaudio"
+[dependencies.aloe-au-debug]
+path = "../aloe-au-debug"
+[dependencies.aloe-au-device]
+path = "../aloe-au-device"
+[dependencies.aloe-au-dispatch]
+path = "../aloe-au-dispatch"
+[dependencies.aloe-au-midi]
+path = "../aloe-au-midi"
+[dependencies.aloe-au-parameter]
+path = "../aloe-au-parameter"
+[dependencies.aloe-au-streams]
+path = "../aloe-au-streams"
+[dependencies.aloe-au-time]
+path = "../aloe-au-time"
+[dependencies.aloe-au-types]
+path = "../aloe-au-types"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[package]
+edition = "2021"
+name = "aloe-au"
+version = "0.1.0"

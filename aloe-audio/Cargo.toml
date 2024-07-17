@@ -1,0 +1,114 @@
+[dependencies]
+cocoa = "*"
+objc = "*"
+static_assertions = "*"
+[dependencies.aloe-app]
+path = "../aloe-app"
+[dependencies.aloe-audio-device-manager]
+path = "../aloe-audio-device-manager"
+[dependencies.aloe-audio-devices]
+path = "../aloe-audio-devices"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-plugin-client]
+path = "../aloe-audio-plugin-client"
+[dependencies.aloe-audio-processor]
+path = "../aloe-audio-processor"
+[dependencies.aloe-audio-processor-editor]
+path = "../aloe-audio-processor-editor"
+[dependencies.aloe-audio-processor-graph]
+path = "../aloe-audio-processor-graph"
+[dependencies.aloe-audio-source]
+path = "../aloe-audio-source"
+[dependencies.aloe-audio-source-player]
+path = "../aloe-audio-source-player"
+[dependencies.aloe-bigint]
+path = "../aloe-bigint"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-codec]
+path = "../aloe-codec"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-documentwindow]
+path = "../aloe-documentwindow"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-filebrowser]
+path = "../aloe-filebrowser"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-level-meter]
+path = "../aloe-level-meter"
+[dependencies.aloe-listbox]
+path = "../aloe-listbox"
+[dependencies.aloe-math]
+path = "../aloe-math"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-menus]
+path = "../aloe-menus"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-param]
+path = "../aloe-param"
+[dependencies.aloe-player]
+path = "../aloe-player"
+[dependencies.aloe-playhead]
+path = "../aloe-playhead"
+[dependencies.aloe-properties]
+path = "../aloe-properties"
+[dependencies.aloe-resizable]
+path = "../aloe-resizable"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[dependencies.aloe-standalone]
+path = "../aloe-standalone"
+[dependencies.aloe-synthesizer]
+path = "../aloe-synthesizer"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[dependencies.aloe-undo]
+path = "../aloe-undo"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[dependencies.aloe-viewport]
+path = "../aloe-viewport"
+[dependencies.aloe-visualizer]
+path = "../aloe-visualizer"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-audio"
+version = "0.1.0"

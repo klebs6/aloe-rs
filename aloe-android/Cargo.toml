@@ -1,0 +1,73 @@
+[dependencies]
+jni-sys = "*"
+bitflags = "*"
+[dependencies.aloe-alert-window]
+path = "../aloe-alert-window"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-content-sharer]
+path = "../aloe-content-sharer"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-desktop]
+path = "../aloe-desktop"
+[dependencies.aloe-dialogwindow]
+path = "../aloe-dialogwindow"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-filebrowser]
+path = "../aloe-filebrowser"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-font]
+path = "../aloe-font"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-listbox]
+path = "../aloe-listbox"
+[dependencies.aloe-lookandfeel]
+path = "../aloe-lookandfeel"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-system]
+path = "../aloe-system"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[dependencies.aloe-url]
+path = "../aloe-url"
+[dependencies.aloe-webbrowser]
+path = "../aloe-webbrowser"
+[dependencies.aloe-windowing]
+path = "../aloe-windowing"
+[package]
+edition = "2021"
+name = "aloe-android"
+version = "0.1.0"

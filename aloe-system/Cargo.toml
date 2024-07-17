@@ -1,0 +1,10 @@
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-text]
+path = "../aloe-text"
+[package]
+edition = "2021"
+name = "aloe-system"
+version = "0.1.0"

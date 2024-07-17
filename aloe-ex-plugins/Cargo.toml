@@ -1,0 +1,102 @@
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-processor]
+path = "../aloe-audio-processor"
+[dependencies.aloe-audio-processor-editor]
+path = "../aloe-audio-processor-editor"
+[dependencies.aloe-audio-processor-value-tree]
+path = "../aloe-audio-processor-value-tree"
+[dependencies.aloe-audio-thumbnail]
+path = "../aloe-audio-thumbnail"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-codec]
+path = "../aloe-codec"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-drawables]
+path = "../aloe-drawables"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-filebrowser]
+path = "../aloe-filebrowser"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-font]
+path = "../aloe-font"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-lookandfeel]
+path = "../aloe-lookandfeel"
+[dependencies.aloe-math-expression]
+path = "../aloe-math-expression"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-mpe]
+path = "../aloe-mpe"
+[dependencies.aloe-param]
+path = "../aloe-param"
+[dependencies.aloe-playhead]
+path = "../aloe-playhead"
+[dependencies.aloe-reverb]
+path = "../aloe-reverb"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[dependencies.aloe-smoothed-value]
+path = "../aloe-smoothed-value"
+[dependencies.aloe-streams]
+path = "../aloe-streams"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-synthesizer]
+path = "../aloe-synthesizer"
+[dependencies.aloe-tabbed]
+path = "../aloe-tabbed"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-undo]
+path = "../aloe-undo"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[dependencies.aloe-vst-events]
+path = "../aloe-vst-events"
+[dependencies.aloe-vst-reaper]
+path = "../aloe-vst-reaper"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[dependencies.aloe-vst3]
+path = "../aloe-vst3"
+[package]
+edition = "2021"
+name = "aloe-ex-plugins"
+version = "0.1.0"

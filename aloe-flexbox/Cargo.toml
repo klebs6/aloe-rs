@@ -1,0 +1,14 @@
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[package]
+edition = "2021"
+name = "aloe-flexbox"
+version = "0.1.0"

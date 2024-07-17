@@ -1,0 +1,34 @@
+#!/usr/bin/env raku
+use v6;
+
+my @stack = '.'.IO;
+
+my $rust-files = gather while @stack {
+    with @stack.pop {
+        when :d { 
+            if $_ ~~ rule {
+                | 'aloe_' *
+                | '.'
+            } {
+                @stack.append: .dir 
+            }
+
+        }
+        .take when {
+            .extension.lc eq 'rs'
+        }
+    }
+}
+
+my $double-crate = rule { 
+    <.ws>
+    'use crate::*;'
+    'use crate::*;'
+};
+
+for $rust-files.List -> $file {
+    my $contents = $file.IO.slurp;
+    if $contents ~~ $double-crate {
+        say $file;
+    }
+}

@@ -1,0 +1,18 @@
+[dependencies.aloe-audio-block]
+path = "../aloe-audio-block"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-delay]
+path = "../aloe-delay"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-filter]
+path = "../aloe-filter"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[package]
+edition = "2021"
+name = "aloe-oversampling"
+version = "0.1.0"

@@ -1,0 +1,21 @@
+[dependencies]
+objc = "0.2"
+objc-foundation = "0.1"
+objc_id = "*"
+libc = "*"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[package]
+edition = "2021"
+name = "aloe-core"
+version = "0.1.0"

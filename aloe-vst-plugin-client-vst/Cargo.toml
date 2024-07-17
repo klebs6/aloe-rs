@@ -1,0 +1,44 @@
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-processor]
+path = "../aloe-audio-processor"
+[dependencies.aloe-audio-processor-editor]
+path = "../aloe-audio-processor-editor"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-param]
+path = "../aloe-param"
+[dependencies.aloe-playhead]
+path = "../aloe-playhead"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-vst-midi]
+path = "../aloe-vst-midi"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[package]
+edition = "2021"
+name = "aloe-vst-plugin-client-vst"
+version = "0.1.0"

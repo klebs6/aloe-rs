@@ -1,0 +1,136 @@
+[dependencies]
+libc = "*"
+[dependencies.aloe-alert-window]
+path = "../aloe-alert-window"
+[dependencies.aloe-animation]
+path = "../aloe-animation"
+[dependencies.aloe-audio-app-component]
+path = "../aloe-audio-app-component"
+[dependencies.aloe-audio-device-manager]
+path = "../aloe-audio-device-manager"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-bubble]
+path = "../aloe-bubble"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-camera]
+path = "../aloe-camera"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-colourselector]
+path = "../aloe-colourselector"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-commands]
+path = "../aloe-commands"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-concertina]
+path = "../aloe-concertina"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-dialogwindow]
+path = "../aloe-dialogwindow"
+[dependencies.aloe-documentwindow]
+path = "../aloe-documentwindow"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-drawables]
+path = "../aloe-drawables"
+[dependencies.aloe-editor]
+path = "../aloe-editor"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-ex-demorunner]
+path = "../aloe-ex-demorunner"
+[dependencies.aloe-filebrowser]
+path = "../aloe-filebrowser"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-flexbox]
+path = "../aloe-flexbox"
+[dependencies.aloe-font]
+path = "../aloe-font"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-imagecomponent]
+path = "../aloe-imagecomponent"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-keymapping-editor]
+path = "../aloe-keymapping-editor"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-listbox]
+path = "../aloe-listbox"
+[dependencies.aloe-lookandfeel]
+path = "../aloe-lookandfeel"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-menus]
+path = "../aloe-menus"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-multidoc]
+path = "../aloe-multidoc"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-notifications]
+path = "../aloe-notifications"
+[dependencies.aloe-opengl]
+path = "../aloe-opengl"
+[dependencies.aloe-properties]
+path = "../aloe-properties"
+[dependencies.aloe-random]
+path = "../aloe-random"
+[dependencies.aloe-sidepanel]
+path = "../aloe-sidepanel"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[dependencies.aloe-stretchable]
+path = "../aloe-stretchable"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-tabbed]
+path = "../aloe-tabbed"
+[dependencies.aloe-table]
+path = "../aloe-table"
+[dependencies.aloe-texteditor]
+path = "../aloe-texteditor"
+[dependencies.aloe-thread-with-progress-window]
+path = "../aloe-thread-with-progress-window"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[dependencies.aloe-toolbar]
+path = "../aloe-toolbar"
+[dependencies.aloe-tooltip-window]
+path = "../aloe-tooltip-window"
+[dependencies.aloe-treeview]
+path = "../aloe-treeview"
+[dependencies.aloe-url]
+path = "../aloe-url"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[dependencies.aloe-video]
+path = "../aloe-video"
+[dependencies.aloe-webbrowser]
+path = "../aloe-webbrowser"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-ex-gui"
+version = "0.1.0"

@@ -1,0 +1,10 @@
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[package]
+edition = "2021"
+name = "aloe-vst-plugview"
+version = "0.1.0"

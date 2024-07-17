@@ -1,0 +1,104 @@
+#!/usr/bin/env raku
+use v6;
+
+
+sub increment($target-file) {
+    state %map;
+    %map{$target-file}++;
+    my $count = %map{$target-file};
+    $target-file.split(".")[0] ~ $count ~ ".rs"
+}
+
+sub do-work(@mappings,@stripme) {
+
+    my @new-mappings;
+    my $targets = SetHash.new;
+
+    for @mappings -> ($src is rw, $dst is rw) {
+
+        my $old-src = $src;
+
+        for @stripme {
+            $src = $src.subst($_,"");
+        }
+
+        $src = $src.subst(:g, "-","_");
+        $dst = $dst.subst("xxx.rs", $src);
+
+        if $targets{$dst} {
+            $dst = increment($dst);
+        }
+
+        $targets{$dst} = True;
+        @new-mappings.push: [$old-src, $dst];
+    }
+
+    die if $targets.unique.elems ne $targets.elems;
+
+    for @new-mappings -> ($src, $dst) {
+        say "mv $src $dst";
+    }
+}
+
+my @stripme = [
+    token {src\/gui\-basics\-commands\-},
+    token {src\/gui\-basics\-native\-},
+    token {src\/gui\-extra\-misc\-},
+    token {src\/gui\-extra\-native\-},
+    token {src\/opengl\-native\-},
+    token {src\/opengl\-opengl\-},
+    token {src\/opengl\-utils\-},
+    token {src\/product\-unlocking\-native\-},
+    token {src\/product\-unlocking\-},
+    token {src\/},
+];
+
+my @mappings = [
+
+["src/gui-extra-misc-pushnotifications.rs",                                   "src/notifications/xxx.rs"],
+["src/gui-extra-native-mac-pushnotifications.rs",                             "src/notifications/xxx.rs"],
+["src/gui-extra-native-android-pushnotifications.rs",                         "src/notifications/xxx.rs"],
+["src/gui-extra-native-ios-pushnotifications.rs",                             "src/notifications/xxx.rs"],
+["src/examples-utilities-pushnotificationsdemo.rs",                           "src/notifications/xxx.rs"],
+["src/events-messages-notificationtype.rs",                                   "src/notifications/xxx.rs"],
+["src/gui-basics-commands-applicationcommandid.rs",                           "src/commands/xxx.rs"],
+["src/gui-basics-commands-applicationcommandinfo.rs",                         "src/commands/xxx.rs"],
+["src/gui-basics-commands-applicationcommandmanager.rs",                      "src/commands/xxx.rs"],
+["src/gui-basics-commands-applicationcommandtarget.rs",                       "src/commands/xxx.rs"],
+["src/gui-basics-commands-keypressmappingset.rs",                             "src/commands/xxx.rs"],
+["src/gui-basics.rs",                                    "src/gui/xxx.rs"],
+["src/gui-basics-native-android-contentsharer.rs",       "src/gui/xxx.rs"],
+["src/gui-basics-native-common-mimetypes.rs",            "src/gui/xxx.rs"],
+["src/gui-basics-native-ios-contentsharer.rs",           "src/gui/xxx.rs"],
+["src/gui-basics-native-multitouchmapper.rs",            "src/gui/xxx.rs"],
+["src/gui-basics-native-x11-linux-x11-draganddrop.rs",   "src/gui/xxx.rs"],
+["src/gui-basics-native-x11-linux-x11-symbols.rs",       "src/gui/xxx.rs"],
+["src/gui-extra.rs",                                     "src/gui/xxx.rs"],
+["src/opengl-native-opengl-android.rs",                  "src/opengl/xxx.rs"],
+["src/opengl-native-opengl-ios.rs",                      "src/opengl/xxx.rs"],
+["src/opengl-native-opengl-linux-x11.rs",                "src/opengl/xxx.rs"],
+["src/opengl-native-opengl-osx.rs",                      "src/opengl/xxx.rs"],
+["src/opengl-opengl-openglcontext.rs",                   "src/opengl/xxx.rs"],
+["src/opengl-opengl-openglframebuffer.rs",               "src/opengl/xxx.rs"],
+["src/opengl-opengl-openglgraphicscontext.rs",           "src/opengl/xxx.rs"],
+["src/opengl-opengl-openglhelpers.rs",                   "src/opengl/xxx.rs"],
+["src/opengl-opengl-openglimage.rs",                     "src/opengl/xxx.rs"],
+["src/opengl-opengl-openglpixelformat.rs",               "src/opengl/xxx.rs"],
+["src/opengl-opengl-openglrenderer.rs",                  "src/opengl/xxx.rs"],
+["src/opengl-opengl-openglshaderprogram.rs",             "src/opengl/xxx.rs"],
+["src/opengl-opengl-opengltexture.rs",                   "src/opengl/xxx.rs"],
+["src/opengl-opengl-wgl.rs",                             "src/opengl/xxx.rs"],
+["src/opengl-utils-openglappcomponent.rs",               "src/opengl/xxx.rs"],
+["src/opengl.rs",                                        "src/opengl/xxx.rs"],
+["src/product-unlocking-in-app-purchases-inapppurchases.rs",          "src/unlocking/xxx.rs"],
+["src/product-unlocking-marketplace-keyfilegeneration.rs",            "src/unlocking/xxx.rs"],
+["src/product-unlocking-marketplace-onlineunlockform.rs",             "src/unlocking/xxx.rs"],
+["src/product-unlocking-marketplace-onlineunlockstatus.rs",           "src/unlocking/xxx.rs"],
+["src/product-unlocking-marketplace-tracktionmarketplacestatus.rs",   "src/unlocking/xxx.rs"],
+["src/product-unlocking-native-android-inapppurchases.rs",            "src/unlocking/xxx.rs"],
+["src/product-unlocking-native-ios-inapppurchases.rs",                "src/unlocking/xxx.rs"],
+["src/product-unlocking.rs",                                          "src/unlocking/xxx.rs"],
+
+];
+
+do-work(@mappings, @stripme);

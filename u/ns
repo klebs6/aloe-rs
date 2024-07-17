@@ -1,0 +1,10 @@
+#!/usr/bin/env raku
+use v6;
+
+my $ns-token = token { 'NS' <[A..Z a..z 0..9 _]>+ };
+
+my @ns-words = $*IN.words.comb($ns-token).unique.sort;
+
+for @ns-words -> $word {
+    say $word;
+}

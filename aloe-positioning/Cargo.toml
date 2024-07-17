@@ -1,0 +1,34 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-char]
+path = "../aloe-char"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-drawables]
+path = "../aloe-drawables"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-math-expression]
+path = "../aloe-math-expression"
+[dependencies.aloe-undo]
+path = "../aloe-undo"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[package]
+edition = "2021"
+name = "aloe-positioning"
+version = "0.1.0"

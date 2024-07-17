@@ -1,0 +1,14 @@
+[dependencies.aloe-codec]
+path = "../aloe-codec"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-oboe-core]
+path = "../aloe-oboe-core"
+[dependencies.aloe-oboe-stream]
+path = "../aloe-oboe-stream"
+[package]
+edition = "2021"
+name = "aloe-oboe-trace"
+version = "0.1.0"

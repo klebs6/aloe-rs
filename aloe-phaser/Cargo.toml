@@ -1,0 +1,30 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-filter]
+path = "../aloe-filter"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-mixer]
+path = "../aloe-mixer"
+[dependencies.aloe-oscillator]
+path = "../aloe-oscillator"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[dependencies.aloe-smoothed-value]
+path = "../aloe-smoothed-value"
+[package]
+edition = "2021"
+name = "aloe-phaser"
+version = "0.1.0"

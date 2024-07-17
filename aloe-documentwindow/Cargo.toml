@@ -1,0 +1,26 @@
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-menus]
+path = "../aloe-menus"
+[dependencies.aloe-resizable]
+path = "../aloe-resizable"
+[dependencies.aloe-windowing]
+path = "../aloe-windowing"
+[package]
+edition = "2021"
+name = "aloe-documentwindow"
+version = "0.1.0"

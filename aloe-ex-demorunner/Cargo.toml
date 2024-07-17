@@ -1,0 +1,64 @@
+[dependencies]
+cocoa = "*"
+[dependencies.aloe-app]
+path = "../aloe-app"
+[dependencies.aloe-audio-device-manager]
+path = "../aloe-audio-device-manager"
+[dependencies.aloe-audio-devices]
+path = "../aloe-audio-devices"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-char]
+path = "../aloe-char"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-commands]
+path = "../aloe-commands"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-documentwindow]
+path = "../aloe-documentwindow"
+[dependencies.aloe-editor]
+path = "../aloe-editor"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-listbox]
+path = "../aloe-listbox"
+[dependencies.aloe-lookandfeel]
+path = "../aloe-lookandfeel"
+[dependencies.aloe-opengl]
+path = "../aloe-opengl"
+[dependencies.aloe-sidepanel]
+path = "../aloe-sidepanel"
+[dependencies.aloe-streams]
+path = "../aloe-streams"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-system-tray]
+path = "../aloe-system-tray"
+[dependencies.aloe-tabbed]
+path = "../aloe-tabbed"
+[dependencies.aloe-viewport]
+path = "../aloe-viewport"
+[dependencies.aloe-visualizer]
+path = "../aloe-visualizer"
+[package]
+edition = "2021"
+name = "aloe-ex-demorunner"
+version = "0.1.0"

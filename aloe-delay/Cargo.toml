@@ -1,0 +1,14 @@
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-dsp]
+path = "../aloe-dsp"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[package]
+edition = "2021"
+name = "aloe-delay"
+version = "0.1.0"

@@ -1,0 +1,36 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-animation]
+path = "../aloe-animation"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-lookandfeel]
+path = "../aloe-lookandfeel"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[package]
+edition = "2021"
+name = "aloe-desktop"
+version = "0.1.0"

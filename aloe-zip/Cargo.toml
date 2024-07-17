@@ -1,0 +1,28 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-streams]
+path = "../aloe-streams"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[package]
+edition = "2021"
+name = "aloe-zip"
+version = "0.1.0"

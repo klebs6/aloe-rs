@@ -1,0 +1,14 @@
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-vst-events]
+path = "../aloe-vst-events"
+[dependencies.aloe-vst-parameters]
+path = "../aloe-vst-parameters"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[package]
+edition = "2021"
+name = "aloe-vst-processor"
+version = "0.1.0"

@@ -1,0 +1,14 @@
+#!/usr/bin/env raku
+use v6;
+sub has-homogenus-shape(\l) {
+    so l[*].&{ $_».elems.all == $_[0] }
+}
+
+my $t1 = [[1,2,3],[2,3,4]];
+my $t2 = [[1,2,3],[2,3]];
+my $t3 = [[[1,2],[1,2],[1,2]],[2,3]];
+
+#say $t1.&has-homogenus-shape;
+#say $t2.&has-homogenus-shape;
+say $t3.&has-homogenus-shape;
+

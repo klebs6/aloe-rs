@@ -1,0 +1,16 @@
+#!/usr/bin/env raku
+use v6;
+
+sub MAIN(Bool :$do-move = False) {
+
+    my @dirs = "aloe/src/gif/".IO.dir.grep: { .d };
+
+    for @dirs -> $src {
+        my $dst = "aloe_" ~ $src.basename;
+        if $do-move {
+            shell "mv $src $dst";
+        } else {
+            say "mv $src $dst";
+        }
+    }
+}

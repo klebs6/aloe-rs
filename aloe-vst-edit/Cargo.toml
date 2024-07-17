@@ -1,0 +1,24 @@
+[dependencies]
+bitflags = "*"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-vst-component]
+path = "../aloe-vst-component"
+[dependencies.aloe-vst-parameters]
+path = "../aloe-vst-parameters"
+[dependencies.aloe-vst-plugin]
+path = "../aloe-vst-plugin"
+[dependencies.aloe-vst-plugview]
+path = "../aloe-vst-plugview"
+[dependencies.aloe-vst-stream]
+path = "../aloe-vst-stream"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[dependencies.aloe-vst-units]
+path = "../aloe-vst-units"
+[package]
+edition = "2021"
+name = "aloe-vst-edit"
+version = "0.1.0"

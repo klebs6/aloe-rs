@@ -1,0 +1,26 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-codec]
+path = "../aloe-codec"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[package]
+edition = "2021"
+name = "aloe-cd"
+version = "0.1.0"

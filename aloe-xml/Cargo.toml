@@ -1,0 +1,26 @@
+[dependencies.aloe-char]
+path = "../aloe-char"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-text]
+path = "../aloe-text"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+
+[dependencies]
+libc = "*"
+
+[package]
+edition = "2021"
+name = "aloe-xml"
+version = "0.1.0"

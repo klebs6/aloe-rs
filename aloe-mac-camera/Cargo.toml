@@ -1,0 +1,37 @@
+[dependencies]
+objc = "*"
+objc-foundation = "0.1"
+objc_id = "*"
+[dependencies.icrate]
+features = [ "Foundation", "Foundation_NSError", "Foundation_NSNotification" ]
+version = "*"
+[dependencies.aloe-camera]
+path = "../aloe-camera"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-core]
+path = "../aloe-core"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-embedding]
+path = "../aloe-embedding"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-nsview]
+path = "../aloe-nsview"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[package]
+edition = "2021"
+name = "aloe-mac-camera"
+version = "0.1.0"

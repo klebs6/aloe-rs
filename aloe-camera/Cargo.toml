@@ -1,0 +1,18 @@
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[package]
+edition = "2021"
+name = "aloe-camera"
+version = "0.1.0"

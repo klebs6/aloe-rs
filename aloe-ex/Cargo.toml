@@ -1,0 +1,30 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-ex-app]
+path = "../aloe-ex-app"
+[dependencies.aloe-ex-assets]
+path = "../aloe-ex-assets"
+[dependencies.aloe-ex-audio]
+path = "../aloe-ex-audio"
+[dependencies.aloe-ex-demorunner]
+path = "../aloe-ex-demorunner"
+[dependencies.aloe-ex-gui]
+path = "../aloe-ex-gui"
+[dependencies.aloe-ex-plugins]
+path = "../aloe-ex-plugins"
+[dependencies.aloe-ex-utilities]
+path = "../aloe-ex-utilities"
+[package]
+edition = "2021"
+name = "aloe-ex"
+version = "0.1.0"

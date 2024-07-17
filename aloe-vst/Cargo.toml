@@ -1,0 +1,76 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-vst-attributes]
+path = "../aloe-vst-attributes"
+[dependencies.aloe-vst-buffer]
+path = "../aloe-vst-buffer"
+[dependencies.aloe-vst-channel]
+path = "../aloe-vst-channel"
+[dependencies.aloe-vst-component]
+path = "../aloe-vst-component"
+[dependencies.aloe-vst-debug]
+path = "../aloe-vst-debug"
+[dependencies.aloe-vst-edit]
+path = "../aloe-vst-edit"
+[dependencies.aloe-vst-events]
+path = "../aloe-vst-events"
+[dependencies.aloe-vst-host]
+path = "../aloe-vst-host"
+[dependencies.aloe-vst-inter-app]
+path = "../aloe-vst-inter-app"
+[dependencies.aloe-vst-message]
+path = "../aloe-vst-message"
+[dependencies.aloe-vst-midi]
+path = "../aloe-vst-midi"
+[dependencies.aloe-vst-note-expression]
+path = "../aloe-vst-note-expression"
+[dependencies.aloe-vst-parameters]
+path = "../aloe-vst-parameters"
+[dependencies.aloe-vst-persist]
+path = "../aloe-vst-persist"
+[dependencies.aloe-vst-platform]
+path = "../aloe-vst-platform"
+[dependencies.aloe-vst-plugin]
+path = "../aloe-vst-plugin"
+[dependencies.aloe-vst-plugin-client-vst]
+path = "../aloe-vst-plugin-client-vst"
+[dependencies.aloe-vst-plugin-client-vst3]
+path = "../aloe-vst-plugin-client-vst3"
+[dependencies.aloe-vst-pluginformat]
+path = "../aloe-vst-pluginformat"
+[dependencies.aloe-vst-plugview]
+path = "../aloe-vst-plugview"
+[dependencies.aloe-vst-presetfile]
+path = "../aloe-vst-presetfile"
+[dependencies.aloe-vst-processor]
+path = "../aloe-vst-processor"
+[dependencies.aloe-vst-reaper]
+path = "../aloe-vst-reaper"
+[dependencies.aloe-vst-speaker]
+path = "../aloe-vst-speaker"
+[dependencies.aloe-vst-stream]
+path = "../aloe-vst-stream"
+[dependencies.aloe-vst-string]
+path = "../aloe-vst-string"
+[dependencies.aloe-vst-thread]
+path = "../aloe-vst-thread"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[dependencies.aloe-vst-units]
+path = "../aloe-vst-units"
+[package]
+edition = "2021"
+name = "aloe-vst"
+version = "0.1.0"

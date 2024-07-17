@@ -1,0 +1,18 @@
+[dependencies.aloe-app]
+path = "../aloe-app"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-documentwindow]
+path = "../aloe-documentwindow"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[package]
+edition = "2021"
+name = "aloe-ex-app"
+version = "0.1.0"

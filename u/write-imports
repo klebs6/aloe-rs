@@ -1,0 +1,39 @@
+#!/usr/bin/env raku
+use v6;
+
+my $imports = q:to/END/;
+pub use std::cell::*;
+pub use std::rc::*;
+pub use std::fs::*;
+pub use parking_lot::*;
+pub use libc::*;
+pub use modular_bitfield::*;
+pub use aloe_derive::*;
+pub use lazy_static::*;
+pub use num::*;
+pub use std::collections::*;
+pub use std::path::*;
+pub use std::ops::*;
+END
+
+sub write-imports-for-dir($dir, Bool $write) {
+    my $imports-file = $dir ~ "/src/imports.rs";
+    if not $imports-file.IO.e {
+        if $write {
+            $imports-file.IO.spurt: $imports;
+        } else {
+            say "should write $imports-file";
+        }
+    }
+}
+
+sub MAIN(Bool :$write = False) {
+
+    my @dirs = ".".IO.dir.grep: /aloe_/;
+
+    for @dirs -> $dir {
+        if not $dir ~~ /derive/ {
+            write-imports-for-dir($dir, $write);
+        }
+    }
+}

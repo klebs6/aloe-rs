@@ -1,0 +1,33 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+bitflags = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-array]
+path = "../aloe-array"
+[dependencies.aloe-atomic]
+path = "../aloe-atomic"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-core]
+path = "../aloe-core"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[package]
+edition = "2021"
+name = "aloe-threads"
+version = "0.1.0"

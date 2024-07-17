@@ -1,0 +1,13 @@
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+
+[dependencies]
+libc = "*"
+
+[package]
+edition = "2021"
+name = "aloe-critical-section"
+version = "0.1.0"

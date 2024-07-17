@@ -1,0 +1,27 @@
+[package]
+name = "aloe-deps"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+scan-crate-for-typedefs = "0.6.0"
+
+[dependencies]
+atomic            = "*"
+bitfield          = "*"
+cocoa             = "*"
+curl              = "0.4"
+jni               = "*"
+lazy_static       = "*"
+libc              = "*"
+modular-bitfield  = "*"
+num               = "*"
+num-traits        = "0.2"
+parking_lot       = "*"
+rand              = "*"
+spin              = "0.5"
+derive-error      = "*"
+static_assertions = "*"
+wchar             = "*"

@@ -1,0 +1,24 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-bigint]
+path = "../aloe-bigint"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-math]
+path = "../aloe-math"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[package]
+edition = "2021"
+name = "aloe-buffers"
+version = "0.1.0"

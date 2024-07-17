@@ -1,0 +1,34 @@
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-processor]
+path = "../aloe-audio-processor"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-math]
+path = "../aloe-math"
+[dependencies.aloe-param]
+path = "../aloe-param"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[dependencies.aloe-undo]
+path = "../aloe-undo"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[package]
+edition = "2021"
+name = "aloe-audio-processor-value-tree"
+version = "0.1.0"

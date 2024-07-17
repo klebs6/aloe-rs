@@ -1,0 +1,48 @@
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[dependencies.aloe-texteditor]
+path = "../aloe-texteditor"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[dependencies.aloe-viewport]
+path = "../aloe-viewport"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-properties"
+version = "0.1.0"

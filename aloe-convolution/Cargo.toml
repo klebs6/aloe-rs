@@ -1,0 +1,16 @@
+[dependencies]
+num = "*"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-fft]
+path = "../aloe-fft"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-mixer]
+path = "../aloe-mixer"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[package]
+edition = "2021"
+name = "aloe-convolution"
+version = "0.1.0"

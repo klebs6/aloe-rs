@@ -1,0 +1,22 @@
+[dependencies.aloe-audio-app-component]
+path = "../aloe-audio-app-component"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-dsp]
+path = "../aloe-dsp"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-fft]
+path = "../aloe-fft"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[package]
+edition = "2021"
+name = "aloe-fft-demo"
+version = "0.1.0"

@@ -1,0 +1,26 @@
+[dependencies]
+objc = "*"
+objc_id = "*"
+[dependencies.icrate]
+features = [ 
+    "Foundation", 
+    "AppKit", 
+    "AppKit_NSView", 
+]
+version = "*"
+[dependencies.aloe-audio-plugin-instance]
+path = "../aloe-audio-plugin-instance"
+[dependencies.aloe-core]
+path = "../aloe-core"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-embedding]
+path = "../aloe-embedding"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[package]
+edition = "2021"
+name = "aloe-nsview"
+version = "0.1.0"

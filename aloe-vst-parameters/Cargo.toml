@@ -1,0 +1,16 @@
+[dependencies]
+bitflags = "*"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-vst-events]
+path = "../aloe-vst-events"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[dependencies.aloe-vst-units]
+path = "../aloe-vst-units"
+[package]
+edition = "2021"
+name = "aloe-vst-parameters"
+version = "0.1.0"

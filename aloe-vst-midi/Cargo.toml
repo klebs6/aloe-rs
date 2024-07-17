@@ -1,0 +1,14 @@
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[package]
+edition = "2021"
+name = "aloe-vst-midi"
+version = "0.1.0"

@@ -1,0 +1,16 @@
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-plugin-format]
+path = "../aloe-audio-plugin-format"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[package]
+edition = "2021"
+name = "aloe-ladspa"
+version = "0.1.0"

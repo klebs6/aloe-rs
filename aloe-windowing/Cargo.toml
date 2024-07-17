@@ -1,0 +1,50 @@
+[dependencies]
+cocoa = "*"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-font]
+path = "../aloe-font"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-resizable]
+path = "../aloe-resizable"
+[dependencies.aloe-shadow]
+path = "../aloe-shadow"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[dependencies.aloe-xembed]
+path = "../aloe-xembed"
+[package]
+edition = "2021"
+name = "aloe-windowing"
+version = "0.1.0"

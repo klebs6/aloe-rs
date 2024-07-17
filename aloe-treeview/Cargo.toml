@@ -1,0 +1,32 @@
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[dependencies.aloe-viewport]
+path = "../aloe-viewport"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-treeview"
+version = "0.1.0"

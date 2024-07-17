@@ -1,0 +1,14 @@
+[dependencies]
+bitflags = "*"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-vst-attributes]
+path = "../aloe-vst-attributes"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[package]
+edition = "2021"
+name = "aloe-vst-channel"
+version = "0.1.0"

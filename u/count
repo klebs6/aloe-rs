@@ -1,0 +1,39 @@
+#!/usr/bin/env raku
+use v6;
+
+sub get-between($m1,$m2) {
+    "src".IO.dir.sort.grep: { 
+        my $b1 = $_ cmp $m1 ~~ More;
+        my $b2 = $_ cmp $m2 ~~ Less;
+        $b1 and $b2
+    }
+}
+
+sub count-lines(@files) {
+    [+] @files>>.IO>>.lines>>.elems
+}
+
+my @f1 = get-between(
+    "src/audio-processors-format-types-vst3-sdk-pluginterfaces-base-ipluginbase.rs",
+    "src/audio-processors.rs"
+);
+
+my @f2 = get-between(
+    "src/audio-formats-codecs-oggvorbis-libvorbis-1-modes-residue-44.rs",
+    "src/audio-formats-codecs-oggvorbis-vorbisfile.rs"
+);
+
+my @f3 = get-between(
+    "src/gui-basics-widgets-tablelistbox.rs",
+    "src/video.rs",
+);
+
+my @files = [
+    |@f1, 
+    #|@f2, 
+    |@f3
+];
+
+#.say for @files;
+
+say count-lines(@files);

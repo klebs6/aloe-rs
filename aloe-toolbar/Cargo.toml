@@ -1,0 +1,32 @@
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-dialogwindow]
+path = "../aloe-dialogwindow"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-drawables]
+path = "../aloe-drawables"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-menus]
+path = "../aloe-menus"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-viewport]
+path = "../aloe-viewport"
+[package]
+edition = "2021"
+name = "aloe-toolbar"
+version = "0.1.0"

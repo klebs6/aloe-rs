@@ -1,0 +1,25 @@
+[dependencies]
+bitfield = "*"
+modular-bitfield = "*"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-codec]
+path = "../aloe-codec"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-streams]
+path = "../aloe-streams"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[package]
+edition = "2021"
+name = "aloe-wav"
+version = "0.1.0"

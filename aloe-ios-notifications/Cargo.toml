@@ -1,0 +1,23 @@
+[dependencies]
+objc = "*"
+objc-foundation = "0.1"
+objc_id = "*"
+[dependencies.icrate]
+features = [ "Foundation", "Foundation_NSError", "Foundation_NSUserNotificationCenter", "Foundation_NSUserNotification", "AppKit", "AppKit_NSApplication" ]
+version = "*"
+[dependencies.aloe-core]
+path = "../aloe-core"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-notifications]
+path = "../aloe-notifications"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[package]
+edition = "2021"
+name = "aloe-ios-notifications"
+version = "0.1.0"

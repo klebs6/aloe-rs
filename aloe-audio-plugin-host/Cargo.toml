@@ -1,0 +1,14 @@
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-processor]
+path = "../aloe-audio-processor"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[package]
+edition = "2021"
+name = "aloe-audio-plugin-host"
+version = "0.1.0"

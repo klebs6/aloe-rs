@@ -1,0 +1,72 @@
+[dependencies]
+num = "*"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-processor]
+path = "../aloe-audio-processor"
+[dependencies.aloe-audio-processor-editor]
+path = "../aloe-audio-processor-editor"
+[dependencies.aloe-audio-processor-value-tree]
+path = "../aloe-audio-processor-value-tree"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-chorus]
+path = "../aloe-chorus"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-convolution]
+path = "../aloe-convolution"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-delay-processor]
+path = "../aloe-delay-processor"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-distortion]
+path = "../aloe-distortion"
+[dependencies.aloe-dynamics]
+path = "../aloe-dynamics"
+[dependencies.aloe-filter]
+path = "../aloe-filter"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-mixer]
+path = "../aloe-mixer"
+[dependencies.aloe-multiband]
+path = "../aloe-multiband"
+[dependencies.aloe-notifications]
+path = "../aloe-notifications"
+[dependencies.aloe-panner]
+path = "../aloe-panner"
+[dependencies.aloe-param]
+path = "../aloe-param"
+[dependencies.aloe-phaser]
+path = "../aloe-phaser"
+[dependencies.aloe-playhead]
+path = "../aloe-playhead"
+[dependencies.aloe-processor-chain]
+path = "../aloe-processor-chain"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-plugin-demo"
+version = "0.1.0"

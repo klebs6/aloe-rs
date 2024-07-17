@@ -1,0 +1,42 @@
+[dependencies.aloe-android]
+path = "../aloe-android"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-colourselector]
+path = "../aloe-colourselector"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-notifications]
+path = "../aloe-notifications"
+[dependencies.aloe-tabbed]
+path = "../aloe-tabbed"
+[dependencies.aloe-texteditor]
+path = "../aloe-texteditor"
+[dependencies.aloe-url]
+path = "../aloe-url"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[package]
+edition = "2021"
+name = "aloe-android-notifications"
+version = "0.1.0"

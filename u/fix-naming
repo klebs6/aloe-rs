@@ -1,0 +1,52 @@
+#!/usr/bin/env raku
+use File::Find;
+
+# Define the tokens for replacement
+my %replacements = (
+    'aloe'  => 'aloe',
+    'Aloe'  => 'Aloe',
+    'ALOE'  => 'ALOE',
+);
+
+sub replace-text-in-file($file) {
+    my $content = $file.IO.slurp;
+    %replacements.map: { $content ~~ s:g/ $_.key /$_.value/ };
+    $file.IO.spurt($content);
+}
+
+sub rename-path(IO::Path $path) {
+
+    my $new-path = $path.Str;
+    %replacements.map: { $new-path = $new-path.subst($_.key, $_.value, :g) };
+
+    say "Will rename $path to $new-path";
+
+    if $new-path ne $path.Str {
+        try {
+            $path.move($new-path.IO);
+            CATCH {
+                default {
+                    say "Failed to move '$path' to '$new-path': $_";
+                }
+            }
+        }
+    }
+}
+
+sub process-item(IO::Path $item) {
+    given $item {
+        when .d {
+            find(dir => $item)>>.&process-item;
+            rename-path($item);
+        }
+        when .f {
+            replace-text-in-file($item);
+            rename-path($item);
+        }
+    }
+}
+
+sub MAIN(Str $project-directory) {
+
+    find(dir => $project-directory)>>.&process-item;
+}

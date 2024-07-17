@@ -1,0 +1,40 @@
+[dependencies.aloe-component] 
+path = "../aloe-component"
+
+[dependencies.aloe-core] 
+path = "../aloe-core"
+
+[dependencies.aloe-derive] 
+path = "../aloe-derive"
+
+[dependencies.aloe-events] 
+path = "../aloe-events"
+
+[dependencies.aloe-graphics] 
+path = "../aloe-graphics"
+
+[dependencies.aloe-image] 
+path = "../aloe-image"
+
+[dependencies.aloe-deps] 
+path = "../aloe-deps"
+
+[dependencies.aloe-menus] 
+path = "../aloe-menus"
+
+[dependencies.aloe-xembed] 
+path = "../aloe-xembed"
+
+[dependencies]
+cocoa = "*"
+objc = "*"
+objc_id = "*"
+
+[dependencies.icrate]
+features = [ "Foundation", "Foundation_NSError", "Foundation_NSNotification" ]
+version = "*"
+
+[package]
+edition = "2021"
+name = "aloe-system-tray"
+version = "0.1.0"

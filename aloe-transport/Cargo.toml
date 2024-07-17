@@ -1,0 +1,62 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-audio]
+path = "../aloe-audio"
+[dependencies.aloe-audio-device-manager]
+path = "../aloe-audio-device-manager"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-source-player]
+path = "../aloe-audio-source-player"
+[dependencies.aloe-audio-thumbnail]
+path = "../aloe-audio-thumbnail"
+[dependencies.aloe-audio-transport-source]
+path = "../aloe-audio-transport-source"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-codec]
+path = "../aloe-codec"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-drawables]
+path = "../aloe-drawables"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-filebrowser]
+path = "../aloe-filebrowser"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-scrollbar]
+path = "../aloe-scrollbar"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-url]
+path = "../aloe-url"
+[package]
+edition = "2021"
+name = "aloe-transport"
+version = "0.1.0"

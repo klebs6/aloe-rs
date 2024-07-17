@@ -1,0 +1,30 @@
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-scrollbar]
+path = "../aloe-scrollbar"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[dependencies.aloe-viewport]
+path = "../aloe-viewport"
+[package]
+edition = "2021"
+name = "aloe-listbox"
+version = "0.1.0"

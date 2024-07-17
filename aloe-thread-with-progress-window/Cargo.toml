@@ -1,0 +1,18 @@
+[dependencies.aloe-alert-window]
+path = "../aloe-alert-window"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[package]
+edition = "2021"
+name = "aloe-thread-with-progress-window"
+version = "0.1.0"

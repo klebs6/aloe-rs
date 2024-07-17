@@ -1,0 +1,66 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-oboe-audio-loader]
+path = "../aloe-oboe-audio-loader"
+[dependencies.aloe-oboe-audioclock]
+path = "../aloe-oboe-audioclock"
+[dependencies.aloe-oboe-audioio]
+path = "../aloe-oboe-audioio"
+[dependencies.aloe-oboe-core]
+path = "../aloe-oboe-core"
+[dependencies.aloe-oboe-counters]
+path = "../aloe-oboe-counters"
+[dependencies.aloe-oboe-devicequirks]
+path = "../aloe-oboe-devicequirks"
+[dependencies.aloe-oboe-extensions]
+path = "../aloe-oboe-extensions"
+[dependencies.aloe-oboe-fifo]
+path = "../aloe-oboe-fifo"
+[dependencies.aloe-oboe-fixedblockrw]
+path = "../aloe-oboe-fixedblockrw"
+[dependencies.aloe-oboe-flowgraph]
+path = "../aloe-oboe-flowgraph"
+[dependencies.aloe-oboe-flowgraph-converter]
+path = "../aloe-oboe-flowgraph-converter"
+[dependencies.aloe-oboe-flowgraph-filter]
+path = "../aloe-oboe-flowgraph-filter"
+[dependencies.aloe-oboe-flowgraph-node]
+path = "../aloe-oboe-flowgraph-node"
+[dependencies.aloe-oboe-flowgraph-resampler]
+path = "../aloe-oboe-flowgraph-resampler"
+[dependencies.aloe-oboe-flowgraph-sink]
+path = "../aloe-oboe-flowgraph-sink"
+[dependencies.aloe-oboe-flowgraph-source]
+path = "../aloe-oboe-flowgraph-source"
+[dependencies.aloe-oboe-latencytuner]
+path = "../aloe-oboe-latencytuner"
+[dependencies.aloe-oboe-no-aaudio]
+path = "../aloe-oboe-no-aaudio"
+[dependencies.aloe-oboe-session]
+path = "../aloe-oboe-session"
+[dependencies.aloe-oboe-sles]
+path = "../aloe-oboe-sles"
+[dependencies.aloe-oboe-sourcefloatcaller]
+path = "../aloe-oboe-sourcefloatcaller"
+[dependencies.aloe-oboe-stream]
+path = "../aloe-oboe-stream"
+[dependencies.aloe-oboe-trace]
+path = "../aloe-oboe-trace"
+[package]
+edition = "2021"
+name = "aloe-oboe"
+version = "0.1.0"

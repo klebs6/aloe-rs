@@ -1,0 +1,46 @@
+[dependencies.aloe-audio]
+path = "../aloe-audio"
+[dependencies.aloe-audio-app-component]
+path = "../aloe-audio-app-component"
+[dependencies.aloe-audio-device-manager]
+path = "../aloe-audio-device-manager"
+[dependencies.aloe-audio-devices]
+path = "../aloe-audio-devices"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-processor]
+path = "../aloe-audio-processor"
+[dependencies.aloe-audio-processor-editor]
+path = "../aloe-audio-processor-editor"
+[dependencies.aloe-bigint]
+path = "../aloe-bigint"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-texteditor]
+path = "../aloe-texteditor"
+[package]
+edition = "2021"
+name = "aloe-ex-audio"
+version = "0.1.0"

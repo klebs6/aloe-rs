@@ -1,0 +1,22 @@
+[dependencies]
+libflac-sys = "0.3.0"
+modular-bitfield = "*"
+libc = "*"
+
+#atomic = "*"
+#libflac-sys = "0.3.0"
+#bitfield = "*"
+#lazy_static = "*"
+#modular-bitfield = "*"
+#num = "*"
+#parking_lot = "*"
+#static_assertions = "*"
+#wchar = "*"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[package]
+edition = "2021"
+name = "aloe-flac"
+version = "0.1.0"

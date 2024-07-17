@@ -1,0 +1,64 @@
+[dependencies]
+core-foundation-sys = "*"
+[dependencies.aloe-atomic]
+path = "../aloe-atomic"
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-plugin-client]
+path = "../aloe-audio-plugin-client"
+[dependencies.aloe-audio-processor-editor]
+path = "../aloe-audio-processor-editor"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-menus]
+path = "../aloe-menus"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-param]
+path = "../aloe-param"
+[dependencies.aloe-playhead]
+path = "../aloe-playhead"
+[dependencies.aloe-streams]
+path = "../aloe-streams"
+[dependencies.aloe-vst-component]
+path = "../aloe-vst-component"
+[dependencies.aloe-vst-events]
+path = "../aloe-vst-events"
+[dependencies.aloe-vst-message]
+path = "../aloe-vst-message"
+[dependencies.aloe-vst-midi]
+path = "../aloe-vst-midi"
+[dependencies.aloe-vst-plugin]
+path = "../aloe-vst-plugin"
+[dependencies.aloe-vst-plugview]
+path = "../aloe-vst-plugview"
+[dependencies.aloe-vst-stream]
+path = "../aloe-vst-stream"
+[dependencies.aloe-vst-types]
+path = "../aloe-vst-types"
+[dependencies.aloe-vst3]
+path = "../aloe-vst3"
+[package]
+edition = "2021"
+name = "aloe-vst-plugin-client-vst3"
+version = "0.1.0"

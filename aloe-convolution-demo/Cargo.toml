@@ -1,0 +1,18 @@
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-dsp]
+path = "../aloe-dsp"
+[dependencies.aloe-fft]
+path = "../aloe-fft"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[package]
+edition = "2021"
+name = "aloe-convolution-demo"
+version = "0.1.0"

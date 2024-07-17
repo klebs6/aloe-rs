@@ -1,0 +1,34 @@
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+[dependencies.aloe-audio-source]
+path = "../aloe-audio-source"
+[dependencies.aloe-audio-source-player]
+path = "../aloe-audio-source-player"
+[dependencies.aloe-audio-transport-source]
+path = "../aloe-audio-transport-source"
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+[dependencies.aloe-codec]
+path = "../aloe-codec"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-midi]
+path = "../aloe-midi"
+[dependencies.aloe-mixer]
+path = "../aloe-mixer"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[package]
+edition = "2021"
+name = "aloe-player"
+version = "0.1.0"

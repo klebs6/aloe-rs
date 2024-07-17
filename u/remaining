@@ -1,0 +1,498 @@
+#!/usr/bin/env raku
+
+use File::Find;
+use Data::Dump::Tree;
+
+sub scan-directory($directory) {
+
+    #say "scanning directory $directory";
+
+    my $file-count = 0;
+    my $total-lines = 0;
+
+    my @rust-files = find(
+        dir       => $directory,
+        name      => /.*\.rs/,
+        type      => 'file',
+    );
+
+    for @rust-files {
+
+        # Skip the file if its name is "lib.rs" or "imports.rs"
+        next if .basename ~~ any('lib.rs', 'imports.rs');
+
+        #say "   processing file: $_";
+
+        # Increment the file count
+        $file-count++;
+
+        # Read the file and count its lines
+        my $line-count = .IO.slurp.lines.elems;
+        $total-lines += $line-count;
+    }
+
+    return ($file-count, $total-lines);
+}
+
+sub rank-remaining {
+
+    my @all = <
+        aloe-aax
+        aloe-adsr
+        aloe-aiff
+        aloe-alert-window
+        aloe-analytics
+        aloe-android
+        aloe-android-camera
+        aloe-android-notifications
+        aloe-android-video
+        aloe-animation
+        aloe-app
+        aloe-array
+        aloe-atomic
+        aloe-au
+        aloe-au-base
+        aloe-au-buffer
+        aloe-au-carbon
+        aloe-au-channel
+        aloe-au-component
+        aloe-au-coreaudio
+        aloe-au-debug
+        aloe-au-device
+        aloe-au-dispatch
+        aloe-au-input
+        aloe-au-midi
+        aloe-au-output
+        aloe-au-parameter
+        aloe-au-scope
+        aloe-au-streams
+        aloe-au-time
+        aloe-au-types
+        aloe-audio
+        aloe-audio-android
+        aloe-audio-app-component
+        aloe-audio-block
+        aloe-audio-device-manager
+        aloe-audio-devices
+        aloe-audio-interface
+        aloe-audio-ios
+        aloe-audio-linux-alsa
+        aloe-audio-linux-bela
+        aloe-audio-linux-jack
+        aloe-audio-plugin-client
+        aloe-audio-plugin-format
+        aloe-audio-plugin-host
+        aloe-audio-plugin-instance
+        aloe-audio-processor
+        aloe-audio-processor-editor
+        aloe-audio-processor-graph
+        aloe-audio-processor-value-tree
+        aloe-audio-source
+        aloe-audio-source-player
+        aloe-audio-thumbnail
+        aloe-audio-transport-source
+        aloe-bigint
+        aloe-box2d
+        aloe-bubble
+        aloe-buffers
+        aloe-buttons
+        aloe-callout-box
+        aloe-camera
+        aloe-caret-component
+        aloe-cd
+        aloe-char
+        aloe-chorus
+        aloe-codec
+        aloe-colour
+        aloe-colourselector
+        aloe-combobox
+        aloe-commands
+        aloe-component
+        aloe-concertina
+        aloe-container
+        aloe-content-sharer
+        aloe-convolution
+        aloe-convolution-demo
+        aloe-core
+        aloe-critical-section
+        aloe-crypto
+        aloe-delay
+        aloe-delay-processor
+        aloe-demo
+        aloe-derive
+        aloe-desktop
+        aloe-dialogwindow
+        aloe-distortion
+        aloe-documentwindow
+        aloe-drag-and-drop
+        aloe-drawables
+        aloe-dsp
+        aloe-dynamic-object
+        aloe-dynamics
+        aloe-editor
+        aloe-embedding
+        aloe-events
+        aloe-ex
+        aloe-ex-app
+        aloe-ex-assets
+        aloe-ex-audio
+        aloe-ex-demorunner
+        aloe-ex-gui
+        aloe-ex-plugins
+        aloe-ex-utilities
+        aloe-fft
+        aloe-fft-demo
+        aloe-filebrowser
+        aloe-files
+        aloe-filter
+        aloe-fixed-size-function
+        aloe-flac
+        aloe-flexbox
+        aloe-font
+        aloe-geometry
+        aloe-gif
+        aloe-graphics
+        aloe-grid
+        aloe-identifier
+        aloe-image
+        aloe-imagecomponent
+        aloe-deps
+        aloe-interp
+        aloe-ios-camera
+        aloe-ios-notifications
+        aloe-jpg
+        aloe-keyboard
+        aloe-keymapping-editor
+        aloe-label
+        aloe-ladspa
+        aloe-lasso
+        aloe-level-meter
+        aloe-linux-systemtray
+        aloe-listbox
+        aloe-live-constant-editor
+        aloe-log
+        aloe-lookandfeel
+        aloe-mac-camera
+        aloe-mac-notifications
+        aloe-mac-systemtray
+        aloe-mac-video
+        aloe-math
+        aloe-math-expression
+        aloe-memory
+        aloe-menus
+        aloe-midi
+        aloe-mime
+        aloe-mixer
+        aloe-mouse
+        aloe-mp3
+        aloe-mpe
+        aloe-multiband
+        aloe-multidoc
+        aloe-network
+        aloe-notifications
+        aloe-nsview
+        aloe-oboe
+        aloe-ogg
+        aloe-opengl
+        aloe-osc
+        aloe-oscillator
+        aloe-oversampling
+        aloe-panner
+        aloe-param
+        aloe-parameter-component
+        aloe-parameter-type
+        aloe-performance-counter
+        aloe-phaser
+        aloe-player
+        aloe-playhead
+        aloe-plugin-demo
+        aloe-positioning
+        aloe-processor-chain
+        aloe-progressbar
+        aloe-properties
+        aloe-random
+        aloe-resizable
+        aloe-reverb
+        aloe-rtas
+        aloe-sample-type
+        aloe-scanning
+        aloe-script
+        aloe-scrollbar
+        aloe-selection
+        aloe-shadow
+        aloe-sidepanel
+        aloe-simd
+        aloe-slider
+        aloe-smoothed-value
+        aloe-splash
+        aloe-standalone
+        aloe-streams
+        aloe-stretchable
+        aloe-string
+        aloe-surround
+        aloe-svg
+        aloe-synthesizer
+        aloe-system
+        aloe-tabbed
+        aloe-table
+        aloe-test
+        aloe-text
+        aloe-texteditor
+        aloe-thread-with-progress-window
+        aloe-threads
+        aloe-time
+        aloe-toolbar
+        aloe-tooltip-window
+        aloe-touch
+        aloe-transport
+        aloe-treeview
+        aloe-undo
+        aloe-unity
+        aloe-unlocking
+        aloe-url
+        aloe-uuid
+        aloe-valuetree
+        aloe-variant
+        aloe-video
+        aloe-viewport
+        aloe-visualizer
+        aloe-vst
+        aloe-vst-attributes
+        aloe-vst-buffer
+        aloe-vst-channel
+        aloe-vst-component
+        aloe-vst-debug
+        aloe-vst-edit
+        aloe-vst-events
+        aloe-vst-host
+        aloe-vst-inter-app
+        aloe-vst-message
+        aloe-vst-midi
+        aloe-vst-note-expression
+        aloe-vst-parameters
+        aloe-vst-persist
+        aloe-vst-platform
+        aloe-vst-plugin
+        aloe-vst-plugin-client-vst
+        aloe-vst-plugin-client-vst3
+        aloe-vst-pluginformat
+        aloe-vst-plugview
+        aloe-vst-presetfile
+        aloe-vst-processor
+        aloe-vst-reaper
+        aloe-vst-speaker
+        aloe-vst-stream
+        aloe-vst-string
+        aloe-vst-thread
+        aloe-vst-types
+        aloe-vst-units
+        aloe-vst3
+        aloe-wav
+        aloe-waveshaper
+        aloe-webbrowser
+        aloe-windowing
+        aloe-x11
+        aloe-xembed
+        aloe-xml
+        aloe-zip
+    >;
+
+    my @done = <
+        aloe-distortion
+        aloe-oversampling
+        aloe-processor-chain
+        aloe-phaser
+        aloe-transport
+        aloe-delay
+        aloe-audio
+        aloe-chorus
+        aloe-oscillator
+        aloe-dynamics
+        aloe-filter
+        aloe-panner
+        aloe-audio-processor-graph
+        aloe-audio-source
+        aloe-reverb
+        aloe-waveshaper
+        aloe-mixer
+        aloe-player
+        aloe-dsp
+        aloe-audio-transport-source
+        aloe-audio-thumbnail
+        aloe-audio-device-manager
+        aloe-codec
+        aloe-synthesizer
+        aloe-flexbox
+        aloe-app
+        aloe-midi
+        aloe-aax
+        aloe-content-sharer
+        aloe-opengl
+        aloe-resizable
+        aloe-param
+        aloe-audio-interface
+        aloe-audio-processor-editor
+        aloe-fft
+        aloe-editor
+        aloe-embedding
+        aloe-keymapping-editor
+        aloe-log
+        aloe-xembed
+        aloe-imagecomponent
+        aloe-tooltip-window
+        aloe-touch
+        aloe-stretchable
+        aloe-lasso
+        aloe-grid
+        aloe-commands
+        aloe-selection
+        aloe-xml
+        aloe-windowing
+        aloe-adsr
+        aloe-alert-window
+        aloe-android
+        aloe-animation
+        aloe-array
+        aloe-bigint
+        aloe-bubble
+        aloe-buffers
+        aloe-buttons
+        aloe-callout-box
+        aloe-char
+        aloe-colour
+        aloe-combobox
+        aloe-component
+        aloe-container
+        aloe-core
+        aloe-critical-section
+        aloe-derive
+        aloe-dialogwindow
+        aloe-documentwindow
+        aloe-drag-and-drop
+        aloe-drawables
+        aloe-dynamic-object
+        aloe-events
+        aloe-filebrowser
+        aloe-font
+        aloe-graphics
+        aloe-identifier
+        aloe-deps
+        aloe-keyboard
+        aloe-label
+        aloe-listbox
+        aloe-lookandfeel
+        aloe-math
+        aloe-menus
+        aloe-mouse
+        aloe-network
+        aloe-performance-counter
+        aloe-parameter-type
+        aloe-progressbar
+        aloe-properties
+        aloe-random
+        aloe-scrollbar
+        aloe-shadow
+        aloe-slider
+        aloe-streams
+        aloe-string
+        aloe-system
+        aloe-table
+        aloe-text
+        aloe-time
+        aloe-treeview
+        aloe-undo
+        aloe-toolbar
+        aloe-threads
+        aloe-texteditor
+        aloe-tabbed
+        aloe-smoothed-value
+        aloe-sidepanel
+        aloe-memory
+        aloe-interp
+        aloe-image
+        aloe-geometry
+        aloe-files
+        aloe-desktop
+        aloe-concertina
+        aloe-colourselector
+        aloe-caret-component
+        aloe-atomic
+        aloe-android-notifications
+        aloe-analytics
+        aloe-url
+        aloe-variant
+        aloe-valuetree
+        aloe-viewport
+        aloe-uuid
+        aloe-box2d
+        aloe-ogg
+        aloe-jpg
+        aloe-flac
+        aloe-video
+        aloe-mpe
+        aloe-test
+        aloe-ios-notifications
+        aloe-mac-notifications
+        aloe-demo
+        aloe-multidoc
+        aloe-osc
+        aloe-thread-with-progress-window
+        aloe-unlocking
+        aloe-android
+        aloe-webbrowser
+        aloe-x11
+        aloe-zip
+        aloe-wav
+        aloe-svg
+        aloe-aiff
+        aloe-scanning
+        aloe-positioning
+        aloe-mp3
+        aloe-math-expression
+        aloe-gif
+        aloe-crypto
+        aloe-script
+        aloe-visualizer
+        aloe-cd
+        aloe-rtas
+        aloe-mime
+        >;
+
+    my $set1 = set(@all);
+    my $set2 = set(@done);
+
+    my $difference = $set1 (-) $set2; # Set difference
+
+    my @remaining = $difference.keys;
+
+    #my @these = @done;
+    my @these = @remaining;
+
+    my @results;
+
+    for @these -> $crate {
+
+        my $dir = $crate ~ "/src/";
+
+        my ($file-count, $total-lines) = scan-directory($dir);
+
+        if $file-count > 0 {
+            @results.push: { :$dir, :$file-count, :$total-lines };
+        }
+
+        # Output directory info (Optional)
+        #say "Directory: $dir";
+        #say "  Total files not named 'lib.rs' or 'imports.rs': $file-count";
+        #say "  Total lines in those files: $total-lines";
+    }
+
+    my @sorted-by-lines = @results.sort({ -$_.<total-lines> });
+
+    ddt @sorted-by-lines, :!color;
+
+    for @sorted-by-lines -> $item {
+        say $item<dir>.split("/")[0];
+    }
+}
+
+rank-remaining();

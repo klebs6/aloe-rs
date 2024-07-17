@@ -1,0 +1,70 @@
+[dependencies.aloe-app]
+path = "../aloe-app"
+[dependencies.aloe-audio-device-manager]
+path = "../aloe-audio-device-manager"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-documentwindow]
+path = "../aloe-documentwindow"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-dynamic-object]
+path = "../aloe-dynamic-object"
+[dependencies.aloe-editor]
+path = "../aloe-editor"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-listbox]
+path = "../aloe-listbox"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-player]
+path = "../aloe-player"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[dependencies.aloe-test]
+path = "../aloe-test"
+[dependencies.aloe-texteditor]
+path = "../aloe-texteditor"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[dependencies.aloe-treeview]
+path = "../aloe-treeview"
+[dependencies.aloe-undo]
+path = "../aloe-undo"
+[dependencies.aloe-unlocking]
+path = "../aloe-unlocking"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-ex-utilities"
+version = "0.1.0"

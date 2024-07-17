@@ -1,0 +1,22 @@
+[dependencies.aloe-char]
+path = "../aloe-char"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-lookandfeel]
+path = "../aloe-lookandfeel"
+[dependencies.aloe-streams]
+path = "../aloe-streams"
+[dependencies.aloe-string]
+path = "../aloe-string"
+[package]
+edition = "2021"
+name = "aloe-ex-assets"
+version = "0.1.0"

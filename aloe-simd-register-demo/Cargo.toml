@@ -1,0 +1,22 @@
+[dependencies.aloe-audio-block]
+path = "../aloe-audio-block"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-dsp]
+path = "../aloe-dsp"
+[dependencies.aloe-filter]
+path = "../aloe-filter"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[dependencies.aloe-simd]
+path = "../aloe-simd"
+[package]
+edition = "2021"
+name = "aloe-simd-register-demo"
+version = "0.1.0"

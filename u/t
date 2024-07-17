@@ -1,0 +1,42 @@
+#!/usr/bin/env raku
+use v6;
+
+role I {
+    method run { ... }
+}
+
+role I2 {
+    method run2 { ... }
+}
+
+class A does I {
+    method run {
+        say "AAA";
+    }
+}
+
+class B does I {
+    method run {
+        say "BBB";
+    }
+}
+
+class C 
+does I 
+does I2  {
+    method run {
+        say "CCC";
+    }
+    method run2 {
+        say "CCC2";
+    }
+
+}
+
+sub test(I $i) {
+    $i.run2();
+}
+
+test(C.new);
+test(A.new);
+test(B.new);

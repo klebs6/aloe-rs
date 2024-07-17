@@ -1,0 +1,20 @@
+[dependencies]
+num = "*"
+[dependencies.aloe-delay]
+path = "../aloe-delay"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-filter]
+path = "../aloe-filter"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-mixer]
+path = "../aloe-mixer"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[dependencies.aloe-smoothed-value]
+path = "../aloe-smoothed-value"
+[package]
+edition = "2021"
+name = "aloe-delay-processor"
+version = "0.1.0"

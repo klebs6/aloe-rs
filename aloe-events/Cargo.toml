@@ -1,0 +1,24 @@
+[dependencies]
+core-foundation = "*"
+libc = "*"
+
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-threads]
+path = "../aloe-threads"
+[package]
+edition = "2021"
+name = "aloe-events"
+version = "0.1.0"

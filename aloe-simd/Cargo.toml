@@ -1,0 +1,45 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+num-complex = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-audio-block]
+path = "../aloe-audio-block"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-dsp]
+path = "../aloe-dsp"
+[dependencies.aloe-filter]
+path = "../aloe-filter"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-sample-type]
+path = "../aloe-sample-type"
+[dependencies.aloe-simd-avx]
+path = "../aloe-simd-avx"
+[dependencies.aloe-simd-complex]
+path = "../aloe-simd-complex"
+[dependencies.aloe-simd-core]
+path = "../aloe-simd-core"
+[dependencies.aloe-simd-fallback]
+path = "../aloe-simd-fallback"
+[dependencies.aloe-simd-native]
+path = "../aloe-simd-native"
+[dependencies.aloe-simd-neon]
+path = "../aloe-simd-neon"
+[dependencies.aloe-simd-register]
+path = "../aloe-simd-register"
+[package]
+edition = "2021"
+name = "aloe-simd"
+version = "0.1.0"

@@ -1,0 +1,30 @@
+[dependencies]
+libc = "*"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-streams]
+path = "../aloe-streams"
+[dependencies.aloe-time]
+path = "../aloe-time"
+[dependencies.aloe-undo]
+path = "../aloe-undo"
+[dependencies.aloe-variant]
+path = "../aloe-variant"
+[dependencies.aloe-xml]
+path = "../aloe-xml"
+[package]
+edition = "2021"
+name = "aloe-valuetree"
+version = "0.1.0"

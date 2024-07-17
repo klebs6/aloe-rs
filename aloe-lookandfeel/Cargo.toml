@@ -1,0 +1,82 @@
+[dependencies.aloe-alert-window]
+path = "../aloe-alert-window"
+[dependencies.aloe-bubble]
+path = "../aloe-bubble"
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+[dependencies.aloe-callout-box]
+path = "../aloe-callout-box"
+[dependencies.aloe-caret-component]
+path = "../aloe-caret-component"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-concertina]
+path = "../aloe-concertina"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-dialogwindow]
+path = "../aloe-dialogwindow"
+[dependencies.aloe-documentwindow]
+path = "../aloe-documentwindow"
+[dependencies.aloe-drawables]
+path = "../aloe-drawables"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-filebrowser]
+path = "../aloe-filebrowser"
+[dependencies.aloe-files]
+path = "../aloe-files"
+[dependencies.aloe-font]
+path = "../aloe-font"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-menus]
+path = "../aloe-menus"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-progressbar]
+path = "../aloe-progressbar"
+[dependencies.aloe-properties]
+path = "../aloe-properties"
+[dependencies.aloe-scrollbar]
+path = "../aloe-scrollbar"
+[dependencies.aloe-shadow]
+path = "../aloe-shadow"
+[dependencies.aloe-sidepanel]
+path = "../aloe-sidepanel"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[dependencies.aloe-tabbed]
+path = "../aloe-tabbed"
+[dependencies.aloe-table]
+path = "../aloe-table"
+[dependencies.aloe-texteditor]
+path = "../aloe-texteditor"
+[dependencies.aloe-toolbar]
+path = "../aloe-toolbar"
+[dependencies.aloe-treeview]
+path = "../aloe-treeview"
+[dependencies.aloe-valuetree]
+path = "../aloe-valuetree"
+[dependencies.aloe-windowing]
+path = "../aloe-windowing"
+[package]
+edition = "2021"
+name = "aloe-lookandfeel"
+version = "0.1.0"

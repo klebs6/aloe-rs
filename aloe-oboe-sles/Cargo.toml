@@ -1,0 +1,22 @@
+[dependencies]
+parking_lot = "*"
+[dependencies.aloe-android-audio]
+path = "../aloe-android-audio"
+[dependencies.aloe-codec]
+path = "../aloe-codec"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-oboe-core]
+path = "../aloe-oboe-core"
+[dependencies.aloe-oboe-counters]
+path = "../aloe-oboe-counters"
+[dependencies.aloe-oboe-fifo]
+path = "../aloe-oboe-fifo"
+[dependencies.aloe-oboe-stream]
+path = "../aloe-oboe-stream"
+[package]
+edition = "2021"
+name = "aloe-oboe-sles"
+version = "0.1.0"

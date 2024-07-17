@@ -1,0 +1,28 @@
+[dependencies]
+bitflags = "*"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-font]
+path = "../aloe-font"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-image]
+path = "../aloe-image"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-label]
+path = "../aloe-label"
+[dependencies.aloe-mouse]
+path = "../aloe-mouse"
+[dependencies.aloe-slider]
+path = "../aloe-slider"
+[package]
+edition = "2021"
+name = "aloe-colourselector"
+version = "0.1.0"

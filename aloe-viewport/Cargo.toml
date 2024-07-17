@@ -1,0 +1,20 @@
+[dependencies.aloe-animation]
+path = "../aloe-animation"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[dependencies.aloe-scrollbar]
+path = "../aloe-scrollbar"
+[package]
+edition = "2021"
+name = "aloe-viewport"
+version = "0.1.0"

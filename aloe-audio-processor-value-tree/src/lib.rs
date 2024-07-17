@@ -1,0 +1,15 @@
+#[macro_use] mod imports; use imports::*;
+
+x!{audio_processor_value_tree_state}
+x!{audio_processor_value_tree_state_button_attachment}
+x!{audio_processor_value_tree_state_combobox_attachment}
+x!{audio_processor_value_tree_state_listener}
+x!{audio_processor_value_tree_state_parameter}
+x!{audio_processor_value_tree_state_parameter_adapter}
+x!{audio_processor_value_tree_state_parameter_adapter_locked_listeners}
+x!{audio_processor_value_tree_state_parameter_layout}
+x!{audio_processor_value_tree_state_parameter_layout_make_contents}
+x!{audio_processor_value_tree_state_parameter_layout_parameter_storage}
+x!{audio_processor_value_tree_state_parameter_layout_visitor}
+x!{audio_processor_value_tree_state_slider_attachment}
+x!{audio_processor_value_tree_state_string_ref_less_than}

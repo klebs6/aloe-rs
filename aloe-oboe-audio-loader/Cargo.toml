@@ -1,0 +1,14 @@
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-oboe-extensions]
+path = "../aloe-oboe-extensions"
+[dependencies.aloe-oboe-no-aaudio]
+path = "../aloe-oboe-no-aaudio"
+[dependencies.aloe-oboe-stream]
+path = "../aloe-oboe-stream"
+[package]
+edition = "2021"
+name = "aloe-oboe-audio-loader"
+version = "0.1.0"

@@ -1,0 +1,9 @@
+#!/usr/bin/env raku
+use v6;
+use lib '/Users/kleb/bethesda/work/repo/translator/raku';
+use screaming-snake-case-to-camel-case;
+
+my $in = $*IN.slurp.chomp;
+
+$in = $in.subst(/STREAM_ENCODER_WRITE_STATUS_/, "");
+say screaming-snake-case-to-camel-case($in);

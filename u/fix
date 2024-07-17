@@ -1,0 +1,71 @@
+#!/usr/bin/env raku
+#use Grammar::Tracer;
+
+grammar ParameterIds {
+
+    rule TOP {
+        [ <.ws> <parameter_id>]+
+    }
+
+    rule parameter_id {
+        'parameter_id!' '{' <tag> '}' <.ws> 
+    }
+
+    token tag {
+        <camel-case-start> <camel-case-hump>*
+    }
+
+    token camel-case-start {
+        <[a..z]>+
+    }
+
+    token camel-case-hump {
+        <[A..Z]>
+        <[a..z]>+
+    }
+}
+
+class ParameterIds::Actions {
+
+    method TOP($/) {
+        make $<parameter_id>.map(*.made).join("\n");
+    }
+
+    method parameter_id($/) {
+        make 'parameter_id!{ ' ~ $<tag>.made ~ ' }';
+        #make 'pub const ' ~ $<tag>.made ~ ": &'static str = " ~ '"' ~ $<tag>.made ~ '";'
+    }
+
+    method tag($/) {
+
+        my @segs = [];
+
+        @segs.push: $<camel-case-start>.made;
+
+        for $<camel-case-hump>.List -> $hump {
+            @segs.push: $hump.made;
+        }
+
+        make @segs.join("_");
+    }
+
+    method camel-case-start($/) {
+        make ~$/.uc
+    }
+
+    method camel-case-hump($/) {
+        make ~$/.uc
+    }
+}
+
+my $test-input = q:to/END/;
+parameter_id!{ inputGain }
+parameter_id!{ outputGain }
+parameter_id!{ pan }
+parameter_id!{ distortionEnabled }
+END
+
+my $input = $*IN.slurp;
+
+say ParameterIds.parse($input, :actions(ParameterIds::Actions)).made;
+#say ParameterIds.parse($input);

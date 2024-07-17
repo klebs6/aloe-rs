@@ -1,0 +1,50 @@
+[dependencies]
+atomic = "*"
+bitfield = "*"
+lazy_static = "*"
+libc = "*"
+modular-bitfield = "*"
+num = "*"
+parking_lot = "*"
+static_assertions = "*"
+wchar = "*"
+[dependencies.aloe-caret-component]
+path = "../aloe-caret-component"
+[dependencies.aloe-char]
+path = "../aloe-char"
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+[dependencies.aloe-commands]
+path = "../aloe-commands"
+[dependencies.aloe-component]
+path = "../aloe-component"
+[dependencies.aloe-container]
+path = "../aloe-container"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+[dependencies.aloe-events]
+path = "../aloe-events"
+[dependencies.aloe-font]
+path = "../aloe-font"
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-keyboard]
+path = "../aloe-keyboard"
+[dependencies.aloe-menus]
+path = "../aloe-menus"
+[dependencies.aloe-network]
+path = "../aloe-network"
+[dependencies.aloe-scrollbar]
+path = "../aloe-scrollbar"
+[dependencies.aloe-undo]
+path = "../aloe-undo"
+[package]
+edition = "2021"
+name = "aloe-editor"
+version = "0.1.0"

@@ -1,0 +1,36 @@
+#!/usr/bin/env raku
+use v6;
+
+sub MAIN(Bool :$do-move = False) {
+
+    my @dirs = ".".IO.dir.grep: { .d and $_ ~~ /aloe*/ };
+
+    for @dirs -> $dir {
+
+        my $src-dir = $dir ~ "/src";
+
+=begin comment
+        if not $src-dir.IO.e {
+            shell "mkdir $src-dir";
+        }
+
+        my @files = $dir.IO.dir;
+        for @files -> $file {
+            my $base   = $file.basename;
+
+            my $target = $base cmp "mod\.rs" 
+            ??  $src-dir ~ "/" ~ $base
+            !!  $src-dir ~ "/lib.rs";
+
+            qqx/mv $file $target/;
+        }
+=end comment
+
+        my $cargo-toml = $dir ~ "/Cargo.toml";
+        qqw/rm $cargo-toml/;
+        shell "cargo init --lib", :cwd;
+        #die if $cargo-toml.IO.e;
+        #say $cargo-toml;
+    }
+}
+

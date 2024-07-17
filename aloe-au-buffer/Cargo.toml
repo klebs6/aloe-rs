@@ -1,0 +1,16 @@
+[dependencies]
+coreaudio-sys = "*"
+[dependencies.aloe-au-imports]
+path = "../aloe-au-imports"
+[dependencies.aloe-au-streams]
+path = "../aloe-au-streams"
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
+[dependencies.aloe-memory]
+path = "../aloe-memory"
+[package]
+edition = "2021"
+name = "aloe-au-buffer"
+version = "0.1.0"
