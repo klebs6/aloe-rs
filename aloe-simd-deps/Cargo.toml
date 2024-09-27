@@ -2,9 +2,7 @@
 path = "../aloe-deps"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-[dependencies.aloe-simd-deps]
-path = "../aloe-simd-deps"
 [package]
 edition = "2021"
-name = "aloe-simd-native"
+name = "aloe-simd-deps"
 version = "0.1.0"

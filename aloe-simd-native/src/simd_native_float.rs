@@ -1,23 +1,23 @@
 crate::ix!();
 
-fn all_bits_set() -> __m128i {
-    unsafe { _mm_set1_epi32(-1) }
-}
-
-fn even_high_bit() -> __m128 {
-    unsafe { _mm_set1_ps(std::mem::transmute(0x80000000u32)) }
-}
-
-fn one() -> __m128 {
-    unsafe { _mm_set1_ps(1.0) }
-}
-
 /// SIMD Native Operations for single-precision floating
 /// points
 ///
 pub struct SimdNativeF32;
 
 impl SimdNativeF32 {
+
+    pub fn one() -> __m128 {
+        unsafe { _mm_set1_ps(1.0) }
+    }
+
+    pub fn all_bits_set() -> __m128i {
+        unsafe { _mm_set1_epi32(-1) }
+    }
+
+    pub fn even_high_bit() -> __m128 {
+        unsafe { _mm_set1_ps(std::mem::transmute(0x80000000u32)) }
+    }
 
     pub fn expand(s: f32) 
         -> __m128 
@@ -206,7 +206,7 @@ impl SimdNativeF32 {
     #[inline] pub fn cmplxmul(a: __m128, b: __m128) -> __m128 {
         let rr_ir = Self::mul(a, Self::dupeven(b));
         let ii_ri = Self::mul(Self::swapevenodd(a), Self::dupodd(b));
-        Self::add(rr_ir, Self::bit_xor(ii_ri, even_high_bit()))
+        Self::add(rr_ir, Self::bit_xor(ii_ri, Self::even_high_bit()))
     }
 
     /// Sum of all elements
@@ -214,19 +214,19 @@ impl SimdNativeF32 {
         unsafe {
             #[cfg(target_feature = "sse4.1")]
             {
-                let retval = _mm_dp_ps(a, Self::K_ONE, 0xff);
-                _mm_cvtss_f32(retval)
+                let retval = _mm_dp_ps(a, Self::one(), 0xff);
+                return _mm_cvtss_f32(retval);
             }
             #[cfg(target_feature = "sse3")]
             {
                 let retval = _mm_hadd_ps(_mm_hadd_ps(a, a), a);
-                _mm_cvtss_f32(retval)
+                return _mm_cvtss_f32(retval);
             }
             #[cfg(not(any(target_feature = "sse3", target_feature = "sse4.1")))]
             {
                 let mut retval = _mm_add_ps(_mm_shuffle_ps(a, a, 0x4E), a);
                 retval = _mm_add_ps(retval, _mm_shuffle_ps(retval, retval, 0xB1));
-                _mm_cvtss_f32(retval)
+                return _mm_cvtss_f32(retval);
             }
         }
     }

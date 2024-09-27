@@ -90,12 +90,12 @@ impl VSIMDUtility {
 
     /// Minimum of two SIMD vectors
     pub fn min(a: f32x4, b: f32x4) -> f32x4 {
-        a.min(b)
+        a.simd_min(b)
     }
 
     /// Maximum of two SIMD vectors
     pub fn max(a: f32x4, b: f32x4) -> f32x4 {
-        a.max(b)
+        a.simd_max(b)
     }
 }
 

@@ -1,4 +1,5 @@
 #![feature(inherent_associated_types)]
+#![feature(portable_simd)]
 #[macro_use] mod imports; use imports::*;
 
 x!{native_ops}
