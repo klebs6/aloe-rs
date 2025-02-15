@@ -15,8 +15,8 @@ impl<'a> Drop for PopupDisplayComponent<'a> {
     fn drop(&mut self) {
         todo!();
         /*
-            if (owner.pimpl != nullptr)
-                    owner.pimpl->lastPopupDismissal = Time::getMillisecondCounterHiRes();
+            if (owner.impl != nullptr)
+                    owner.impl->lastPopupDismissal = Time::getMillisecondCounterHiRes();
         */
     }
 }
@@ -80,7 +80,7 @@ impl<'a> PopupDisplayComponent<'a> {
         todo!();
         /*
             stopTimer();
-                owner.pimpl->popupDisplay.reset();
+                owner.impl->popupDisplay.reset();
         */
     }
 }

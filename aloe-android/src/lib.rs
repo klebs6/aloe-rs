@@ -35,7 +35,7 @@ x!{android_typeface}
 x!{android_webbrowsercomponent}
 x!{android_windowing}
 x!{androidviewcomponent}
-x!{androidviewcomponent_pimpl}
+x!{androidviewcomponent_impl}
 x!{connection_thread}
 x!{default_font_names}
 x!{fragment_overlay}
@@ -73,5 +73,5 @@ x!{thread}
 x!{typeface}
 x!{url}
 x!{web_browser_component}
-x!{web_browser_component_pimpl}
+x!{web_browser_component_impl}
 x!{web_input_stream}

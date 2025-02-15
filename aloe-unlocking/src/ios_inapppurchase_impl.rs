@@ -1,6 +1,6 @@
 crate::ix!();
 
-pub struct InAppPurchasesPimpl<'a> {
+pub struct InAppPurchasesImpl<'a> {
     base:                             SKDelegateAndPaymentObserver,
     owner:                            &'a mut InAppPurchases<'a>,
     pending_product_info_requests:    Vec<Box<PendingProductInfoRequest>>,
@@ -9,7 +9,7 @@ pub struct InAppPurchasesPimpl<'a> {
     restored_purchases:               Vec<InAppPurchasesListenerPurchaseInfo>,
 }
 
-impl<'a> Drop for InAppPurchasesPimpl<'a> {
+impl<'a> Drop for InAppPurchasesImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -19,7 +19,7 @@ impl<'a> Drop for InAppPurchasesPimpl<'a> {
     }
 }
 
-impl<'a> InAppPurchasesPimpl<'a> {
+impl<'a> InAppPurchasesImpl<'a> {
 
     pub fn new(p: &mut InAppPurchases) -> Self {
     
@@ -700,7 +700,7 @@ impl<'a> InAppPurchasesPimpl<'a> {
             NSMutableArray<SKDownload*>* skDownloads = [NSMutableArray arrayWithCapacity: (NSUInteger) downloads.size()];
 
             for (const auto& d : downloads)
-                if (auto impl = dynamic_cast<InAppPurchasesPimplDownloadImpl*>(d))
+                if (auto impl = dynamic_cast<InAppPurchasesImplDownloadImpl*>(d))
                     [skDownloads addObject: impl->download];
 
             return skDownloads;

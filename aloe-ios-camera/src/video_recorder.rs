@@ -55,7 +55,7 @@ impl VideoRecorder {
         
         todo!();
         /*
-            if (CameraDevicePimpl::getIOSVersion().major >= 10)
+            if (CameraDeviceImpl::getIOSVersion().major >= 10)
                     printVideoOutputDebugInfo (movieFileOutput);
 
                 auto url = [NSURL fileURLWithPath: aloeStringToNS (file.getFullPathName())

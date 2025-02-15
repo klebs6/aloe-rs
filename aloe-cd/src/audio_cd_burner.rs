@@ -7,7 +7,7 @@ crate::ix!();
 #[cfg(feature = "cd-burner")]
 pub struct AudioCDBurner<'a> {
     base: ChangeBroadcaster<'a>,
-    pimpl: Box<Pimpl>,
+    impl_: Box<Impl>,
 }
 
 #[cfg(feature = "cd-burner")]

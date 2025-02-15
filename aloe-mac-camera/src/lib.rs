@@ -1,6 +1,6 @@
 #[macro_use] mod imports; use imports::*;
 
-x!{camera_device_pimpl}
+x!{camera_device_impl}
 x!{delegate_class}
 x!{post_catalina}
 x!{post_catalina_photo_output_delegate}

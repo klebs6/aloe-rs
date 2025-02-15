@@ -17,7 +17,7 @@ impl Default for PhotoOutputDelegateClass {
                         addMethod (@selector (captureOutput:didCapturePhotoForResolvedSettings:),        didCaptureForSettings,       "v@:@@");
                         addMethod (@selector (captureOutput:didFinishCaptureForResolvedSettings:error:), didFinishCaptureForSettings, "v@:@@@");
 
-                        if (CameraDevicePimpl::getIOSVersion().major >= 11)
+                        if (CameraDeviceImpl::getIOSVersion().major >= 11)
                             addMethod (@selector (captureOutput:didFinishProcessingPhoto:error:), didFinishProcessingPhoto, "v@:@@@");
                         else
                             addMethod (@selector (captureOutput:didFinishProcessingPhotoSampleBuffer:previewPhotoSampleBuffer:resolvedSettings:bracketSettings:error:), didFinishProcessingPhotoSampleBuffer, "v@:@@@@@@");

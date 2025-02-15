@@ -18,7 +18,7 @@ pub struct ConvolutionMessageQueueImpl {
   |
   */
 pub struct ConvolutionMessageQueue {
-    pimpl: Box<ConvolutionMessageQueueImpl>,
+    impl_: Box<ConvolutionMessageQueueImpl>,
 }
 
 impl Default for ConvolutionMessageQueue {
@@ -47,7 +47,7 @@ impl Drop for ConvolutionMessageQueue {
     fn drop(&mut self) {
         todo!();
         /* 
-        pimpl->stopThread (-1);
+        impl->stopThread (-1);
  */
     }
 }
@@ -70,8 +70,8 @@ impl ConvolutionMessageQueue {
         /*
 
 
-            : pimpl (std::make_unique<Impl> (entries))
-        pimpl->startThread();
+            : impl (std::make_unique<Impl> (entries))
+        impl->startThread();
         */
     }
 }

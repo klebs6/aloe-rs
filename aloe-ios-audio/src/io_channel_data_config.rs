@@ -1,6 +1,6 @@
 crate::ix!();
 
-pub struct IOSAudioIODevicePimplIOChannelDataIOChannelConfig {
+pub struct IOSAudioIODeviceImplIOChannelDataIOChannelConfig {
     hardware_channel_names:   Vec<String>,
     num_hardware_channels:    i32,
     are_channels_accessible:  bool,
@@ -10,7 +10,7 @@ pub struct IOSAudioIODevicePimplIOChannelDataIOChannelConfig {
     inactive_channel_indices: Vec<i32>,
 }
 
-impl IOSAudioIODevicePimplIOChannelDataIOChannelConfig {
+impl IOSAudioIODeviceImplIOChannelDataIOChannelConfig {
 
     pub fn new(
         is_input:          bool,

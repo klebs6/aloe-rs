@@ -3,13 +3,13 @@ crate::ix!();
 #[derive(Default)]
 #[no_copy]
 #[leak_detector]
-pub struct OSCSenderPimpl {
+pub struct OSCSenderImpl {
     socket:             OptionalScopedPointer<DatagramSocket>,
     target_host_name:   String,
     target_port_number: i32, // default = 0
 }
 
-impl Drop for OSCSenderPimpl {
+impl Drop for OSCSenderImpl {
 
     fn drop(&mut self) {
         todo!();
@@ -19,7 +19,7 @@ impl Drop for OSCSenderPimpl {
     }
 }
 
-impl OSCSenderPimpl {
+impl OSCSenderImpl {
     
     pub fn connect(
         &mut self, 

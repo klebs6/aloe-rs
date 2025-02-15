@@ -18,7 +18,7 @@ impl<'a> StillPictureTaker<'a> {
             : captureSession (cs),
                       captureOutput (createCaptureOutput()),
                       photoOutputDelegate (nullptr)
-                    if (CameraDevicePimpl::getIOSVersion().major >= 10)
+                    if (CameraDeviceImpl::getIOSVersion().major >= 10)
                     {
                         static PhotoOutputDelegateClass cls;
                         photoOutputDelegate.reset ([cls.createInstance() init]);
@@ -47,7 +47,7 @@ impl<'a> StillPictureTaker<'a> {
                     if (auto* connection = findVideoConnection (captureOutput))
                     {
                        #if defined (__IPHONE_10_0) && __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_10_0
-                        if (CameraDevicePimpl::getIOSVersion().major >= 10 && [captureOutput isKindOfClass: [AVCapturePhotoOutput class]])
+                        if (CameraDeviceImpl::getIOSVersion().major >= 10 && [captureOutput isKindOfClass: [AVCapturePhotoOutput class]])
                         {
                             auto* photoOutput = (AVCapturePhotoOutput*) captureOutput;
                             auto outputConnection = [photoOutput connectionWithMediaType: AVMediaTypeVideo];
@@ -97,7 +97,7 @@ impl<'a> StillPictureTaker<'a> {
         todo!();
         /*
             #if defined (__IPHONE_10_0) && __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_10_0
-                    if (CameraDevicePimpl::getIOSVersion().major >= 10)
+                    if (CameraDeviceImpl::getIOSVersion().major >= 10)
                         return [AVCapturePhotoOutput new];
                    #endif
 
@@ -110,7 +110,7 @@ impl<'a> StillPictureTaker<'a> {
         todo!();
         /*
             #if defined (__IPHONE_10_0) && __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_10_0
-                    if (CameraDevicePimpl::getIOSVersion().major >= 10 && [captureOutput isKindOfClass: [AVCapturePhotoOutput class]])
+                    if (CameraDeviceImpl::getIOSVersion().major >= 10 && [captureOutput isKindOfClass: [AVCapturePhotoOutput class]])
                     {
                         auto* photoOutput = (AVCapturePhotoOutput*) captureOutput;
 
@@ -130,7 +130,7 @@ impl<'a> StillPictureTaker<'a> {
                         ALOE_CAMERA_LOG ("Live photo capture supported: " + String ((int) photoOutput.livePhotoCaptureSupported));
 
                        #if defined (__IPHONE_11_0) && __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_11_0
-                        if (CameraDevicePimpl::getIOSVersion().major >= 11)
+                        if (CameraDeviceImpl::getIOSVersion().major >= 11)
                         {
                             typesString.clear();
 

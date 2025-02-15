@@ -146,7 +146,7 @@ impl<'a> CURLSymbols<'a> {
 //----------------------------------------------
 #[no_copy]
 #[leak_detector]
-struct WebInputStreamPimpl<'a> {
+struct WebInputStreamImpl<'a> {
 
     owner:                          &'a mut WebInputStream<'a>,
     url:                            Url,
@@ -190,7 +190,7 @@ struct WebInputStreamPimpl<'a> {
     cleanup_lock:                   CriticalSection,
 }
 
-impl<'a> Drop for WebInputStreamPimpl<'a> {
+impl<'a> Drop for WebInputStreamImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -200,7 +200,7 @@ impl<'a> Drop for WebInputStreamPimpl<'a> {
     }
 }
 
-impl<'a> WebInputStreamPimpl<'a> {
+impl<'a> WebInputStreamImpl<'a> {
 
     pub fn new(
         owner_stream:           &mut WebInputStream,
@@ -814,7 +814,7 @@ impl<'a> WebInputStreamPimpl<'a> {
         
         todo!();
         /*
-            WebInputStream::Pimpl* wi = reinterpret_cast<WebInputStream::Pimpl*> (userdata);
+            WebInputStream::Impl* wi = reinterpret_cast<WebInputStream::Impl*> (userdata);
                 return wi->curlWriteCallback (ptr, size, nmemb);
         */
     }
@@ -827,7 +827,7 @@ impl<'a> WebInputStreamPimpl<'a> {
         
         todo!();
         /*
-            WebInputStream::Pimpl* wi = reinterpret_cast<WebInputStream::Pimpl*> (userdata);
+            WebInputStream::Impl* wi = reinterpret_cast<WebInputStream::Impl*> (userdata);
                 return wi->curlReadCallback (ptr, size, nmemb);
         */
     }
@@ -840,7 +840,7 @@ impl<'a> WebInputStreamPimpl<'a> {
         
         todo!();
         /*
-            WebInputStream::Pimpl* wi = reinterpret_cast<WebInputStream::Pimpl*> (userdata);
+            WebInputStream::Impl* wi = reinterpret_cast<WebInputStream::Impl*> (userdata);
                 return wi->curlHeaderCallback (ptr, size, nmemb);
         */
     }

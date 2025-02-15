@@ -44,7 +44,7 @@ pub mod aloe_firebase_messaging_service {
         todo!();
             /*
                 if (auto* instance = PushNotifications::getInstanceWithoutCreating())
-                    instance->pimpl->notifyListenersAboutRemoteNotificationFromService (LocalRef<jobject> (static_cast<jobject> (remoteMessage)));
+                    instance->impl->notifyListenersAboutRemoteNotificationFromService (LocalRef<jobject> (static_cast<jobject> (remoteMessage)));
             */
     }
 
@@ -54,7 +54,7 @@ pub mod aloe_firebase_messaging_service {
         todo!();
             /*
                 if (auto* instance = PushNotifications::getInstanceWithoutCreating())
-                    instance->pimpl->notifyListenersAboutRemoteNotificationsDeleted();
+                    instance->impl->notifyListenersAboutRemoteNotificationsDeleted();
             */
     }
 
@@ -67,7 +67,7 @@ pub mod aloe_firebase_messaging_service {
         todo!();
             /*
                 if (auto* instance = PushNotifications::getInstanceWithoutCreating())
-                    instance->pimpl->notifyListenersAboutUpstreamMessageSent (LocalRef<jstring> (static_cast<jstring> (messageId)));
+                    instance->impl->notifyListenersAboutUpstreamMessageSent (LocalRef<jstring> (static_cast<jstring> (messageId)));
             */
     }
 
@@ -81,7 +81,7 @@ pub mod aloe_firebase_messaging_service {
         todo!();
             /*
                 if (auto* instance = PushNotifications::getInstanceWithoutCreating())
-                    instance->pimpl->notifyListenersAboutUpstreamMessageSendingError (LocalRef<jstring> (static_cast<jstring> (messageId)),
+                    instance->impl->notifyListenersAboutUpstreamMessageSendingError (LocalRef<jstring> (static_cast<jstring> (messageId)),
                                                                                       LocalRef<jstring> (static_cast<jstring> (error)));
             */
     }

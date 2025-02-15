@@ -2,11 +2,11 @@ crate::ix!();
 
 #[no_copy]
 #[leak_detector]
-pub struct SystemTrayIconComponentPimpl<'a,StatusItem:NSStatusItem,ImageType:NSImage> {
+pub struct SystemTrayIconComponentImpl<'a,StatusItem:NSStatusItem,ImageType:NSImage> {
     status_item_holder: Box<StatusItemContainer<'a,StatusItem,ImageType>>,
 }
 
-impl<'a,StatusItem:NSStatusItem,ImageType:NSImage> SystemTrayIconComponentPimpl<'a,StatusItem,ImageType> {
+impl<'a,StatusItem:NSStatusItem,ImageType:NSImage> SystemTrayIconComponentImpl<'a,StatusItem,ImageType> {
 
     pub fn new(
         icon_comp: &mut SystemTrayIconComponent<'a,StatusItem,ImageType>,

@@ -4,13 +4,13 @@ crate::ix!();
   | TODO: Add Bela MidiOutput support
   |
   */
-pub struct MidiOutputPimpl {
+pub struct MidiOutputImpl {
     #[cfg(target_os="android")]
     java_midi_device: GlobalRef,
 }
 
 #[cfg(target_os="android")]
-impl Drop for MidiOutputPimpl {
+impl Drop for MidiOutputImpl {
 
     fn drop(&mut self) {
         todo!();
@@ -24,7 +24,7 @@ impl Drop for MidiOutputPimpl {
     }
 }
 
-impl MidiOutputPimpl {
+impl MidiOutputImpl {
 
     #[cfg(target_os="android")]
     pub fn new(midi_device: &LocalRef<jobject>) -> Self {

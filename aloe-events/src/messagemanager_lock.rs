@@ -6,7 +6,7 @@ crate::ix!();
   | the RAII-based ScopedLock classes.
   |
   */
-pub struct MessageManagerLockPimpl {
+pub struct MessageManagerLockImpl {
     blocking_message: RefCell<ReferenceCountedObjectPtr<lock::BlockingMessage>>,
     locked_event:     WaitableEvent,
     abort_wait:       RefCell<AtomicI32>,
@@ -22,21 +22,21 @@ pub mod lock {
       | with a CriticalSection.
       |
       */
-    pub type ScopedLockType<'a> = GenericScopedLock<'a, MessageManagerLockPimpl>;
+    pub type ScopedLockType<'a> = GenericScopedLock<'a, MessageManagerLockImpl>;
 
     /**
       | Provides the type of scoped unlocker
       | to use with a CriticalSection.
       |
       */
-    pub type ScopedUnlockType<'a> = GenericScopedUnlock<'a, MessageManagerLockPimpl>;
+    pub type ScopedUnlockType<'a> = GenericScopedUnlock<'a, MessageManagerLockImpl>;
 
     /**
       | Provides the type of scoped try-locker
       | to use with a CriticalSection.
       |
       */
-    pub type ScopedTryLockType<'a> = GenericScopedTryLock<'a, MessageManagerLockPimpl>;
+    pub type ScopedTryLockType<'a> = GenericScopedTryLock<'a, MessageManagerLockImpl>;
 
     /**
       | The only safe way to lock the message
@@ -59,13 +59,13 @@ pub mod lock {
     #[no_copy]
     pub struct BlockingMessage {
         owner_critical_section: CriticalSection,
-        owner:                  Atomic<*const MessageManagerLockPimpl>,
+        owner:                  Atomic<*const MessageManagerLockImpl>,
         release_event:          WaitableEvent,
     }
 
     impl BlockingMessage {
 
-        pub fn new(parent: *const MessageManagerLockPimpl) -> Self {
+        pub fn new(parent: *const MessageManagerLockImpl) -> Self {
         
             todo!();
             /*
@@ -95,7 +95,7 @@ pub mod lock {
     }
 }
 
-impl Default for MessageManagerLockPimpl {
+impl Default for MessageManagerLockImpl {
     
     /**
       | Creates a new critical section to exclusively
@@ -116,14 +116,14 @@ impl Default for MessageManagerLockPimpl {
     }
 }
 
-impl Drop for MessageManagerLockPimpl {
+impl Drop for MessageManagerLockImpl {
     fn drop(&mut self) {
         todo!();
         /*      exit();  */
     }
 }
 
-impl MessageManagerLockPimpl {
+impl MessageManagerLockImpl {
 
     /**
       | Acquires the message manager lock.
@@ -171,11 +171,11 @@ impl MessageManagerLockPimpl {
       |
       | This method can be used if you want to
       | do some work while waiting for the
-      | MessageManagerLockPimpl:
+      | MessageManagerLockImpl:
       |
-      |   void doWorkWhileWaitingForMessageManagerLockPimpl()
+      |   void doWorkWhileWaitingForMessageManagerLockImpl()
       |   {
-      |       MessageManager::MessageManagerLockPimpl::ScopedTryLockType mmLock (messageManagerLock);
+      |       MessageManager::MessageManagerLockImpl::ScopedTryLockType mmLock (messageManagerLock);
       |
       |       while (! mmLock.isLocked())
       |       {

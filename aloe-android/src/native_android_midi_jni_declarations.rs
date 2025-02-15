@@ -8,7 +8,7 @@ macro_rules! jni_class_members {
      $CALLBACK:ident) => {
         /*
         
-         CALLBACK (MidiInput::Pimpl::handleReceive, "handleReceive", "(J[BIIJ)V" )
+         CALLBACK (MidiInput::Impl::handleReceive, "handleReceive", "(J[BIIJ)V" )
         */
     }
 }

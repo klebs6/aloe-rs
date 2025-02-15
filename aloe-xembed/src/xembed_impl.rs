@@ -1,7 +1,7 @@
 crate::ix!();
 
 #[cfg(any(target_os="linux", target_os="freebsd", target_os="openbsd", target_os="netbsd"))]
-pub struct XembedComponentPimpl<'a> {
+pub struct XembedComponentImpl<'a> {
     owner:             &'a mut XEmbedComponent,
     client:            Window, // default = 0
     host:              Window, // default = 0
@@ -18,12 +18,12 @@ pub struct XembedComponentPimpl<'a> {
 }
 
 #[cfg(any(target_os="linux", target_os="freebsd", target_os="openbsd", target_os="netbsd"))]
-impl<'a> ComponentListener for XembedComponentPimpl<'a> {
+impl<'a> ComponentListener for XembedComponentImpl<'a> {
 
 }
 
 #[cfg(any(target_os="linux", target_os="freebsd", target_os="openbsd", target_os="netbsd"))]
-impl<'a> Drop for XembedComponentPimpl<'a> {
+impl<'a> Drop for XembedComponentImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -56,7 +56,7 @@ impl<'a> Drop for XembedComponentPimpl<'a> {
 }
 
 #[cfg(any(target_os="linux", target_os="freebsd", target_os="openbsd", target_os="netbsd"))]
-impl<'a> XembedComponentPimpl<'a> {
+impl<'a> XembedComponentImpl<'a> {
 
     pub fn new(
         parent:               &mut XEmbedComponent,
@@ -593,11 +593,11 @@ impl<'a> XembedComponentPimpl<'a> {
         */
     }
     
-    pub fn get_widgets() -> &'a mut Vec<*mut XembedComponentPimpl<'a>> {
+    pub fn get_widgets() -> &'a mut Vec<*mut XembedComponentImpl<'a>> {
         
         todo!();
         /*
-            static Vec<XembedComponentPimpl*> i;
+            static Vec<XembedComponentImpl*> i;
             return i;
         */
     }

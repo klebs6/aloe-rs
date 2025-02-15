@@ -194,7 +194,7 @@ impl<'a> MediaSessionController<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentPimpl::MediaSession::MediaSessionController*> (host))
+            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentImpl::MediaSession::MediaSessionController*> (host))
                             {
                                 ignoreUnused (playbackInfo);
                                 ALOE_VIDEO_LOG ("MediaSessionController::audioInfoChanged()");
@@ -210,7 +210,7 @@ impl<'a> MediaSessionController<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentPimpl::MediaSession::MediaSessionController*> (host))
+            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentImpl::MediaSession::MediaSessionController*> (host))
                             {
                                 ignoreUnused (metadata);
                                 ALOE_VIDEO_LOG ("MediaSessionController::metadataChanged()");
@@ -226,7 +226,7 @@ impl<'a> MediaSessionController<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentPimpl::MediaSession::MediaSessionController*> (host))
+            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentImpl::MediaSession::MediaSessionController*> (host))
                                 myself->stateChanged (state);
         */
     }
@@ -238,7 +238,7 @@ impl<'a> MediaSessionController<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentPimpl::MediaSession::MediaSessionController*> (host))
+            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentImpl::MediaSession::MediaSessionController*> (host))
                                 ALOE_VIDEO_LOG ("MediaSessionController::sessionDestroyed()");
         */
     }

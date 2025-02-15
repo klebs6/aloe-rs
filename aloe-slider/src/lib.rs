@@ -5,7 +5,7 @@ x!{button_mode}
 x!{drag_mode}
 x!{layout}
 x!{listener}
-x!{pimpl}
+x!{slider_impl}
 x!{rotary_parameters}
 x!{scoped_drag_notification}
 x!{slider}

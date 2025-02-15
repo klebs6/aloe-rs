@@ -19,7 +19,7 @@ crate::ix!();
 pub struct MidiOutput {
     base: Thread,
     device_info:   MidiDeviceInfo,
-    internal:      Box<MidiOutputPimpl>,
+    internal:      Box<MidiOutputImpl>,
     lock:          CriticalSection,
     first_message: *mut MidiOutputPendingMessage, // default = nullptr
 }

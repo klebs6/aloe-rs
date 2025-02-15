@@ -3,7 +3,7 @@ crate::ix!();
 #[cfg(target_os="android")]
 pub struct ConnectionThread<'a> {
     base:             Thread,
-    owner:            &'a mut WebBrowserComponentPimpl<'a>,
+    owner:            &'a mut WebBrowserComponentImpl<'a>,
     web_input_stream: Box<WebInputStream<'a>>,
     result:           Result<(),()>,
 }
@@ -35,7 +35,7 @@ impl<'a> Drop for ConnectionThread<'a> {
 impl<'a> ConnectionThread<'a> {
 
     pub fn new(
-        owner_to_use: &mut WebBrowserComponentPimpl,
+        owner_to_use: &mut WebBrowserComponentImpl,
         url:          &mut Url,
         headers:      &Vec<String>) -> Self {
     
@@ -43,7 +43,7 @@ impl<'a> ConnectionThread<'a> {
         /*
 
 
-            : Thread ("WebBrowserComponent::WebBrowserComponentPimpl::ConnectionThread"),
+            : Thread ("WebBrowserComponent::WebBrowserComponentImpl::ConnectionThread"),
                   owner (ownerToUse),
                   webInputStream (new WebInputStream (url, true))
 

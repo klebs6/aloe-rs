@@ -385,7 +385,7 @@ impl BelaAudioIODevice {
             ScopedLock lock (callbackLock);
 
             // Check for and process and midi
-            for (auto midiInput : MidiInput::Pimpl::midiInputs)
+            for (auto midiInput : MidiInput::Impl::midiInputs)
                 midiInput->poll();
 
             if (callback != nullptr)

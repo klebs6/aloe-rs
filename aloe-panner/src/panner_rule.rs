@@ -9,7 +9,7 @@ pub enum PannerRule
       | to mono
       |
       */
-    linear,          
+    Linear,          
 
     /**
       | both left and right are 1 when pan value
@@ -18,28 +18,28 @@ pub enum PannerRule
       | below it
       |
       */
-    balanced,        
+    Balanced,        
 
     /**
       | alternate version of the regular 3 dB
       | panning rule with a sine curve
       |
       */
-    sin3dB,          
+    Sin3dB,          
 
     /**
       | alternate version of the regular 4.5
       | dB panning rule with a sine curve
       |
       */
-    sin4p5dB,        
+    Sin4p5dB,        
 
     /**
       | alternate version of the regular 6 dB
       | panning rule with a sine curve
       |
       */
-    sin6dB,          
+    Sin6dB,          
 
     /**
       | regular 3 dB or constant power panning
@@ -48,12 +48,12 @@ pub enum PannerRule
       | of the pan position
       |
       */
-    squareRoot3dB,   
+    SquareRoot3dB,   
 
     /**
       | regular 4.5 dB panning rule, a compromise
       | option between 3 dB and 6 dB panning rules
       |
       */
-    squareRoot4p5dB,  
+    SquareRoot4p5dB,  
 }

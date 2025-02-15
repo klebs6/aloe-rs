@@ -36,7 +36,7 @@ pub struct PushNotifications {
     listeners: ListenerList<Rc<RefCell<dyn PushNotificationListener>>>,
 
     #[cfg(ALOE_PUSH_NOTIFICATIONS)]
-    pimpl: Box<Pimpl>,
+    impl_: Box<Impl>,
 }
 
 #[cfg(target_os="android")]
@@ -71,7 +71,7 @@ impl PushNotifications {
 
 
             #if ALOE_PUSH_NOTIFICATIONS
-        : pimpl (new Pimpl (*this))
+        : impl (new Impl (*this))
       #endif
         */
     }
@@ -132,7 +132,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS && (ALOE_IOS || ALOE_MAC)
-        pimpl->requestPermissionsWithSettings (settings);
+        impl->requestPermissionsWithSettings (settings);
       #else
         ignoreUnused (settings);
         listeners.call ([] (Listener& l) { l.notificationSettingsReceived ({}); });
@@ -175,7 +175,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS && (ALOE_IOS || ALOE_MAC)
-        pimpl->requestSettingsUsed();
+        impl->requestSettingsUsed();
       #else
         listeners.call ([] (Listener& l) { l.notificationSettingsReceived ({}); });
       #endif
@@ -195,7 +195,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        return pimpl->areNotificationsEnabled();
+        return impl->areNotificationsEnabled();
       #else
         return false;
       #endif
@@ -225,7 +225,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->getDeliveredNotifications();
+        impl->getDeliveredNotifications();
       #endif
         */
     }
@@ -240,7 +240,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->removeAllDeliveredNotifications();
+        impl->removeAllDeliveredNotifications();
       #endif
         */
     }
@@ -258,7 +258,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        return pimpl->getDeviceToken();
+        return impl->getDeviceToken();
       #else
         return {};
       #endif
@@ -281,7 +281,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->setupChannels (groups, channels);
+        impl->setupChannels (groups, channels);
       #else
         ignoreUnused (groups, channels);
       #endif
@@ -302,7 +302,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->getPendingLocalNotifications();
+        impl->getPendingLocalNotifications();
       #endif
         */
     }
@@ -317,7 +317,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->removeAllPendingLocalNotifications();
+        impl->removeAllPendingLocalNotifications();
       #endif
         */
     }
@@ -340,7 +340,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->subscribeToTopic (topic);
+        impl->subscribeToTopic (topic);
       #else
         ignoreUnused (topic);
       #endif
@@ -358,7 +358,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->unsubscribeFromTopic (topic);
+        impl->unsubscribeFromTopic (topic);
       #else
         ignoreUnused (topic);
       #endif
@@ -381,7 +381,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->sendLocalNotification (n);
+        impl->sendLocalNotification (n);
       #else
         ignoreUnused (n);
       #endif
@@ -400,7 +400,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->removeDeliveredNotification (identifier);
+        impl->removeDeliveredNotification (identifier);
       #else
         ignoreUnused (identifier);
       #endif
@@ -418,7 +418,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->removePendingLocalNotification (identifier);
+        impl->removePendingLocalNotification (identifier);
       #else
         ignoreUnused (identifier);
       #endif
@@ -494,7 +494,7 @@ impl PushNotifications {
         todo!();
         /*
             #if ALOE_PUSH_NOTIFICATIONS
-        pimpl->sendUpstreamMessage (serverSenderId,
+        impl->sendUpstreamMessage (serverSenderId,
                                     collapseKey,
                                     messageId,
                                     messageType,

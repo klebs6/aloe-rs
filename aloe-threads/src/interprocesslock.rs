@@ -13,7 +13,7 @@ crate::ix!();
   */
 #[no_copy]
 pub struct InterProcessLock {
-    pimpl: Box<InterProcessLockPimpl>,
+    impl_: Box<InterProcessLockImpl>,
     lock:  CriticalSection,
     name:  String,
 }
@@ -99,13 +99,13 @@ impl InterProcessLock {
 }
 
 #[cfg(not(target_os="ios"))]
-pub struct InterProcessLockPimpl {
+pub struct InterProcessLockImpl {
     handle:    i32, // default = 0
     ref_count: i32, // default = 1
 }
 
 #[cfg(not(target_os="ios"))]
-impl Drop for InterProcessLockPimpl {
+impl Drop for InterProcessLockImpl {
     fn drop(&mut self) {
         todo!();
         /* 
@@ -116,7 +116,7 @@ impl Drop for InterProcessLockPimpl {
 
 
 #[cfg(target_os="ios")]
-pub struct InterProcessLockPimpl {
+pub struct InterProcessLockImpl {
 
     /**
        On iOS just fake success..
@@ -127,7 +127,7 @@ pub struct InterProcessLockPimpl {
 
 #[cfg(feature = "aloe_posix")]
 #[cfg(target_os="ios")]
-impl InterProcessLockPimpl {
+impl InterProcessLockImpl {
 
     pub fn new(
         _0: &String,
@@ -144,7 +144,7 @@ impl InterProcessLockPimpl {
 
 #[cfg(feature = "aloe_posix")]
 #[cfg(not(target_os="ios"))]
-impl InterProcessLockPimpl {
+impl InterProcessLockImpl {
 
     pub fn new(
         lock_name:          &String,
@@ -258,19 +258,19 @@ impl InterProcessLock {
         /*
             const ScopedLock sl (lock);
 
-        if (pimpl == nullptr)
+        if (impl == nullptr)
         {
-            pimpl.reset (new Pimpl (name, timeOutMillisecs));
+            impl.reset (new Impl (name, timeOutMillisecs));
 
-            if (pimpl->handle == 0)
-                pimpl.reset();
+            if (impl->handle == 0)
+                impl.reset();
         }
         else
         {
-            pimpl->refCount++;
+            impl->refCount++;
         }
 
-        return pimpl != nullptr;
+        return impl != nullptr;
         */
     }
     
@@ -281,10 +281,10 @@ impl InterProcessLock {
             const ScopedLock sl (lock);
 
         // Trying to release the lock too many times!
-        jassert (pimpl != nullptr);
+        jassert (impl != nullptr);
 
-        if (pimpl != nullptr && --(pimpl->refCount) == 0)
-            pimpl.reset();
+        if (impl != nullptr && --(impl->refCount) == 0)
+            impl.reset();
         */
     }
 }

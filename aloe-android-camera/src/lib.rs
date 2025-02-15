@@ -15,7 +15,7 @@ x!{image_reader_on_image_available_listener}
 x!{media_recorder}
 x!{media_recorder_on_error_listener}
 x!{media_recorder_on_info_listener}
-x!{pimpl}
+x!{android_camera_impl}
 x!{preview_display}
 x!{scoped_camera_device}
 x!{scoped_camera_device_declares}

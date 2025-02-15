@@ -77,7 +77,7 @@ pub enum FileBasedDocumentSaveResult
 #[leak_detector]
 pub struct FileBasedDocument<'a> {
     base:  ChangeBroadcaster<'a>,
-    pimpl: Box<FileBasedDocumentPimpl<'a>>,
+    impl_: Box<FileBasedDocumentImpl<'a>>,
 }
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_gui_extra/documents/aloe_FileBasedDocument.cpp]
@@ -118,7 +118,7 @@ impl<'a> FileBasedDocument<'a> {
         /*
 
 
-            : pimpl (new FileBasedDocumentPimpl (*this,
+            : impl (new FileBasedDocumentImpl (*this,
                             fileExtension,
                             fileWildcard,
                             openFileDialogTitle,
@@ -138,7 +138,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            return pimpl->hasChangedSinceSaved();
+            return impl->hasChangedSinceSaved();
         */
     }
     
@@ -157,7 +157,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            pimpl->setChangedFlag (hasChanged);
+            impl->setChangedFlag (hasChanged);
         */
     }
     
@@ -165,7 +165,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            pimpl->changed();
+            impl->changed();
         */
     }
     
@@ -201,7 +201,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            return pimpl->loadFrom (fileToLoadFrom, showMessageOnFailure, showWaitCursor);
+            return impl->loadFrom (fileToLoadFrom, showMessageOnFailure, showWaitCursor);
         */
     }
     
@@ -233,7 +233,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            pimpl->loadFromAsync (fileToLoadFrom, showMessageOnFailure, std::move (callback));
+            impl->loadFromAsync (fileToLoadFrom, showMessageOnFailure, std::move (callback));
         */
     }
 
@@ -268,7 +268,7 @@ impl<'a> FileBasedDocument<'a> {
     {
         todo!();
         /*
-            return pimpl->loadFromUserSpecifiedFile (showMessageOnFailure);
+            return impl->loadFromUserSpecifiedFile (showMessageOnFailure);
         */
     }
     
@@ -298,7 +298,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            pimpl->loadFromUserSpecifiedFileAsync (showMessageOnFailure, std::move (callback));
+            impl->loadFromUserSpecifiedFileAsync (showMessageOnFailure, std::move (callback));
         */
     }
 
@@ -336,7 +336,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            return pimpl->save (askUserForFileIfNotSpecified, showMessageOnFailure);
+            return impl->save (askUserForFileIfNotSpecified, showMessageOnFailure);
         */
     }
     
@@ -378,7 +378,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            pimpl->saveAsync (askUserForFileIfNotSpecified, showMessageOnFailure, std::move (callback));
+            impl->saveAsync (askUserForFileIfNotSpecified, showMessageOnFailure, std::move (callback));
         */
     }
 
@@ -419,7 +419,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            return pimpl->saveIfNeededAndUserAgrees();
+            return impl->saveIfNeededAndUserAgrees();
         */
     }
     
@@ -463,7 +463,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            pimpl->saveIfNeededAndUserAgreesAsync (std::move (callback));
+            impl->saveIfNeededAndUserAgreesAsync (std::move (callback));
         */
     }
 
@@ -520,7 +520,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            return pimpl->saveAs (newFile,
+            return impl->saveAs (newFile,
                               warnAboutOverwritingExistingFiles,
                               askUserForFileIfNotSpecified,
                               showMessageOnFailure,
@@ -579,7 +579,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            pimpl->saveAsAsync (newFile,
+            impl->saveAsAsync (newFile,
                             warnAboutOverwritingExistingFiles,
                             askUserForFileIfNotSpecified,
                             showMessageOnFailure,
@@ -616,7 +616,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            return pimpl->saveAsInteractive (warnAboutOverwritingExistingFiles);
+            return impl->saveAsInteractive (warnAboutOverwritingExistingFiles);
         */
     }
     
@@ -654,7 +654,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            pimpl->saveAsInteractiveAsync (warnAboutOverwritingExistingFiles, std::move (callback));
+            impl->saveAsInteractiveAsync (warnAboutOverwritingExistingFiles, std::move (callback));
         */
     }
     
@@ -675,7 +675,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            return pimpl->getFile();
+            return impl->getFile();
         */
     }
     
@@ -693,7 +693,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            pimpl->setFile (newFile);
+            impl->setFile (newFile);
         */
     }
     
@@ -733,7 +733,7 @@ impl<'a> FileBasedDocument<'a> {
         
         todo!();
         /*
-            return defaultFile.withFileExtension (pimpl->getFileExtension()).getNonexistentSibling (true);
+            return defaultFile.withFileExtension (impl->getFileExtension()).getNonexistentSibling (true);
         */
     }
 }

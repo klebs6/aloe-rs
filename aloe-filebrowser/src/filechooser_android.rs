@@ -10,7 +10,7 @@ pub struct FileChooserNative<'a> {
 }
 
 #[cfg(target_os="android")]
-impl<'a> FileChooserPimpl for FileChooserNative<'a> {
+impl<'a> FileChooserImpl for FileChooserNative<'a> {
 
 }
 
@@ -243,7 +243,7 @@ impl<'a> FileChooser<'a> {
         flags: i32,
         _2:    *mut FilePreviewComponent
 
-    ) -> Arc<dyn FileChooserPimpl> {
+    ) -> Arc<dyn FileChooserImpl> {
         
         todo!();
         /*

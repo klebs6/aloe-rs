@@ -2,7 +2,7 @@ crate::ix!();
 
 #[no_copy]
 #[leak_detector]
-pub struct VideoComponentPimpl<'a> {
+pub struct VideoComponentImpl<'a> {
     base:                   Base<'a>,
     current_file:           File,
     currenturl:             Url,
@@ -12,7 +12,7 @@ pub struct VideoComponentPimpl<'a> {
     play_speed_mult:        f64, // default = 1.0
 }
 
-impl<'a> Drop for VideoComponentPimpl<'a> {
+impl<'a> Drop for VideoComponentImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -23,7 +23,7 @@ impl<'a> Drop for VideoComponentPimpl<'a> {
     }
 }
 
-impl<'a> VideoComponentPimpl<'a> {
+impl<'a> VideoComponentImpl<'a> {
     
     pub fn new(
         owner_to_use:                     &mut VideoComponent,

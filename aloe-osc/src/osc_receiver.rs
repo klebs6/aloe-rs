@@ -20,7 +20,7 @@ crate::ix!();
 #[no_copy]
 #[leak_detector]
 pub struct OSCReceiver {
-    pimpl: Box<OSCReceiverPimpl>,
+    impl_: Box<OSCReceiverImpl>,
 }
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_osc/osc/aloe_OSCReceiver.cpp]
@@ -42,7 +42,7 @@ impl Drop for OSCReceiver {
     fn drop(&mut self) {
         todo!();
         /*
-            pimpl.reset();
+            impl.reset();
         */
     }
 }
@@ -60,7 +60,7 @@ impl From<&str> for OSCReceiver {
         /*
 
 
-            : pimpl (new OSCReceiverPimpl (threadName))
+            : impl (new OSCReceiverImpl (threadName))
         */
     }
 }
@@ -84,7 +84,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            return pimpl->connectToPort (portNumber);
+            return impl->connectToPort (portNumber);
         */
     }
     
@@ -109,7 +109,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            return pimpl->connectToSocket (socket);
+            return impl->connectToSocket (socket);
         */
     }
     
@@ -129,7 +129,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            return pimpl->disconnect();
+            return impl->disconnect();
         */
     }
     
@@ -145,7 +145,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            pimpl->addListener (listenerToAdd);
+            impl->addListener (listenerToAdd);
         */
     }
     
@@ -162,7 +162,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            pimpl->addListener (listenerToAdd);
+            impl->addListener (listenerToAdd);
         */
     }
     
@@ -181,7 +181,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            pimpl->addListener (listenerToAdd, addressToMatch);
+            impl->addListener (listenerToAdd, addressToMatch);
         */
     }
     
@@ -200,7 +200,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            pimpl->addListener (listenerToAdd, addressToMatch);
+            impl->addListener (listenerToAdd, addressToMatch);
         */
     }
     
@@ -212,7 +212,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            pimpl->removeListener (listenerToRemove);
+            impl->removeListener (listenerToRemove);
         */
     }
     
@@ -224,7 +224,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            pimpl->removeListener (listenerToRemove);
+            impl->removeListener (listenerToRemove);
         */
     }
     
@@ -236,7 +236,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            pimpl->removeListener (listenerToRemove);
+            impl->removeListener (listenerToRemove);
         */
     }
     
@@ -248,7 +248,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            pimpl->removeListener (listenerToRemove);
+            impl->removeListener (listenerToRemove);
         */
     }
     
@@ -268,7 +268,7 @@ impl OSCReceiver {
         
         todo!();
         /*
-            pimpl->registerFormatErrorHandler (handler);
+            impl->registerFormatErrorHandler (handler);
         */
     }
 }

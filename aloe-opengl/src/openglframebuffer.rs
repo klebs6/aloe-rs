@@ -11,7 +11,7 @@ crate::ix!();
 #[no_copy]
 #[leak_detector]
 pub struct OpenGLFrameBuffer<'a> {
-    pimpl:       Box<OpenFramebufferPimpl<'a>>,
+    impl_:       Box<OpenFramebufferImpl<'a>>,
     saved_state: Box<OpenFramebufferSavedState>,
 }
 
@@ -44,7 +44,7 @@ impl<'a> OpenGLFrameBuffer<'a> {
         
         todo!();
         /*
-            return pimpl != nullptr;
+            return impl != nullptr;
         */
     }
 
@@ -72,13 +72,13 @@ impl<'a> OpenGLFrameBuffer<'a> {
         /*
             jassert (context.isActive()); // The context must be active when creating a framebuffer!
 
-        pimpl.reset();
-        pimpl.reset (new OpenFramebufferPimpl (context, width, height, false, false));
+        impl.reset();
+        impl.reset (new OpenFramebufferImpl (context, width, height, false, false));
 
-        if (! pimpl->createdOk())
-            pimpl.reset();
+        if (! impl->createdOk())
+            impl.reset();
 
-        return pimpl != nullptr;
+        return impl != nullptr;
         */
     }
     
@@ -121,30 +121,30 @@ impl<'a> OpenGLFrameBuffer<'a> {
         
         todo!();
         /*
-            auto* p = other.pimpl.get();
+            auto* p = other.impl.get();
 
         if (p == nullptr)
         {
-            pimpl.reset();
+            impl.reset();
             return true;
         }
 
-        const Rectangle<int> area (pimpl->width, pimpl->height);
+        const Rectangle<int> area (impl->width, impl->height);
 
         if (initialise (p->context, area.getWidth(), area.getHeight()))
         {
-            pimpl->bind();
+            impl->bind();
 
            #if ! ALOE_ANDROID
             glEnable (GL_TEXTURE_2D);
             clearGLError();
            #endif
             glBindTexture (GL_TEXTURE_2D, p->textureID);
-            pimpl->context.copyTexture (area, area, area.getWidth(), area.getHeight(), false);
+            impl->context.copyTexture (area, area, area.getWidth(), area.getHeight(), false);
             glBindTexture (GL_TEXTURE_2D, 0);
             ALOE_CHECK_OPENGL_ERROR
 
-            pimpl->unbind();
+            impl->unbind();
             return true;
         }
 
@@ -165,7 +165,7 @@ impl<'a> OpenGLFrameBuffer<'a> {
         
         todo!();
         /*
-            pimpl.reset();
+            impl.reset();
         savedState.reset();
         */
     }
@@ -184,10 +184,10 @@ impl<'a> OpenGLFrameBuffer<'a> {
         
         todo!();
         /*
-            if (pimpl != nullptr)
+            if (impl != nullptr)
         {
-            savedState.reset (new OpenFramebufferSavedState (*this, pimpl->width, pimpl->height));
-            pimpl.reset();
+            savedState.reset (new OpenFramebufferSavedState (*this, impl->width, impl->height));
+            impl.reset();
         }
         */
     }
@@ -227,7 +227,7 @@ impl<'a> OpenGLFrameBuffer<'a> {
         
         todo!();
         /*
-            return pimpl != nullptr ? pimpl->width : 0;
+            return impl != nullptr ? impl->width : 0;
         */
     }
     
@@ -239,7 +239,7 @@ impl<'a> OpenGLFrameBuffer<'a> {
         
         todo!();
         /*
-            return pimpl != nullptr ? pimpl->height : 0;
+            return impl != nullptr ? impl->height : 0;
         */
     }
     
@@ -252,7 +252,7 @@ impl<'a> OpenGLFrameBuffer<'a> {
         
         todo!();
         /*
-            return pimpl != nullptr ? pimpl->textureID : 0;
+            return impl != nullptr ? impl->textureID : 0;
         */
     }
     
@@ -269,10 +269,10 @@ impl<'a> OpenGLFrameBuffer<'a> {
         // reloadSavedCopy() to put it back into GPU memory before using it..
         jassert (savedState == nullptr);
 
-        if (pimpl == nullptr)
+        if (impl == nullptr)
             return false;
 
-        pimpl->bind();
+        impl->bind();
         return true;
         */
     }
@@ -286,7 +286,7 @@ impl<'a> OpenGLFrameBuffer<'a> {
         
         todo!();
         /*
-            return pimpl != nullptr ? pimpl->frameBufferID : 0;
+            return impl != nullptr ? impl->frameBufferID : 0;
         */
     }
     
@@ -314,8 +314,8 @@ impl<'a> OpenGLFrameBuffer<'a> {
         
         todo!();
         /*
-            if (pimpl != nullptr)
-            pimpl->unbind();
+            if (impl != nullptr)
+            impl->unbind();
         */
     }
     
@@ -375,7 +375,7 @@ impl<'a> OpenGLFrameBuffer<'a> {
         glReadPixels (area.getX(), area.getY(), area.getWidth(), area.getHeight(),
                       ALOE_RGBA_FORMAT, GL_UNSIGNED_BYTE, target);
 
-        pimpl->unbind();
+        impl->unbind();
         return true;
         */
     }
@@ -395,7 +395,7 @@ impl<'a> OpenGLFrameBuffer<'a> {
         
         todo!();
         /*
-            OpenGLTargetSaver ts (pimpl->context);
+            OpenGLTargetSaver ts (impl->context);
 
         if (! makeCurrentRenderingTarget())
             return false;
@@ -407,10 +407,10 @@ impl<'a> OpenGLFrameBuffer<'a> {
         OpenGLTexture tex;
         tex.loadARGB (data, area.getWidth(), area.getHeight());
 
-        glViewport (0, 0, pimpl->width, pimpl->height);
-        pimpl->context.copyTexture (area, Rectangle<int> (area.getX(), area.getY(),
+        glViewport (0, 0, impl->width, impl->height);
+        impl->context.copyTexture (area, Rectangle<int> (area.getX(), area.getY(),
                                                           tex.getWidth(), tex.getHeight()),
-                                    pimpl->width, pimpl->height, true);
+                                    impl->width, impl->height, true);
 
         ALOE_CHECK_OPENGL_ERROR
         return true;

@@ -2,7 +2,7 @@
 
 x!{android_notification}
 x!{android_pushnotifications}
-x!{android_pushnotifications_pimpl}
+x!{android_pushnotifications_impl}
 x!{demo_aux_actions_view}
 x!{demo_param_controls}
 x!{demo_params_view}

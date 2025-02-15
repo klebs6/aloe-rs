@@ -27,10 +27,10 @@ crate::ix!();
 #[leak_detector]
 pub struct UIViewComponent<'a> {
     base:  Component<'a>,
-    pimpl: Box<UIViewComponentPimpl>,
+    impl_: Box<UIViewComponentImpl>,
 }
 
-pub struct UIViewComponentPimpl {}
+pub struct UIViewComponentImpl {}
 
 //#[cfg(target_os="ios")]
 impl<'a> Default for UIViewComponent<'a> {

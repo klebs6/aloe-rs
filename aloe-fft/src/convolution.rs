@@ -53,7 +53,7 @@ crate::ix!();
 #[no_copy]
 #[leak_detector]
 pub struct Convolution<'a> {
-    pimpl:     Box<ConvolutionImpl<'a>>,
+    impl_:     Box<ConvolutionImpl<'a>>,
     mixer:     ConvolutionMixer,
     is_active: bool, // default = false
 }
@@ -225,7 +225,7 @@ impl<'a> Convolution<'a> {
         /*
 
 
-            : pimpl (std::make_unique<ConvolutionImpl> (latency, nonUniform, std::move (queue)))
+            : impl (std::make_unique<ConvolutionImpl> (latency, nonUniform, std::move (queue)))
         */
     }
     
@@ -293,7 +293,7 @@ impl<'a> Convolution<'a> {
         
         todo!();
         /*
-            pimpl->loadImpulseResponse (sourceData, sourceDataSize, stereo, trim, size, normalise);
+            impl->loadImpulseResponse (sourceData, sourceDataSize, stereo, trim, size, normalise);
         */
     }
     
@@ -345,7 +345,7 @@ impl<'a> Convolution<'a> {
         
         todo!();
         /*
-            pimpl->loadImpulseResponse (fileImpulseResponse, stereo, trim, size, normalise);
+            impl->loadImpulseResponse (fileImpulseResponse, stereo, trim, size, normalise);
         */
     }
     
@@ -402,7 +402,7 @@ impl<'a> Convolution<'a> {
         
         todo!();
         /*
-            pimpl->loadImpulseResponse (std::move (buffer), originalSampleRate, stereo, trim, normalise);
+            impl->loadImpulseResponse (std::move (buffer), originalSampleRate, stereo, trim, normalise);
         */
     }
     
@@ -432,7 +432,7 @@ impl<'a> Convolution<'a> {
         todo!();
         /*
             mixer.prepare (spec);
-        pimpl->prepare (spec);
+        impl->prepare (spec);
         isActive = true;
         */
     }
@@ -447,7 +447,7 @@ impl<'a> Convolution<'a> {
         todo!();
         /*
             mixer.reset();
-        pimpl->reset();
+        impl->reset();
         */
     }
     
@@ -467,7 +467,7 @@ impl<'a> Convolution<'a> {
 
         mixer.processSamples (input, output, isBypassed, [this] (const auto& in, auto& out)
         {
-            pimpl->processSamples (in, out);
+            impl->processSamples (in, out);
         });
         */
     }
@@ -481,7 +481,7 @@ impl<'a> Convolution<'a> {
         
         todo!();
         /*
-            return pimpl->getCurrentIRSize();
+            return impl->getCurrentIRSize();
         */
     }
     
@@ -503,7 +503,7 @@ impl<'a> Convolution<'a> {
         
         todo!();
         /*
-            return pimpl->getLatency();
+            return impl->getLatency();
         */
     }
 }

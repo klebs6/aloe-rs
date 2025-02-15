@@ -2,7 +2,7 @@ crate::ix!();
 
 lazy_static!{
     /*
-    WebBrowserComponent::WebBrowserComponentPimpl::AloeWebChromeClient_Class WebBrowserComponent::WebBrowserComponentPimpl::AloeWebChromeClient;
+    WebBrowserComponent::WebBrowserComponentImpl::AloeWebChromeClient_Class WebBrowserComponent::WebBrowserComponentImpl::AloeWebChromeClient;
     */
 }
 

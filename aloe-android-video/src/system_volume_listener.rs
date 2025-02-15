@@ -3,7 +3,7 @@ crate::ix!();
 #[cfg(ALOE_SYNC_VIDEO_VOLUME_WITH_OS_MEDIA_VOLUME)]
 #[weak_referenceable]
 pub struct SystemVolumeListener {
-    owner:           &mut VideoComponentPimpl,
+    owner:           &mut VideoComponentImpl,
     native_observer: GlobalRef,
 }
 
@@ -12,8 +12,8 @@ pub mod system_volume_listener {
 
     lazy_static!{
         /*
-        VideoComponent::VideoComponentPimpl::SystemVolumeListener::SystemVolumeObserver_Class
-        VideoComponent::VideoComponentPimpl::SystemVolumeListener::SystemVolumeObserver;
+        VideoComponent::VideoComponentImpl::SystemVolumeListener::SystemVolumeObserver_Class
+        VideoComponent::VideoComponentImpl::SystemVolumeListener::SystemVolumeObserver;
         */
     }
 
@@ -51,7 +51,7 @@ impl Drop for SystemVolumeListener {
 #[cfg(ALOE_SYNC_VIDEO_VOLUME_WITH_OS_MEDIA_VOLUME)]
 impl SystemVolumeListener {
 
-    pub fn new(owner_to_use: &mut VideoComponentPimpl) -> Self {
+    pub fn new(owner_to_use: &mut VideoComponentImpl) -> Self {
     
         todo!();
         /*
@@ -108,7 +108,7 @@ impl SystemVolumeListener {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentPimpl::SystemVolumeListener*> (host))
+            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentImpl::SystemVolumeListener*> (host))
                         myself->systemVolumeChanged();
         */
     }

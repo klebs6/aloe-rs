@@ -93,7 +93,7 @@ pub const MOUSE_INPUT_SOURCE_OFFSCREEN_MOUSE_POS: Point<f32> = Point::new(-10.0,
 #[leak_detector]
 pub struct MouseInputSource<'a> {
 
-    pimpl: *mut MouseInputSourceInternal<'a>,
+    impl_: *mut MouseInputSourceInternal<'a>,
 }
 
 impl<'a> PartialEq<MouseInputSource<'a>> for MouseInputSource<'a> {
@@ -101,7 +101,7 @@ impl<'a> PartialEq<MouseInputSource<'a>> for MouseInputSource<'a> {
     #[inline] fn eq(&self, other: &MouseInputSource<'a>) -> bool {
         todo!();
         /*
-            return pimpl == other.pimpl;
+            return impl == other.impl;
         */
     }
 }
@@ -135,7 +135,7 @@ impl<'a> MouseInputSource<'a> {
     
         todo!();
         /*
-        : pimpl(s),
+        : impl(s),
         */
     }
     
@@ -143,7 +143,7 @@ impl<'a> MouseInputSource<'a> {
     
         todo!();
         /*
-        : pimpl(other.pimpl),
+        : impl(other.impl),
         */
     }
     
@@ -151,7 +151,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl = other.pimpl;
+            impl = other.impl;
         return *this;
         */
     }
@@ -165,7 +165,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->inputType;
+            return impl->inputType;
         */
     }
     
@@ -256,7 +256,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->index;
+            return impl->index;
         */
     }
     
@@ -269,7 +269,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->isDragging();
+            return impl->isDragging();
         */
     }
     
@@ -282,7 +282,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->getScreenPosition();
+            return impl->getScreenPosition();
         */
     }
     
@@ -295,7 +295,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->getRawScreenPosition();
+            return impl->getRawScreenPosition();
         */
     }
     
@@ -309,7 +309,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->getCurrentModifiers();
+            return impl->getCurrentModifiers();
         */
     }
     
@@ -329,7 +329,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->pressure;
+            return impl->pressure;
         */
     }
     
@@ -342,7 +342,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->isPressureValid();
+            return impl->isPressureValid();
         */
     }
     
@@ -360,7 +360,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->orientation;
+            return impl->orientation;
         */
     }
     
@@ -373,7 +373,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->isOrientationValid();
+            return impl->isOrientationValid();
         */
     }
     
@@ -389,7 +389,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->rotation;
+            return impl->rotation;
         */
     }
     
@@ -402,7 +402,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->isRotationValid();
+            return impl->isRotationValid();
         */
     }
     
@@ -422,7 +422,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return tiltX ? pimpl->tiltX : pimpl->tiltY;
+            return tiltX ? impl->tiltX : impl->tiltY;
         */
     }
     
@@ -435,7 +435,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->isTiltValid (isX);
+            return impl->isTiltValid (isX);
         */
     }
     
@@ -448,7 +448,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->getComponentUnderMouse();
+            return impl->getComponentUnderMouse();
         */
     }
     
@@ -464,7 +464,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl->triggerFakeMove();
+            impl->triggerFakeMove();
         */
     }
     
@@ -482,7 +482,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->getNumberOfMultipleClicks();
+            return impl->getNumberOfMultipleClicks();
         */
     }
     
@@ -495,7 +495,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->getLastMouseDownTime();
+            return impl->getLastMouseDownTime();
         */
     }
     
@@ -508,7 +508,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->getLastMouseDownPosition();
+            return impl->getLastMouseDownPosition();
         */
     }
     
@@ -525,7 +525,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->isLongPressOrDrag();
+            return impl->isLongPressOrDrag();
         */
     }
     
@@ -539,7 +539,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->hasMovedSignificantlySincePressed();
+            return impl->hasMovedSignificantlySincePressed();
         */
     }
     
@@ -604,7 +604,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl->enableUnboundedMouseMovement (isEnabled, keepCursorVisibleUntilOffscreen);
+            impl->enableUnboundedMouseMovement (isEnabled, keepCursorVisibleUntilOffscreen);
         */
     }
     
@@ -617,7 +617,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->isUnboundedMouseModeOn;
+            return impl->isUnboundedMouseModeOn;
         */
     }
     
@@ -643,7 +643,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl->showMouseCursor (cursor, false);
+            impl->showMouseCursor (cursor, false);
         */
     }
     
@@ -655,7 +655,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl->hideCursor();
+            impl->hideCursor();
         */
     }
     
@@ -668,7 +668,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl->revealCursor (false);
+            impl->revealCursor (false);
         */
     }
     
@@ -682,7 +682,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl->revealCursor (true);
+            impl->revealCursor (true);
         */
     }
     
@@ -695,7 +695,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl->setScreenPosition (p);
+            impl->setScreenPosition (p);
         */
     }
     
@@ -710,7 +710,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl->handleEvent (peer, pos, Time (time), mods.withOnlyMouseButtons(), pressure, orientation, penDetails);
+            impl->handleEvent (peer, pos, Time (time), mods.withOnlyMouseButtons(), pressure, orientation, penDetails);
         */
     }
     
@@ -722,7 +722,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl->handleWheel (peer, pos, Time (time), wheel);
+            impl->handleWheel (peer, pos, Time (time), wheel);
         */
     }
     
@@ -734,7 +734,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            pimpl->handleMagnifyGesture (peer, pos, Time (time), scaleFactor);
+            impl->handleMagnifyGesture (peer, pos, Time (time), scaleFactor);
         */
     }
     
@@ -743,7 +743,7 @@ impl<'a> MouseInputSource<'a> {
         
         todo!();
         /*
-            return pimpl->hasMouseMovedSignificantlySincePressed();
+            return impl->hasMouseMovedSignificantlySincePressed();
         */
     }
 }

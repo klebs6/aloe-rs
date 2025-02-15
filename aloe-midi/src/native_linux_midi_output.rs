@@ -4,13 +4,13 @@ crate::ix!();
 
 #[cfg(target_os="linux")]
 #[cfg(not(feature = "alsa"))]
-pub struct MidiOutputPimpl {
+pub struct MidiOutputImpl {
 
 }
 
 #[cfg(target_os="linux")]
 #[cfg(not(feature = "alsa"))]
-impl MidiOutputPimpl {
+impl MidiOutputImpl {
     
     pub fn send_message_now(&mut self, _0: &MidiMessage)  {
         
@@ -79,7 +79,7 @@ impl MidiOutputPimpl {
 
 #[cfg(target_os="linux")]
 #[cfg(feature = "alsa")]
-pub struct MidiOutputPimpl {
+pub struct MidiOutputImpl {
     base: AlsaPortPtr,
 }
 
@@ -133,7 +133,7 @@ impl MidiOutput {
         std::unique_ptr<MidiOutput> midiOutput (new MidiOutput (port->getPortName(), deviceIdentifier));
 
         port->setupOutput();
-        midiOutput->internal = std::make_unique<MidiOutputPimpl> (port);
+        midiOutput->internal = std::make_unique<MidiOutputImpl> (port);
 
         return midiOutput;
         */
@@ -152,7 +152,7 @@ impl MidiOutput {
         std::unique_ptr<MidiOutput> midiOutput (new MidiOutput (deviceName, getFormattedPortIdentifier (client->getId(), port->getPortId())));
 
         port->setupOutput();
-        midiOutput->internal = std::make_unique<MidiOutputPimpl> (port);
+        midiOutput->internal = std::make_unique<MidiOutputImpl> (port);
 
         return midiOutput;
         */

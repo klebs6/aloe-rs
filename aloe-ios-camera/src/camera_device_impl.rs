@@ -3,12 +3,12 @@ crate::ix!();
 lazy_static!{
     /*
     static IOSVersion iosVersion;
-    CameraDevice::CameraDevicePimpl::IOSVersion CameraDevice::CameraDevicePimpl::iosVersion = CameraDevice::CameraDevicePimpl::getIOSVersion();
+    CameraDevice::CameraDeviceImpl::IOSVersion CameraDevice::CameraDeviceImpl::iosVersion = CameraDevice::CameraDeviceImpl::getIOSVersion();
     */
 }
 
 #[no_copy]
-pub struct CameraDevicePimpl<'a> {
+pub struct CameraDeviceImpl<'a> {
     owner:                      &'a mut CameraDevice,
     camera_id:                  String,
     camera_open_callback:       InternalOpenCameraResultCallback,
@@ -19,7 +19,7 @@ pub struct CameraDevicePimpl<'a> {
     notified_of_camera_opening: bool, // default = false
 }
 
-impl<'a> CameraDevicePimpl<'a> {
+impl<'a> CameraDeviceImpl<'a> {
 
     pub fn new(
         owner_to_use:     &mut CameraDevice,

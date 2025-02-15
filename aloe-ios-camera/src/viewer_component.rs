@@ -20,7 +20,7 @@ impl<'a> ViewerComponent<'a> {
             auto view = [cls.createInstance() init];
             setView (view);
 
-            auto* previewLayer = device.pimpl->captureSession.createPreviewLayer();
+            auto* previewLayer = device.impl->captureSession.createPreviewLayer();
             previewLayer.frame = view.bounds;
 
             UIInterfaceOrientation statusBarOrientation = [UIApplication sharedApplication].statusBarOrientation;

@@ -6,11 +6,11 @@ pub struct DistortionProcessor<FloatType: FloatSample> {
     highpass:                   FirstOrderTPTFilter<FloatType>,
     dist_gain:                  Gain<FloatType>,
     comp_gain:                  Gain<FloatType>,
-    mixer:                      DryWetMixer<FloatType>,         // default = { 10  }
+    mixer:                      DryWetMixer<FloatType>,     // default = { 10  }
     wave_shapers:               [WaveShaper<FloatType>; 2], // { { { std::tanh }, { FastMathApproximations::tanh } } };
-    clipping:                   WaveShaper<FloatType>,          // default = { clip  }
-    current_index_oversampling: i32,                             // default = 0
-    current_index_waveshaper:   i32,                             // default = 0
+    clipping:                   WaveShaper<FloatType>,      // default = { clip  }
+    current_index_oversampling: i32,                        // default = 0
+    current_index_waveshaper:   i32,                        // default = 0
 }
 
 impl<FloatType: FloatSample> Default for DistortionProcessor<FloatType> {
@@ -18,8 +18,6 @@ impl<FloatType: FloatSample> Default for DistortionProcessor<FloatType> {
     fn default() -> Self {
         todo!();
         /*
-
-
             forEach ([] (Gain<FloatType>& gain) { gain.setRampDurationSeconds (0.05); },
                          distGain,
                          compGain);

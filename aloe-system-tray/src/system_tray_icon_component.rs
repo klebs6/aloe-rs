@@ -47,14 +47,14 @@ impl SetIconImage for SystemTrayIconComponent {
         /*
             if (templateImage.isValid())
         {
-            if (pimpl == nullptr)
-                pimpl.reset (new SystemTrayIconComponentPimpl (*this, templateImage));
+            if (impl == nullptr)
+                impl.reset (new SystemTrayIconComponentImpl (*this, templateImage));
             else
-                pimpl->statusItemHolder->updateIcon (templateImage);
+                impl->statusItemHolder->updateIcon (templateImage);
         }
         else
         {
-            pimpl.reset();
+            impl.reset();
         }
         */
     }
@@ -79,8 +79,8 @@ impl SetHighlighted for SystemTrayIconComponent {
         
         todo!();
         /*
-            if (pimpl != nullptr)
-            pimpl->statusItemHolder->setHighlighted (shouldHighlight);
+            if (impl != nullptr)
+            impl->statusItemHolder->setHighlighted (shouldHighlight);
         */
     }
 }
@@ -116,7 +116,7 @@ impl GetNativeHandle for SystemTrayIconComponent {
         
         todo!();
         /*
-            return pimpl != nullptr ? pimpl->statusItemHolder->statusItem.get() : nullptr;
+            return impl != nullptr ? impl->statusItemHolder->statusItem.get() : nullptr;
         */
     }
 }
@@ -128,8 +128,8 @@ impl ShowDropdownMenu for SystemTrayIconComponent {
         
         todo!();
         /*
-            if (pimpl != nullptr)
-            pimpl->statusItemHolder->showMenu (menu);
+            if (impl != nullptr)
+            impl->statusItemHolder->showMenu (menu);
         */
     }
 }

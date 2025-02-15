@@ -205,7 +205,7 @@ impl MessageManager {
 #[no_copy]
 pub struct MessageManagerLock {
     base:    Box<dyn ThreadListener>,
-    mm_lock: MessageManagerLockPimpl,
+    mm_lock: MessageManagerLockImpl,
     locked:  bool,
 }
 

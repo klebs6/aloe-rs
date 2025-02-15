@@ -232,5 +232,3 @@ pub trait GrabFocus {
       */
     fn grab_focus(&mut self);
 }
-
-

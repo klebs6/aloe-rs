@@ -50,7 +50,7 @@ pub struct VideoComponent<'a> {
       */
     on_error_occurred:   fn(error: &String) -> (),
 
-    pimpl:               Box<dyn VideoComponentImplInterface>,
+    impl_:               Box<dyn VideoComponentImplInterface>,
 }
 
 pub trait VideoComponentImplInterface { }
@@ -62,7 +62,7 @@ impl<'a> Drop for VideoComponent<'a> {
     fn drop(&mut self) {
         todo!();
         /*
-            pimpl.reset();
+            impl.reset();
         */
     }
 }
@@ -96,8 +96,8 @@ impl<'a> VideoComponent<'a> {
     
         todo!();
         /*
-        : pimpl (new Pimpl (*this, useNativeControlsIfAvailable))
-        addAndMakeVisible (pimpl.get());
+        : impl (new Impl (*this, useNativeControlsIfAvailable))
+        addAndMakeVisible (impl.get());
         */
     }
     
@@ -179,7 +179,7 @@ impl<'a> VideoComponent<'a> {
         }
 
        #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        pimpl->loadAsync (url, callback);
+        impl->loadAsync (url, callback);
        #else
         auto result = loadInternal (url, true);
         callback (url, result);
@@ -195,8 +195,8 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            pimpl->close();
-        // Closing on Android is async and resized() will be called internally by pimpl once
+            impl->close();
+        // Closing on Android is async and resized() will be called internally by impl once
         // close operation finished.
        #if ! ALOE_ANDROID// TODO ALOE_IOS too?
         resized();
@@ -213,7 +213,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            return pimpl->isOpen();
+            return impl->isOpen();
         */
     }
     
@@ -228,7 +228,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            return pimpl->currentFile;
+            return impl->currentFile;
         */
     }
     
@@ -243,7 +243,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            return pimpl->currentURL;
+            return impl->currentURL;
         */
     }
     
@@ -255,7 +255,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            return pimpl->getDuration();
+            return impl->getDuration();
         */
     }
     
@@ -271,7 +271,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            return pimpl->getNativeSize();
+            return impl->getNativeSize();
         */
     }
     
@@ -283,7 +283,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            pimpl->play();
+            impl->play();
         */
     }
     
@@ -295,7 +295,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            pimpl->stop();
+            impl->stop();
         */
     }
     
@@ -308,7 +308,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            return pimpl->isPlaying();
+            return impl->isPlaying();
         */
     }
     
@@ -321,7 +321,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            pimpl->setPosition (newPos);
+            impl->setPosition (newPos);
         */
     }
     
@@ -334,7 +334,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            return pimpl->getPosition();
+            return impl->getPosition();
         */
     }
     
@@ -350,7 +350,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            pimpl->setSpeed (newSpeed);
+            impl->setSpeed (newSpeed);
         */
     }
     
@@ -363,7 +363,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            return pimpl->getSpeed();
+            return impl->getSpeed();
         */
     }
     
@@ -381,7 +381,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            pimpl->setVolume (newVolume);
+            impl->setVolume (newVolume);
         */
     }
     
@@ -400,7 +400,7 @@ impl<'a> VideoComponent<'a> {
         
         todo!();
         /*
-            return pimpl->getVolume();
+            return impl->getVolume();
         */
     }
     
@@ -432,7 +432,7 @@ impl<'a> VideoComponent<'a> {
             stopTimer();
         }
 
-        pimpl->setBounds (r);
+        impl->setBounds (r);
         */
     }
     
@@ -457,7 +457,7 @@ impl<'a> VideoComponent<'a> {
         jassertfalse;
         return Result::fail ("load() is not supported on this platform. Use loadAsync() instead.");
        #else
-        auto result = pimpl->load (fileOrUrl);
+        auto result = impl->load (fileOrUrl);
 
         if (loadAsync)
             startTimer (50);

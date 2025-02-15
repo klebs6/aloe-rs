@@ -2,7 +2,7 @@ crate::ix!();
 
 #[no_copy]
 #[leak_detector]
-pub struct MidiInputPimpl {
+pub struct MidiInputImpl {
     buffer:        Vec<u8>,
     midi_input:    *const MidiInput,
     midi_port:     String,
@@ -20,14 +20,14 @@ pub mod midi_input_pimpl {
 
     lazy_static!{
         /*
-        static Vec<MidiInputPimpl*> midiInputs;
-        Vec<MidiInput::MidiInputPimpl*> MidiInput::MidiInputPimpl::midiInputs;
+        static Vec<MidiInputImpl*> midiInputs;
+        Vec<MidiInput::MidiInputImpl*> MidiInput::MidiInputImpl::midiInputs;
         */
     }
 }
 
 #[cfg(feature = "bela")]
-impl Drop for MidiInputPimpl {
+impl Drop for MidiInputImpl {
     fn drop(&mut self) {
         todo!();
         /* 
@@ -38,7 +38,7 @@ impl Drop for MidiInputPimpl {
 }
 
 #[cfg(feature = "bela")]
-impl MidiInputPimpl {
+impl MidiInputImpl {
 
     pub fn new(
         port:     &String,

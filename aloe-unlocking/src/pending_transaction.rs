@@ -8,7 +8,7 @@ crate::ix!();
   |
   */
 pub struct PendingDownloadsTransaction {
-    downloads:   Vec<Box<InAppPurchasesPimplDownloadImpl>>,
+    downloads:   Vec<Box<InAppPurchasesImplDownloadImpl>>,
     transaction: *const SKPaymentTransaction,
 }
 
@@ -29,7 +29,7 @@ impl PendingDownloadsTransaction {
         todo!();
         /*
             for (SKDownload* download in transactionToUse.downloads)
-                    downloads.add (new InAppPurchasesPimplDownloadImpl (download));
+                    downloads.add (new InAppPurchasesImplDownloadImpl (download));
         */
     }
     

@@ -1,7 +1,7 @@
 crate::ix!();
 
 #[no_copy]
-pub struct OpenFramebufferPimpl<'a> {
+pub struct OpenFramebufferImpl<'a> {
     context:                 &'a mut OpenGLContext<'a>,
     width:                   i32,
     height:                  i32,
@@ -12,7 +12,7 @@ pub struct OpenFramebufferPimpl<'a> {
     has_stencil_buffer:      bool,
 }
 
-impl<'a> Drop for OpenFramebufferPimpl<'a> {
+impl<'a> Drop for OpenFramebufferImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -34,7 +34,7 @@ impl<'a> Drop for OpenFramebufferPimpl<'a> {
     }
 }
 
-impl<'a> OpenFramebufferPimpl<'a> {
+impl<'a> OpenFramebufferImpl<'a> {
     
     pub fn new(
         c:                    &mut OpenGLContext,

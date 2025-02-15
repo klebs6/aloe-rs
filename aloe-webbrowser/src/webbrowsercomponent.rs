@@ -26,7 +26,7 @@ crate::ix!();
 #[leak_detector]
 pub struct WebBrowserComponent<'a> {
     base:                    Component<'a>,
-    browser:                 Box<WebBrowserComponentPimpl<'a>>,
+    browser:                 Box<WebBrowserComponentImpl<'a>>,
     blank_page_shown:        bool, // default = false
     unload_page_when_hidden: bool,
     lasturl:                 String,
@@ -64,7 +64,7 @@ impl<'a> WebBrowserComponent<'a> {
         /*
 
 
-            : browser (new WebBrowserComponentPimpl (*this)),
+            : browser (new WebBrowserComponentImpl (*this)),
           unloadPageWhenHidden (unloadWhenHidden)
 
         ignoreUnused (blankPageShown);

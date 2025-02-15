@@ -57,13 +57,13 @@ impl AndroidMidiDeviceManager {
         aloe_midi_input: *mut MidiInput,
         callback:        *mut dyn MidiInputCallback
 
-    ) -> *mut MidiInputPimpl {
+    ) -> *mut MidiInputImpl {
         
         todo!();
         /*
             if (auto dm = deviceManager.get())
             {
-                auto androidMidiInput = std::make_unique<MidiInput::Pimpl> (aloeMidiInput, deviceID, callback, dm);
+                auto androidMidiInput = std::make_unique<MidiInput::Impl> (aloeMidiInput, deviceID, callback, dm);
 
                 if (androidMidiInput->isOpen())
                     return androidMidiInput.release();
@@ -73,13 +73,13 @@ impl AndroidMidiDeviceManager {
         */
     }
     
-    pub fn open_midi_output_port_withid(&mut self, deviceid: i32) -> *mut MidiOutputPimpl {
+    pub fn open_midi_output_port_withid(&mut self, deviceid: i32) -> *mut MidiOutputImpl {
         
         todo!();
         /*
             if (auto dm = deviceManager.get())
                 if (auto javaMidiPort = getEnv()->CallObjectMethod (dm, MidiDeviceManager.openMidiOutputPortWithID, (jint) deviceID))
-                    return new MidiOutput::Pimpl (LocalRef<jobject>(javaMidiPort));
+                    return new MidiOutput::Impl (LocalRef<jobject>(javaMidiPort));
 
             return nullptr;
         */

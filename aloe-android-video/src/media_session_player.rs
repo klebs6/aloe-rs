@@ -3,8 +3,8 @@ crate::ix!();
 lazy_static!{
     /*
     constexpr
-    VideoComponent::VideoComponentPimpl::MediaSession::MediaSessionPlayer::MediaSessionPlayerStateInfo
-    VideoComponent::VideoComponentPimpl::MediaSession::MediaSessionPlayer::stateInfos[];
+    VideoComponent::VideoComponentImpl::MediaSession::MediaSessionPlayer::MediaSessionPlayerStateInfo
+    VideoComponent::VideoComponentImpl::MediaSession::MediaSessionPlayer::stateInfos[];
     */
 }
 

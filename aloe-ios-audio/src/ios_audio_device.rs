@@ -7,7 +7,7 @@ pub const iOSAudioDeviceName: &'static str = "iOS Audio";
 #[no_copy]
 pub struct iOSAudioIODevice<'a> {
     base:  AudioIODevice,
-    pimpl: Box<iOSAudioIODevicePimpl<'a>>,
+    impl_: Box<iOSAudioIODeviceImpl<'a>>,
 }
 
 impl<'a> Default for iOSAudioIODevice<'a> {
@@ -35,7 +35,7 @@ impl<'a> iOSAudioIODevice<'a> {
 
 
             : AudioIODevice (iOSAudioDeviceName, iOSAudioDeviceName),
-          pimpl (new Pimpl (ioDeviceType, *this))
+          impl (new Impl (ioDeviceType, *this))
         */
     }
     
@@ -47,7 +47,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->open (inChans, outChans, requestedSampleRate, requestedBufferSize);
+            return impl->open (inChans, outChans, requestedSampleRate, requestedBufferSize);
         */
     }
     
@@ -55,7 +55,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            pimpl->close();
+            impl->close();
         */
     }
     
@@ -63,7 +63,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            pimpl->start (callbackToUse);
+            impl->start (callbackToUse);
         */
     }
     
@@ -71,7 +71,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            pimpl->stop();
+            impl->stop();
         */
     }
     
@@ -79,7 +79,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->availableSampleRates;
+            return impl->availableSampleRates;
         */
     }
     
@@ -87,7 +87,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->availableBufferSizes;
+            return impl->availableBufferSizes;
         */
     }
     
@@ -95,7 +95,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->setAudioPreprocessingEnabled (enabled);
+            return impl->setAudioPreprocessingEnabled (enabled);
         */
     }
     
@@ -103,7 +103,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->isRunning && pimpl->callback != nullptr;
+            return impl->isRunning && impl->callback != nullptr;
         */
     }
     
@@ -111,7 +111,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->isRunning;
+            return impl->isRunning;
         */
     }
     
@@ -119,7 +119,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->lastError;
+            return impl->lastError;
         */
     }
     
@@ -127,7 +127,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->channelData.outputs->hardwareChannelNames;
+            return impl->channelData.outputs->hardwareChannelNames;
         */
     }
     
@@ -135,7 +135,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->channelData.inputs->areChannelsAccessible ? pimpl->channelData.inputs->hardwareChannelNames : Vec<String>();
+            return impl->channelData.inputs->areChannelsAccessible ? impl->channelData.inputs->hardwareChannelNames : Vec<String>();
         */
     }
     
@@ -143,7 +143,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->defaultBufferSize;
+            return impl->defaultBufferSize;
         */
     }
     
@@ -151,7 +151,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->bufferSize;
+            return impl->bufferSize;
         */
     }
     
@@ -159,7 +159,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->sampleRate;
+            return impl->sampleRate;
         */
     }
     
@@ -175,7 +175,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->channelData.inputs->activeChannels;
+            return impl->channelData.inputs->activeChannels;
         */
     }
     
@@ -183,7 +183,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->channelData.outputs->activeChannels;
+            return impl->channelData.outputs->activeChannels;
         */
     }
     
@@ -191,7 +191,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return roundToInt (pimpl->sampleRate * [AVAudioSession sharedInstance].inputLatency);
+            return roundToInt (impl->sampleRate * [AVAudioSession sharedInstance].inputLatency);
         */
     }
     
@@ -199,7 +199,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return roundToInt (pimpl->sampleRate * [AVAudioSession sharedInstance].outputLatency);
+            return roundToInt (impl->sampleRate * [AVAudioSession sharedInstance].outputLatency);
         */
     }
     
@@ -207,7 +207,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->xrun;
+            return impl->xrun;
         */
     }
     
@@ -215,7 +215,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            pimpl->messageCollector = collector;
+            impl->messageCollector = collector;
         */
     }
     
@@ -223,7 +223,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl.get();
+            return impl.get();
         */
     }
     
@@ -231,7 +231,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->interAppAudioConnected;
+            return impl->interAppAudioConnected;
         */
     }
 
@@ -240,7 +240,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->getIcon (size);
+            return impl->getIcon (size);
         */
     }
     
@@ -248,7 +248,7 @@ impl<'a> iOSAudioIODevice<'a> {
         
         todo!();
         /*
-            return pimpl->switchApplication();
+            return impl->switchApplication();
         */
     }
     

@@ -18,7 +18,7 @@ crate::ix!();
 #[no_copy]
 pub struct MidiInput {
     device_info: MidiDeviceInfo,
-    internal:    Box<MidiInputPimpl>,
+    internal:    Box<MidiInputImpl>,
 }
 
 impl MidiInput {
@@ -379,7 +379,7 @@ impl MidiInput {
         
         todo!();
         /*
-            return Pimpl::getDevices (true);
+            return Impl::getDevices (true);
         */
     }
     
@@ -406,7 +406,7 @@ impl MidiInput {
             return {};
 
         std::unique_ptr<MidiInput> midiInput (new MidiInput (deviceIdentifier, deviceIdentifier));
-        midiInput->internal = std::make_unique<Pimpl> (deviceIdentifier, midiInput.get(), callback);
+        midiInput->internal = std::make_unique<Impl> (deviceIdentifier, midiInput.get(), callback);
 
         return midiInput;
         */

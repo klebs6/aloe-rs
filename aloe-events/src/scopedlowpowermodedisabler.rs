@@ -17,7 +17,7 @@ crate::ix!();
 #[no_move]
 pub struct ScopedLowPowerModeDisabler {
 
-    //pimpl: Box<ScopedLowPowerModeDisablerPimpl>,
+    //impl_: Box<ScopedLowPowerModeDisablerImpl>,
 }
 
 impl ScopedLowPowerModeDisabler {
@@ -27,7 +27,7 @@ impl ScopedLowPowerModeDisabler {
         todo!();
         /*
 
-            : pimpl (std::make_unique<Pimpl>())
+            : impl (std::make_unique<Impl>())
         */
     }
 }
@@ -41,22 +41,22 @@ impl ScopedLowPowerModeDisabler {
 
     /*
 
-    class ScopedLowPowerModeDisabler::Pimpl
+    class ScopedLowPowerModeDisabler::Impl
     {
 
-        Pimpl() = default;
-        ~Pimpl() { [[NSProcessInfo processInfo] endActivity: activity]; }
+        Impl() = default;
+        ~Impl() { [[NSProcessInfo processInfo] endActivity: activity]; }
 
         id activity { [[NSProcessInfo processInfo] beginActivityWithOptions: NSActivityUserInitiatedAllowingIdleSystemSleep
                                                                      reason: @"App must remain in high-power mode"] };
 
-        ALOE_DECLARE_NON_COPYABLE (Pimpl)
-        ALOE_DECLARE_NON_MOVEABLE (Pimpl)
+        ALOE_DECLARE_NON_COPYABLE (Impl)
+        ALOE_DECLARE_NON_MOVEABLE (Impl)
     };
 
     #else
 
-    class ScopedLowPowerModeDisabler::Pimpl {};
+    class ScopedLowPowerModeDisabler::Impl {};
 
     */
 }

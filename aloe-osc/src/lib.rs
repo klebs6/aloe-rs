@@ -21,6 +21,6 @@ x!{osc_receiver_impl_callback_message}
 x!{osc_receiver_listener}
 x!{osc_sender}
 x!{osc_sender_demo}
-x!{osc_sender_pimpl}
+x!{osc_sender_impl}
 x!{osc_timetag}
 x!{osc_types}

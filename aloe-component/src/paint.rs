@@ -27,7 +27,7 @@ pub trait Repaint {
     fn repaint(&mut self, area: &Rectangle<i32>);
 }
 
-pub trait PaintGraphics {
+pub trait Paint {
 
     /**
       | Components can override this method

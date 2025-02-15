@@ -1,7 +1,7 @@
 crate::ix!();
 
 #[cfg(target_os="android")]
-pub struct MidiInputPimpl {
+pub struct MidiInputImpl {
 
     aloe_midi_input:   *mut MidiInput,
     callback:          *mut dyn MidiInputCallback,
@@ -10,7 +10,7 @@ pub struct MidiInputPimpl {
 }
 
 #[cfg(target_os="android")]
-impl Drop for MidiInputPimpl {
+impl Drop for MidiInputImpl {
 
     fn drop(&mut self) {
         todo!();
@@ -24,7 +24,7 @@ impl Drop for MidiInputPimpl {
     }
 }
 
-impl MidiInputPimpl {
+impl MidiInputImpl {
 
     #[cfg(target_os="android")]
     pub fn new(
@@ -123,7 +123,7 @@ impl MidiInputPimpl {
         
         todo!();
         /*
-            auto* myself = reinterpret_cast<Pimpl*> (host);
+            auto* myself = reinterpret_cast<Impl*> (host);
 
             myself->handleMidi (byteArray, offset, len, timestamp);
         */

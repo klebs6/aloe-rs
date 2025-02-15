@@ -36,7 +36,7 @@ crate::ix!();
 #[leak_detector]
 pub struct SystemTrayIconComponent<'a,StatusItem:NSStatusItem,ImageType:NSImage> {
     base:  Component<'a>,
-    pimpl: Box<SystemTrayIconComponentPimpl<'a,StatusItem,ImageType>>,
+    impl_: Box<SystemTrayIconComponentImpl<'a,StatusItem,ImageType>>,
 }
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_gui_extra/misc/aloe_SystemTrayIconComponent.cpp]
@@ -103,14 +103,14 @@ impl<'a,StatusItem:NSStatusItem,ImageType:NSImage> GetIconNativeHandle for Syste
 }
 
 #[cfg(any(target_os="linux",target_os="bsd"))]
-impl<'a,StatusItem:NSStatusItem,ImageType:NSImage> PaintGraphics for SystemTrayIconComponent<'a,StatusItem,ImageType> {
+impl<'a,StatusItem:NSStatusItem,ImageType:NSImage> Paint for SystemTrayIconComponent<'a,StatusItem,ImageType> {
 
     fn paint(&mut self, g: &mut Graphics)  {
         
         todo!();
         /*
-            if (pimpl != nullptr)
-            g.drawImage (pimpl->image, getLocalBounds().toFloat(),
+            if (impl != nullptr)
+            g.drawImage (impl->image, getLocalBounds().toFloat(),
                          RectanglePlacement::xLeft | RectanglePlacement::yTop | RectanglePlacement::onlyReduceInSize);
         */
     }
@@ -141,14 +141,14 @@ impl<'a,StatusItem:NSStatusItem,ImageType:NSImage> SystemTrayIconComponent<'a,St
         
         todo!();
         /*
-            pimpl.reset();
+            impl.reset();
 
         if (colourImage.isValid())
         {
             if (! isOnDesktop())
                 addToDesktop (0);
 
-            pimpl.reset (new SystemTrayIconComponentPimpl (colourImage, (Window) getWindowHandle()));
+            impl.reset (new SystemTrayIconComponentImpl (colourImage, (Window) getWindowHandle()));
 
             setVisible (true);
             toFront (false);

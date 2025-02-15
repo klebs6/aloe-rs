@@ -23,7 +23,7 @@ impl<'a> ViewerComponent<'a> {
         /*
 
 
-            setView (device.pimpl->createVideoCapturePreview());
+            setView (device.impl->createVideoCapturePreview());
         */
     }
 }

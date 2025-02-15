@@ -3,12 +3,12 @@ crate::ix!();
 #[no_copy]
 #[leak_detector]
 #[cfg(target_os="linux")]
-pub struct SystemTrayIconComponentPimpl {
+pub struct SystemTrayIconComponentImpl {
     image: Image,
 }
 
 #[cfg(target_os="linux")]
-impl SystemTrayIconComponentPimpl {
+impl SystemTrayIconComponentImpl {
 
     pub fn new(
         im:      &Image,

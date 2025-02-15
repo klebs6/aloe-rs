@@ -1,7 +1,7 @@
 crate::ix!();
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_gui_extra/native/aloe_mac_PushNotifications.cpp]
-pub struct PushNotificationPimpl<'a> {
+pub struct PushNotificationImpl<'a> {
     base:                      PushNotificationsDelegate,
     owner:                     &'a mut PushNotifications,
     is_earlier_than_lion:      bool, //= std::floor (NSFoundationVersionNumber) < std::floor (NSFoundationVersionNumber10_7);
@@ -13,7 +13,7 @@ pub struct PushNotificationPimpl<'a> {
     settings:                  PushNotificationSettings,
 }
 
-impl<'a> PushNotificationPimpl<'a> {
+impl<'a> PushNotificationImpl<'a> {
 
     pub fn new(p: &mut PushNotifications) -> Self {
     

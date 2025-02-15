@@ -3,7 +3,7 @@ crate::ix!();
 #[no_copy]
 #[leak_detector]
 #[weak_referenceable]
-pub struct FileBasedDocumentPimpl<'a> {
+pub struct FileBasedDocumentImpl<'a> {
     document:               &'a mut FileBasedDocument<'a>,
     document_file:          File,
     changed_since_save:     bool, // default = false
@@ -14,7 +14,7 @@ pub struct FileBasedDocumentPimpl<'a> {
     async_fc:               Box<FileChooser<'a>>,
 }
 
-impl<'a> FileBasedDocumentPimpl<'a> {
+impl<'a> FileBasedDocumentImpl<'a> {
 
     pub fn new(
         parent:                 &mut FileBasedDocument,
@@ -153,7 +153,7 @@ impl<'a> FileBasedDocumentPimpl<'a> {
                     return;
                 }
 
-                WeakReference<FileBasedDocumentPimpl> parent { this };
+                WeakReference<FileBasedDocumentImpl> parent { this };
                 loadFromAsync (chosenFile, showMessageOnFailure, [parent, callback] (Result result)
                 {
                     if (parent != nullptr && callback != nullptr)

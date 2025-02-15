@@ -12,7 +12,7 @@ pub struct ImageBuffer<'a>
 
 #[weak_referenceable]
 pub struct ImageReader<'a> {
-    owner:                       &'a mut CameraDevicePimpl<'a>,
+    owner:                       &'a mut CameraDeviceImpl<'a>,
     camera_sensor_orientation:   i32,
     image_reader:                GlobalRef,
     on_image_available_listener: ImageReaderOnImageAvailableListener<'a>,
@@ -71,7 +71,7 @@ impl<'a> Drop for ImageReader<'a> {
 impl<'a> ImageReader<'a> {
 
     pub fn new(
-        owner_to_use:                     &mut CameraDevicePimpl,
+        owner_to_use:                     &mut CameraDeviceImpl,
         handler_to_use:                   &mut GlobalRef,
         image_width:                      i32,
         image_height:                     i32,

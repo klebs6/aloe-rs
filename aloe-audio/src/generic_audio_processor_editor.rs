@@ -25,7 +25,7 @@ pub trait HandleNewParameterValue {
 #[leak_detector]
 pub struct GenericAudioProcessorEditor<'a> {
     base:  AudioProcessorEditor<'a>,
-    pimpl: Box<GenericAudioProcessorEditorPimpl<'a>>,
+    impl_: Box<GenericAudioProcessorEditorImpl<'a>>,
 }
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_audio_processors/processors/aloe_GenericAudioProcessorEditor.cpp]
@@ -37,10 +37,10 @@ impl<'a> GenericAudioProcessorEditor<'a> {
         /*
 
 
-            : AudioProcessorEditor (p), pimpl (new GenericAudioProcessorEditorPimpl (*this))
+            : AudioProcessorEditor (p), impl (new GenericAudioProcessorEditorImpl (*this))
 
-        setSize (pimpl->view.getViewedComponent()->getWidth() + pimpl->view.getVerticalScrollBar().getWidth(),
-                 jmin (pimpl->view.getViewedComponent()->getHeight(), 400));
+        setSize (impl->view.getViewedComponent()->getWidth() + impl->view.getVerticalScrollBar().getWidth(),
+                 jmin (impl->view.getViewedComponent()->getHeight(), 400));
         */
     }
     
@@ -56,7 +56,7 @@ impl<'a> GenericAudioProcessorEditor<'a> {
         
         todo!();
         /*
-            pimpl->resize (getLocalBounds());
+            impl->resize (getLocalBounds());
         */
     }
 }

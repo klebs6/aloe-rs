@@ -3,7 +3,7 @@ crate::ix!();
 //-------------------------------------------[.cpp/Aloe/modules/aloe_audio_devices/native/aloe_ios_Audio.h]
 
 pub struct AudioSessionHolder<'a> {
-    active_devices:      Vec<*mut iOSAudioIODevicePimpl<'a>>,
+    active_devices:      Vec<*mut iOSAudioIODeviceImpl<'a>>,
     active_device_types: Vec<*mut iOSAudioIODeviceType<'a>>,
     native_session:      objc_id::Id<NSObject>,
 }

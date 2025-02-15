@@ -58,10 +58,10 @@ pub mod directory_iterator {
     #[no_copy]
     #[leak_detector]
     pub struct NativeIterator {
-        pimpl: Box<Pimpl>,
+        impl_: Box<Impl>,
     }
 
-    struct Pimpl;
+    struct Impl;
 }
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_core/files/aloe_DirectoryIterator.cpp]
@@ -324,7 +324,7 @@ impl DirectoryIterator {
     
         todo!();
         /*
-            : pimpl (new DirectoryIterator::NativeIterator::Pimpl (directory, wildCardStr))
+            : impl (new DirectoryIterator::NativeIterator::Impl (directory, wildCardStr))
         */
     }
     
@@ -340,7 +340,7 @@ impl DirectoryIterator {
         
         todo!();
         /*
-            return pimpl->next (filenameFound, isDir, isHidden, fileSize, modTime, creationTime, isReadOnly);
+            return impl->next (filenameFound, isDir, isHidden, fileSize, modTime, creationTime, isReadOnly);
         */
     }
 }

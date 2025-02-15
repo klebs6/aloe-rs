@@ -65,7 +65,7 @@ impl PostCatalinaPhotoOutput {
         */
     }
     
-    pub fn trigger_image_capture(&mut self, p: &mut Pimpl)  {
+    pub fn trigger_image_capture(&mut self, p: &mut Impl)  {
         
         todo!();
         /*

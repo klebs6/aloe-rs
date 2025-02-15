@@ -1,7 +1,7 @@
 crate::ix!();
 
 #[no_copy]
-pub struct CameraDevicePimpl<'a> {
+pub struct CameraDeviceImpl<'a> {
     base:                               ActivityLifecycleCallbacks,
     owner:                              &'a mut CameraDevice,
     min_width:                          i32,
@@ -30,7 +30,7 @@ pub struct CameraDevicePimpl<'a> {
     app_was_paused:                     bool, // default = false
 }
 
-impl<'a> Drop for CameraDevicePimpl<'a> {
+impl<'a> Drop for CameraDeviceImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -44,10 +44,10 @@ impl<'a> Drop for CameraDevicePimpl<'a> {
 }
 
 aloe_declare_weak_referenceable!{
-    CameraDevicePimpl<'a>
+    CameraDeviceImpl<'a>
 }
 
-impl<'a> CameraDevicePimpl<'a> {
+impl<'a> CameraDeviceImpl<'a> {
 
     pub fn new(
         owner_to_use:      &mut CameraDevice,
@@ -103,7 +103,7 @@ impl<'a> CameraDevicePimpl<'a> {
                 return;
 
             RuntimePermissions::request (RuntimePermissions::camera,
-                                         [safeThis = WeakReference<CameraDevicePimpl> { this }] (bool granted) mutable
+                                         [safeThis = WeakReference<CameraDeviceImpl> { this }] (bool granted) mutable
                                          {
                                              if (safeThis != nullptr)
                                                  safeThis->continueOpenRequest (granted);

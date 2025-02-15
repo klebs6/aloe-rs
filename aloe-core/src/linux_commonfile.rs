@@ -7,14 +7,14 @@ pub mod directory_iterator {
 
     #[no_copy]
     #[cfg(target_os="linux")]
-    pub struct NativeIteratorPimpl {
+    pub struct NativeIteratorImpl {
         parent_dir: String,
         wild_card:  String,
         dir:        *mut DIR,
     }
 
     #[cfg(target_os="linux")]
-    impl Drop for NativeIteratorPimpl {
+    impl Drop for NativeIteratorImpl {
         fn drop(&mut self) {
             todo!();
             /* 
@@ -25,7 +25,7 @@ pub mod directory_iterator {
     }
 
     #[cfg(target_os="linux")]
-    impl NativeIteratorPimpl {
+    impl NativeIteratorImpl {
 
         pub fn new(
             directory: &File,

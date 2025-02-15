@@ -176,4 +176,3 @@ impl<'a> AnimationTask<'a> {
         */
     }
 }
-

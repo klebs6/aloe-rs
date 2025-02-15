@@ -2,7 +2,7 @@
 #[macro_use] mod imports; use imports::*;
 
 x!{camera_device}
-x!{camera_device_pimpl}
+x!{camera_device_impl}
 x!{capture_session}
 x!{file_output_recording_delegate_class}
 x!{internal_open_camera_result}

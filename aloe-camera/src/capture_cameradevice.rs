@@ -33,7 +33,7 @@ pub struct CameraDevice {
       */
     on_error_occurred: fn(error: &String) -> (),
     name:              String,
-    pimpl:             Box<dyn CameraDeviceImplInterface>,
+    impl_:             Box<dyn CameraDeviceImplInterface>,
 }
 
 impl CameraDevice {
@@ -58,7 +58,7 @@ impl Drop for CameraDevice {
             jassert (MessageManager::getInstance()->currentThreadHasLockedMessageManager());
 
         stopRecording();
-        pimpl.reset();
+        impl.reset();
         */
     }
 }
@@ -118,7 +118,7 @@ impl CameraDevice {
         /*
 
 
-            : name (nm), pimpl (new Pimpl (*this, name, index, minWidth, minHeight, maxWidth, maxHeight, useHighQuality))
+            : name (nm), impl (new Impl (*this, name, index, minWidth, minHeight, maxWidth, maxHeight, useHighQuality))
         */
     }
     
@@ -164,7 +164,7 @@ impl CameraDevice {
         
         todo!();
         /*
-            pimpl->takeStillPicture (pictureTakenCallback);
+            impl->takeStillPicture (pictureTakenCallback);
         */
     }
     
@@ -219,7 +219,7 @@ impl CameraDevice {
         todo!();
         /*
             stopRecording();
-        pimpl->startRecordingToFile (file, quality);
+        impl->startRecordingToFile (file, quality);
         */
     }
     
@@ -235,7 +235,7 @@ impl CameraDevice {
         
         todo!();
         /*
-            return pimpl->getTimeOfFirstRecordedFrame();
+            return impl->getTimeOfFirstRecordedFrame();
         */
     }
     
@@ -248,7 +248,7 @@ impl CameraDevice {
         
         todo!();
         /*
-            pimpl->stopRecording();
+            impl->stopRecording();
         */
     }
     
@@ -267,7 +267,7 @@ impl CameraDevice {
         todo!();
         /*
             if (listenerToAdd != nullptr)
-            pimpl->addListener (listenerToAdd);
+            impl->addListener (listenerToAdd);
         */
     }
     
@@ -282,7 +282,7 @@ impl CameraDevice {
         todo!();
         /*
             if (listenerToRemove != nullptr)
-            pimpl->removeListener (listenerToRemove);
+            impl->removeListener (listenerToRemove);
         */
     }
     
@@ -301,7 +301,7 @@ impl CameraDevice {
         /*
             ALOE_AUTORELEASEPOOL
         {
-            return Pimpl::getAvailableDevices();
+            return Impl::getAvailableDevices();
         }
         */
     }
@@ -355,7 +355,7 @@ impl CameraDevice {
        #if ! ALOE_ANDROID && ! ALOE_IOS
         std::unique_ptr<CameraDevice> d (new CameraDevice (getAvailableDevices() [index], index,
                                                            minWidth, minHeight, maxWidth, maxHeight, useHighQuality));
-        if (d != nullptr && d->pimpl->openedOk())
+        if (d != nullptr && d->impl->openedOk())
             return d.release();
        #else
         ignoreUnused (index, minWidth, minHeight);

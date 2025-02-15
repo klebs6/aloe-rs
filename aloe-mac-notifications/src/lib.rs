@@ -4,4 +4,4 @@ x!{delegate}
 x!{delegate_class}
 x!{delegate_details}
 x!{delegate_interface}
-x!{push_notification_pimpl}
+x!{push_notification_impl}

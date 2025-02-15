@@ -2,7 +2,7 @@ crate::ix!();
 
 #[cfg(target_os="linux")]
 #[cfg(not(feature = "alsa"))]
-pub struct MidiInputPimpl {
+pub struct MidiInputImpl {
 
 }
 
@@ -117,7 +117,7 @@ impl MidiInput {
 ///---------------------
 #[cfg(target_os="linux")]
 #[cfg(feature = "alsa")]
-pub struct MidiInputPimpl {
+pub struct MidiInputImpl {
     base: AlsaPortPtr,
 }
 
@@ -175,7 +175,7 @@ impl MidiInput {
         std::unique_ptr<MidiInput> midiInput (new MidiInput (port->getPortName(), deviceIdentifier));
 
         port->setupInput (midiInput.get(), callback);
-        midiInput->internal = std::make_unique<MidiInputPimpl> (port);
+        midiInput->internal = std::make_unique<MidiInputImpl> (port);
 
         return midiInput;
         */
@@ -196,7 +196,7 @@ impl MidiInput {
         std::unique_ptr<MidiInput> midiInput (new MidiInput (deviceName, getFormattedPortIdentifier (client->getId(), port->getPortId())));
 
         port->setupInput (midiInput.get(), callback);
-        midiInput->internal = std::make_unique<MidiInputPimpl> (port);
+        midiInput->internal = std::make_unique<MidiInputImpl> (port);
 
         return midiInput;
         */

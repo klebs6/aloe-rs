@@ -1,7 +1,7 @@
 crate::ix!();
 
 pub struct ScopedCameraDevice<'a> {
-    owner:                 &'a mut CameraDevicePimpl<'a>,
+    owner:                 &'a mut CameraDeviceImpl<'a>,
     camera_id:             String,
     camera_manager:        &'a mut GlobalRef,
     handler:               &'a mut GlobalRef,
@@ -28,7 +28,7 @@ impl<'a> Drop for ScopedCameraDevice<'a> {
 impl<'a> ScopedCameraDevice<'a> {
 
     pub fn new(
-        owner_to_use:           &mut CameraDevicePimpl,
+        owner_to_use:           &mut CameraDeviceImpl,
         camera_id_to_use:       &String,
         camera_manager_to_use:  &mut GlobalRef,
         handler_to_use:         &mut GlobalRef,

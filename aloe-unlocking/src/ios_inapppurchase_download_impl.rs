@@ -5,11 +5,11 @@ crate::ix!();
   | content download.
   |
   */
-pub struct InAppPurchasesPimplDownloadImpl {
+pub struct InAppPurchasesImplDownloadImpl {
     download: *mut SKDownload,
 }
 
-impl InAppPurchasesDownload for InAppPurchasesPimplDownloadImpl {
+impl InAppPurchasesDownload for InAppPurchasesImplDownloadImpl {
 
     fn get_product_id(&self) -> String {
         
@@ -64,7 +64,7 @@ impl InAppPurchasesDownload for InAppPurchasesPimplDownloadImpl {
     }
 }
 
-impl Drop for InAppPurchasesPimplDownloadImpl {
+impl Drop for InAppPurchasesImplDownloadImpl {
 
     fn drop(&mut self) {
         todo!();
@@ -74,7 +74,7 @@ impl Drop for InAppPurchasesPimplDownloadImpl {
     }
 }
 
-impl InAppPurchasesPimplDownloadImpl {
+impl InAppPurchasesImplDownloadImpl {
 
     pub fn new(download_to_use: *mut SKDownload) -> Self {
     

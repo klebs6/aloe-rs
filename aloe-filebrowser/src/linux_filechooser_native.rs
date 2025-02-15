@@ -14,7 +14,7 @@ pub struct FileChooserNative<'a> {
     separator:             String,
 }
 
-impl<'a> FileChooserPimpl for FileChooserNative<'a> {
+impl<'a> FileChooserImpl for FileChooserNative<'a> {
 
     fn run_modally(&mut self)  {
         

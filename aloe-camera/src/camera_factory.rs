@@ -72,7 +72,7 @@ impl CameraFactory {
 
                 auto& pendingOpen = camerasToOpen.getReference (camerasToOpen.size() - 1);
 
-                pendingOpen.device->pimpl->open ([this] (const String& deviceId, const String& error)
+                pendingOpen.device->impl->open ([this] (const String& deviceId, const String& error)
                                                  {
                                                      int cIndex = getCameraIndex (deviceId);
 
@@ -101,7 +101,7 @@ impl CameraFactory {
                 {
                     auto& pendingOpen = camerasToOpen.getReference (i);
 
-                    if (pendingOpen.device->pimpl->getCameraId() == cameraId)
+                    if (pendingOpen.device->impl->getCameraId() == cameraId)
                         return i;
                 }
 

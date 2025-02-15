@@ -1,7 +1,7 @@
 crate::ix!();
 
 //#[cfg(ALOE_CONTENT_SHARING)]
-pub trait ContentSharerPimpl
+pub trait ContentSharerImpl
 {
     fn share_files(&mut self, files: &[Url]);
 
@@ -24,7 +24,7 @@ pub struct ContentSharer {
     callback:              fn(_0: bool, _1: String) -> (),
 
     #[cfg(ALOE_CONTENT_SHARING)]
-    pimpl:                 Box<ContentSharerPimpl>,
+    impl_:                 Box<ContentSharerImpl>,
 
     #[cfg(ALOE_CONTENT_SHARING)]
     prepare_images_thread: Box<ContentSharerPrepareImagesThread>,
@@ -36,7 +36,7 @@ pub struct ContentSharer {
 impl ContentSharer {
     
     #[cfg(target_os="android")]
-    pub fn create_pimpl(&mut self) -> *mut ContentSharerPimpl {
+    pub fn create_pimpl(&mut self) -> *mut ContentSharerImpl {
         
         todo!();
         /*
@@ -94,7 +94,7 @@ impl ContentSharer {
         /*
             #if ALOE_CONTENT_SHARING
         startNewShare (callbackToUse);
-        pimpl->shareFiles (files);
+        impl->shareFiles (files);
       #else
         ignoreUnused (files);
 
@@ -114,8 +114,8 @@ impl ContentSharer {
         /*
             // You should not start another sharing operation before the previous one is finished.
         // Forcibly stopping a previous sharing operation is rarely a good idea!
-        jassert (pimpl == nullptr);
-        pimpl.reset();
+        jassert (impl == nullptr);
+        impl.reset();
 
         prepareDataThread = nullptr;
         prepareImagesThread = nullptr;
@@ -126,7 +126,7 @@ impl ContentSharer {
         jassert (callbackToUse);
         callback = std::move (callbackToUse);
 
-        pimpl.reset (createPimpl());
+        impl.reset (createImpl());
         */
     }
     
@@ -152,7 +152,7 @@ impl ContentSharer {
         /*
             #if ALOE_CONTENT_SHARING
         startNewShare (callbackToUse);
-        pimpl->shareText (text);
+        impl->shareText (text);
       #else
         ignoreUnused (text);
 
@@ -236,7 +236,7 @@ impl ContentSharer {
         prepareImagesThread = nullptr;
         prepareDataThread = nullptr;
 
-        pimpl->shareFiles (urls);
+        impl->shareFiles (urls);
         */
     }
     
@@ -290,7 +290,7 @@ impl ContentSharer {
         String error (errorDescription);
 
       #if ALOE_CONTENT_SHARING
-        pimpl.reset();
+        impl.reset();
       #endif
 
         if (cb)
@@ -311,7 +311,7 @@ impl ContentSharer {
     
     #[cfg(target_os="ios")]
     #[cfg(ALOE_CONTENT_SHARING)]
-    pub fn create_pimpl(&mut self) -> *mut ContentSharer::ContentSharerPimpl {
+    pub fn create_pimpl(&mut self) -> *mut ContentSharer::ContentSharerImpl {
         
         todo!();
         /*

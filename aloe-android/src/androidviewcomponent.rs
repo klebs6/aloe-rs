@@ -28,7 +28,7 @@ crate::ix!();
 #[leak_detector]
 pub struct AndroidViewComponent<'a> {
     base:  Component<'a>,
-    pimpl: Box<AndroidViewComponentPimpl<'a>>,
+    impl_: Box<AndroidViewComponentImpl<'a>>,
 }
 
 //#[cfg(target_os="android")]
@@ -64,7 +64,7 @@ impl<'a> AndroidViewComponent<'a> {
         /*
             if (view != getView())
         {
-            pimpl.reset();
+            impl.reset();
 
             if (view != nullptr)
             {
@@ -73,7 +73,7 @@ impl<'a> AndroidViewComponent<'a> {
                 auto* env = getEnv();
                 auto localref = LocalRef<jobject>(env->NewLocalRef((jobject) view));
 
-                pimpl.reset (new AndroidViewComponentPimpl (localref, *this));
+                impl.reset (new AndroidViewComponentImpl (localref, *this));
             }
         }
         */
@@ -87,7 +87,7 @@ impl<'a> AndroidViewComponent<'a> {
         
         todo!();
         /*
-            return pimpl == nullptr ? nullptr : (void*) pimpl->view;
+            return impl == nullptr ? nullptr : (void*) impl->view;
         */
     }
     
@@ -100,8 +100,8 @@ impl<'a> AndroidViewComponent<'a> {
         
         todo!();
         /*
-            if (pimpl != nullptr)
-            setBounds (pimpl->getViewBounds());
+            if (impl != nullptr)
+            setBounds (impl->getViewBounds());
         */
     }
     

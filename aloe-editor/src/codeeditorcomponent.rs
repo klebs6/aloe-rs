@@ -46,7 +46,7 @@ pub struct CodeEditorComponent<'a> {
     vertical_scroll_bar:            ScrollBar<'a>, // default = { true  }
     horizontal_scroll_bar:          ScrollBar<'a>, // default = { false  }
     app_command_manager:            *mut ApplicationCommandManager<'a>, // default = nullptr
-    pimpl:                          Box<CodeEditorComponentPimpl<'a>>,
+    impl_:                          Box<CodeEditorComponentImpl<'a>>,
     gutter:                         Box<CodeEditorComponentGutterComponent<'a>>,
     drag_type:                      CodeEditorComponentDragType, // default = notDragging
     code_tokeniser:                 *mut dyn CodeTokeniser,
@@ -130,7 +130,7 @@ impl<'a> Drop for CodeEditorComponent<'a> {
     fn drop(&mut self) {
         todo!();
         /*
-            document.removeListener (pimpl.get());
+            document.removeListener (impl.get());
         */
     }
 }
@@ -366,7 +366,7 @@ impl<'a> CodeEditorComponent<'a> {
         : selection_end(doc, 0, 0),
         : code_tokeniser(tokeniser),
 
-            pimpl.reset (new CodeEditorComponentPimpl (*this));
+            impl.reset (new CodeEditorComponentImpl (*this));
 
         caretPos.setPositionMaintained (true);
         selectionStart.setPositionMaintained (true);
@@ -391,9 +391,9 @@ impl<'a> CodeEditorComponent<'a> {
 
         setLineNumbersShown (true);
 
-        verticalScrollBar.addListener (pimpl.get());
-        horizontalScrollBar.addListener (pimpl.get());
-        document.addListener (pimpl.get());
+        verticalScrollBar.addListener (impl.get());
+        horizontalScrollBar.addListener (impl.get());
+        document.addListener (impl.get());
 
         lookAndFeelChanged();
         */
@@ -555,7 +555,7 @@ impl<'a> CodeEditorComponent<'a> {
         
         todo!();
         /*
-            pimpl->triggerAsyncUpdate();
+            impl->triggerAsyncUpdate();
         */
     }
     
@@ -563,7 +563,7 @@ impl<'a> CodeEditorComponent<'a> {
         
         todo!();
         /*
-            pimpl->cancelPendingUpdate();
+            impl->cancelPendingUpdate();
 
         auto numNeeded = linesOnScreen + 1;
         auto minLineToRepaint = numNeeded;
@@ -797,7 +797,7 @@ impl<'a> CodeEditorComponent<'a> {
 
             updateCachedIterators (firstLineOnScreen);
             rebuildLineTokensAsync();
-            pimpl->handleUpdateNowIfNeeded();
+            impl->handleUpdateNowIfNeeded();
 
             editorViewportPositionChanged();
         }
@@ -1437,7 +1437,7 @@ impl<'a> CodeEditorComponent<'a> {
         todo!();
         /*
             document.newTransaction();
-        pimpl->startTimer (600);
+        impl->startTimer (600);
         */
     }
     
@@ -1490,7 +1490,7 @@ impl<'a> CodeEditorComponent<'a> {
             else                                                                return false;
         }
 
-        pimpl->handleUpdateNowIfNeeded();
+        impl->handleUpdateNowIfNeeded();
         return true;
         */
     }

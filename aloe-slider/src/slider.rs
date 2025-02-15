@@ -81,7 +81,7 @@ pub struct Slider<'a> {
       */
     text_from_value_function: fn(_0: f64) -> String,
 
-    pimpl:                    Box<Pimpl<'a>>,
+    impl_:                    Box<Impl<'a>>,
 }
 
 impl<'a> Default for Slider<'a> {
@@ -153,12 +153,12 @@ impl<'a> Slider<'a> {
             setWantsKeyboardFocus (false);
         setRepaintsOnMouseActivity (true);
 
-        pimpl.reset (new Pimpl (*this, style, textBoxPos));
+        impl.reset (new Impl (*this, style, textBoxPos));
 
         Slider::lookAndFeelChanged();
         updateText();
 
-        pimpl->registerListeners();
+        impl->registerListeners();
         */
     }
     
@@ -171,7 +171,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->listeners.add (l);
+            impl->listeners.add (l);
         */
     }
     
@@ -183,7 +183,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->listeners.remove (l);
+            impl->listeners.remove (l);
         */
     }
     
@@ -196,7 +196,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->style;
+            return impl->style;
         */
     }
     
@@ -215,7 +215,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setSliderStyle (newStyle);
+            impl->setSliderStyle (newStyle);
         */
     }
     
@@ -232,7 +232,7 @@ impl<'a> Slider<'a> {
         jassert (p.startAngleRadians < MathConstants<float>::pi * 4.0f
                   && p.endAngleRadians < MathConstants<float>::pi * 4.0f);
 
-        pimpl->rotaryParams = p;
+        impl->rotaryParams = p;
         */
     }
     
@@ -262,7 +262,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->rotaryParams;
+            return impl->rotaryParams;
         */
     }
     
@@ -285,7 +285,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->isVelocityBased = vb;
+            impl->isVelocityBased = vb;
         */
     }
     
@@ -298,7 +298,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->isVelocityBased;
+            return impl->isVelocityBased;
         */
     }
     
@@ -311,7 +311,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->userKeyOverridesVelocity;
+            return impl->userKeyOverridesVelocity;
         */
     }
     
@@ -324,7 +324,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->velocityModeThreshold;
+            return impl->velocityModeThreshold;
         */
     }
     
@@ -337,7 +337,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->velocityModeSensitivity;
+            return impl->velocityModeSensitivity;
         */
     }
     
@@ -350,7 +350,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->velocityModeOffset;
+            return impl->velocityModeOffset;
         */
     }
     
@@ -418,7 +418,7 @@ impl<'a> Slider<'a> {
         jassert (sensitivity > 0);
         jassert (offset >= 0);
 
-        pimpl->setVelocityModeParameters (sensitivity, threshold, offset,
+        impl->setVelocityModeParameters (sensitivity, threshold, offset,
                                           userCanPressKeyToSwapMode, modifierToSwapModes);
         */
     }
@@ -435,7 +435,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->normRange.skew;
+            return impl->normRange.skew;
         */
     }
     
@@ -451,7 +451,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->normRange.symmetricSkew;
+            return impl->normRange.symmetricSkew;
         */
     }
     
@@ -494,8 +494,8 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->normRange.skew = factor;
-        pimpl->normRange.symmetricSkew = symmetricSkew;
+            impl->normRange.skew = factor;
+        impl->normRange.symmetricSkew = symmetricSkew;
         */
     }
     
@@ -515,7 +515,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->normRange.setSkewForCentre (sliderValueToShowAtMidPoint);
+            impl->normRange.setSkewForCentre (sliderValueToShowAtMidPoint);
         */
     }
     
@@ -528,7 +528,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->pixelsForFullDragExtent;
+            return impl->pixelsForFullDragExtent;
         */
     }
     
@@ -549,7 +549,7 @@ impl<'a> Slider<'a> {
         /*
             jassert (distanceForFullScaleDrag > 0);
 
-        pimpl->pixelsForFullDragExtent = distanceForFullScaleDrag;
+        impl->pixelsForFullDragExtent = distanceForFullScaleDrag;
         */
     }
     
@@ -575,7 +575,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setIncDecButtonsMode (mode);
+            impl->setIncDecButtonsMode (mode);
         */
     }
     
@@ -588,7 +588,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->textBoxPos;
+            return impl->textBoxPos;
         */
     }
     
@@ -601,7 +601,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->textBoxWidth;
+            return impl->textBoxWidth;
         */
     }
     
@@ -614,7 +614,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->textBoxHeight;
+            return impl->textBoxHeight;
         */
     }
     
@@ -656,7 +656,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setTextBoxStyle (newPosition, isReadOnly, textEntryBoxWidth, textEntryBoxHeight);
+            impl->setTextBoxStyle (newPosition, isReadOnly, textEntryBoxWidth, textEntryBoxHeight);
         */
     }
     
@@ -669,7 +669,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->editableText;
+            return impl->editableText;
         */
     }
     
@@ -688,7 +688,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setTextBoxIsEditable (shouldBeEditable);
+            impl->setTextBoxIsEditable (shouldBeEditable);
         */
     }
     
@@ -705,7 +705,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->showTextBox();
+            impl->showTextBox();
         */
     }
     
@@ -727,7 +727,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->hideTextBox (discardCurrentEditorContents);
+            impl->hideTextBox (discardCurrentEditorContents);
         */
     }
     
@@ -748,7 +748,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->sendChangeOnlyOnRelease = onlyNotifyOnRelease;
+            impl->sendChangeOnlyOnRelease = onlyNotifyOnRelease;
         */
     }
     
@@ -761,7 +761,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->snapsToMousePos;
+            return impl->snapsToMousePos;
         */
     }
     
@@ -782,7 +782,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->snapsToMousePos = shouldSnapToMouse;
+            impl->snapsToMousePos = shouldSnapToMouse;
         */
     }
     
@@ -827,10 +827,10 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->showPopupOnDrag = showOnDrag;
-        pimpl->showPopupOnHover = showOnHover;
-        pimpl->parentForPopupDisplay = parent;
-        pimpl->popupHoverTimeout = hoverTimeout;
+            impl->showPopupOnDrag = showOnDrag;
+        impl->showPopupOnHover = showOnHover;
+        impl->parentForPopupDisplay = parent;
+        impl->popupHoverTimeout = hoverTimeout;
         */
     }
     
@@ -845,7 +845,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->popupDisplay.get();
+            return impl->popupDisplay.get();
         */
     }
     
@@ -861,7 +861,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->lookAndFeelChanged (getLookAndFeel());
+            impl->lookAndFeelChanged (getLookAndFeel());
         */
     }
     
@@ -869,7 +869,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            repaint(); pimpl->updateTextBoxEnablement();
+            repaint(); impl->updateTextBoxEnablement();
         */
     }
     
@@ -881,7 +881,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return { pimpl->normRange.start, pimpl->normRange.end };
+            return { impl->normRange.start, impl->normRange.end };
         */
     }
     
@@ -894,7 +894,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->normRange.end;
+            return impl->normRange.end;
         */
     }
     
@@ -907,7 +907,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->normRange.start;
+            return impl->normRange.start;
         */
     }
     
@@ -920,7 +920,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->normRange.interval;
+            return impl->normRange.interval;
         */
     }
     
@@ -957,7 +957,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setRange (newMin, newMax, newInt);
+            impl->setRange (newMin, newMax, newInt);
         */
     }
     
@@ -987,7 +987,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setRange (newRange.getStart(), newRange.getEnd(), newInt);
+            impl->setRange (newRange.getStart(), newRange.getEnd(), newInt);
         */
     }
     
@@ -1005,7 +1005,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setNormalisableRange (newRange);
+            impl->setNormalisableRange (newRange);
         */
     }
     
@@ -1017,7 +1017,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->getValue();
+            return impl->getValue();
         */
     }
     
@@ -1037,7 +1037,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->currentValue;
+            return impl->currentValue;
         */
     }
     
@@ -1057,7 +1057,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->valueMin;
+            return impl->valueMin;
         */
     }
     
@@ -1077,7 +1077,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->valueMax;
+            return impl->valueMax;
         */
     }
     
@@ -1119,7 +1119,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setValue (newValue, notification);
+            impl->setValue (newValue, notification);
         */
     }
     
@@ -1144,7 +1144,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->getMinValue();
+            return impl->getMinValue();
         */
     }
     
@@ -1169,7 +1169,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->getMaxValue();
+            return impl->getMaxValue();
         */
     }
     
@@ -1224,7 +1224,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setMinValue (newValue, notification, allowNudgingOfOtherValues);
+            impl->setMinValue (newValue, notification, allowNudgingOfOtherValues);
         */
     }
     
@@ -1279,7 +1279,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setMaxValue (newValue, notification, allowNudgingOfOtherValues);
+            impl->setMaxValue (newValue, notification, allowNudgingOfOtherValues);
         */
     }
     
@@ -1330,7 +1330,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setMinAndMaxValues (newMinValue, newMaxValue, notification);
+            impl->setMinAndMaxValues (newMinValue, newMaxValue, notification);
         */
     }
     
@@ -1364,9 +1364,9 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->doubleClickToValue = isDoubleClickEnabled;
-        pimpl->doubleClickReturnValue = valueToSetOnDoubleClick;
-        pimpl->singleClickModifiers = mods;
+            impl->doubleClickToValue = isDoubleClickEnabled;
+        impl->doubleClickReturnValue = valueToSetOnDoubleClick;
+        impl->singleClickModifiers = mods;
         */
     }
     
@@ -1379,7 +1379,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->doubleClickReturnValue;
+            return impl->doubleClickReturnValue;
         */
     }
     
@@ -1393,7 +1393,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->doubleClickToValue;
+            return impl->doubleClickToValue;
         */
     }
     
@@ -1407,7 +1407,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->updateText();
+            impl->updateText();
         */
     }
     
@@ -1428,7 +1428,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->setTextValueSuffix (suffix);
+            impl->setTextValueSuffix (suffix);
         */
     }
     
@@ -1440,7 +1440,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->textSuffix;
+            return impl->textSuffix;
         */
     }
     
@@ -1487,7 +1487,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->normRange.convertFrom0to1 (proportion);
+            return impl->normRange.convertFrom0to1 (proportion);
         */
     }
     
@@ -1495,7 +1495,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->normRange.convertTo0to1 (value);
+            return impl->normRange.convertTo0to1 (value);
         */
     }
     
@@ -1525,7 +1525,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->numDecimalPlaces;
+            return impl->numDecimalPlaces;
         */
     }
     
@@ -1541,7 +1541,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->numDecimalPlaces = decimalPlacesToDisplay;
+            impl->numDecimalPlaces = decimalPlacesToDisplay;
         updateText();
         */
     }
@@ -1560,7 +1560,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->sliderBeingDragged;
+            return impl->sliderBeingDragged;
         */
     }
     
@@ -1604,7 +1604,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->menuEnabled = menuEnabled;
+            impl->menuEnabled = menuEnabled;
         */
     }
     
@@ -1619,7 +1619,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->scrollWheelEnabled = enabled;
+            impl->scrollWheelEnabled = enabled;
         */
     }
     
@@ -1632,7 +1632,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->scrollWheelEnabled;
+            return impl->scrollWheelEnabled;
         */
     }
     
@@ -1644,7 +1644,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->isHorizontal();
+            return impl->isHorizontal();
         */
     }
     
@@ -1656,7 +1656,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->isVertical();
+            return impl->isVertical();
         */
     }
     
@@ -1668,7 +1668,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->isRotary();
+            return impl->isRotary();
         */
     }
     
@@ -1680,7 +1680,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->isBar();
+            return impl->isBar();
         */
     }
     
@@ -1692,7 +1692,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->isTwoValue();
+            return impl->isTwoValue();
         */
     }
     
@@ -1704,7 +1704,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->isThreeValue();
+            return impl->isThreeValue();
         */
     }
     
@@ -1729,7 +1729,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            return pimpl->getPositionOfValue (value);
+            return impl->getPositionOfValue (value);
         */
     }
     
@@ -1737,7 +1737,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->paint (g, getLookAndFeel());
+            impl->paint (g, getLookAndFeel());
         */
     }
     
@@ -1745,7 +1745,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->resized (getLookAndFeel());
+            impl->resized (getLookAndFeel());
         */
     }
     
@@ -1761,7 +1761,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->mouseDown (e);
+            impl->mouseDown (e);
         */
     }
     
@@ -1769,7 +1769,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->mouseUp();
+            impl->mouseUp();
         */
     }
     
@@ -1777,7 +1777,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->mouseMove();
+            impl->mouseMove();
         */
     }
     
@@ -1785,7 +1785,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->mouseExit();
+            impl->mouseExit();
         */
     }
 
@@ -1799,7 +1799,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            pimpl->mouseMove();
+            impl->mouseMove();
         */
     }
     
@@ -1808,7 +1808,7 @@ impl<'a> Slider<'a> {
         todo!();
         /*
             if (isEnabled())
-            pimpl->modifierKeysChanged (modifiers);
+            impl->modifierKeysChanged (modifiers);
         */
     }
     
@@ -1817,7 +1817,7 @@ impl<'a> Slider<'a> {
         todo!();
         /*
             if (isEnabled())
-            pimpl->mouseDrag (e);
+            impl->mouseDrag (e);
         */
     }
     
@@ -1826,7 +1826,7 @@ impl<'a> Slider<'a> {
         todo!();
         /*
             if (isEnabled())
-            pimpl->mouseDoubleClick();
+            impl->mouseDoubleClick();
         */
     }
     
@@ -1836,7 +1836,7 @@ impl<'a> Slider<'a> {
         
         todo!();
         /*
-            if (! (isEnabled() && pimpl->mouseWheelMove (e, wheel)))
+            if (! (isEnabled() && impl->mouseWheelMove (e, wheel)))
             Component::mouseWheelMove (e, wheel);
         */
     }

@@ -2,7 +2,7 @@ crate::ix!();
 
 #[weak_referenceable]
 pub struct PlayerControllerBase<'a, Derived> {
-    owner:                                &'a mut VideoComponentPimpl<'a>,
+    owner:                                &'a mut VideoComponentImpl<'a>,
     use_native_controls:                  bool,
     player_async_initialiser:             PlayerAsyncInitialiser<'a>,
     player_status_observer:               Box<NSObject,NSObjectDeleter>,
@@ -24,7 +24,7 @@ impl<'a, Derived> Drop for PlayerControllerBase<'a, Derived> {
 impl<'a, Derived> PlayerControllerBase<'a, Derived> {
 
     pub fn new(
-        owner_to_use:                     &mut VideoComponentPimpl,
+        owner_to_use:                     &mut VideoComponentImpl,
         use_native_controls_if_available: bool) -> Self {
     
         todo!();

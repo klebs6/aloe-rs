@@ -13,7 +13,7 @@ impl Default for PostCatalinaPhotoOutputDelegateClass {
 
             : ObjCClass<NSObject> ("PhotoOutputDelegateClass_")
                     addMethod (@selector (captureOutput:didFinishProcessingPhoto:error:), didFinishProcessingPhoto, "v@:@@@");
-                    addIvar<CameraDevicePimpl*> ("owner");
+                    addIvar<CameraDeviceImpl*> ("owner");
                     registerClass();
         */
     }
@@ -48,17 +48,17 @@ impl PostCatalinaPhotoOutputDelegateClass {
         */
     }
     
-    pub fn get_owner<'a>(self_: Id<Self>) -> &'a mut CameraDevicePimpl<'a> {
+    pub fn get_owner<'a>(self_: Id<Self>) -> &'a mut CameraDeviceImpl<'a> {
         
         todo!();
         /*
-            return *getIvar<CameraDevicePimpl*> (self, "owner");
+            return *getIvar<CameraDeviceImpl*> (self, "owner");
         */
     }
     
     pub fn set_owner<'a>(
         self_: Id<Self>,
-        t:     *mut CameraDevicePimpl<'a>)  {
+        t:     *mut CameraDeviceImpl<'a>)  {
         
         todo!();
         /*

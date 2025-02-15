@@ -45,11 +45,6 @@ impl<'a> Default for AccessibilityDemo<'a> {
     }
 }
 
-pub trait Paint {
-
-    fn paint(&mut self, g: &mut Graphics);
-}
-
 impl<'a> Paint for AccessibilityDemo<'a> {
 
     fn paint(&mut self, g: &mut Graphics)  {

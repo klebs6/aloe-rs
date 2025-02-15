@@ -23,7 +23,7 @@ impl<'a> Drop for SliderScopedDragNotification<'a> {
     fn drop(&mut self) {
         todo!();
         /*
-            sliderBeingDragged.pimpl->sendDragEnd();
+            sliderBeingDragged.impl->sendDragEnd();
         */
     }
 }
@@ -36,7 +36,7 @@ impl<'a> SliderScopedDragNotification<'a> {
         /*
         : slider_being_dragged(s),
 
-            sliderBeingDragged.pimpl->sendDragStart();
+            sliderBeingDragged.impl->sendDragStart();
         */
     }
 }

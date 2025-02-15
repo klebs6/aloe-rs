@@ -2,7 +2,7 @@ crate::ix!();
 
 #[cfg(ALOE_MODAL_LOOPS_PERMITTED)]
 pub struct SaveSync {
-    p: &mut Pimpl,
+    p: &mut Impl,
 }
 
 #[cfg(ALOE_MODAL_LOOPS_PERMITTED)]

@@ -16,7 +16,7 @@ crate::ix!();
 #[no_copy]
 #[leak_detector]
 pub struct OSCSender {
-    pimpl: Box<OSCSenderPimpl>,
+    impl_: Box<OSCSenderImpl>,
 }
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_osc/osc/aloe_OSCSender.cpp]
@@ -27,7 +27,7 @@ impl Default for OSCSender {
         /*
 
 
-            : pimpl (new OSCSenderPimpl())
+            : impl (new OSCSenderImpl())
         */
     }
 }
@@ -37,8 +37,8 @@ impl Drop for OSCSender {
     fn drop(&mut self) {
         todo!();
         /*
-            pimpl->disconnect();
-        pimpl.reset();
+            impl->disconnect();
+        impl.reset();
         */
     }
 }
@@ -147,7 +147,7 @@ impl OSCSender {
         
         todo!();
         /*
-            return pimpl->connect (targetHostName, targetPortNumber);
+            return impl->connect (targetHostName, targetPortNumber);
         */
     }
     
@@ -188,7 +188,7 @@ impl OSCSender {
         
         todo!();
         /*
-            return pimpl->connectToSocket (socket, targetHostName, targetPortNumber);
+            return impl->connectToSocket (socket, targetHostName, targetPortNumber);
         */
     }
     
@@ -208,7 +208,7 @@ impl OSCSender {
         
         todo!();
         /*
-            return pimpl->disconnect();
+            return impl->disconnect();
         */
     }
     
@@ -230,7 +230,7 @@ impl OSCSender {
         
         todo!();
         /*
-            return pimpl->send (message);
+            return impl->send (message);
         */
     }
     
@@ -252,7 +252,7 @@ impl OSCSender {
         
         todo!();
         /*
-            return pimpl->send (bundle);
+            return impl->send (bundle);
         */
     }
     
@@ -289,7 +289,7 @@ impl OSCSender {
         
         todo!();
         /*
-            return pimpl->send (message, host, port);
+            return impl->send (message, host, port);
         */
     }
     
@@ -326,7 +326,7 @@ impl OSCSender {
         
         todo!();
         /*
-            return pimpl->send (bundle,  host, port);
+            return impl->send (bundle,  host, port);
         */
     }
 }

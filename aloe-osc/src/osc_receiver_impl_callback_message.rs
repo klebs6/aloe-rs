@@ -1,6 +1,6 @@
 crate::ix!();
 
-pub struct OSCReceiverPimplCallbackMessage {
+pub struct OSCReceiverImplCallbackMessage {
     base: Message,
 
     /**
@@ -11,7 +11,7 @@ pub struct OSCReceiverPimplCallbackMessage {
     content: OSCBundleElement,
 }
 
-impl OSCReceiverPimplCallbackMessage {
+impl OSCReceiverImplCallbackMessage {
 
     pub fn new(osc_element: OSCBundleElement) -> Self {
     

@@ -18,7 +18,7 @@ crate::ix!();
 #[leak_detector]
 #[no_copy]
 pub struct NamedPipe {
-    pimpl:             Box<NamedPipePimpl>,
+    impl_:             Box<NamedPipeImpl>,
     current_pipe_name: String,
     lock:              ReadWriteLock,
 }
@@ -39,19 +39,19 @@ impl NamedPipe {
             {
             ScopedReadLock sl (lock);
 
-            if (pimpl != nullptr)
+            if (impl != nullptr)
             {
-                pimpl->stopReadOperation = true;
+                impl->stopReadOperation = true;
 
                 char buffer[1] = { 0 };
-                ssize_t done = ::write (pimpl->pipeIn, buffer, 1);
+                ssize_t done = ::write (impl->pipeIn, buffer, 1);
                 ignoreUnused (done);
             }
         }
 
         {
             ScopedWriteLock sl (lock);
-            pimpl.reset();
+            impl.reset();
         }
         */
     }
@@ -64,7 +64,7 @@ impl NamedPipe {
         todo!();
         /*
             #if ALOE_IOS
-        pimpl.reset (new Pimpl (File::getSpecialLocation (File::tempDirectory)
+        impl.reset (new Impl (File::getSpecialLocation (File::tempDirectory)
                                  .getChildFile (File::createLegalFileName (pipeName)).getFullPathName(), createPipe));
        #else
         auto file = pipeName;
@@ -72,18 +72,18 @@ impl NamedPipe {
         if (! File::isAbsolutePath (file))
             file = "/tmp/" + File::createLegalFileName (file);
 
-        pimpl.reset (new Pimpl (file, createPipe));
+        impl.reset (new Impl (file, createPipe));
        #endif
 
-        if (createPipe && ! pimpl->createFifos (mustNotExist))
+        if (createPipe && ! impl->createFifos (mustNotExist))
         {
-            pimpl.reset();
+            impl.reset();
             return false;
         }
 
-        if (! pimpl->connect (200))
+        if (! impl->connect (200))
         {
-            pimpl.reset();
+            impl.reset();
             return false;
         }
 
@@ -118,7 +118,7 @@ impl NamedPipe {
         todo!();
         /*
             ScopedReadLock sl (lock);
-        return pimpl != nullptr ? pimpl->read (static_cast<char*> (destBuffer), maxBytesToRead, timeOutMilliseconds) : -1;
+        return impl != nullptr ? impl->read (static_cast<char*> (destBuffer), maxBytesToRead, timeOutMilliseconds) : -1;
         */
     }
     
@@ -140,7 +140,7 @@ impl NamedPipe {
         todo!();
         /*
             ScopedReadLock sl (lock);
-        return pimpl != nullptr ? pimpl->write (static_cast<const char*> (sourceBuffer), numBytesToWrite, timeOutMilliseconds) : -1;
+        return impl != nullptr ? impl->write (static_cast<const char*> (sourceBuffer), numBytesToWrite, timeOutMilliseconds) : -1;
         */
     }
 }
@@ -186,7 +186,7 @@ impl NamedPipe {
         todo!();
         /*
             ScopedReadLock sl (lock);
-        return pimpl != nullptr;
+        return impl != nullptr;
         */
     }
 
@@ -239,7 +239,7 @@ impl NamedPipe {
 #[cfg(not(ALOE_WASM))]
 #[no_copy]
 #[leak_detector]
-pub struct NamedPipePimpl {
+pub struct NamedPipeImpl {
     pipe_in_name:        String,
     pipe_out_name:       String,
     pipe_in:             i32, // default = -1
@@ -252,7 +252,7 @@ pub struct NamedPipePimpl {
 
 #[cfg(not(ALOE_WASM))]
 #[cfg(target_os_family = "unix")]
-impl Drop for NamedPipePimpl {
+impl Drop for NamedPipeImpl {
     fn drop(&mut self) {
         todo!();
         /* 
@@ -270,7 +270,7 @@ impl Drop for NamedPipePimpl {
 
 #[cfg(not(ALOE_WASM))]
 #[cfg(target_os_family = "unix")]
-impl NamedPipePimpl {
+impl NamedPipeImpl {
 
     pub fn new(
         pipe_path:   &String,

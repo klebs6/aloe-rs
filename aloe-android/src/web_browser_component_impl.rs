@@ -1,7 +1,7 @@
 crate::ix!();
 
 #[cfg(target_os="android")]
-pub struct WebBrowserComponentPimpl<'a> {
+pub struct WebBrowserComponentImpl<'a> {
     base:                   AndroidViewComponent<'a>,
     base2:                  AsyncUpdater<'a>,
     owner:                  &'a mut WebBrowserComponent<'a>,
@@ -9,11 +9,11 @@ pub struct WebBrowserComponentPimpl<'a> {
     aloe_web_view_client:   GlobalRef,
     connection_thread:      Box<ConnectionThread<'a>>,
     response_ready_event:   WaitableEvent,
-    master_reference:       WeakReferenceMaster<WebBrowserComponentPimpl<'a>>,
+    master_reference:       WeakReferenceMaster<WebBrowserComponentImpl<'a>>,
 }
 
 #[cfg(target_os="android")]
-impl<'a> Drop for WebBrowserComponentPimpl<'a> {
+impl<'a> Drop for WebBrowserComponentImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -42,7 +42,7 @@ impl<'a> Drop for WebBrowserComponentPimpl<'a> {
 }
 
 #[cfg(target_os="android")]
-impl<'a> WebBrowserComponentPimpl<'a> {
+impl<'a> WebBrowserComponentImpl<'a> {
     
     pub fn new(o: &mut WebBrowserComponent) -> Self {
     
@@ -214,7 +214,7 @@ impl<'a> WebBrowserComponentPimpl<'a> {
             if (MessageManager::getInstance()->isThisTheMessageThread())
                 return owner.pageAboutToLoad (url);
 
-            WeakReference<WebBrowserComponentPimpl> weakRef (this);
+            WeakReference<WebBrowserComponentImpl> weakRef (this);
 
             if (weakRef == nullptr)
                 return false;
@@ -249,7 +249,7 @@ impl<'a> WebBrowserComponentPimpl<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentPimpl*> (host))
+            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentImpl*> (host))
                 return myself->handlePageAboutToLoad (aloeString (url));
 
             return 0;
@@ -266,7 +266,7 @@ impl<'a> WebBrowserComponentPimpl<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentPimpl*> (host))
+            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentImpl*> (host))
                 myself->owner.pageFinishedLoading (aloeString (url));
         */
     }
@@ -282,7 +282,7 @@ impl<'a> WebBrowserComponentPimpl<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentPimpl*> (host))
+            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentImpl*> (host))
                 myself->webReceivedHttpError (errorResponse);
         */
     }
@@ -300,7 +300,7 @@ impl<'a> WebBrowserComponentPimpl<'a> {
         /*
             auto* env = getEnv();
 
-            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentPimpl*> (host))
+            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentImpl*> (host))
             {
                 auto errorString = LocalRef<jstring> ((jstring) env->CallObjectMethod (sslError, SslError.toString));
 
@@ -318,7 +318,7 @@ impl<'a> WebBrowserComponentPimpl<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentPimpl*> (host))
+            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentImpl*> (host))
                 myself->owner.windowCloseRequest();
         */
     }
@@ -332,7 +332,7 @@ impl<'a> WebBrowserComponentPimpl<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentPimpl*> (host))
+            if (auto* myself = reinterpret_cast<WebBrowserComponent::WebBrowserComponentImpl*> (host))
                 myself->owner.newWindowAttemptingToLoad ({});
         */
     }

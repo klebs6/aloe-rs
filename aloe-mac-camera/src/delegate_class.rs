@@ -12,7 +12,7 @@ impl Default for DelegateClass {
 
 
             : ObjCClass<NSObject> ("ALOECameraDelegate_")
-                addIvar<CameraDevicePimpl*> ("owner");
+                addIvar<CameraDeviceImpl*> ("owner");
                 addProtocol (@protocol (AVCaptureFileOutputRecordingDelegate));
 
                 addMethod (@selector (captureOutput:didStartRecordingToOutputFileAtURL:  fromConnections:),       didStartRecordingToOutputFileAtURL,   "v@:@@@");
@@ -33,7 +33,7 @@ impl DelegateClass {
 
     pub fn set_owner(
         self_: Id<Self>,
-        owner: *mut CameraDevicePimpl)  {
+        owner: *mut CameraDeviceImpl)  {
         
         todo!();
         /*
@@ -41,11 +41,11 @@ impl DelegateClass {
         */
     }
     
-    pub fn get_owner<'a>(self_: Id<Self>) -> &'a mut CameraDevicePimpl<'a> {
+    pub fn get_owner<'a>(self_: Id<Self>) -> &'a mut CameraDeviceImpl<'a> {
         
         todo!();
         /*
-            return *getIvar<CameraDevicePimpl*> (self, "owner");
+            return *getIvar<CameraDeviceImpl*> (self, "owner");
         */
     }
     

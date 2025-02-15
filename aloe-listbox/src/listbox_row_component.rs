@@ -27,9 +27,9 @@ impl<'a> TooltipClient for ListBoxRowComponent<'a> {
     }
 }
 
-impl<'a> ListBoxRowComponent<'a> {
+impl<'a> From<&mut ListBox<'_>> for ListBoxRowComponent<'a> {
 
-    pub fn new(lb: &mut ListBox) -> Self {
+    fn from(lb: &mut ListBox) -> Self {
     
         todo!();
         /*
@@ -38,8 +38,11 @@ impl<'a> ListBoxRowComponent<'a> {
         
         */
     }
+}
+
+impl<'a> Paint for ListBoxRowComponent<'a> {
     
-    pub fn paint(&mut self, g: &mut Graphics)  {
+    fn paint(&mut self, g: &mut Graphics)  {
         
         todo!();
         /*
@@ -47,6 +50,9 @@ impl<'a> ListBoxRowComponent<'a> {
                 m->paintListBoxItem (row, g, getWidth(), getHeight(), isSelected);
         */
     }
+}
+
+impl<'a> ListBoxRowComponent<'a> {
     
     pub fn update(&mut self, 
         new_row:      i32,

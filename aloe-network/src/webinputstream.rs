@@ -61,7 +61,7 @@ pub trait WebInputStreamListener {
 #[no_copy]
 #[leak_detector]
 pub struct WebInputStream<'a> {
-    pimpl:              Box<WebInputStreamPimpl<'a>>,
+    impl_:              Box<WebInputStreamImpl<'a>>,
     has_called_connect: bool, // default = false
 }
 
@@ -102,7 +102,7 @@ impl<'a> WebInputStream<'a> {
     
         todo!();
         /*
-        : pimpl (std::make_unique<Pimpl> (*this, url, usePost))
+        : impl (std::make_unique<Impl> (*this, url, usePost))
         */
     }
 
@@ -125,7 +125,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            pimpl->withExtraHeaders (extra);       return *this;
+            impl->withExtraHeaders (extra);       return *this;
         */
     }
 
@@ -150,7 +150,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            pimpl->withCustomRequestCommand(cmd);  return *this;
+            impl->withCustomRequestCommand(cmd);  return *this;
         */
     }
 
@@ -171,7 +171,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            pimpl->withConnectionTimeout (t);      return *this;
+            impl->withConnectionTimeout (t);      return *this;
         */
     }
 
@@ -195,7 +195,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            pimpl->withNumRedirectsToFollow (num); return *this;
+            impl->withNumRedirectsToFollow (num); return *this;
         */
     }
 
@@ -208,7 +208,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            return pimpl->getRequestHeaders();
+            return impl->getRequestHeaders();
         */
     }
 
@@ -230,7 +230,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            connect (nullptr); return pimpl->getResponseHeaders();
+            connect (nullptr); return impl->getResponseHeaders();
         */
     }
 
@@ -243,7 +243,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            return pimpl->isError();
+            return impl->isError();
         */
     }
 
@@ -256,7 +256,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            pimpl->cancel();
+            impl->cancel();
         */
     }
 
@@ -269,7 +269,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            return pimpl->isExhausted();
+            return impl->isExhausted();
         */
     }
 
@@ -284,7 +284,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            return pimpl->getPosition();
+            return impl->getPosition();
         */
     }
 
@@ -311,7 +311,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            connect (nullptr); return pimpl->getTotalLength();
+            connect (nullptr); return impl->getTotalLength();
         */
     }
 
@@ -354,7 +354,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            connect (nullptr); return pimpl->read (buffer, bytes);
+            connect (nullptr); return impl->read (buffer, bytes);
         */
     }
 
@@ -385,7 +385,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            return pimpl->setPosition (pos);
+            return impl->setPosition (pos);
         */
     }
 
@@ -407,7 +407,7 @@ impl<'a> WebInputStream<'a> {
         
         todo!();
         /*
-            connect (nullptr); return pimpl->getStatusCode();
+            connect (nullptr); return impl->getStatusCode();
         */
     }
 
@@ -450,7 +450,7 @@ impl<'a> WebInputStream<'a> {
             return ! isError();
 
         hasCalledConnect = true;
-        return pimpl->connect (listener);
+        return impl->connect (listener);
         */
     }
 

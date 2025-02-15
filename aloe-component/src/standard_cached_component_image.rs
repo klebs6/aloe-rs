@@ -14,7 +14,7 @@ impl<'a> CachedComponentImage for StandardCachedComponentImage<'a> {
 
 }
 
-impl<'a> PaintGraphics for StandardCachedComponentImage<'a> {
+impl<'a> Paint for StandardCachedComponentImage<'a> {
 
     fn paint(&mut self, g: &mut Graphics)  {
         

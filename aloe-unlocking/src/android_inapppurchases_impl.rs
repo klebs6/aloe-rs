@@ -3,7 +3,7 @@ crate::ix!();
 #[cfg(target_os="android")]
 #[no_copy]
 #[leak_detector]
-pub struct InAppPurchasesPimpl<'a> {
+pub struct InAppPurchasesImpl<'a> {
     owner:                               &'a mut InAppPurchases,
     billing_client:                      GlobalRef,
     sku_details_query_callback_queue:    SegQueue<fn(_0: LocalRef<jobject>) -> ()>,
@@ -11,19 +11,19 @@ pub struct InAppPurchasesPimpl<'a> {
 }
 
 #[cfg(target_os="android")]
-pub mod pimpl {
+pub mod impl_ {
 
     use super::*;
 
     lazy_static!{
         /*
-        InAppPurchases::InAppPurchasesPimpl::AloeBillingClient_Class InAppPurchases::InAppPurchasesPimpl::AloeBillingClient;
+        InAppPurchases::InAppPurchasesImpl::AloeBillingClient_Class InAppPurchases::InAppPurchasesImpl::AloeBillingClient;
         */
     }
 }
 
 #[cfg(target_os="android")]
-impl<'a> Drop for InAppPurchasesPimpl<'a> {
+impl<'a> Drop for InAppPurchasesImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -34,7 +34,7 @@ impl<'a> Drop for InAppPurchasesPimpl<'a> {
 }
 
 #[cfg(target_os="android")]
-impl<'a> InAppPurchasesPimpl<'a> {
+impl<'a> InAppPurchasesImpl<'a> {
 
     pub fn new(parent: &mut InAppPurchases) -> Self {
     
@@ -227,7 +227,7 @@ impl<'a> InAppPurchasesPimpl<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<InAppPurchasesPimpl*> (host))
+            if (auto* myself = reinterpret_cast<InAppPurchasesImpl*> (host))
                 myself->updateSkuDetails (skuDetailsList);
         */
     }
@@ -240,7 +240,7 @@ impl<'a> InAppPurchasesPimpl<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<InAppPurchasesPimpl*> (host))
+            if (auto* myself = reinterpret_cast<InAppPurchasesImpl*> (host))
                 myself->updatePurchasesList (purchasesList);
         */
     }
@@ -254,7 +254,7 @@ impl<'a> InAppPurchasesPimpl<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<InAppPurchasesPimpl*> (host))
+            if (auto* myself = reinterpret_cast<InAppPurchasesImpl*> (host))
                 myself->purchaseCompleted (purchase, responseCode);
         */
     }
@@ -268,7 +268,7 @@ impl<'a> InAppPurchasesPimpl<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<InAppPurchasesPimpl*> (host))
+            if (auto* myself = reinterpret_cast<InAppPurchasesImpl*> (host))
                 myself->purchaseConsumed (productIdentifier, responseCode);
         */
     }

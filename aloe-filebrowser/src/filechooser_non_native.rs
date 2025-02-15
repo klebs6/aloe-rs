@@ -12,7 +12,7 @@ pub struct FileChooserNonNative<'a> {
     dialog_box:           FileChooserDialogBox<'a>,
 }
 
-impl<'a> FileChooserPimpl for FileChooserNonNative<'a> {
+impl<'a> FileChooserImpl for FileChooserNonNative<'a> {
 
     fn launch(&mut self)  {
         

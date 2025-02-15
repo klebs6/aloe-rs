@@ -1,7 +1,7 @@
 crate::ix!();
 
 #[no_copy]
-pub struct iOSAudioIODevicePimpl<'a> {
+pub struct iOSAudioIODeviceImpl<'a> {
 
     base2:                        AsyncUpdater<'a>,
     channel_data:                 IOChannelData,
@@ -30,7 +30,7 @@ pub struct iOSAudioIODevicePimpl<'a> {
     xrun:                         i32,
 }
 
-impl<'a> AudioPlayHeadInterface for iOSAudioIODevicePimpl<'a> {
+impl<'a> AudioPlayHeadInterface for iOSAudioIODeviceImpl<'a> {
 
     fn get_current_position(&mut self, result: &mut AudioPlayHeadCurrentPositionInfo) -> bool {
         
@@ -106,7 +106,7 @@ impl<'a> AudioPlayHeadInterface for iOSAudioIODevicePimpl<'a> {
     }
 }
 
-impl<'a> Drop for iOSAudioIODevicePimpl<'a> {
+impl<'a> Drop for iOSAudioIODeviceImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -124,7 +124,7 @@ pub const IOS_AUDIO_IO_DEVICE_DEFAULT_BUFFER_SIZE: i32 = 512;
 #[cfg(not(TARGET_IPHONE_SIMULATOR))]
 pub const IOS_AUDIO_IO_DEVICE_DEFAULT_BUFFER_SIZE: i32 = 256;
 
-impl<'a> iOSAudioIODevicePimpl<'a> {
+impl<'a> iOSAudioIODeviceImpl<'a> {
 
     pub fn new(
         io_device_type: *mut iOSAudioIODeviceType,
@@ -830,7 +830,7 @@ impl<'a> iOSAudioIODevicePimpl<'a> {
         
         todo!();
         /*
-            return static_cast<Pimpl*> (client)->process (flags, time, numFrames, data);
+            return static_cast<Impl*> (client)->process (flags, time, numFrames, data);
         */
     }
     
@@ -1077,7 +1077,7 @@ impl<'a> iOSAudioIODevicePimpl<'a> {
         
         todo!();
         /*
-            static_cast<Pimpl*> (data)->handleAudioUnitPropertyChange (unit, propertyID, scope, element);
+            static_cast<Impl*> (data)->handleAudioUnitPropertyChange (unit, propertyID, scope, element);
         */
     }
     
@@ -1098,7 +1098,7 @@ impl<'a> iOSAudioIODevicePimpl<'a> {
         
         todo!();
         /*
-            return static_cast<Pimpl*> (client)->handleMidiMessage (MidiMessage ((int) status,
+            return static_cast<Impl*> (client)->handleMidiMessage (MidiMessage ((int) status,
                                                                                  (int) data1,
                                                                                  (int) data2,
                                                                                  getTimestampForMIDI()));
@@ -1114,7 +1114,7 @@ impl<'a> iOSAudioIODevicePimpl<'a> {
         
         todo!();
         /*
-            return static_cast<Pimpl*> (client)->handleMidiMessage (MidiMessage (data, (int) length, getTimestampForMIDI()));
+            return static_cast<Impl*> (client)->handleMidiMessage (MidiMessage (data, (int) length, getTimestampForMIDI()));
         */
     }
     

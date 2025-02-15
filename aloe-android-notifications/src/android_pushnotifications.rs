@@ -27,25 +27,25 @@ pub fn aloe_handle_notification_intent(intent: *mut c_void) -> bool {
         /*
             auto* instance = PushNotifications::getInstanceWithoutCreating();
 
-        if (PushNotifications::PushNotificationsPimpl::isDeleteNotificationIntent ((jobject) intent))
+        if (PushNotifications::PushNotificationsImpl::isDeleteNotificationIntent ((jobject) intent))
         {
             if (instance)
-                instance->pimpl->notifyListenersAboutLocalNotificationDeleted (LocalRef<jobject> ((jobject) intent));
+                instance->impl->notifyListenersAboutLocalNotificationDeleted (LocalRef<jobject> ((jobject) intent));
 
             return true;
         }
-        else if (PushNotifications::PushNotificationsPimpl::isLocalNotificationIntent ((jobject) intent))
+        else if (PushNotifications::PushNotificationsImpl::isLocalNotificationIntent ((jobject) intent))
         {
             if (instance)
-                instance->pimpl->notifyListenersAboutLocalNotification (LocalRef<jobject> ((jobject) intent));
+                instance->impl->notifyListenersAboutLocalNotification (LocalRef<jobject> ((jobject) intent));
 
             return true;
         }
       #if defined(ALOE_FIREBASE_MESSAGING_SERVICE_CLASSNAME)
-        else if (PushNotifications::PushNotificationsPimpl::isRemoteNotificationIntent ((jobject) intent))
+        else if (PushNotifications::PushNotificationsImpl::isRemoteNotificationIntent ((jobject) intent))
         {
             if (instance)
-                instance->pimpl->notifyListenersAboutRemoteNotificationFromSystemTray (LocalRef<jobject> ((jobject) intent));
+                instance->impl->notifyListenersAboutRemoteNotificationFromSystemTray (LocalRef<jobject> ((jobject) intent));
 
             return true;
         }

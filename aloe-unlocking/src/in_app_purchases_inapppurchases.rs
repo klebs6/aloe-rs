@@ -24,7 +24,7 @@ pub struct InAppPurchases<'a> {
     listeners: ListenerList<Box<dyn InAppPurchasesListenerInterface>>,
 
     #[cfg(any(any(target_os="android",target_os="ios"),target_os="macos"))]
-    pimpl: Box<InAppPurchasesPimpl<'a>>,
+    impl_: Box<InAppPurchasesImpl<'a>>,
 }
 
 aloe_declare_singleton!{
@@ -55,7 +55,7 @@ impl<'a> Default for InAppPurchases<'a> {
 
 
             #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        : pimpl (new Pimpl (*this))
+        : impl (new Impl (*this))
        #endif
         */
     }
@@ -74,7 +74,7 @@ impl<'a> InAppPurchases<'a> {
         todo!();
         /*
             #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        return pimpl->isInAppPurchasesSupported();
+        return impl->isInAppPurchasesSupported();
        #else
         return false;
        #endif
@@ -97,7 +97,7 @@ impl<'a> InAppPurchases<'a> {
         todo!();
         /*
             #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        pimpl->getInAppPurchasesProductsInformation (productIdentifiers);
+        impl->getInAppPurchasesProductsInformation (productIdentifiers);
        #else
         Vec<InAppPurchasesProduct> products;
         for (auto productId : productIdentifiers)
@@ -146,7 +146,7 @@ impl<'a> InAppPurchases<'a> {
         todo!();
         /*
             #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        pimpl->purchaseInAppPurchasesProduct (productIdentifier, upgradeInAppPurchasesProductIdentifier, creditForUnusedSubscription);
+        impl->purchaseInAppPurchasesProduct (productIdentifier, upgradeInAppPurchasesProductIdentifier, creditForUnusedSubscription);
        #else
         InAppPurchasesListenerPurchaseInfo purchaseInfo { InAppPurchase { "", productIdentifier, {}, {}, {} }, {} };
 
@@ -192,7 +192,7 @@ impl<'a> InAppPurchases<'a> {
         todo!();
         /*
             #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        pimpl->restoreInAppPurchasesProductsBoughtList (includeInAppPurchasesDownloadInfo, subscriptionsSharedSecret);
+        impl->restoreInAppPurchasesProductsBoughtList (includeInAppPurchasesDownloadInfo, subscriptionsSharedSecret);
        #else
         listeners.call ([] (Listener& l) { l.purchasesListRestored ({}, false, "In-app purchases unavailable"); });
         ignoreUnused (includeInAppPurchasesDownloadInfo, subscriptionsSharedSecret);
@@ -232,7 +232,7 @@ impl<'a> InAppPurchases<'a> {
         todo!();
         /*
             #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        pimpl->consumeInAppPurchase (productIdentifier, purchaseToken);
+        impl->consumeInAppPurchase (productIdentifier, purchaseToken);
        #else
         listeners.call ([&] (Listener& l) { l.productConsumed (productIdentifier, false, "In-app purchases unavailable"); });
         ignoreUnused (purchaseToken);
@@ -274,7 +274,7 @@ impl<'a> InAppPurchases<'a> {
         todo!();
         /*
             #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        pimpl->startInAppPurchasesDownloads (downloads);
+        impl->startInAppPurchasesDownloads (downloads);
        #else
         ignoreUnused (downloads);
        #endif
@@ -291,7 +291,7 @@ impl<'a> InAppPurchases<'a> {
         todo!();
         /*
             #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        pimpl->pauseInAppPurchasesDownloads (downloads);
+        impl->pauseInAppPurchasesDownloads (downloads);
        #else
         ignoreUnused (downloads);
        #endif
@@ -308,7 +308,7 @@ impl<'a> InAppPurchases<'a> {
         todo!();
         /*
             #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        pimpl->resumeInAppPurchasesDownloads (downloads);
+        impl->resumeInAppPurchasesDownloads (downloads);
        #else
         ignoreUnused (downloads);
        #endif
@@ -325,7 +325,7 @@ impl<'a> InAppPurchases<'a> {
         todo!();
         /*
             #if ALOE_ANDROID || ALOE_IOS || ALOE_MAC
-        pimpl->cancelInAppPurchasesDownloads (downloads);
+        impl->cancelInAppPurchasesDownloads (downloads);
        #else
         ignoreUnused (downloads);
        #endif

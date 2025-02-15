@@ -1,6 +1,6 @@
 crate::ix!();
 
-impl<'a> ValueListener for Pimpl<'a> {
+impl<'a> ValueListener for Impl<'a> {
 
     fn value_changed(&mut self, value: &mut Value)  {
         
@@ -23,7 +23,7 @@ impl<'a> ValueListener for Pimpl<'a> {
     }
 }
 
-pub struct Pimpl<'a> {
+pub struct Impl<'a> {
 
     /**
       | this needs to be public otherwise it
@@ -92,7 +92,7 @@ pub struct Pimpl<'a> {
 //TODO
 pub trait LookAndFeelSliderInterface {}
 
-impl<'a> Drop for Pimpl<'a> {
+impl<'a> Drop for Impl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -105,7 +105,7 @@ impl<'a> Drop for Pimpl<'a> {
     }
 }
 
-impl<'a> Pimpl<'a> {
+impl<'a> Impl<'a> {
 
     pub fn new(
         s:                 &mut Slider,

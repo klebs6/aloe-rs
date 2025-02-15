@@ -1,8 +1,8 @@
 crate::ix!();
 
 pub struct IOChannelData {
-    inputs:     Box<IOSAudioIODevicePimplIOChannelDataIOChannelConfig>,
-    outputs:    Box<IOSAudioIODevicePimplIOChannelDataIOChannelConfig>,
+    inputs:     Box<IOSAudioIODeviceImplIOChannelDataIOChannelConfig>,
+    outputs:    Box<IOSAudioIODeviceImplIOChannelDataIOChannelConfig>,
     audio_data: AudioBuffer<f32>, // { 0, 0 };
 }
 
@@ -14,8 +14,8 @@ impl IOChannelData {
         
         todo!();
         /*
-            inputs .reset (new IOSAudioIODevicePimplIOChannelDataIOChannelConfig (true,  requiredInputChannels));
-                outputs.reset (new IOSAudioIODevicePimplIOChannelDataIOChannelConfig (false, requiredOutputChannels));
+            inputs .reset (new IOSAudioIODeviceImplIOChannelDataIOChannelConfig (true,  requiredInputChannels));
+                outputs.reset (new IOSAudioIODeviceImplIOChannelDataIOChannelConfig (false, requiredOutputChannels));
 
                 audioData.setSize (inputs->numActiveChannels + outputs->numActiveChannels,
                                    audioData.getNumSamples());

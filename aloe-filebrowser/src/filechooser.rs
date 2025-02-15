@@ -41,7 +41,7 @@ pub struct FileChooser<'a> {
     use_native_dialog_box:       bool,
     treat_file_packages_as_dirs: bool,
     async_callback:              fn(_0: &FileChooser) -> (),
-    pimpl:                       Arc<dyn FileChooserPimpl>,
+    impl_:                       Arc<dyn FileChooserImpl>,
 }
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_gui_basics/filebrowser/aloe_FileChooser.cpp]
@@ -414,11 +414,11 @@ impl<'a> FileChooser<'a> {
         /*
             FocusRestorer focusRestorer;
 
-        pimpl = createPimpl (flags, previewComp);
-        pimpl->runModally();
+        impl = createImpl (flags, previewComp);
+        impl->runModally();
 
         // ensure that the finished function was invoked
-        jassert (pimpl == nullptr);
+        jassert (impl == nullptr);
 
         return (results.size() > 0);
         */
@@ -459,8 +459,8 @@ impl<'a> FileChooser<'a> {
 
         asyncCallback = std::move (callback);
 
-        pimpl = createPimpl (flags, previewComp);
-        pimpl->launch();
+        impl = createImpl (flags, previewComp);
+        impl->launch();
         */
     }
     
@@ -469,7 +469,7 @@ impl<'a> FileChooser<'a> {
         flags:        i32,
         preview_comp: *mut FilePreviewComponent
 
-    ) -> Arc<dyn FileChooserPimpl> {
+    ) -> Arc<dyn FileChooserImpl> {
         
         todo!();
         /*
@@ -479,11 +479,11 @@ impl<'a> FileChooser<'a> {
         jassert (previewComp == nullptr || (previewComp->getWidth() > 10
                                              && previewComp->getHeight() > 10));
 
-        if (pimpl != nullptr)
+        if (impl != nullptr)
         {
             // you cannot run two file chooser dialog boxes at the same time
             jassertfalse;
-            pimpl.reset();
+            impl.reset();
         }
 
         // You've set the flags for both saveMode and openMode!
@@ -635,7 +635,7 @@ impl<'a> FileChooser<'a> {
 
          results = asyncResults;
 
-         pimpl.reset();
+         impl.reset();
 
          if (callback)
              callback (*this);

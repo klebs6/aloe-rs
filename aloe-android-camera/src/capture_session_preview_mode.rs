@@ -8,7 +8,7 @@ pub struct CaptureSessionPreviewMode<'a> {
 impl<'a> CaptureSessionPreviewMode<'a> {
 
     pub fn new(
-        owner_to_use:                    &mut CameraDevicePimpl,
+        owner_to_use:                    &mut CameraDeviceImpl,
         camera_device_to_use:            &mut ScopedCameraDevice,
         handler_to_use:                  &mut GlobalRef,
         pd:                              &mut PreviewDisplay,

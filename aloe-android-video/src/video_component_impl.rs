@@ -2,7 +2,7 @@ crate::ix!();
 
 #[no_copy]
 #[leak_detector]
-pub struct VideoComponentPimpl<'a> {
+pub struct VideoComponentImpl<'a> {
     base:                    AndroidViewComponent<'a>,
     base2:                   ActivityLifecycleCallbacks,
     base3:                   SurfaceHolderCallback,
@@ -18,7 +18,7 @@ pub struct VideoComponentPimpl<'a> {
     #[cfg(ALOE_SYNC_VIDEO_VOLUME_WITH_OS_MEDIA_VOLUME)] was_open:                bool, // default = false
 }
 
-impl<'a> Drop for VideoComponentPimpl<'a> {
+impl<'a> Drop for VideoComponentImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -49,7 +49,7 @@ impl<'a> Drop for VideoComponentPimpl<'a> {
     }
 }
 
-impl<'a> VideoComponentPimpl<'a> {
+impl<'a> VideoComponentImpl<'a> {
 
     pub fn new(
         owner_to_use: &mut VideoComponent,

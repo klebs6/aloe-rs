@@ -2,13 +2,13 @@ crate::ix!();
 
 #[no_copy]
 #[leak_detector]
-pub struct GenericAudioProcessorEditorPimpl<'a> {
+pub struct GenericAudioProcessorEditorImpl<'a> {
     owner:             &'a mut GenericAudioProcessorEditor<'a>,
     legacy_parameters: LegacyAudioParametersWrapper,
     view:              Viewport<'a>,
 }
 
-impl<'a> Drop for GenericAudioProcessorEditorPimpl<'a> {
+impl<'a> Drop for GenericAudioProcessorEditorImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -18,7 +18,7 @@ impl<'a> Drop for GenericAudioProcessorEditorPimpl<'a> {
     }
 }
 
-impl<'a> GenericAudioProcessorEditorPimpl<'a> {
+impl<'a> GenericAudioProcessorEditorImpl<'a> {
 
     pub fn new(parent: &mut GenericAudioProcessorEditor) -> Self {
     

@@ -28,7 +28,7 @@ crate::ix!();
 #[no_copy]
 #[leak_detector]
 pub struct HighResolutionTimer<'a> {
-    pimpl: Box<HighResolutionTimerPimpl<'a>>,
+    impl_: Box<HighResolutionTimerImpl<'a>>,
 }
 
 pub trait HighResolutionTimerInterface {
@@ -63,7 +63,7 @@ impl<'a> Default for HighResolutionTimer<'a> {
         /*
 
 
-            : pimpl (new Pimpl (*this)
+            : impl (new Impl (*this)
         */
     }
 }
@@ -99,7 +99,7 @@ impl<'a> HighResolutionTimer<'a> {
         
         todo!();
         /*
-            pimpl->start (jmax (1, periodMs));
+            impl->start (jmax (1, periodMs));
         */
     }
     
@@ -118,7 +118,7 @@ impl<'a> HighResolutionTimer<'a> {
         
         todo!();
         /*
-            pimpl->stop();
+            impl->stop();
         */
     }
     
@@ -135,7 +135,7 @@ impl<'a> HighResolutionTimer<'a> {
         
         todo!();
         /*
-            return pimpl->periodMs != 0;
+            return impl->periodMs != 0;
         */
     }
     
@@ -153,13 +153,13 @@ impl<'a> HighResolutionTimer<'a> {
         
         todo!();
         /*
-            return pimpl->periodMs;
+            return impl->periodMs;
         */
     }
 }
 
 #[no_copy]
-struct HighResolutionTimerPimpl<'a> {
+struct HighResolutionTimerImpl<'a> {
     owner:       &'a mut HighResolutionTimer<'a>,
     period_ms:   Atomic<i32>, // default = 0 
     thread:      Thread,
@@ -167,7 +167,7 @@ struct HighResolutionTimerPimpl<'a> {
     timer_mutex: parking_lot::RawMutex,
 }
 
-impl<'a> Drop for HighResolutionTimerPimpl<'a> {
+impl<'a> Drop for HighResolutionTimerImpl<'a> {
     fn drop(&mut self) {
         todo!();
         /* 
@@ -177,7 +177,7 @@ impl<'a> Drop for HighResolutionTimerPimpl<'a> {
     }
 }
 
-impl<'a> HighResolutionTimerPimpl<'a> {
+impl<'a> HighResolutionTimerImpl<'a> {
 
     fn new(t: &mut HighResolutionTimer<'a>) -> Self {
     

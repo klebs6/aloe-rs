@@ -2,13 +2,13 @@ crate::ix!();
 
 #[no_copy]
 #[leak_detector]
-pub struct CodeEditorComponentPimpl<'a> {
+pub struct CodeEditorComponentImpl<'a> {
     base:  Timer,
     base2: AsyncUpdater<'a>,
     owner: CodeEditorComponent<'a>,
 }
 
-impl<'a> ScrollBarListener for CodeEditorComponentPimpl<'a> {
+impl<'a> ScrollBarListener for CodeEditorComponentImpl<'a> {
 
     fn scroll_bar_moved(&mut self, 
         scroll_bar_that_has_moved: *mut ScrollBar,
@@ -24,7 +24,7 @@ impl<'a> ScrollBarListener for CodeEditorComponentPimpl<'a> {
     }
 }
 
-impl<'a> CodeDocumentListener for CodeEditorComponentPimpl<'a> {
+impl<'a> CodeDocumentListener for CodeEditorComponentImpl<'a> {
 
     fn code_document_text_inserted(
         &mut self, 
@@ -51,7 +51,7 @@ impl<'a> CodeDocumentListener for CodeEditorComponentPimpl<'a> {
     }
 }
 
-impl<'a> CodeEditorComponentPimpl<'a> {
+impl<'a> CodeEditorComponentImpl<'a> {
 
     pub fn new(ed: &mut CodeEditorComponent) -> Self {
     

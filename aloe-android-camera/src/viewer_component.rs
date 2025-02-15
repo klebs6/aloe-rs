@@ -16,7 +16,7 @@ impl<'a> ViewerComponent<'a> {
         /*
         : component_movement_watcher(this),
 
-            auto previewSize = device.pimpl->streamConfigurationMap.getDefaultPreviewSize();
+            auto previewSize = device.impl->streamConfigurationMap.getDefaultPreviewSize();
 
             targetAspectRatio = (float) previewSize.getWidth() / (float) previewSize.getHeight();
 
@@ -26,7 +26,7 @@ impl<'a> ViewerComponent<'a> {
                 setBounds (0, 0, previewSize.getHeight(), previewSize.getWidth());
 
             addAndMakeVisible (viewerComponent);
-            viewerComponent.setView (device.pimpl->previewDisplay.getNativeView());
+            viewerComponent.setView (device.impl->previewDisplay.getNativeView());
         */
     }
     

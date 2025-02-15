@@ -2,8 +2,8 @@ crate::ix!();
 
 lazy_static!{
     /*
-    VideoComponent::VideoComponentPimpl::MediaSession::MediaSessionController::AndroidMediaControllerCallback_Class
-    VideoComponent::VideoComponentPimpl::MediaSession::MediaSessionController::AndroidMediaControllerCallback;
+    VideoComponent::VideoComponentImpl::MediaSession::MediaSessionController::AndroidMediaControllerCallback_Class
+    VideoComponent::VideoComponentImpl::MediaSession::MediaSessionController::AndroidMediaControllerCallback;
     */
 }
 

@@ -2,7 +2,7 @@ crate::ix!();
 
 #[cfg(target_os="ios")]
 pub struct ContentSharerNativeImpl<'a> {
-    base:              ContentSharerPimpl,
+    base:              ContentSharerImpl,
     base2:             Component<'a>,
     owner:             &'a mut ContentSharer,
     peer:              *mut UIViewComponentPeer, // default = nullptr

@@ -27,7 +27,7 @@ crate::ix!();
 #[leak_detector]
 pub struct HWNDComponent {
     base:  Component,
-    pimpl: Box<Pimpl>,
+    impl_: Box<Impl>,
 }
 
 #[cfg(target_os="windows")]

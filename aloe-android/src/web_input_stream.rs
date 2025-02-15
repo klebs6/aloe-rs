@@ -3,7 +3,7 @@ crate::ix!();
 #[no_copy]
 #[leak_detector]
 #[cfg(target_os="android")]
-pub struct WebInputStreamPimpl {
+pub struct WebInputStreamImpl {
     status_code:                    i32, // default = 0
     url:                            Url,
     is_contenturl:                  bool,
@@ -22,7 +22,7 @@ pub struct WebInputStreamPimpl {
 }
 
 #[cfg(target_os="android")]
-impl Drop for WebInputStreamPimpl {
+impl Drop for WebInputStreamImpl {
 
     fn drop(&mut self) {
         todo!();
@@ -33,7 +33,7 @@ impl Drop for WebInputStreamPimpl {
 }
 
 #[cfg(target_os="android")]
-impl WebInputStreamPimpl {
+impl WebInputStreamImpl {
 
     pub const contentStreamCacheSize: usize = 1024;
 

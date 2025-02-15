@@ -4,7 +4,7 @@ crate::ix!();
 
 #[no_copy]
 #[weak_referenceable]
-pub struct CameraDevicePimpl<'a> {
+pub struct CameraDeviceImpl<'a> {
     owner:       &'a mut CameraDevice,
     device_name: String,
     session:     *mut AVCaptureSession, // default = nil
@@ -23,7 +23,7 @@ pub struct CameraDevicePimpl<'a> {
     picture_taken_callback:  fn(_0: &Image) -> (), // default = nullptr
 }
 
-impl<'a> Drop for CameraDevicePimpl<'a> {
+impl<'a> Drop for CameraDeviceImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -40,7 +40,7 @@ impl<'a> Drop for CameraDevicePimpl<'a> {
     }
 }
 
-impl<'a> CameraDevicePimpl<'a> {
+impl<'a> CameraDeviceImpl<'a> {
 
     pub fn new(
         owner_to_use:       &mut CameraDevice,
@@ -366,7 +366,7 @@ impl<'a> CameraDevicePimpl<'a> {
         /*
             handleImageCapture (image);
 
-            MessageManager::callAsync ([weakRef = WeakReference<CameraDevicePimpl> { this }, image]() mutable
+            MessageManager::callAsync ([weakRef = WeakReference<CameraDeviceImpl> { this }, image]() mutable
             {
                 if (weakRef != nullptr && weakRef->pictureTakenCallback != nullptr)
                     weakRef->pictureTakenCallback (image);

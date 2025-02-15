@@ -31,15 +31,15 @@ pub struct ImageCache {
 
 #[derive(Default)]
 #[no_copy]
-pub struct ImageCachePimpl {
+pub struct ImageCacheImpl {
     base:          Timer,
     base2:         DeletedAtShutdown,
-    images:        Vec<ImageCachePimplItem>,
+    images:        Vec<ImageCacheImplItem>,
     lock:          CriticalSection,
     cache_timeout: u32, // default = 5000
 }
 
-impl Drop for ImageCachePimpl {
+impl Drop for ImageCacheImpl {
     fn drop(&mut self) {
         todo!();
         /*
@@ -49,17 +49,17 @@ impl Drop for ImageCachePimpl {
 }
 
 aloe_declare_singleton_singlethreaded_minimal!{
-    ImageCachePimpl
+    ImageCacheImpl
 }
 
-pub struct ImageCachePimplItem
+pub struct ImageCacheImplItem
 {
     image:         Image,
     hash_code:     i64,
     last_use_time: u32,
 }
 
-impl ImageCachePimpl {
+impl ImageCacheImpl {
 
     pub fn get_from_hash_code(&mut self, hash_code: i64) -> Image {
         
@@ -139,7 +139,7 @@ impl ImageCachePimpl {
 }
 
 aloe_implement_singleton!{
-    ImageCachePimpl
+    ImageCacheImpl
 }
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_graphics/images/aloe_ImageCache.cpp]
@@ -166,8 +166,8 @@ impl ImageCache {
         
         todo!();
         /*
-            if (Pimpl::getInstanceWithoutCreating() != nullptr)
-            return Pimpl::getInstanceWithoutCreating()->getFromHashCode (hashCode);
+            if (Impl::getInstanceWithoutCreating() != nullptr)
+            return Impl::getInstanceWithoutCreating()->getFromHashCode (hashCode);
 
         return {};
         */
@@ -200,7 +200,7 @@ impl ImageCache {
         
         todo!();
         /*
-            Pimpl::getInstance()->addImageToCache (image, hashCode);
+            Impl::getInstance()->addImageToCache (image, hashCode);
         */
     }
     
@@ -317,7 +317,7 @@ impl ImageCache {
         todo!();
         /*
             jassert (millisecs >= 0);
-        Pimpl::getInstance()->cacheTimeout = (unsigned int) millisecs;
+        Impl::getInstance()->cacheTimeout = (unsigned int) millisecs;
         */
     }
     
@@ -332,7 +332,7 @@ impl ImageCache {
         
         todo!();
         /*
-            Pimpl::getInstance()->releaseUnusedImages();
+            Impl::getInstance()->releaseUnusedImages();
         */
     }
 }

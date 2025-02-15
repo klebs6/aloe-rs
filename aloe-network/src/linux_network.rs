@@ -30,7 +30,7 @@ impl OpenEmailWithAttachments for Process {
 #[cfg(not(ALOE_USE_CURL))]
 #[no_copy]
 #[leak_detector]
-pub(crate) struct WebInputStreamPimpl<'a> {
+pub(crate) struct WebInputStreamImpl<'a> {
     status_code:                    i32, // default = 0
     owner:                          &'a mut WebInputStream<'a>,
     url:                            Url,
@@ -57,7 +57,7 @@ pub(crate) struct WebInputStreamPimpl<'a> {
 }
 
 #[cfg(not(ALOE_USE_CURL))]
-impl<'a> Drop for WebInputStreamPimpl<'a> {
+impl<'a> Drop for WebInputStreamImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -68,7 +68,7 @@ impl<'a> Drop for WebInputStreamPimpl<'a> {
 }
 
 #[cfg(not(ALOE_USE_CURL))]
-impl<'a> WebInputStreamPimpl<'a> {
+impl<'a> WebInputStreamImpl<'a> {
 
     pub fn new(
         pimpl_owner:            &mut WebInputStream,

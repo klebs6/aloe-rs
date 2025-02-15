@@ -49,7 +49,7 @@ crate::ix!();
 #[cfg(any(target_os="linux", target_os="freebsd", target_os="openbsd", target_os="netbsd"))]
 pub struct XEmbedComponent {
     base:  Component,
-    pimpl: Box<Pimpl>,
+    impl_: Box<Impl>,
 }
 
 #[cfg(any(target_os="linux", target_os="freebsd", target_os="openbsd", target_os="netbsd"))]
@@ -82,7 +82,7 @@ impl XEmbedComponent {
         /*
 
 
-            : pimpl (new XembedComponentPimpl (*this, 0, wantsKeyboardFocus, false, allowForeignWidgetToResizeComponent))
+            : impl (new XembedComponentImpl (*this, 0, wantsKeyboardFocus, false, allowForeignWidgetToResizeComponent))
         setOpaque (true);
         */
     }
@@ -112,7 +112,7 @@ impl XEmbedComponent {
         /*
 
 
-            : pimpl (new XembedComponentPimpl (*this, wID, wantsKeyboardFocus, true, allowForeignWidgetToResizeComponent))
+            : impl (new XembedComponentImpl (*this, wID, wantsKeyboardFocus, true, allowForeignWidgetToResizeComponent))
         setOpaque (true);
         */
     }
@@ -129,7 +129,7 @@ impl XEmbedComponent {
         
         todo!();
         /*
-            pimpl->focusGained (changeType);
+            impl->focusGained (changeType);
         */
     }
     
@@ -137,7 +137,7 @@ impl XEmbedComponent {
         
         todo!();
         /*
-            pimpl->focusLost   (changeType);
+            impl->focusLost   (changeType);
         */
     }
     
@@ -145,7 +145,7 @@ impl XEmbedComponent {
         
         todo!();
         /*
-            pimpl->broughtToFront();
+            impl->broughtToFront();
         */
     }
     
@@ -159,7 +159,7 @@ impl XEmbedComponent {
         
         todo!();
         /*
-            return pimpl->getHostWindowID();
+            return impl->getHostWindowID();
         */
     }
     
@@ -171,7 +171,7 @@ impl XEmbedComponent {
         
         todo!();
         /*
-            pimpl->setClient (0, true);
+            impl->setClient (0, true);
         */
     }
 }

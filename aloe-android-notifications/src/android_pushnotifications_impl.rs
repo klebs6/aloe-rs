@@ -1,12 +1,12 @@
 crate::ix!();
 
 #[cfg(target_os="android")]
-pub struct PushNotificationsPimpl<'a> {
+pub struct PushNotificationsImpl<'a> {
     owner: &'a mut PushNotifications,
 }
 
 #[cfg(target_os="android")]
-impl<'a> PushNotificationsPimpl<'a> {
+impl<'a> PushNotificationsImpl<'a> {
 
     pub fn new(p: &mut PushNotifications) -> Self {
     

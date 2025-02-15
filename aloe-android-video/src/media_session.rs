@@ -1,7 +1,7 @@
 crate::ix!();
 
 pub struct MediaSession<'a> {
-    owner:                              &'a mut VideoComponentPimpl<'a>,
+    owner:                              &'a mut VideoComponentImpl<'a>,
     sdk_version:                        i32,
     audio_attributes:                   GlobalRef,
     native_media_session:               GlobalRef,
@@ -66,7 +66,7 @@ impl<'a> Drop for MediaSession<'a> {
 
 impl<'a> MediaSession<'a> {
 
-    pub fn new(owner_to_use: &mut VideoComponentPimpl) -> Self {
+    pub fn new(owner_to_use: &mut VideoComponentImpl) -> Self {
     
         todo!();
         /*
@@ -289,7 +289,7 @@ impl<'a> MediaSession<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentPimpl::MediaSession*> (host))
+            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentImpl::MediaSession*> (host))
                                 {
                                     ALOE_VIDEO_LOG ("MediaSession::pauseCallback()");
                                     myself->player.pause();
@@ -307,7 +307,7 @@ impl<'a> MediaSession<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentPimpl::MediaSession*> (host))
+            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentImpl::MediaSession*> (host))
                                 {
                                     ALOE_VIDEO_LOG ("MediaSession::playCallback()");
 
@@ -337,7 +337,7 @@ impl<'a> MediaSession<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentPimpl::MediaSession*> (host))
+            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentImpl::MediaSession*> (host))
                                 {
                                     ALOE_VIDEO_LOG ("MediaSession::playFromMediaIdCallback()");
 
@@ -355,7 +355,7 @@ impl<'a> MediaSession<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentPimpl::MediaSession*> (host))
+            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentImpl::MediaSession*> (host))
                                 {
                                     ALOE_VIDEO_LOG ("MediaSession::seekToCallback()");
 
@@ -373,7 +373,7 @@ impl<'a> MediaSession<'a> {
         
         todo!();
         /*
-            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentPimpl::MediaSession*> (host))
+            if (auto* myself = reinterpret_cast<VideoComponent::VideoComponentImpl::MediaSession*> (host))
                                 {
                                     ALOE_VIDEO_LOG ("MediaSession::stopCallback()");
 

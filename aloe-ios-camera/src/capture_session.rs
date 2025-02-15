@@ -3,13 +3,13 @@ crate::ix!();
 lazy_static!{
     /*
     static int numCaptureSessions;
-    int CameraDevice::CameraDevicePimpl::CaptureSession::numCaptureSessions = 0;
+    int CameraDevice::CameraDeviceImpl::CaptureSession::numCaptureSessions = 0;
     */
 }
 
 #[weak_referenceable]
 pub struct CaptureSession<'a> {
-    owner:                 &'a mut CameraDevicePimpl<'a>,
+    owner:                 &'a mut CameraDeviceImpl<'a>,
     capture_session_queue: DispatchQueue,
     capture_session:       Box<AVCaptureSession,NSObjectDeleter>,
     delegate:              Box<NSObject,NSObjectDeleter>,
@@ -49,7 +49,7 @@ impl<'a> Drop for CaptureSession<'a> {
 impl<'a> CaptureSession<'a> {
 
     pub fn new(
-        owner_to_use:     &mut CameraDevicePimpl,
+        owner_to_use:     &mut CameraDeviceImpl,
         use_high_quality: bool) -> Self {
     
         todo!();

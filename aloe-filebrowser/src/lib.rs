@@ -5,7 +5,7 @@ x!{ask_to_save_changes_sync}
 x!{content_sharer_native}
 x!{directorycontentsdisplaycomponent}
 x!{directorycontentslist}
-x!{file_based_document_pimpl}
+x!{file_based_document_impl}
 x!{file_based_document_traits}
 x!{file_chooser_colour}
 x!{file_chooser_flags}
@@ -21,7 +21,7 @@ x!{filebrowsercomponent}
 x!{filebrowserlistener}
 x!{filechooser}
 x!{filechooser_non_native}
-x!{filechooser_pimpl}
+x!{filechooser_impl}
 x!{filechooser_android}
 x!{filechooserdialogbox}
 x!{filechooserdialogbox_colour}

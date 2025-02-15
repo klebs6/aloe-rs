@@ -38,7 +38,7 @@ pub trait CachedComponentImage
      | possible.
      |
      */
-    : PaintGraphics
+    : Paint
 
     /*
       | Invalidates all cached image data.

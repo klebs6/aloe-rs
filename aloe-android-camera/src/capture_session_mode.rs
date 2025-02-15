@@ -10,7 +10,7 @@ pub trait CaptureSessionModeBase
 ///--------------------
 #[weak_referenceable]
 pub struct CaptureSessionMode<'a,Mode> {
-    owner:                     &'a mut CameraDevicePimpl<'a>,
+    owner:                     &'a mut CameraDeviceImpl<'a>,
     scoped_camera_device:      &'a mut ScopedCameraDevice<'a>,
     handler:                   &'a mut GlobalRef,
     preview_display:           &'a mut PreviewDisplay<'a>,
@@ -117,7 +117,7 @@ impl<'a,Mode> Drop for CaptureSessionMode<'a,Mode> {
 impl<'a,Mode> CaptureSessionMode<'a,Mode> {
     
     pub fn new(
-        owner_to_use:                     &mut CameraDevicePimpl,
+        owner_to_use:                     &mut CameraDeviceImpl,
         camera_device_to_use:             &mut ScopedCameraDevice,
         handler_to_use:                   &mut GlobalRef,
         pd:                               &mut PreviewDisplay,

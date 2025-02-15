@@ -3,7 +3,7 @@ crate::ix!();
 #[no_copy]
 #[leak_detector]
 //#[cfg(target_os="android")]
-pub struct AndroidViewComponentPimpl<'a> {
+pub struct AndroidViewComponentImpl<'a> {
     base:         ComponentMovementWatcher<'a>,
     view:         GlobalRef,
     owner:        &'a mut Component<'a>,
@@ -11,7 +11,7 @@ pub struct AndroidViewComponentPimpl<'a> {
 }
 
 //#[cfg(target_os="android")]
-impl<'a> Drop for AndroidViewComponentPimpl<'a> {
+impl<'a> Drop for AndroidViewComponentImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -22,7 +22,7 @@ impl<'a> Drop for AndroidViewComponentPimpl<'a> {
 }
 
 //#[cfg(target_os="android")]
-impl<'a> AndroidViewComponentPimpl<'a> {
+impl<'a> AndroidViewComponentImpl<'a> {
 
     pub fn new(
         v:    &LocalRef<jobject>,

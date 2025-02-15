@@ -49,7 +49,7 @@ x!{non_shader_context}
 x!{opengl}
 x!{opengl_android}
 x!{opengl_context}
-x!{opengl_framebuffer_pimpl}
+x!{opengl_framebuffer_impl}
 x!{opengl_framebuffer_saved_state}
 x!{opengl_helpers}
 x!{opengl_ios}

@@ -1,13 +1,13 @@
 crate::ix!();
 
 pub struct FileBasedDocumentSafeParentPointer<'a> {
-    ptr:          WeakReference<FileBasedDocumentPimpl<'a>>,
+    ptr:          WeakReference<FileBasedDocumentImpl<'a>>,
     should_check: bool, // default = false
 }
 
 impl<'a> Deref for FileBasedDocumentSafeParentPointer<'a> {
 
-    type Target = FileBasedDocumentPimpl<'a>;
+    type Target = FileBasedDocumentImpl<'a>;
     
     #[inline] fn deref(&self) -> &Self::Target {
         todo!();
@@ -17,9 +17,9 @@ impl<'a> Deref for FileBasedDocumentSafeParentPointer<'a> {
     }
 }
 
-impl<'a> PartialEq<FileBasedDocumentPimpl<'a>> for FileBasedDocumentSafeParentPointer<'a> {
+impl<'a> PartialEq<FileBasedDocumentImpl<'a>> for FileBasedDocumentSafeParentPointer<'a> {
     
-    #[inline] fn eq(&self, other: &FileBasedDocumentPimpl<'a>) -> bool {
+    #[inline] fn eq(&self, other: &FileBasedDocumentImpl<'a>) -> bool {
         todo!();
         /*
             return ptr.get() == object;
@@ -30,7 +30,7 @@ impl<'a> PartialEq<FileBasedDocumentPimpl<'a>> for FileBasedDocumentSafeParentPo
 impl<'a> FileBasedDocumentSafeParentPointer<'a> {
     
     pub fn new(
-        parent:   *mut FileBasedDocumentPimpl<'a>,
+        parent:   *mut FileBasedDocumentImpl<'a>,
         is_async: bool) -> Self {
     
         todo!();

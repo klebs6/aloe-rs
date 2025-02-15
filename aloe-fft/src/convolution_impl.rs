@@ -20,7 +20,7 @@ impl<'a> ConvolutionImpl<'a> {
 
 
             : messageQueue (std::move (queue)),
-              engineQueue (std::make_shared<ConvolutionEngineQueue> (*messageQueue->pimpl,
+              engineQueue (std::make_shared<ConvolutionEngineQueue> (*messageQueue->impl,
                                                                      requiredLatency,
                                                                      requiredHeadSize))
         */
@@ -43,7 +43,7 @@ impl<'a> ConvolutionImpl<'a> {
         
         todo!();
         /*
-            messageQueue->pimpl->popAll();
+            messageQueue->impl->popAll();
             mixer.prepare (spec);
             engineQueue->prepare (spec);
 
@@ -154,7 +154,7 @@ impl<'a> ConvolutionImpl<'a> {
         /*
             // If the queue is full, we'll destroy this straight away
             BackgroundMessageQueue::IncomingCommand command = [p = std::move (previousEngine)]() mutable { p = nullptr; };
-            messageQueue->pimpl->push (command);
+            messageQueue->impl->push (command);
         */
     }
 

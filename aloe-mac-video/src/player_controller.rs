@@ -12,7 +12,7 @@ pub struct PlayerController {
 impl PlayerController {
 
     pub fn new(
-        owner_to_use:                     &mut VideoComponentPimpl,
+        owner_to_use:                     &mut VideoComponentImpl,
         use_native_controls_if_available: bool) -> Self {
     
         todo!();

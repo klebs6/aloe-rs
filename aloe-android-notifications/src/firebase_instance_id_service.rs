@@ -31,7 +31,7 @@ pub mod aloe_firebase_instance_id_service {
         todo!();
             /*
                 if (auto* instance = PushNotifications::getInstanceWithoutCreating())
-                    instance->pimpl->notifyListenersTokenRefreshed (aloeString (static_cast<jstring> (token)));
+                    instance->impl->notifyListenersTokenRefreshed (aloeString (static_cast<jstring> (token)));
             */
     }
 }

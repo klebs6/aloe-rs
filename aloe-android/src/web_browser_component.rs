@@ -12,7 +12,7 @@ impl<'a> WebBrowserComponent<'a> {
 
             setOpaque (true);
 
-        browser.reset (new WebBrowserComponentPimpl (*this));
+        browser.reset (new WebBrowserComponentImpl (*this));
         addAndMakeVisible (browser.get());
         */
     }

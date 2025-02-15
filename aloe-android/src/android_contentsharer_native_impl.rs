@@ -39,7 +39,7 @@ impl<'a> AndroidContentSharerFileObserverOwner for ContentSharerNativeImpl<'a> {
 }
 
 #[cfg(target_os="android")]
-impl<'a> ContentSharerPimpl for ContentSharerNativeImpl<'a> {
+impl<'a> ContentSharerImpl for ContentSharerNativeImpl<'a> {
 
 }
 
@@ -535,8 +535,8 @@ impl<'a> ContentSharerNativeImpl<'a> {
         
         todo!();
         /*
-            if (auto *pimpl = (ContentSharer::ContentSharerNativeImpl *) ContentSharer::getInstance ()->pimpl.get ())
-                return pimpl->query (LocalRef<jobject> (static_cast<jobject> (contentProvider)),
+            if (auto *impl = (ContentSharer::ContentSharerNativeImpl *) ContentSharer::getInstance ()->impl.get ())
+                return impl->query (LocalRef<jobject> (static_cast<jobject> (contentProvider)),
                                      LocalRef<jobject> (static_cast<jobject> (uri)),
                                      LocalRef<jobjectArray> (static_cast<jobjectArray> (projection)));
 
@@ -553,8 +553,8 @@ impl<'a> ContentSharerNativeImpl<'a> {
         
         todo!();
         /*
-            if (auto* pimpl = (ContentSharer::ContentSharerNativeImpl*) ContentSharer::getInstance()->pimpl.get())
-                return pimpl->openFile (LocalRef<jobject> (static_cast<jobject> (contentProvider)),
+            if (auto* impl = (ContentSharer::ContentSharerNativeImpl*) ContentSharer::getInstance()->impl.get())
+                return impl->openFile (LocalRef<jobject> (static_cast<jobject> (contentProvider)),
                                         LocalRef<jobject> (static_cast<jobject> (uri)),
                                         LocalRef<jstring> (static_cast<jstring> (mode)));
 
@@ -571,8 +571,8 @@ impl<'a> ContentSharerNativeImpl<'a> {
         
         todo!();
         /*
-            if (auto* pimpl = (ContentSharer::ContentSharerNativeImpl*) ContentSharer::getInstance()->pimpl.get())
-                return pimpl->getStreamTypes (LocalRef<jobject> (static_cast<jobject> (uri)),
+            if (auto* impl = (ContentSharer::ContentSharerNativeImpl*) ContentSharer::getInstance()->impl.get())
+                return impl->getStreamTypes (LocalRef<jobject> (static_cast<jobject> (uri)),
                                               LocalRef<jstring> (static_cast<jstring> (mimeTypeFilter)));
 
             return nullptr;

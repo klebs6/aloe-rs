@@ -2,14 +2,14 @@ crate::ix!();
 
 lazy_static!{
     /*
-    CameraDevice::CameraDevicePimpl::ScopedCameraDevice::CaptureSession::StillPictureTaker::CameraCaptureSessionCaptureCallback_Class
-    CameraDevice::CameraDevicePimpl::ScopedCameraDevice::CaptureSession::StillPictureTaker::CameraCaptureSessionCaptureCallback;
+    CameraDevice::CameraDeviceImpl::ScopedCameraDevice::CaptureSession::StillPictureTaker::CameraCaptureSessionCaptureCallback_Class
+    CameraDevice::CameraDeviceImpl::ScopedCameraDevice::CaptureSession::StillPictureTaker::CameraCaptureSessionCaptureCallback;
 
-    CameraDevice::CameraDevicePimpl::ScopedCameraDevice::CameraDeviceStateCallback_Class
-    CameraDevice::CameraDevicePimpl::ScopedCameraDevice::CameraDeviceStateCallback;
+    CameraDevice::CameraDeviceImpl::ScopedCameraDevice::CameraDeviceStateCallback_Class
+    CameraDevice::CameraDeviceImpl::ScopedCameraDevice::CameraDeviceStateCallback;
 
-    CameraDevice::CameraDevicePimpl::ScopedCameraDevice::CaptureSession::CameraCaptureSessionStateCallback_Class
-    CameraDevice::CameraDevicePimpl::ScopedCameraDevice::CaptureSession::CameraCaptureSessionStateCallback;
+    CameraDevice::CameraDeviceImpl::ScopedCameraDevice::CaptureSession::CameraCaptureSessionStateCallback_Class
+    CameraDevice::CameraDeviceImpl::ScopedCameraDevice::CaptureSession::CameraCaptureSessionStateCallback;
     */
 }
 

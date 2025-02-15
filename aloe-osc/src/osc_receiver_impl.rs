@@ -2,7 +2,7 @@ crate::ix!();
 
 #[no_copy]
 #[leak_detector]
-pub struct OSCReceiverPimpl {
+pub struct OSCReceiverImpl {
     base:                            Thread,
     base2:                           MessageListener,
     listeners:                       ListenerList<Box<dyn OSCReceiverListener<OSCReceiverMessageLoopCallback>>>,
@@ -13,7 +13,7 @@ pub struct OSCReceiverPimpl {
     format_error_handler:            OSCReceiverFormatErrorHandler, // default = { nullptr  }
 }
 
-impl Drop for OSCReceiverPimpl {
+impl Drop for OSCReceiverImpl {
 
     fn drop(&mut self) {
         todo!();
@@ -23,7 +23,7 @@ impl Drop for OSCReceiverPimpl {
     }
 }
 
-impl OSCReceiverPimpl {
+impl OSCReceiverImpl {
 
     pub fn new(osc_thread_name: &String) -> Self {
     
@@ -174,7 +174,7 @@ impl OSCReceiverPimpl {
                 // now post the message that will trigger the handleMessage callback
                 // dealing with the non-realtime listeners.
                 if (listeners.size() > 0 || listenersWithAddress.size() > 0)
-                    postMessage (new OSCReceiverPimplCallbackMessage (content));
+                    postMessage (new OSCReceiverImplCallbackMessage (content));
             }
             catch (const OSCFormatError&)
             {
@@ -260,7 +260,7 @@ impl OSCReceiverPimpl {
         
         todo!();
         /*
-            if (auto* callbackMessage = dynamic_cast<const OSCReceiverPimplCallbackMessage*> (&msg))
+            if (auto* callbackMessage = dynamic_cast<const OSCReceiverImplCallbackMessage*> (&msg))
             {
                 auto& content = callbackMessage->content;
 

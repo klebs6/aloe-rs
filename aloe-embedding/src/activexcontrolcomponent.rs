@@ -28,7 +28,7 @@ crate::ix!();
 #[leak_detector]
 pub struct ActiveXControlComponent {
     base:                 Component,
-    control:              Box<Pimpl>,
+    control:              Box<Impl>,
     mouse_events_allowed: bool, // default = true
 }
 

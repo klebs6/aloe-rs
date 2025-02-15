@@ -10,6 +10,8 @@ path = "../aloe-colour"
 path = "../aloe-combobox"
 [dependencies.aloe-component]
 path = "../aloe-component"
+[dependencies.aloe-deps]
+path = "../aloe-deps"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
 [dependencies.aloe-events]
@@ -20,8 +22,6 @@ path = "../aloe-geometry"
 path = "../aloe-graphics"
 [dependencies.aloe-identifier]
 path = "../aloe-identifier"
-[dependencies.aloe-deps]
-path = "../aloe-deps"
 [dependencies.aloe-label]
 path = "../aloe-label"
 [dependencies.aloe-memory]
@@ -41,6 +41,16 @@ path = "../aloe-slider"
 [dependencies.aloe-valuetree]
 path = "../aloe-valuetree"
 [package]
-edition = "2021"
+authors = [ "klebs <tpk3.mx@gmail.com>" ]
+categories = [ "gui", "graphics", "hardware-support" ]
+description = "Links user interfaces to AudioProcessors for interactive controls -- see JUCE's AudioProcessorEditor."
+documentation = "https://docs.rs/aloe-audio-processor-editor"
+edition = "2024"
+keywords = [ "juce", "audio", "gui", "graphics", "listener" ]
+license = "GPL-3.0"
+metadata.cpp-authors = [ "Adam <blekk2@gmail.com>", "Aga Janowicz <aga@roli.com>", "Agnieszka Janowicz <agnieszka.janowicz@roli.com>", "Alain Martin <amartin@keytrol.org>", "Anthony Nicholls <anthony@juce.com>", "Attila Szarvas <attila@juce.com>", "Cesare Ferrari <cesare@loftsoft.co.uk>", "Christian Haase <chrhaase@outlook.dk>", "Christopher Fonseka <chris.fonseka@googlemail.com>", "Dan Raviv <dan@soundradix.com>", "Daniel Walz <daniel.walz@roli.com>", "Dimitri Sudell <dimitri.sudell@roli.com>", "Fabian Renn-Giles <fabian@fielding.dev, fabian@roli.com>", "Felipe F. Tonello <felipe.tonello@roli.com>", "Felix Faire <felixfaire@gmail.com>", "Ian Clarkson <clarksonian@gmail.com>", "Ivan COHEN <ivan.cohen@musicalentropy.com>", "Ivan Cohen <ivan.cohen@musicalentropy.com>", "James Hurst <james@pintsized.co.uk>", "James Johnson <james.johnson@focusrite.com>", "Joshua Gerrard <joshua.gerrard@roli.com>", "Julian Storer <jules@BigMac.local, jules@bigmac.home, jules@rawmaterialsoftware.com>", "Leigh Marble <tech@laughing-stock.org>", "Lukasz Kozakiewicz <lukasz.kozakiewicz@roli.com>", "Mathieu Demange <contact@mathieudemange.fr>", "Matt Gonzalez <matt@echoaudio.com>", "Mike Toon <michael.toon@roli.com>", "Nathan Blair <nathan@mat.ucsb.edu>", "Noah Dayan <noahdayan@gmail.com>", "Oli <oli@juce.com>", "Oli James <oli@juce.com>", "Oliver James <oli@juce.com>", "Paul Gration <pmgration@gmail.com>", "Rachel <rachel@ROLIs-iMac.local>", "Rachel Susser <rachel.susser@roli.com>", "Reuben Thomas <reuk@users.noreply.github.com>", "Richard Meyer <richard@roli.com>", "Roland Rabien <figbug@gmail.com>", "Steve Lhomme <robux4@ycbcr.xyz>", "Tatsuya Shiozawa <shio.tatsu99@gmail.com>", "Timur Doumler <timur@roli.com>", "Tom Duncalf <tom@tomduncalf.com>", "Tom Maisey <tom.maisey@roli.com, tommaisey@gmail.com>", "Tom Poole <thomas.poole@roli.com, tom@juce.com>", "Tom Waldron <tom@roli.com>", "XmasRights <chris.fonseka@googlemail.com>", "Yuki <68385758+YukiChiyoda@users.noreply.github.com>", "Zsolt Garamvolgyi <zsolt@roli.com>", "attila <attila@juce.com>", "cesare <cesare.ferrari@gmail.com, cesare@loftsoft.co.uk>", "chroma <oli@chromalabs.co.uk>", "dimitri <dimitri.sudell@roli.com>", "dimitriroli <dimitri.sudell@roli.com>", "ed <ed_davies95@hotmail.co.uk, eddavies95@gmail.com>", "fieldingfabian <fabian@fielding.dev>", "fr810 <fr810@DESKTOP-JGTHN1K>", "hogliux <fabian.renn@gmail.com>", "juce-team <juce-team@dtk-office.local>", "jules <jules@juce.com, jules@rawmaterialsoftware.com, julianstorer@gmail.com>", "luigisambuy <lsambuy@stanford.edu>", "luz paz <luzpaz@pm.me>", "luzpaz <luzpaz@users.noreply.github.com>", "martin@ncore.li <martin@ncore.li>", "michael.toon <michael.toon@roli.com>", "miketoon <32300092+miketoon@users.noreply.github.com, michael.toon@roli.com>", "reuk <reuk@stretch, reuk@users.noreply.github.com, reuk@users.roreply.github.com>", "stefan <stefan.graenitz@gmail.com>", "stefan.graenitz <stefan.graenitz@gmail.com>", "tommaisey <tom.maisey@roli.com>", "tpoole <872729+tpoole@users.noreply.github.com, t.b.poole@gmail.com, thomas.poole@roli.com, tom@juce.com, tom@tp-mbp.local>", "無常 <3142324836@qq.com>" ]
+metadata.original-repo = "https://github.com/juce-framework/JUCE"
 name = "aloe-audio-processor-editor"
+readme = "README.md"
+repository = "https://github.com/klebs6/aloe-rs"
 version = "0.1.0"

@@ -1,6 +1,6 @@
 crate::ix!();
 
-pub struct WebBrowserComponentPimpl<'a> {
+pub struct WebBrowserComponentImpl<'a> {
     base:                 Thread,
     web_kit_is_available: bool, // default = false
     owner:                &'a mut WebBrowserComponent<'a>,
@@ -16,7 +16,7 @@ pub struct WebBrowserComponentPimpl<'a> {
     pfds:                 Vec<libc::pollfd>,
 }
 
-impl<'a> CommandReceiverResponder for WebBrowserComponentPimpl<'a> {
+impl<'a> CommandReceiverResponder for WebBrowserComponentImpl<'a> {
 
     fn handle_command(
         &mut self, 
@@ -32,7 +32,7 @@ impl<'a> CommandReceiverResponder for WebBrowserComponentPimpl<'a> {
             (new WebBrowserComponentHandleOnMessageThread (this, cmd, params))->post();
 
             // wait until the command has executed on the message thread
-            // this ensures that WebBrowserComponentPimpl can never be deleted while the
+            // this ensures that WebBrowserComponentImpl can never be deleted while the
             // message has not been executed yet
             threadBlocker.wait (-1);
         */
@@ -47,7 +47,7 @@ impl<'a> CommandReceiverResponder for WebBrowserComponentPimpl<'a> {
     }
 }
 
-impl<'a> Drop for WebBrowserComponentPimpl<'a> {
+impl<'a> Drop for WebBrowserComponentImpl<'a> {
 
     fn drop(&mut self) {
         todo!();
@@ -57,7 +57,7 @@ impl<'a> Drop for WebBrowserComponentPimpl<'a> {
     }
 }
 
-impl<'a> WebBrowserComponentPimpl<'a> {
+impl<'a> WebBrowserComponentImpl<'a> {
 
     pub fn new(parent: &mut WebBrowserComponent) -> Self {
     

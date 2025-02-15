@@ -26,7 +26,7 @@ pub fn aloe_handle_xembed_event(
     
     todo!();
         /*
-            return XEmbedComponent::Pimpl::dispatchX11Event (p, reinterpret_cast<const XEvent*> (e));
+            return XEmbedComponent::Impl::dispatchX11Event (p, reinterpret_cast<const XEvent*> (e));
         */
 }
 
@@ -34,6 +34,6 @@ pub fn aloe_get_current_focus_window(peer: *mut ComponentPeer) -> u64 {
     
     todo!();
         /*
-            return (unsigned long) XEmbedComponent::Pimpl::getCurrentFocusWindow (peer);
+            return (unsigned long) XEmbedComponent::Impl::getCurrentFocusWindow (peer);
         */
 }
