@@ -390,8 +390,10 @@ sub ensure-authors-correct-in-crate-toml($crate, $description) {
     %toml<package><repository>     = "https://github.com/klebs6/aloe-rs";
     %toml<package><version>        = "0.1.0";
 
-    %toml<package><metadata.cpp-authors>   = @cpp-authors;
-    %toml<package><metadata.original-repo> = $original-repo;
+    %toml<package><metadata> = {
+        'cpp-authors'    => @cpp-authors,
+        'original-repo'  => $original-repo
+    };
 
     $toml-file.IO.spurt: to-toml(%toml);
 }
