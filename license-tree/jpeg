@@ -1,0 +1,46 @@
+/*==============================================================================
+ INDEPENDENT JPEG GROUP (IJG) LICENSE CLUSTER - SINGLE COMMENT BLOCK
+
+ This unified text covers the standard IJG (Independent JPEG Group) licensing
+ statements repeated in the original snippet across multiple files, such as:
+   jcapimin.c, jcapistd.c, jccoefct.c, jcdctmgr.c, jchuff.c, jcinit.c, etc.,
+   as well as jerror.h, jerror.c, and the "README" references typically found
+   in an IJG distribution.
+
+ The authors commonly appear as: Thomas G. Lane, Guido Vollbeding, and the
+ Independent JPEG Group. Key references show the years 1991-1998, among others.
+
+------------------------------------------------------------------------------
+ The typical license statement used by the IJG is:
+
+   This software is based in part on the work of the Independent JPEG Group.
+
+   Copyright (C) 1991-1998, Thomas G. Lane.
+   This file is part of the Independent JPEG Group's software.
+
+   For conditions of distribution and use, see the accompanying README file.
+   (Often also referencing "jerror.h" or "jerror.c" for error code details.)
+
+   The gist of the terms is that the software is provided "AS IS", with no
+   warranty of any kind, express or implied.  Permission to use, copy,
+   modify, and distribute this software for any purpose without fee is
+   granted, as long as certain conditions in the README are met.  The
+   disclaimers disclaim all warranties, including merchantability and fitness
+   for a particular purpose, and disclaim liability for any damages.
+
+ Over time, additional statements or disclaimers might appear, but they all
+ revolve around the same core license used by the IJG. The key points are:
+
+   1) This software is provided "as is" without warranty of any kind.
+   2) Permission is granted to use, copy, modify, and distribute the software
+      for any purpose, subject to the disclaimers in the README.
+   3) The authors disclaim all warranties, including implied warranties of
+      merchantability and fitness.
+
+ For complete details, please refer to the official Independent JPEG Group
+ documentation and the README included with the source distribution.
+
+ Consolidated here, it forms a single robust license cluster for the IJG code.
+
+ END OF IJG LICENSE CLUSTER
+=============================================================================*/

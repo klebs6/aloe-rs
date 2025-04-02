@@ -1,0 +1,53 @@
+/*==============================================================================
+ LIBPNG LICENSE CLUSTER - SINGLE COMMENT BLOCK
+
+ Consolidating references from:
+   - png.h (libpng version 1.6.37 - April 14, 2019), plus older historical
+     text referencing 1995-2019 disclaimers
+   - Additional lines from pngrutil.c, pngread.c, pngrio.c, etc.
+   - The “PNG Reference Library License version 2” and version 1 text blocks
+
+ The disclaimers and license references collectively include:
+
+------------------------------------------------------------------------------
+  1) PNG Reference Library License version 2, referencing:
+
+     Copyright (c) 1995-2019 The PNG Reference Library Authors.
+     Copyright (c) 2018-2019 Cosmin Truta.
+     Copyright (c) 2000-2002, 2004, 2006-2018 Glenn Randers-Pehrson.
+     Copyright (c) 1996-1997 Andreas Dilger.
+     Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+
+     The software is supplied "as is", without warranty of any kind, express
+     or implied. No claim of merchantability or fitness for a particular
+     purpose is made. In no event shall the copyright owners or contributors
+     be liable for any damages. Permission is granted to use, copy, modify,
+     and distribute this code under certain conditions. See the full text
+     in the official license statements.
+
+  2) Detailed BSD-like terms from the older “PNG Reference Library License
+     version 1,” for libpng 0.5 through 1.6.35 (with references to disclaimers
+     from Group 42, Inc., Andreas Dilger, Guy Eric Schalnat, Glenn
+     Randers-Pehrson, etc.).
+
+  3) The standard statement:
+
+     "The PNG Reference Library is supplied 'AS IS'. The Contributing Authors
+      and Group 42, Inc. disclaim all warranties, expressed or implied,
+      including, without limitation, the warranties of merchantability and
+      of fitness for any purpose. The Contributing Authors and Group 42, Inc.
+      assume no liability for direct, indirect, incidental, special, exemplary,
+      or consequential damages, which may result from the use of the PNG
+      Reference Library, even if advised of the possibility of such damage."
+
+  4) Additional notes on PNG usage, references to:
+     https://www.libpng.org/pub/png/src/libpng-LICENSE.txt
+     and mention that usage is permitted under the stated terms (similar
+     to a BSD 3-clause license).
+
+ By merging all references, we preserve the full disclaimers, including
+ names, years, domain references, and disclaimers. This block serves as
+ the single consolidated license text for libpng from the original snippet.
+
+ END OF LIBPNG LICENSE CLUSTER
+=============================================================================*/

@@ -48,3 +48,13 @@ We welcome contributions from the community. Please refer to our contribution gu
 
 ## Authors
 - klebs <tpk3.mx@gmail.com>
+
+This crate is a translation of the JUCE module.
+
+JUCE is a c++ software framework for developing high performance audio applications.
+
+Usage falls under the GPLv3 as well as the JUCE commercial license.
+
+See github.com/juce-framework/JUCE and the JUCE license page for details.
+
+This crate is in the process of being translated from c++ to rust. As such, some of its features may be pending-translation. For progress updates, please see the workspacer rust project. workspacer contains a growing set of utilities designed specifically for rust projects.
