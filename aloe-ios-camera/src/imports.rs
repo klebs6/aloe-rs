@@ -16,5 +16,8 @@ pub(crate) use objc_foundation::NSArray;
 pub(crate) use objc_id::Id;
 pub(crate) use icrate::Foundation::{NSObject,NSError,NSNotification};
 
+#[cfg(target_os="macos")]
 pub(crate) use core_graphics::image::CGImageRef;
+
+#[cfg(target_os="macos")]
 pub(crate) use core_graphics::geometry::CGSize;

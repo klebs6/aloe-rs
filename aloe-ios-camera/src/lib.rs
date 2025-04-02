@@ -1,18 +1,20 @@
 #![feature(allocator_api)]
-#[macro_use] mod imports; use imports::*;
 
-x!{camera_device}
-x!{camera_device_impl}
-x!{capture_session}
-x!{file_output_recording_delegate_class}
-x!{internal_open_camera_result}
-x!{ios_version}
-x!{photo_output_delegate_class}
-x!{session_delegate_class}
-x!{still_picture_taker}
-x!{video_recorder}
-x!{viewer_class}
-x!{viewer_component}
+#[cfg(target_os="ios")] #[macro_use] mod imports; 
+#[cfg(target_os="ios")] use imports::*;
+
+#[cfg(target_os="ios")] x!{camera_device}
+#[cfg(target_os="ios")] x!{camera_device_impl}
+#[cfg(target_os="ios")] x!{capture_session}
+#[cfg(target_os="ios")] x!{file_output_recording_delegate_class}
+#[cfg(target_os="ios")] x!{internal_open_camera_result}
+#[cfg(target_os="ios")] x!{ios_version}
+#[cfg(target_os="ios")] x!{photo_output_delegate_class}
+#[cfg(target_os="ios")] x!{session_delegate_class}
+#[cfg(target_os="ios")] x!{still_picture_taker}
+#[cfg(target_os="ios")] x!{video_recorder}
+#[cfg(target_os="ios")] x!{viewer_class}
+#[cfg(target_os="ios")] x!{viewer_component}
 
 pub struct Missing {}
 pub type AVCaptureBracketedStillImageSettings = Missing;

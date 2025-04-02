@@ -1,10 +1,14 @@
-#[macro_use] mod imports; use imports::*;
+#[cfg(target_os="macos")]
+#[macro_use] mod imports; 
 
-x!{camera_device_impl}
-x!{delegate_class}
-x!{post_catalina}
-x!{post_catalina_photo_output_delegate}
-x!{viewer_component}
+#[cfg(target_os="macos")]
+use imports::*;
+
+#[cfg(target_os="macos")] x!{camera_device_impl}
+#[cfg(target_os="macos")] x!{delegate_class}
+#[cfg(target_os="macos")] x!{post_catalina}
+#[cfg(target_os="macos")] x!{post_catalina_photo_output_delegate}
+#[cfg(target_os="macos")] x!{viewer_component}
 
 pub struct Missing;
 

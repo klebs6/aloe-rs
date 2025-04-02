@@ -1,7 +1,9 @@
-[dependencies]
-objc = "0.2.7"
+[target.'cfg(target_os = "macos")'.dependencies]
+objc            = "0.2.7"
 objc-foundation = "0.1"
-objc_id = "0.1.1"
+objc_id         = "0.1.1"
+icrate          = { version = "0.1.2", features = [ "Foundation", "Foundation_NSError", "Foundation_NSNotification" ] }
+
 [dependencies.aloe-camera]
 path = "../aloe-camera"
 version = "0.1.0"
@@ -41,9 +43,6 @@ version = "0.1.0"
 [dependencies.aloe-time]
 path = "../aloe-time"
 version = "0.1.0"
-[dependencies.icrate]
-features = [ "Foundation", "Foundation_NSError", "Foundation_NSNotification" ]
-version = "0.1.2"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["external-ffi-bindings", "multimedia", "os", "hardware-support", "network-programming"]

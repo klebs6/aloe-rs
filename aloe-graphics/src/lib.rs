@@ -20,9 +20,16 @@ x!{linux_iconhelpers}
 x!{lowlevelgraphicscontext}
 x!{lowlevelgraphicspostscriptrenderer}
 x!{lowlevelgraphicssoftwarerenderer}
+
+#[cfg(target_os="macos")]
 x!{mac_coregraphicscontext}
+
+#[cfg(target_os="macos")]
 x!{mac_coregraphicshelpers}
+
+#[cfg(target_os="macos")]
 x!{mac_iconhelpers}
+
 x!{rectangleplacement}
 x!{saved_state_base}
 x!{saved_state_stack}

@@ -1,7 +1,11 @@
-#[macro_use] mod imports; use imports::*;
+#[cfg(target_os="macos")]
+#[macro_use] mod imports; 
 
-x!{delegate}
-x!{delegate_class}
-x!{delegate_details}
-x!{delegate_interface}
-x!{push_notification_impl}
+#[cfg(target_os="macos")]
+use imports::*;
+
+#[cfg(target_os="macos")] x!{delegate}
+#[cfg(target_os="macos")] x!{delegate_class}
+#[cfg(target_os="macos")] x!{delegate_details}
+#[cfg(target_os="macos")] x!{delegate_interface}
+#[cfg(target_os="macos")] x!{push_notification_impl}

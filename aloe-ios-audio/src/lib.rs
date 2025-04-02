@@ -1,13 +1,14 @@
-#[macro_use] mod imports; use imports::*;
+#[cfg(target_os="ios")] #[macro_use] mod imports; 
+#[cfg(target_os="ios")] use imports::*;
 
-x!{audio_log}
-x!{audio_session_holder}
-x!{io_channel_data}
-x!{io_channel_data_config}
-x!{ios_audio_device}
-x!{ios_audio_device_type}
-x!{ios_audio_device_type_impl}
-x!{session_routing}
+#[cfg(target_os="ios")] x!{audio_log}
+#[cfg(target_os="ios")] x!{audio_session_holder}
+#[cfg(target_os="ios")] x!{io_channel_data}
+#[cfg(target_os="ios")] x!{io_channel_data_config}
+#[cfg(target_os="ios")] x!{ios_audio_device}
+#[cfg(target_os="ios")] x!{ios_audio_device_type}
+#[cfg(target_os="ios")] x!{ios_audio_device_type_impl}
+#[cfg(target_os="ios")] x!{session_routing}
 
 pub struct Missing {}
 pub type AVAudioSessionRouteChangeReason = Missing;

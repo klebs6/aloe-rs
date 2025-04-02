@@ -88,6 +88,7 @@ pub fn round_to_int_point<PointType>(p: PointType) -> Point<i32> {
         */
 }
 
+#[cfg(target_os="macos")]
 pub fn aloe_create_core_graphics_image(
         _0:                  &Image,
         _1:                  CGColorSpaceRef,
