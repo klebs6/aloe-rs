@@ -99,7 +99,7 @@ path = "../aloe-vst3"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia"]
-description = "Aloe Ex Plugins offers advanced audio processing and synthesis tools in Rust, facilitating audio plugin development with MIDI control and sample processing."
+description = "Aloe Ex Plugins offers advanced audio processing and synthesis tools in Rust, facilitating audio plugin development with MIDI control and sample processing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ex-plugins"
 edition = "2024"
 keywords = ["audioprocessing", "synthesis", "plugins", "midi", "effects"]

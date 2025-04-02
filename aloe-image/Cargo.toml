@@ -31,7 +31,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["graphics", "science", "multimedia", "parsing", "rendering"]
-description = "A comprehensive Rust crate for image processing, supporting various formats (JPEG, PNG, GIF) with features including advanced image manipulation, caching, and convolution operations."
+description = "A comprehensive Rust crate for image processing, supporting various formats (JPEG, PNG, GIF) with features including advanced image manipulation, caching, and convolution operations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-image"
 edition = "2024"
 keywords = ["imageprocessing", "jpeg", "png", "gif", "rust"]

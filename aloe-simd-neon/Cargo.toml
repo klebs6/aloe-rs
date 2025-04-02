@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "hardware-support", "computer-vision", "science"]
-description = "A Rust crate providing NEON SIMD intrinsic emulation, offering optimized DSP operations and comprehensive arithmetic and bitwise functions for efficient vector processing on ARM architectures."
+description = "A Rust crate providing NEON SIMD intrinsic emulation, offering optimized DSP operations and comprehensive arithmetic and bitwise functions for efficient vector processing on ARM architectures. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-simd-neon"
 edition = "2024"
 keywords = ["neon", "simd", "dsp", "arm", "rust"]

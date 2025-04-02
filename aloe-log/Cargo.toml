@@ -19,7 +19,7 @@ path = "../aloe-files"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "development-tools", "config"]
-description = "Aloe Log is a flexible logging library for Rust providing application-wide logging capabilities, customizable logger interfaces, and platform-specific output handling strategies."
+description = "Aloe Log is a flexible logging library for Rust providing application-wide logging capabilities, customizable logger interfaces, and platform-specific output handling strategies. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-log"
 edition = "2024"
 keywords = ["logging", "rust", "filelogger", "customizable", "multiplatform"]

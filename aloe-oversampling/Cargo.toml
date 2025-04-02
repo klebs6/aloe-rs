@@ -15,7 +15,7 @@ path = "../aloe-sample-type"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "mathematics", "multimedia"]
-description = "A DSP crate for Rust providing multi-channel oversampling capabilities, with configurable filtering through FIR or IIR methods."
+description = "A DSP crate for Rust providing multi-channel oversampling capabilities, with configurable filtering through FIR or IIR methods. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oversampling"
 edition = "2024"
 keywords = ["dsp", "oversampling", "audioprocessing", "firfilter", "iirfilter"]

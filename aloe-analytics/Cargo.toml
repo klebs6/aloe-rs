@@ -33,7 +33,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "network-programming", "web-programming", "api-bindings"]
-description = "Aloe Analytics is a sophisticated Rust crate for managing, logging, and dispatching analytics events. It supports chained analytics destinations, with thread-safe mechanisms for handling event batching, persistence, and complex analytics destinations like Google Analytics."
+description = "Aloe Analytics is a sophisticated Rust crate for managing, logging, and dispatching analytics events. It supports chained analytics destinations, with thread-safe mechanisms for handling event batching, persistence, and complex analytics destinations like Google Analytics. This crate is a translation of the c++ juce module serving the same function. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-analytics"
 edition = "2024"
 keywords = ["analytics", "logging", "eventtracking", "network", "googleanalytics"]

@@ -34,7 +34,7 @@ version = "*"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["external-ffi-bindings", "multimedia", "os", "hardware-support", "network-programming"]
-description = "A Rust interface for macOS's AVFoundation framework, enabling camera device management and media capture capabilities."
+description = "A Rust interface for macOS's AVFoundation framework, enabling camera device management and media capture capabilities. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-mac-camera"
 edition = "2024"
 keywords = ["camera", "macos", "avfoundation", "mediacapture", "sessionmanagement"]

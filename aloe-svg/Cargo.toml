@@ -21,7 +21,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["graphics", "parsing", "rendering", "api-bindings"]
-description = "Aloe-SVG is a Rust library for parsing and rendering SVG files and paths into drawable graphics. It supports transformations, styling, gradients, and complex SVG elements parsing for advanced graphics rendering needs, utilizing extensive traits and structures to facilitate precise graphical operations."
+description = "Aloe-SVG is a Rust library for parsing and rendering SVG files and paths into drawable graphics. It supports transformations, styling, gradients, and complex SVG elements parsing for advanced graphics rendering needs, utilizing extensive traits and structures to facilitate precise graphical operations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-svg"
 edition = "2024"
 keywords = ["svg", "parsing", "graphics", "rendering", "drawable"]

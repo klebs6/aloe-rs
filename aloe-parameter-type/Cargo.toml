@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "mathematics", "development-tools", "parsing", "science"]
-description = "A Rust crate offering parameter management and type abstraction through traits for managing and characterizing parameters with varied types, ensuring meticulous control over numeric and character data types."
+description = "A Rust crate offering parameter management and type abstraction through traits for managing and characterizing parameters with varied types, ensuring meticulous control over numeric and character data types. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-parameter-type"
 edition = "2024"
 keywords = ["parameterization", "typeabstraction", "traits", "rust", "numerictypes"]

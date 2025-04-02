@@ -7,7 +7,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["encoding", "multimedia"]
-description = "Facilitates persistent storage and processing of object attributes for VST host and plug-in development."
+description = "Facilitates persistent storage and processing of object attributes for VST host and plug-in development. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-persist"
 edition = "2024"
 keywords = ["vst", "plugins", "attributes", "storage", "multimedia"]

@@ -19,7 +19,7 @@ version = "*"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "asynchronous", "embedded"]
-description = "Aloe-nsview provides Rust bindings for NSView components tailored for macOS, enabling seamless integration with audio plugin interfaces to manage UI views in VST2 and VST3 contexts."
+description = "Aloe-nsview provides Rust bindings for NSView components tailored for macOS, enabling seamless integration with audio plugin interfaces to manage UI views in VST2 and VST3 contexts. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-nsview"
 edition = "2024"
 keywords = ["nsview", "macos", "audioplugin", "vst", "cocoa"]

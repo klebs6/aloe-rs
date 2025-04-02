@@ -15,7 +15,7 @@ path = "../aloe-graphics"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "rendering", "multimedia", "visualization"]
-description = "Provides GUI components for displaying messages in speech-bubble shapes, with directional positioning and content rendering capabilities."
+description = "Provides GUI components for displaying messages in speech-bubble shapes, with directional positioning and content rendering capabilities. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-bubble"
 edition = "2024"
 keywords = ["gui", "bubble", "speech", "component", "graphics"]

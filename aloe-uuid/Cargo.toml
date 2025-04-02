@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "data-structures", "encoding", "parsing", "value-formatting"]
-description = "A crate for creating RFC 4122 version 4 UUIDs, focusing on high entropy and uniqueness. Offers conversion to/from strings and raw byte arrays."
+description = "A crate for creating RFC 4122 version 4 UUIDs, focusing on high entropy and uniqueness. Offers conversion to/from strings and raw byte arrays. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-uuid"
 edition = "2024"
 keywords = ["uuid", "rfc4122", "uniqueidentifier", "binaryformat", "randomness"]

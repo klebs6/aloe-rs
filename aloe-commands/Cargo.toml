@@ -33,7 +33,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "development-tools", "gui", "text-processing"]
-description = "A Rust library providing a standardized set of application command identifiers and utilities for managing command invocation and keypress mappings."
+description = "A Rust library providing a standardized set of application command identifiers and utilities for managing command invocation and keypress mappings. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-commands"
 edition = "2024"
 keywords = ["commands", "gui", "keypress", "application", "management"]

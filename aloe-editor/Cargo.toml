@@ -47,7 +47,7 @@ path = "../aloe-undo"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "text-editors", "parsing", "compilers", "development-tools"]
-description = "Aloe Editor is an advanced text editor component for source code, featuring syntax highlighting for languages like Lua, C++, and XML. It supports extensive text files, offers customizable color schemes, and provides efficient navigation and editing capabilities."
+description = "Aloe Editor is an advanced text editor component for source code, featuring syntax highlighting for languages like Lua, C++, and XML. It supports extensive text files, offers customizable color schemes, and provides efficient navigation and editing capabilities. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-editor"
 edition = "2024"
 keywords = ["syntaxhighlighting", "codeeditor", "textprocessing", "gui", "rustcrate"]

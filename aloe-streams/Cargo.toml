@@ -21,7 +21,7 @@ path = "../aloe-text"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "memory-management", "asynchronous", "parsing", "filesystem"]
-description = "Aloe Streams is a Rust crate for managing input and output data streams, offering interfaces for reading and writing data efficiently, with support for memory and buffered operations."
+description = "Aloe Streams is a Rust crate for managing input and output data streams, offering interfaces for reading and writing data efficiently, with support for memory and buffered operations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-streams"
 edition = "2024"
 keywords = ["streamprocessing", "iostreams", "memorymanagement", "datastreams", "bufferedio"]

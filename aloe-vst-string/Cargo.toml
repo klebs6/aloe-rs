@@ -12,7 +12,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["encoding", "value-formatting", "multimedia"]
-description = "Aloe VST String provides advanced string manipulation capabilities focusing on UTF-16 and UTF-8 encodings. It features Unicode normalization, string comparison modes, and essential VST string implementations for efficient, cross-platform development."
+description = "Aloe VST String provides advanced string manipulation capabilities focusing on UTF-16 and UTF-8 encodings. It features Unicode normalization, string comparison modes, and essential VST string implementations for efficient, cross-platform development. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-string"
 edition = "2024"
 keywords = ["vst", "utf16", "utf8", "normalization", "string"]

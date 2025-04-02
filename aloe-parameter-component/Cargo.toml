@@ -25,7 +25,7 @@ path = "../aloe-slider"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["value-formatting", "gui", "asynchronous"]
-description = "Aloe Parameter Component offers a cohesive set of tools for handling audio parameter interfaces in Rust, promoting seamless integration within audio processing environments using various parameter display components."
+description = "Aloe Parameter Component offers a cohesive set of tools for handling audio parameter interfaces in Rust, promoting seamless integration within audio processing environments using various parameter display components. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-parameter-component"
 edition = "2024"
 keywords = ["audio", "parameters", "components", "processor", "interface"]

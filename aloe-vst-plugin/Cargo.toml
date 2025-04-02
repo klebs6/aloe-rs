@@ -9,7 +9,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["development-tools", "multimedia", "external-ffi-bindings"]
-description = "Aloe VST Plugin is a Rust crate designed for developing audio plugins based on the VST3 standard, providing necessary interfaces and factories for robust plugin architecture."
+description = "Aloe VST Plugin is a Rust crate designed for developing audio plugins based on the VST3 standard, providing necessary interfaces and factories for robust plugin architecture. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-plugin"
 edition = "2024"
 keywords = ["vst", "audio", "plugin", "factory", "interface"]

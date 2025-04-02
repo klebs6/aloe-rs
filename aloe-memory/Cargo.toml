@@ -17,7 +17,7 @@ path = "../aloe-text"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["memory-management", "concurrency", "development-tools", "compilers", "rust-patterns"]
-description = "Aloe Memory provides advanced memory management functionalities, including reference counting, weak references, singleton patterns, and memory leak detection."
+description = "Aloe Memory provides advanced memory management functionalities, including reference counting, weak references, singleton patterns, and memory leak detection. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-memory"
 edition = "2024"
 keywords = ["memory", "referencecounting", "singleton", "weakreference", "leakdetection"]

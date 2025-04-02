@@ -19,7 +19,7 @@ path = "../aloe-test"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["science", "external-ffi-bindings", "embedded"]
-description = "Aloe-ADSR provides a simple ADSR envelope generator for audio processing, allowing customizable attack, decay, sustain, and release phases."
+description = "Aloe-ADSR provides a simple ADSR envelope generator for audio processing, allowing customizable attack, decay, sustain, and release phases. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-adsr"
 edition = "2024"
 keywords = ["adsr", "envelope", "audio", "synthesis", "signalprocessing"]

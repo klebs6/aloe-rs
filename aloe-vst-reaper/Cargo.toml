@@ -7,7 +7,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "web-programming", "multimedia", "os"]
-description = "A Rust crate providing traits to interface with the REAPER DAW for VST plugin management and UI embedding functionalities."
+description = "A Rust crate providing traits to interface with the REAPER DAW for VST plugin management and UI embedding functionalities. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-reaper"
 edition = "2024"
 keywords = ["reaper", "vst", "plugin", "audio", "interface"]

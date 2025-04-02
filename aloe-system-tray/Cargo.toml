@@ -26,7 +26,7 @@ version = "*"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "command-line-utilities", "development-tools", "os", "web-programming"]
-description = "A Rust library to manage system tray icons across Windows, Linux, BSD, and macOS, allowing for event handling and dynamic icon configuration in the taskbar."
+description = "A Rust library to manage system tray icons across Windows, Linux, BSD, and macOS, allowing for event handling and dynamic icon configuration in the taskbar. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-system-tray"
 edition = "2024"
 keywords = ["systemtray", "gui", "crossplatform", "iconmanagement", "eventhandling"]

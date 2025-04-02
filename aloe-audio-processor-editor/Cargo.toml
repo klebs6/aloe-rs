@@ -43,7 +43,7 @@ path = "../aloe-valuetree"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "multimedia", "os", "external-ffi-bindings"]
-description = "A framework for creating audio processor editor components in Rust, with support for GUI interactions and MIDI controller integration."
+description = "A framework for creating audio processor editor components in Rust, with support for GUI interactions and MIDI controller integration. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-processor-editor"
 edition = "2024"
 keywords = ["audio", "gui", "midi", "editor", "rust"]

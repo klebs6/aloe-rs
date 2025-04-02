@@ -29,7 +29,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "concurrency", "memory-management", "multimedia"]
-description = "Aloe Container offers advanced data structures with thread-safe and memory efficient designs, including SortedSets, ListenerLists, HashMaps, and more."
+description = "Aloe Container offers advanced data structures with thread-safe and memory efficient designs, including SortedSets, ListenerLists, HashMaps, and more. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-container"
 edition = "2024"
 keywords = ["datastructures", "threadsafe", "containers", "memory", "multithreading"]

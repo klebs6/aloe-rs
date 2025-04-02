@@ -19,7 +19,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "os"]
-description = "Aloe-embedding provides structures for creating and embedding platform-specific native GUI components such as UIView, NSView, and HWND into applications, supporting seamless integration and resizing operations."
+description = "Aloe-embedding provides structures for creating and embedding platform-specific native GUI components such as UIView, NSView, and HWND into applications, supporting seamless integration and resizing operations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-embedding"
 edition = "2024"
 keywords = ["gui", "embedding", "crossplatform", "ios", "windows"]

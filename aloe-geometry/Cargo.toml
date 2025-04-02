@@ -11,7 +11,7 @@ path = "../aloe-parameter-type"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["graphics", "gui", "mathematics", "rendering"]
-description = "Aloe Geometry is a Rust crate providing advanced functionality for 2D/3D geometric operations, including path manipulation, affine transforms, and quaternion support for graphical applications."
+description = "Aloe Geometry is a Rust crate providing advanced functionality for 2D/3D geometric operations, including path manipulation, affine transforms, and quaternion support for graphical applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-geometry"
 edition = "2024"
 keywords = ["geometry", "graphics", "transformation", "quaternion", "vector"]

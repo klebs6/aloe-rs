@@ -13,7 +13,7 @@ path = "../aloe-graphics"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "text-editors", "os", "external-ffi-bindings", "localization"]
-description = "Aloe Keyboard provides a set of abstractions for handling virtual keyboards, key events, and clipboard integration across platforms, enabling robust text input management in GUI applications."
+description = "Aloe Keyboard provides a set of abstractions for handling virtual keyboards, key events, and clipboard integration across platforms, enabling robust text input management in GUI applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-keyboard"
 edition = "2024"
 keywords = ["keyboard", "textinput", "clipboard", "gui", "inputhandling"]

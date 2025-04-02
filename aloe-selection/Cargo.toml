@@ -11,7 +11,7 @@ path = "../aloe-parameter-type"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "data-structures", "rust-patterns", "embedded", "development-tools"]
-description = "A library that manages a list of selectable items, optimized for GUI applications, providing functionalities to select, deselect, and handle item interactions with change notifications and modifier key integration."
+description = "A library that manages a list of selectable items, optimized for GUI applications, providing functionalities to select, deselect, and handle item interactions with change notifications and modifier key integration. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-selection"
 edition = "2024"
 keywords = ["selection", "items", "gui", "notifications", "modifierkeys"]

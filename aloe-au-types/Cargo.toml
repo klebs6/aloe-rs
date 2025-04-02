@@ -10,7 +10,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["concurrency", "data-structures", "mathematics", "memory-management", "web-programming"]
-description = "Aloe AU Types provides concurrency primitives, vector unit detection, atomic operations, and enhanced memory management for performance-critical applications involving multi-threading and hardware capability detection."
+description = "Aloe AU Types provides concurrency primitives, vector unit detection, atomic operations, and enhanced memory management for performance-critical applications involving multi-threading and hardware capability detection. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-types"
 edition = "2024"
 keywords = ["concurrency", "atomic", "vector", "mutex", "memory"]

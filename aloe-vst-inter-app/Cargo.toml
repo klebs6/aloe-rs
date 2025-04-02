@@ -11,7 +11,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "api-bindings"]
-description = "Provides advanced interfaces for VST plug-in control, preset management, and inter-app audio connections in Rust."
+description = "Provides advanced interfaces for VST plug-in control, preset management, and inter-app audio connections in Rust. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-inter-app"
 edition = "2024"
 keywords = ["vst", "audio", "presetmanagement", "interapp", "hostcommunication"]

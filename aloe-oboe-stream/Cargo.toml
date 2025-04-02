@@ -14,7 +14,7 @@ path = "../aloe-oboe-no-aaudio"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["network-programming"]
-description = "Aloe Oboe Stream is a Rust crate that provides advanced audio processing via the Oboe API, enabling high-performance audio interfaces for Android platforms, suitable for real-time audio applications."
+description = "Aloe Oboe Stream is a Rust crate that provides advanced audio processing via the Oboe API, enabling high-performance audio interfaces for Android platforms, suitable for real-time audio applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-stream"
 edition = "2024"
 keywords = ["audio", "streaming", "realtime", "aaudio", "callback"]

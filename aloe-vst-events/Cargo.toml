@@ -11,7 +11,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["network-programming", "api-bindings", "game-development", "multimedia"]
-description = "A Rust crate for managing VST events, facilitating communication and interoperability between DAWs and VST plugins through a robust set of interfaces and structures."
+description = "A Rust crate for managing VST events, facilitating communication and interoperability between DAWs and VST plugins through a robust set of interfaces and structures. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-events"
 edition = "2024"
 keywords = ["vst", "audio", "plugin", "midi", "event"]

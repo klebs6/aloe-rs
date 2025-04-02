@@ -14,7 +14,7 @@ path = "../aloe-files"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["os", "api-bindings", "rendering"]
-description = "A Rust crate for managing audio components with a focus on macOS platform compatibility. Provides fast dispatching and management of Audio Unit components."
+description = "A Rust crate for managing audio components with a focus on macOS platform compatibility. Provides fast dispatching and management of Audio Unit components. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-component"
 edition = "2024"
 keywords = ["audio", "component", "macos", "audiounit", "dispatch"]

@@ -11,7 +11,7 @@ path = "../aloe-mouse"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "development-tools", "rendering"]
-description = "A Rust crate for managing layouts of UI components with flexible, resizable dimensions. It includes tools for arranging components according to specified size constraints and preferences."
+description = "A Rust crate for managing layouts of UI components with flexible, resizable dimensions. It includes tools for arranging components according to specified size constraints and preferences. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-stretchable"
 edition = "2024"
 keywords = ["gui", "layout", "resizer", "stretchable", "components"]

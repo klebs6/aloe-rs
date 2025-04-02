@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["concurrency", "data-structures", "memory-management", "rust-patterns", "development-tools"]
-description = "Aloe Atomic is a Rust library providing a convenient wrapper for atomic operations. It supports type parameterization, lock-free atomic capabilities, and thread-safe operations with enhanced atomic functionality."
+description = "Aloe Atomic is a Rust library providing a convenient wrapper for atomic operations. It supports type parameterization, lock-free atomic capabilities, and thread-safe operations with enhanced atomic functionality. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-atomic"
 edition = "2024"
 keywords = ["atomic", "concurrency", "threadsafety", "memoryordering", "lockfree"]

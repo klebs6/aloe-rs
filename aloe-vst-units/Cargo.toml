@@ -9,7 +9,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "external-ffi-bindings"]
-description = "`aloe-vst-units` offers an interface for comprehensive management of VST 3.0 units and program lists, facilitating effective host-plugin communication. It supports unit preset data and dynamic program list handling in digital audio workstations."
+description = "`aloe-vst-units` offers an interface for comprehensive management of VST 3.0 units and program lists, facilitating effective host-plugin communication. It supports unit preset data and dynamic program list handling in digital audio workstations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-units"
 edition = "2024"
 keywords = ["vst", "units", "programlist", "audioprocessing", "plugininterface"]

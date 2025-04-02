@@ -13,7 +13,7 @@ path = "../aloe-vst-units"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "command-line-utilities", "api-bindings", "gui"]
-description = "Aloe VST Parameters is a Rust crate facilitating advanced management of VST3 plugin parameters. It provides traits and structures for handling parameter automation, editing, and representation."
+description = "Aloe VST Parameters is a Rust crate facilitating advanced management of VST3 plugin parameters. It provides traits and structures for handling parameter automation, editing, and representation. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-parameters"
 edition = "2024"
 keywords = ["vst", "audio", "pluginparameters", "automation", "audioprocessing"]

@@ -37,7 +37,7 @@ version = "*"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "embedded", "hardware-support", "network-programming", "web-programming"]
-description = "Aloe iOS Camera provides a powerful interface for iOS camera operations using AVFoundation. It allows creation and management of capture sessions for both photo and video, and handles complex orientation and device settings within the iOS environment."
+description = "Aloe iOS Camera provides a powerful interface for iOS camera operations using AVFoundation. It allows creation and management of capture sessions for both photo and video, and handles complex orientation and device settings within the iOS environment. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ios-camera"
 edition = "2024"
 keywords = ["ios", "camera", "avfoundation", "video", "photography"]

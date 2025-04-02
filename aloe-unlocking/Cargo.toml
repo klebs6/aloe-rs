@@ -59,7 +59,7 @@ aloe-data-structures = [  ]
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "network-programming", "games", "cryptography", "web-programming"]
-description = "Aloe Unlocking is a Rust-based library offering robust in-app purchase functionality and online unlocking systems for iOS and other platforms."
+description = "Aloe Unlocking is a Rust-based library offering robust in-app purchase functionality and online unlocking systems for iOS and other platforms. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-unlocking"
 edition = "2024"
 keywords = ["inapppurchase", "onlineunlock", "rust", "licensing", "applicationsecurity"]

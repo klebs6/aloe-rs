@@ -33,7 +33,7 @@ path = "../aloe-texteditor"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["cryptography", "algorithms", "encoding", "network-programming", "data-structures"]
-description = "Aloe-Crypto provides cryptographic operations including various hash functions and encryption techniques such as MD5, SHA-256, RSA key pair, and Blowfish."
+description = "Aloe-Crypto provides cryptographic operations including various hash functions and encryption techniques such as MD5, SHA-256, RSA key pair, and Blowfish. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-crypto"
 edition = "2024"
 keywords = ["crypto", "hashing", "encryption", "md5", "rsa"]

@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "data-structures", "development-tools", "science", "simulation"]
-description = "Aloe-Oboe-Flowgraph is a Rust crate for constructing, manipulating, and executing directed flow graphs efficiently. It features strong type safety and modular design for complex flow-based computations."
+description = "Aloe-Oboe-Flowgraph is a Rust crate for constructing, manipulating, and executing directed flow graphs efficiently. It features strong type safety and modular design for complex flow-based computations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-flowgraph"
 edition = "2024"
 keywords = ["flowgraph", "directedgraph", "rust", "typesafety", "computation"]

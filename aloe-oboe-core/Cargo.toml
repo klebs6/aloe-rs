@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["asynchronous", "multimedia", "external-ffi-bindings", "no-std"]
-description = "Core components for high-performance audio processing in Android using Rust, integrating with native audio capabilities for precise control over audio streams."
+description = "Core components for high-performance audio processing in Android using Rust, integrating with native audio capabilities for precise control over audio streams. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-core"
 edition = "2024"
 keywords = ["audio", "android", "performance", "stream", "oboe"]

@@ -54,7 +54,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["development-tools", "multimedia", "external-ffi-bindings", "encoding"]
-description = "Aloe VST Plugin Format is a Rust crate providing tools for VST plugin management and integration, supporting cross-platform functionality and performance optimization."
+description = "Aloe VST Plugin Format is a Rust crate providing tools for VST plugin management and integration, supporting cross-platform functionality and performance optimization. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-pluginformat"
 edition = "2024"
 keywords = ["vst", "plugin", "audio", "format", "rust"]

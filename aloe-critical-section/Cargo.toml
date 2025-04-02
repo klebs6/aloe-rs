@@ -7,7 +7,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["concurrency", "data-structures", "development-tools", "rust-patterns"]
-description = "Aloe Critical Section provides RAII-based thread synchronization tools for scoped locking in Rust. It includes constructs for critical sections and mutexes with automatic lock management."
+description = "Aloe Critical Section provides RAII-based thread synchronization tools for scoped locking in Rust. It includes constructs for critical sections and mutexes with automatic lock management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-critical-section"
 edition = "2024"
 keywords = ["raii", "criticalsection", "mutex", "threadsynchronization", "rust"]

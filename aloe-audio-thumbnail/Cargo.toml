@@ -21,7 +21,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "rendering", "graphics", "visualization"]
-description = "Aloe Audio Thumbnail for scalable audio waveform visualization in Rust with comprehensive caching and rendering strategies."
+description = "Aloe Audio Thumbnail for scalable audio waveform visualization in Rust with comprehensive caching and rendering strategies. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-thumbnail"
 edition = "2024"
 keywords = ["audio", "waveform", "visualization", "thumbnail", "render"]

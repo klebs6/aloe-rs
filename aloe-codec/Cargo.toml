@@ -37,7 +37,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "encoding", "concurrency"]
-description = "Aloe-Codec offers comprehensive audio format handling with memory mapping and threading support for fast and flexible audio data processing."
+description = "Aloe-Codec offers comprehensive audio format handling with memory mapping and threading support for fast and flexible audio data processing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-codec"
 edition = "2024"
 keywords = ["audio", "codec", "fileformat", "memorymapping", "concurrency"]

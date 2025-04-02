@@ -15,7 +15,7 @@ path = "../aloe-mouse"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "development-tools", "external-ffi-bindings", "template-engine"]
-description = "Aloe Resizable provides GUI components with interactive resizing capabilities, including edges, corners, and borders."
+description = "Aloe Resizable provides GUI components with interactive resizing capabilities, including edges, corners, and borders. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-resizable"
 edition = "2024"
 keywords = ["gui", "resizable", "component", "rust", "drag"]

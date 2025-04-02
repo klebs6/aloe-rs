@@ -23,7 +23,7 @@ path = "../aloe-files"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["filesystem", "development-tools", "os"]
-description = "Aloe-CD facilitates audio CD burning and reading functionalities with support for state management and progress tracking across Windows, macOS, and Linux platforms."
+description = "Aloe-CD facilitates audio CD burning and reading functionalities with support for state management and progress tracking across Windows, macOS, and Linux platforms. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-cd"
 edition = "2024"
 keywords = ["audio", "cdburning", "opticaldrive", "crossplatform", "diskmanagement"]

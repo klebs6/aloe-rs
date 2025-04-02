@@ -37,7 +37,7 @@ path = "../aloe-valuetree"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "rendering", "graphics", "value-formatting", "development-tools"]
-description = "Aloe Slider provides a customizable GUI slider component for Rust applications, featuring multiple styles, listener support, and color adjustments."
+description = "Aloe Slider provides a customizable GUI slider component for Rust applications, featuring multiple styles, listener support, and color adjustments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-slider"
 edition = "2024"
 keywords = ["slider", "gui", "rust", "customization", "interface"]

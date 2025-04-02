@@ -27,7 +27,7 @@ path = "../aloe-viewport"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "accessibility", "rendering", "text-processing"]
-description = "Aloe ListBox facilitates the rapid development of advanced GUI list boxes with rich event handling, customizable appearance, and robust accessibility features."
+description = "Aloe ListBox facilitates the rapid development of advanced GUI list boxes with rich event handling, customizable appearance, and robust accessibility features. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-listbox"
 edition = "2024"
 keywords = ["gui", "listbox", "accessibility", "graphics", "draganddrop"]

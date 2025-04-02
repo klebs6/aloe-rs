@@ -59,7 +59,7 @@ path = "../aloe-url"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "gui", "simulation", "network-programming"]
-description = "A Rust crate for audio recording and playback, featuring real-time visualization, file drag-and-drop, and an advanced user interface."
+description = "A Rust crate for audio recording and playback, featuring real-time visualization, file drag-and-drop, and an advanced user interface. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-transport"
 edition = "2024"
 keywords = ["audio", "recording", "playback", "visualization", "gui"]

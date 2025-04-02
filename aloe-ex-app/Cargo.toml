@@ -15,7 +15,7 @@ path = "../aloe-graphics"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "development-tools", "os"]
-description = "Aloe-ex-app is a Rust crate providing a JUCE-inspired framework for developing desktop GUI applications with efficient window and content management."
+description = "Aloe-ex-app is a Rust crate providing a JUCE-inspired framework for developing desktop GUI applications with efficient window and content management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ex-app"
 edition = "2024"
 keywords = ["juce", "gui", "desktop", "application", "framework"]

@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["encoding", "text-processing", "development-tools"]
-description = "Efficiently retrieve MIME types for file extensions with a simple API. Designed for seamless integration and extensibility to support varied applications."
+description = "Efficiently retrieve MIME types for file extensions with a simple API. Designed for seamless integration and extensibility to support varied applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-mime"
 edition = "2024"
 keywords = ["mime", "fileformat", "encoding", "rustlibrary", "fileextension"]

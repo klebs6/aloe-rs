@@ -33,7 +33,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "embedded", "multimedia", "hardware-support", "asynchronous"]
-description = "A comprehensive interface for integrating Android camera devices using Rust, with support for still images, video recording, and real-time processing."
+description = "A comprehensive interface for integrating Android camera devices using Rust, with support for still images, video recording, and real-time processing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-android-camera"
 edition = "2024"
 keywords = ["android", "camera", "media", "jni", "capture"]

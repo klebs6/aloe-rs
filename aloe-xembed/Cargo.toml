@@ -11,7 +11,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "os", "external-ffi-bindings", "embedded"]
-description = "Aloe XEmbed enables integration of foreign X11 widgets on Unix-like systems using the XEmbed protocol. Supports GTK+, QT, and raw X11 widgets. Suitable for applications requiring graphical user interfaces."
+description = "Aloe XEmbed enables integration of foreign X11 widgets on Unix-like systems using the XEmbed protocol. Supports GTK+, QT, and raw X11 widgets. Suitable for applications requiring graphical user interfaces. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-xembed"
 edition = "2024"
 keywords = ["xembed", "x11", "gtk", "qt", "embedding"]

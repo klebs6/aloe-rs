@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["embedded", "external-ffi-bindings", "network-programming"]
-description = "A Rust crate providing bindings for AAudio streaming on Android, offering comprehensive type definitions and callback management for seamless audio integration."
+description = "A Rust crate providing bindings for AAudio streaming on Android, offering comprehensive type definitions and callback management for seamless audio integration. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-no-aaudio"
 edition = "2024"
 keywords = ["aaudio", "audiostream", "android", "ffi", "rustbindings"]

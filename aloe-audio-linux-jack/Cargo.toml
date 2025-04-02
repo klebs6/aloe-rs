@@ -19,7 +19,7 @@ path = "../aloe-network"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["asynchronous", "network-programming", "multimedia", "external-ffi-bindings"]
-description = "A Rust library for interfacing with the JACK Audio Connection Kit, providing tools for real-time audio processing in Linux environments."
+description = "A Rust library for interfacing with the JACK Audio Connection Kit, providing tools for real-time audio processing in Linux environments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-linux-jack"
 edition = "2024"
 keywords = ["jack", "audio", "realtime", "linux", "sound"]

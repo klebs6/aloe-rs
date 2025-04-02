@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "hardware-support", "embedded"]
-description = "Aloe VST Types provides comprehensive Rust-type definitions and trait implementations aligning with Steinberg's VST SDK for building and interacting with VST plugins."
+description = "Aloe VST Types provides comprehensive Rust-type definitions and trait implementations aligning with Steinberg's VST SDK for building and interacting with VST plugins. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-types"
 edition = "2024"
 keywords = ["vst", "audio", "plugin", "steinberg", "interface"]

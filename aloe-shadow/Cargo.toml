@@ -11,7 +11,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "rendering", "os"]
-description = "Provides a system for adding realistic drop-shadows to GUI components, enhancing visual depth and integration with desktop environments."
+description = "Provides a system for adding realistic drop-shadows to GUI components, enhancing visual depth and integration with desktop environments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-shadow"
 edition = "2024"
 keywords = ["gui", "shadow", "component", "graphics", "desktop"]

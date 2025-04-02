@@ -13,7 +13,7 @@ path = "../aloe-sample-type"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "algorithms"]
-description = "Aloe Convolution is a Rust crate for real-time audio convolution operations, implementing both cabinet simulation and reverb with efficient FFT-based processing."
+description = "Aloe Convolution is a Rust crate for real-time audio convolution operations, implementing both cabinet simulation and reverb with efficient FFT-based processing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-convolution"
 edition = "2024"
 keywords = ["convolution", "audio", "processing", "reverb", "cabinet"]

@@ -20,7 +20,7 @@ version = "*"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["external-ffi-bindings", "asynchronous", "network-programming", "os"]
-description = "A Rust library for managing iOS local and remote notifications, integrating native Objective-C interface with Rust."
+description = "A Rust library for managing iOS local and remote notifications, integrating native Objective-C interface with Rust. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ios-notifications"
 edition = "2024"
 keywords = ["ios", "pushnotifications", "remotenotifications", "localnotifications", "objectivecintegration"]

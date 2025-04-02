@@ -27,7 +27,7 @@ path = "../aloe-midi"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "rendering", "gui", "development-tools"]
-description = "Rust crate for managing audio devices with GUIs for audio input/output configuration, sample rate adjustments, and MIDI device management. Ideal for multimedia applications."
+description = "Rust crate for managing audio devices with GUIs for audio input/output configuration, sample rate adjustments, and MIDI device management. Ideal for multimedia applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-devices"
 edition = "2024"
 keywords = ["audio", "midi", "device", "gui", "multimedia"]

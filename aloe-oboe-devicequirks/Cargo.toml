@@ -7,7 +7,7 @@ path = "../aloe-oboe-stream"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "embedded"]
-description = "Provides internal utilities for audio device quirks management, tailored for Android devices, specifically Samsung Exynos models."
+description = "Provides internal utilities for audio device quirks management, tailored for Android devices, specifically Samsung Exynos models. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-devicequirks"
 edition = "2024"
 keywords = ["audio", "quirks", "samsung", "android", "exynos"]

@@ -17,7 +17,7 @@ path = "../aloe-smoothed-value"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["compilers", "rendering", "science"]
-description = "`aloe-delay-processor` provides advanced audio delay processing capabilities with multiple interpolation methods."
+description = "`aloe-delay-processor` provides advanced audio delay processing capabilities with multiple interpolation methods. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-delay-processor"
 edition = "2024"
 keywords = ["audio", "delay", "processor", "interpolation", "effects"]

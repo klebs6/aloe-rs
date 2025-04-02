@@ -33,7 +33,7 @@ path = "../aloe-waveshaper"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "simulation", "science"]
-description = "Aloe Distortion is a Rust library providing components for simulating audio distortion effects, utilizing oversampling and wave shaping techniques to enhance sound dynamics."
+description = "Aloe Distortion is a Rust library providing components for simulating audio distortion effects, utilizing oversampling and wave shaping techniques to enhance sound dynamics. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-distortion"
 edition = "2024"
 keywords = ["audio", "distortion", "overdrive", "waveshaping", "oversampling"]

@@ -25,7 +25,7 @@ path = "../aloe-smoothed-value"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "embedded", "science", "simulation"]
-description = "A suite of audio processing tools for dynamic range compression, noise gating, and gain adjustment."
+description = "A suite of audio processing tools for dynamic range compression, noise gating, and gain adjustment. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-dynamics"
 edition = "2024"
 keywords = ["dsp", "audio", "compression", "noisegate", "gain"]

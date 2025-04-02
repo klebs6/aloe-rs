@@ -7,7 +7,7 @@ path = "../aloe-files"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["development-tools", "rust-patterns"]
-description = "A Rust crate for precision performance measurement and logging with automated statistical aggregation."
+description = "A Rust crate for precision performance measurement and logging with automated statistical aggregation. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-performance-counter"
 edition = "2024"
 keywords = ["performance", "measurement", "logging", "timing", "benchmark"]

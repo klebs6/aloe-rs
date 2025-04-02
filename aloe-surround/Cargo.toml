@@ -25,7 +25,7 @@ path = "../aloe-network"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "gui", "asynchronous", "memory-management"]
-description = "Aloe Surround is an advanced Rust crate for managing and processing multi-channel audio layouts with GUI support."
+description = "Aloe Surround is an advanced Rust crate for managing and processing multi-channel audio layouts with GUI support. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-surround"
 edition = "2024"
 keywords = ["audio", "channel", "gui", "asynchronous", "processing"]

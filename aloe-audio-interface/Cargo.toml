@@ -33,7 +33,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = []
-description = "Aloe Audio Interface is a comprehensive Rust crate designed to facilitate intricate interactions with audio processing and MIDI data in plugin contexts. It supports precise audio routing, MIDI message handling, and various audio processing precision models."
+description = "Aloe Audio Interface is a comprehensive Rust crate designed to facilitate intricate interactions with audio processing and MIDI data in plugin contexts. It supports precise audio routing, MIDI message handling, and various audio processing precision models. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-interface"
 edition = "2024"
 keywords = ["audio", "midi", "plugin", "interface", "processing"]

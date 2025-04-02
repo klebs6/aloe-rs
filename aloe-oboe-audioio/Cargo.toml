@@ -19,7 +19,7 @@ path = "../aloe-string"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["embedded", "hardware-support", "os", "multimedia"]
-description = "Provides audio I/O management for Android using the Oboe library, handling devices, buffers, and sessions for high-performance audio applications."
+description = "Provides audio I/O management for Android using the Oboe library, handling devices, buffers, and sessions for high-performance audio applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-audioio"
 edition = "2024"
 keywords = ["audio", "oboe", "android", "buffer", "device"]

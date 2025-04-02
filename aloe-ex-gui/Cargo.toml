@@ -133,7 +133,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "multimedia", "rendering", "accessibility"]
-description = "A comprehensive GUI crate for Rust featuring OpenGL integration and accessibility support."
+description = "A comprehensive GUI crate for Rust featuring OpenGL integration and accessibility support. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ex-gui"
 edition = "2024"
 keywords = ["rust", "gui", "opengl", "accessibility", "widgets"]

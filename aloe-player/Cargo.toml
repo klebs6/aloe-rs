@@ -31,7 +31,7 @@ path = "../aloe-valuetree"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["asynchronous", "command-line-utilities", "multimedia", "network-programming", "web-programming"]
-description = "Aloe Player is an advanced audio streaming and processing library for Rust, supporting audio and MIDI operations with high precision and flexibility."
+description = "Aloe Player is an advanced audio streaming and processing library for Rust, supporting audio and MIDI operations with high precision and flexibility. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-player"
 edition = "2024"
 keywords = ["audiostreaming", "midiprocessing", "audioengine", "soundplayback", "musicproduction"]

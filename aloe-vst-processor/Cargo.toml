@@ -11,7 +11,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "compilers", "encoding"]
-description = "Aloe VST Processor provides a framework for building VST3 audio plugins, integrating comprehensive audio processing capabilities and component management towards enhancing DAWs."
+description = "Aloe VST Processor provides a framework for building VST3 audio plugins, integrating comprehensive audio processing capabilities and component management towards enhancing DAWs. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-processor"
 edition = "2024"
 keywords = ["audioprocessing", "vst3", "plugindevelopment", "digitalaudio", "signalprocessing"]

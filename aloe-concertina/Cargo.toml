@@ -19,7 +19,7 @@ path = "../aloe-mouse"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "embedded", "development-tools", "accessibility"]
-description = "Aloe Concertina is a Rust crate providing GUI components for creating dynamically resizable and expandable panel stacks, optimized for effective user interface management."
+description = "Aloe Concertina is a Rust crate providing GUI components for creating dynamically resizable and expandable panel stacks, optimized for effective user interface management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-concertina"
 edition = "2024"
 keywords = ["gui", "components", "panel", "interaction", "animation"]

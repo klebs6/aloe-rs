@@ -11,7 +11,7 @@ path = "../aloe-string"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "mathematics", "parser-implementations", "science", "simulation"]
-description = "Aloe Math Expression is a Rust crate for parsing and evaluating mathematical expressions. It supports arithmetic operations, functions, and symbol resolution."
+description = "Aloe Math Expression is a Rust crate for parsing and evaluating mathematical expressions. It supports arithmetic operations, functions, and symbol resolution. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-math-expression"
 edition = "2024"
 keywords = ["math", "expression", "evaluation", "parser", "algebra"]

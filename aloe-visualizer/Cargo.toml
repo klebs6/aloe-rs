@@ -31,7 +31,7 @@ path = "../aloe-graphics"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["rendering", "visualization", "multimedia", "data-structures"]
-description = "Aloe Visualizer is a Rust library for rendering audio waveforms efficiently. It provides a basic visual component to display audio data across multiple channels and offers essential customization for rapid development."
+description = "Aloe Visualizer is a Rust library for rendering audio waveforms efficiently. It provides a basic visual component to display audio data across multiple channels and offers essential customization for rapid development. This crate is a translation of the same functional c++ juce module. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-visualizer"
 edition = "2024"
 keywords = ["audio", "waveform", "visualization", "rust", "aloe"]

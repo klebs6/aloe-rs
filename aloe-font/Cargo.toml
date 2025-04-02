@@ -25,7 +25,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["graphics", "rendering", "text-processing", "gui", "multimedia"]
-description = "Aloe Font is a Rust library providing extensive tools for advanced font rendering and manipulation. It supports a myriad of font characteristics including style control, kerning, and reading direction adjustment, making it ideal for high-fidelity text rendering applications."
+description = "Aloe Font is a Rust library providing extensive tools for advanced font rendering and manipulation. It supports a myriad of font characteristics including style control, kerning, and reading direction adjustment, making it ideal for high-fidelity text rendering applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-font"
 edition = "2024"
 keywords = ["font", "graphics", "textrendering", "typography", "kerning"]

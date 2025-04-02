@@ -20,7 +20,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "network-programming", "os", "concurrency", "command-line-utilities"]
-description = "Aloe-events provides a framework for interprocess communication and event management, with support for message passing between processes using sockets or named pipes and event-driven application design."
+description = "Aloe-events provides a framework for interprocess communication and event management, with support for message passing between processes using sockets or named pipes and event-driven application design. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-events"
 edition = "2024"
 keywords = ["rust", "interprocess", "communication", "events", "messaging"]

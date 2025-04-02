@@ -85,7 +85,7 @@ version = "*"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "game-development", "network-programming"]
-description = "Aloe VST3 is a Rust crate for building VST3 audio plugins, offering robust interfaces for MIDI event handling, parameter synchronization, and audio processing."
+description = "Aloe VST3 is a Rust crate for building VST3 audio plugins, offering robust interfaces for MIDI event handling, parameter synchronization, and audio processing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst3"
 edition = "2024"
 keywords = ["vst3", "audio", "plugin", "midi", "multimedia"]

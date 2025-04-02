@@ -7,7 +7,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "network-programming", "parsing"]
-description = "A robust crate providing efficient identifier management with fast O(1) comparisons and versatile creation options, including string, raw pointers, and character ranges."
+description = "A robust crate providing efficient identifier management with fast O(1) comparisons and versatile creation options, including string, raw pointers, and character ranges. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-identifier"
 edition = "2024"
 keywords = ["identifier", "string", "comparison", "xml", "alphanumeric"]

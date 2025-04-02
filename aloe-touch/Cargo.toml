@@ -7,7 +7,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "development-tools", "game-development", "hardware-support"]
-description = "Aloe-Touch is a Rust crate for managing multi-touch inputs with a focus on graphical interfaces. It employs generics to effectively track touch interactions."
+description = "Aloe-Touch is a Rust crate for managing multi-touch inputs with a focus on graphical interfaces. It employs generics to effectively track touch interactions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-touch"
 edition = "2024"
 keywords = ["multitouch", "inputmanagement", "gui", "touchevents", "rust"]

@@ -19,7 +19,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["network-programming", "web-programming", "asynchronous", "parsing", "data-structures"]
-description = "A Rust library for URL handling, offering comprehensive support for URL parsing, creating input streams, downloading content, and handling HTTP requests with configurable options and cross-platform support."
+description = "A Rust library for URL handling, offering comprehensive support for URL parsing, creating input streams, downloading content, and handling HTTP requests with configurable options and cross-platform support. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-url"
 edition = "2024"
 keywords = ["url", "http", "download", "streaming", "parsing"]

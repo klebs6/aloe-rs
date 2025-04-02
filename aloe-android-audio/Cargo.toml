@@ -24,7 +24,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["asynchronous", "embedded", "multimedia"]
-description = "A Rust crate for OpenSL ES audio interface on Android. It offers high-performance audio session management, real-time processing capabilities, and support for both integer and floating-point audio data."
+description = "A Rust crate for OpenSL ES audio interface on Android. It offers high-performance audio session management, real-time processing capabilities, and support for both integer and floating-point audio data. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-android-audio"
 edition = "2024"
 keywords = ["opensl", "audio", "android", "realtime", "lowlatency"]

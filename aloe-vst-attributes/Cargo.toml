@@ -9,7 +9,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["encoding", "multimedia", "api-bindings", "memory-management"]
-description = "A Rust crate for handling VST plugin attribute lists, stream attributes, and XML representations, focused on providing structured integration with VST environments."
+description = "A Rust crate for handling VST plugin attribute lists, stream attributes, and XML representations, focused on providing structured integration with VST environments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-attributes"
 edition = "2024"
 keywords = ["vst", "attributes", "audio", "xml", "plugin"]

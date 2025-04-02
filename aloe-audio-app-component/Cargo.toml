@@ -17,7 +17,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "development-tools", "external-ffi-bindings"]
-description = "A Rust crate designed for building audio applications that interface with audio I/O devices. Provides a foundational structure for streaming audio, coupling components with audio sources for application development."
+description = "A Rust crate designed for building audio applications that interface with audio I/O devices. Provides a foundational structure for streaming audio, coupling components with audio sources for application development. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-app-component"
 edition = "2024"
 keywords = ["audio", "streaming", "audiosource", "devicemanager", "rust"]

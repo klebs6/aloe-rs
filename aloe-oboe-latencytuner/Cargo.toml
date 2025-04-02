@@ -9,7 +9,7 @@ path = "../aloe-oboe-extensions"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["embedded", "hardware-support", "os", "multimedia"]
-description = "Aloe Oboe Latency Tuner is a Rust crate for dynamically adjusting the latency of audio streams using Oboe on Android, optimizing for low-latency scenarios with state management and buffer size adjustments."
+description = "Aloe Oboe Latency Tuner is a Rust crate for dynamically adjusting the latency of audio streams using Oboe on Android, optimizing for low-latency scenarios with state management and buffer size adjustments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-latencytuner"
 edition = "2024"
 keywords = ["audio", "latency", "buffering", "oboe", "android"]

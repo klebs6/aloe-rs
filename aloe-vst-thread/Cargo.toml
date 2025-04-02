@@ -7,7 +7,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["concurrency", "network-programming", "os", "external-ffi-bindings"]
-description = "Aloe VST Thread provides robust synchronization and locking for VST plugin development, supporting multi-platform operations with critical sections and mutexes."
+description = "Aloe VST Thread provides robust synchronization and locking for VST plugin development, supporting multi-platform operations with critical sections and mutexes. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-thread"
 edition = "2024"
 keywords = ["lock", "thread", "synchronization", "vst", "mutex"]

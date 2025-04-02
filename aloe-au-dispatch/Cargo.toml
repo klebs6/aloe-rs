@@ -9,7 +9,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "embedded", "simulation", "asynchronous"]
-description = "A Rust crate facilitating audio unit method dispatch and factory patterns for dynamic audio processing and MIDI handling."
+description = "A Rust crate facilitating audio unit method dispatch and factory patterns for dynamic audio processing and MIDI handling. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-dispatch"
 edition = "2024"
 keywords = ["audio", "midi", "dispatch", "factory", "processing"]

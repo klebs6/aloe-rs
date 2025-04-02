@@ -15,7 +15,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "concurrency", "development-tools", "asynchronous"]
-description = "A Rust crate facilitating multithreading with user feedback through modal dialog boxes featuring progress bars and cancel buttons. Ideal for long-running, user-interactive tasks."
+description = "A Rust crate facilitating multithreading with user feedback through modal dialog boxes featuring progress bars and cancel buttons. Ideal for long-running, user-interactive tasks. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-thread-with-progress-window"
 edition = "2024"
 keywords = ["multithreading", "progressbar", "modaldialog", "cancelbutton", "userfeedback"]

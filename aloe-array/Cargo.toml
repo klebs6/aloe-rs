@@ -11,7 +11,7 @@ path = "../aloe-parameter-type"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "memory-management", "concurrency", "development-tools"]
-description = "Advanced array data structure for memory-efficient storage and manipulation in Rust, with support for thread safety and customizable element management."
+description = "Advanced array data structure for memory-efficient storage and manipulation in Rust, with support for thread safety and customizable element management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-array"
 edition = "2024"
 keywords = ["array", "dynamicstorage", "memorymanagement", "locking", "rust"]

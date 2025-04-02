@@ -15,7 +15,7 @@ path = "../aloe-tabbed"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "asynchronous", "graphics", "text-processing", "rendering"]
-description = "Aloe MultiDoc provides a flexible GUI framework for managing multiple document interfaces with support for floating windows and tabs, alongside asynchronous operations to enhance UI responsiveness."
+description = "Aloe MultiDoc provides a flexible GUI framework for managing multiple document interfaces with support for floating windows and tabs, alongside asynchronous operations to enhance UI responsiveness. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-multidoc"
 edition = "2024"
 keywords = ["gui", "documents", "tabs", "windows", "asynchronous"]

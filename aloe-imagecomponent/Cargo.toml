@@ -13,7 +13,7 @@ path = "../aloe-mouse"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "accessibility", "rendering", "multimedia"]
-description = "A Rust crate providing a component to display images with control over placement and accessibility support."
+description = "A Rust crate providing a component to display images with control over placement and accessibility support. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-imagecomponent"
 edition = "2024"
 keywords = ["rust", "gui", "image", "graphics", "accessibility"]

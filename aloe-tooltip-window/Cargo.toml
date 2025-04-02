@@ -15,7 +15,7 @@ path = "../aloe-mouse"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "accessibility", "graphics", "rendering", "development-tools"]
-description = "A Rust crate for managing pop-up tooltip displays in GUI applications, ensuring efficient and scalable tooltip management."
+description = "A Rust crate for managing pop-up tooltip displays in GUI applications, ensuring efficient and scalable tooltip management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-tooltip-window"
 edition = "2024"
 keywords = ["tooltip", "gui", "rust", "interface", "component"]

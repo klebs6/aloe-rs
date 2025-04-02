@@ -11,7 +11,7 @@ path = "../aloe-oboe-stream"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["development-tools", "external-ffi-bindings"]
-description = "A Rust crate for advanced audio manipulation and system-level tracing, designed for audio engineering and diagnostics."
+description = "A Rust crate for advanced audio manipulation and system-level tracing, designed for audio engineering and diagnostics. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-trace"
 edition = "2024"
 keywords = ["audio", "trace", "ffmpeg", "conversion", "diagnostics"]

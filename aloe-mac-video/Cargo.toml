@@ -26,7 +26,7 @@ version = "*"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "os", "asynchronous", "external-ffi-bindings", "rust-patterns"]
-description = "Aloe Mac Video provides cross-platform video playback support, interfacing macOS and iOS native media components. It features asynchronous loading, native control integration, with robust observer mechanisms."
+description = "Aloe Mac Video provides cross-platform video playback support, interfacing macOS and iOS native media components. It features asynchronous loading, native control integration, with robust observer mechanisms. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-mac-video"
 edition = "2024"
 keywords = ["video", "playback", "macos", "ios", "asynchronous"]

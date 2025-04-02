@@ -13,7 +13,7 @@ path = "../aloe-oboe-stream"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "network-programming", "embedded", "simulation"]
-description = "Advanced audio source management using callbacks for efficient audio data handling and conversion across multiple formats."
+description = "Advanced audio source management using callbacks for efficient audio data handling and conversion across multiple formats. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-sourcefloatcaller"
 edition = "2024"
 keywords = ["audio", "callback", "multimedia", "realtime", "conversion"]

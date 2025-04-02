@@ -22,7 +22,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "parsing", "asynchronous", "network-programming"]
-description = "Rust library for reading and writing WAV audio files, with BWAV extensions and metadata support. Provides advanced features like memory-mapped IO, channel layout configurations, and safe metadata editing."
+description = "Rust library for reading and writing WAV audio files, with BWAV extensions and metadata support. Provides advanced features like memory-mapped IO, channel layout configurations, and safe metadata editing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-wav"
 edition = "2024"
 keywords = ["wav", "audioprocessing", "bwav", "metadata", "memorymapped"]

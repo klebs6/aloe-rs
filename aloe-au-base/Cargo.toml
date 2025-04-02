@@ -22,7 +22,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["wasm", "computer-vision"]
-description = "Aloe AU Base is a Rust crate that provides interfaces for interacting with Audio Units, enabling seamless audio processing operations. It offers comprehensive support for stream formats, parameter control, and buffer management within audio applications."
+description = "Aloe AU Base is a Rust crate that provides interfaces for interacting with Audio Units, enabling seamless audio processing operations. It offers comprehensive support for stream formats, parameter control, and buffer management within audio applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-base"
 edition = "2024"
 keywords = ["audio", "unit", "processing", "streaming", "realtime"]

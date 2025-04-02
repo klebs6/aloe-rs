@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["development-tools", "os", "multimedia"]
-description = "A Rust crate for integrating custom assertion and debug print handlers, and detecting debugger attachments, aimed at VST plugin developers."
+description = "A Rust crate for integrating custom assertion and debug print handlers, and detecting debugger attachments, aimed at VST plugin developers. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-debug"
 edition = "2024"
 keywords = ["vst", "debug", "assertion", "crossplatform", "development"]

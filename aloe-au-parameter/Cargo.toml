@@ -12,7 +12,7 @@ path = "../aloe-windowing"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "data-structures", "multimedia"]
-description = "A Rust crate for manipulating audio unit parameters, providing tools to manage parameter events, handling both constant and ramped values."
+description = "A Rust crate for manipulating audio unit parameters, providing tools to manage parameter events, handling both constant and ramped values. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-parameter"
 edition = "2024"
 keywords = ["audio", "parameter", "au", "ramp", "localization"]

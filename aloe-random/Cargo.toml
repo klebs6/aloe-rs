@@ -7,7 +7,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "data-structures", "simulation", "science", "mathematics"]
-description = "Aloe Random is a Rust crate providing a flexible, efficient random number generator. It allows custom seed initialization and supports various random output types, suitable for both deterministic and non-deterministic applications."
+description = "Aloe Random is a Rust crate providing a flexible, efficient random number generator. It allows custom seed initialization and supports various random output types, suitable for both deterministic and non-deterministic applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-random"
 edition = "2024"
 keywords = ["random", "numbergenerator", "seed", "deterministic", "nondeterministic"]

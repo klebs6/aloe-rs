@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["concurrency", "multimedia", "science", "data-structures"]
-description = "Aloe Level Meter is a Rust crate for efficient, reference-counted audio level metering, utilizing atomic operations for concurrent environments."
+description = "Aloe Level Meter is a Rust crate for efficient, reference-counted audio level metering, utilizing atomic operations for concurrent environments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-level-meter"
 edition = "2024"
 keywords = ["audio", "levelmeter", "atomic", "multimedia", "referencecounted"]

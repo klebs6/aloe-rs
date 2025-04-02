@@ -9,7 +9,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "data-structures", "memory-management", "parsing", "encoding"]
-description = "aloe-vst-stream provides a framework for binary stream management in VST plugins, offering efficient memory and byte-order handling."
+description = "aloe-vst-stream provides a framework for binary stream management in VST plugins, offering efficient memory and byte-order handling. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-stream"
 edition = "2024"
 keywords = ["vst", "stream", "audio", "binary", "plugin"]

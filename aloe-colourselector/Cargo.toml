@@ -25,7 +25,7 @@ path = "../aloe-slider"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "rendering"]
-description = "Aloe ColourSelector is a crate enabling sophisticated color selection in GUIs, featuring RGB and HSV controls, swatch management, and change notifications for GUI development."
+description = "Aloe ColourSelector is a crate enabling sophisticated color selection in GUIs, featuring RGB and HSV controls, swatch management, and change notifications for GUI development. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-colourselector"
 edition = "2024"
 keywords = ["color", "gui", "selector", "graphics", "components"]

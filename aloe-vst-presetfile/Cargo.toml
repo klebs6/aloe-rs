@@ -19,7 +19,7 @@ path = "../aloe-vst-units"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "data-structures", "parser-implementations"]
-description = "Aloe VST PresetFile is a Rust crate for handling VST 3 preset files with robust chunk management and stream capabilities."
+description = "Aloe VST PresetFile is a Rust crate for handling VST 3 preset files with robust chunk management and stream capabilities. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-presetfile"
 edition = "2024"
 keywords = ["vst", "preset", "audio", "stream", "datahandling"]

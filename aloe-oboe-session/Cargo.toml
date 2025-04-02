@@ -17,7 +17,7 @@ path = "../aloe-oboe-stream"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "network-programming", "embedded"]
-description = "Aloe Oboe Session in Rust manages low-latency audio sessions on Android platforms via the Oboe library. Features include stream handling, latency detection, and error management."
+description = "Aloe Oboe Session in Rust manages low-latency audio sessions on Android platforms via the Oboe library. Features include stream handling, latency detection, and error management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-session"
 edition = "2024"
 keywords = ["audio", "oboe", "rust", "android", "streaming"]

@@ -29,7 +29,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["parsing", "web-programming", "external-ffi-bindings", "development-tools"]
-description = "A simple and lightweight JavaScript interpreter for Rust, allowing basic scripting with integration to native objects through DynamicObject classes."
+description = "A simple and lightweight JavaScript interpreter for Rust, allowing basic scripting with integration to native objects through DynamicObject classes. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-script"
 edition = "2024"
 keywords = ["javascript", "interpreter", "scripting", "rust", "nativeobjects"]

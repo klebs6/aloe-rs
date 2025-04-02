@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "mathematics", "science", "simulation"]
-description = "Efficient SIMD operations on complex numbers in Rust, leveraging traits for expansion and multiplication with native vector types."
+description = "Efficient SIMD operations on complex numbers in Rust, leveraging traits for expansion and multiplication with native vector types. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-simd-complex"
 edition = "2024"
 keywords = ["simd", "complexnumbers", "parallelcomputing", "performance", "rust"]

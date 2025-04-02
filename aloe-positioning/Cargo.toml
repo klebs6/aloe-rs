@@ -31,7 +31,7 @@ path = "../aloe-valuetree"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "value-formatting", "mathematics", "rendering"]
-description = "Aloe Positioning is a Rust crate that provides advanced dynamic management of coordinates and component positioning for GUI applications using relative positions and expressions."
+description = "Aloe Positioning is a Rust crate that provides advanced dynamic management of coordinates and component positioning for GUI applications using relative positions and expressions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-positioning"
 edition = "2024"
 keywords = ["gui", "dynamic", "positioning", "coordinates", "expressions"]

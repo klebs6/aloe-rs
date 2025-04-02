@@ -33,7 +33,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "asynchronous", "network-programming"]
-description = "Aloe is a Rust crate providing an advanced audio processor graph system, facilitating the development of complex audio processing applications with support for multiple audio and MIDI node types and dynamic graph configurations."
+description = "Aloe is a Rust crate providing an advanced audio processor graph system, facilitating the development of complex audio processing applications with support for multiple audio and MIDI node types and dynamic graph configurations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-processor-graph"
 edition = "2024"
 keywords = ["audio", "processing", "graph", "midi", "realtime"]

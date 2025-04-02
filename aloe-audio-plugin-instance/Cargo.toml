@@ -11,7 +11,7 @@ path = "../aloe-param"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "external-ffi-bindings"]
-description = "The crate provides structures and interfaces for managing active audio plugin instances by extending AudioProcessor, used internally by plugin hosts."
+description = "The crate provides structures and interfaces for managing active audio plugin instances by extending AudioProcessor, used internally by plugin hosts. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-plugin-instance"
 edition = "2024"
 keywords = ["audio", "plugin", "host", "dsp", "parametermanagement"]

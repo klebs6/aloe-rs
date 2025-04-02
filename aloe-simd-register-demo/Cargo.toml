@@ -19,7 +19,7 @@ path = "../aloe-simd"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "science", "simulation", "hardware-support"]
-description = "`aloe-simd-register-demo` is a Rust crate that facilitates the demonstration of SIMD register operations for audio DSP, exploiting their efficiency for real-time IIR filtering. It is ideal for educational and practical computational acoustics applications."
+description = "`aloe-simd-register-demo` is a Rust crate that facilitates the demonstration of SIMD register operations for audio DSP, exploiting their efficiency for real-time IIR filtering. It is ideal for educational and practical computational acoustics applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-simd-register-demo"
 edition = "2024"
 keywords = ["simd", "dsp", "audio", "filter", "iir"]

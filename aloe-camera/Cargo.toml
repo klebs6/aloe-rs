@@ -15,7 +15,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "graphics", "network-programming", "wasm"]
-description = "Aloe Camera provides intricate control for video capture devices, supporting real-time image processing, asynchronous operations, and multi-threaded environments."
+description = "Aloe Camera provides intricate control for video capture devices, supporting real-time image processing, asynchronous operations, and multi-threaded environments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-camera"
 edition = "2024"
 keywords = ["camera", "video", "capture", "multimedia", "realtime"]

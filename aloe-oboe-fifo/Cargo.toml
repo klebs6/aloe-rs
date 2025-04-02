@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["concurrency", "data-structures", "memory-management", "multimedia"]
-description = "Aloe Oboe FIFO provides an efficient implementation of circular buffers with atomic operations for managing read/write indices. It supports concurrent operations and is ideal for multimedia applications requiring high throughput and minimal latency in audio data streams."
+description = "Aloe Oboe FIFO provides an efficient implementation of circular buffers with atomic operations for managing read/write indices. It supports concurrent operations and is ideal for multimedia applications requiring high throughput and minimal latency in audio data streams. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-fifo"
 edition = "2024"
 keywords = ["fifo", "circularbuffer", "atomic", "concurrency", "multimedia"]

@@ -23,7 +23,7 @@ path = "../aloe-treeview"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "command-line-interface", "development-tools"]
-description = "A Rust crate providing a GUI-based key mapping editor with customizable color and command integration."
+description = "A Rust crate providing a GUI-based key mapping editor with customizable color and command integration. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-keymapping-editor"
 edition = "2024"
 keywords = ["keymap", "editor", "gui", "command", "mappings"]

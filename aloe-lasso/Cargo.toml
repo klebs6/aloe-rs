@@ -15,7 +15,7 @@ path = "../aloe-selection"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "game-development", "development-tools"]
-description = "Aloe Lasso provides a rectangular selection region component for GUI applications in Rust, facilitating intuitive visual selection using a mouse-driven lasso interface."
+description = "Aloe Lasso provides a rectangular selection region component for GUI applications in Rust, facilitating intuitive visual selection using a mouse-driven lasso interface. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-lasso"
 edition = "2024"
 keywords = ["lasso", "selection", "gui", "component", "rust"]

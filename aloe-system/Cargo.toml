@@ -7,7 +7,7 @@ path = "../aloe-text"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["development-tools", "external-ffi-bindings", "hardware-support"]
-description = "Aloe System is a Rust crate that provides OS and hardware abstraction, enabling detailed system-level queries and management tasks."
+description = "Aloe System is a Rust crate that provides OS and hardware abstraction, enabling detailed system-level queries and management tasks. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-system"
 edition = "2024"
 keywords = ["system", "osquery", "hardware", "cpuinfo", "rustcrate"]

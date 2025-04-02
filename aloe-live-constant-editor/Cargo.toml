@@ -37,7 +37,7 @@ path = "../aloe-viewport"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "development-tools", "config", "parsing", "encoding"]
-description = "Aloe Live Constant Editor enables dynamic runtime editing of constant values. It integrates with GUI components to display and modify property fields, supporting changes in application behavior without recompilation."
+description = "Aloe Live Constant Editor enables dynamic runtime editing of constant values. It integrates with GUI components to display and modify property fields, supporting changes in application behavior without recompilation. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-live-constant-editor"
 edition = "2024"
 keywords = ["live", "runtime", "editor", "constants", "gui"]

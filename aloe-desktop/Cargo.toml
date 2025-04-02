@@ -33,7 +33,7 @@ path = "../aloe-network"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "hardware-support", "asynchronous", "multimedia"]
-description = "Aloe Desktop is a Rust library providing detailed management and control of desktop display environments, including multi-display arrangements and orientation support."
+description = "Aloe Desktop is a Rust library providing detailed management and control of desktop display environments, including multi-display arrangements and orientation support. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-desktop"
 edition = "2024"
 keywords = ["gui", "desktop", "display", "orientation", "focus"]

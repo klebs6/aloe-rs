@@ -11,7 +11,7 @@ path = "../aloe-oboe-stream"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["compilers", "concurrency", "external-ffi-bindings", "multimedia"]
-description = "A Rust crate for audio flowgraph filters, wrapping Oboe audio streams for data conversion, channel, and sample rate operations."
+description = "A Rust crate for audio flowgraph filters, wrapping Oboe audio streams for data conversion, channel, and sample rate operations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-flowgraph-filter"
 edition = "2024"
 keywords = ["audio", "filter", "flowgraph", "conversion", "stream"]

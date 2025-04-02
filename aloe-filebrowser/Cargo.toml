@@ -73,7 +73,7 @@ path = "../aloe-windowing"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "development-tools"]
-description = "A Rust crate providing GUI components for file browsing and selection. Offers comprehensive file and directory selection features with customizable appearance through color and interface flags."
+description = "A Rust crate providing GUI components for file browsing and selection. Offers comprehensive file and directory selection features with customizable appearance through color and interface flags. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-filebrowser"
 edition = "2024"
 keywords = ["gui", "filebrowser", "filemanagement", "directorynavigation", "crossplatform"]

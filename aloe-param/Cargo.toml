@@ -31,7 +31,7 @@ path = "../aloe-undo"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui"]
-description = "Provides a highly flexible system for managing audio parameters in digital signal processing. Supports a range of parameter types and allows connection to GUI elements for real-time DSP applications."
+description = "Provides a highly flexible system for managing audio parameters in digital signal processing. Supports a range of parameter types and allows connection to GUI elements for real-time DSP applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-param"
 edition = "2024"
 keywords = ["audio", "parameters", "gui", "dsp", "signal"]

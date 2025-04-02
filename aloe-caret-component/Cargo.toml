@@ -13,7 +13,7 @@ path = "../aloe-graphics"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "command-line-utilities", "visualization"]
-description = "A custom caret component library for GUI applications, offering color customization and visibility control based on keyboard focus."
+description = "A custom caret component library for GUI applications, offering color customization and visibility control based on keyboard focus. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-caret-component"
 edition = "2024"
 keywords = ["caret", "gui", "color", "keyboard", "focus"]

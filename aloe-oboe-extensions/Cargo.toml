@@ -9,7 +9,7 @@ path = "../aloe-oboe-stream"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["external-ffi-bindings", "multimedia", "hardware-support", "os"]
-description = "A Rust crate providing extensions for advanced MMAP control of AAudio streams using the Oboe library. It manages MMAP policies and loads function pointers dynamically for efficient audio streaming configurations."
+description = "A Rust crate providing extensions for advanced MMAP control of AAudio streams using the Oboe library. It manages MMAP policies and loads function pointers dynamically for efficient audio streaming configurations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-extensions"
 edition = "2024"
 keywords = ["oboe", "aaudio", "mmap", "streaming", "audio"]

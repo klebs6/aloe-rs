@@ -27,7 +27,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "asynchronous", "game-development"]
-description = "A suite of advanced Rust audio sources, offering functionalities like resampling, buffering, and channel remapping for high-performance audio applications."
+description = "A suite of advanced Rust audio sources, offering functionalities like resampling, buffering, and channel remapping for high-performance audio applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-source"
 edition = "2024"
 keywords = ["audio", "resampling", "buffering", "multithreading", "tonegeneration"]

@@ -15,7 +15,7 @@ path = "../aloe-smoothed-value"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "mathematics", "memory-management", "multimedia"]
-description = "A minimal, high-performance, non-owning data structure for managing audio buffers, providing advanced memory and audio processing operations."
+description = "A minimal, high-performance, non-owning data structure for managing audio buffers, providing advanced memory and audio processing operations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-block"
 edition = "2024"
 keywords = ["audio", "buffer", "memory", "dsp", "simd"]

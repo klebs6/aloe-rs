@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "science", "mathematics"]
-description = "A Rust crate for SIMD operations over 8-bit integer masks for high-efficiency numerical computations."
+description = "A Rust crate for SIMD operations over 8-bit integer masks for high-efficiency numerical computations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-simd-deps"
 edition = "2024"
 keywords = ["rust", "simd", "masking", "numerical", "performance"]

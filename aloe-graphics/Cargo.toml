@@ -28,7 +28,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["graphics", "rendering", "gui", "multimedia"]
-description = "Aloe Graphics provides advanced graphics rendering functionalities, including high-quality resampling, effect filters, and flexible rendering contexts. It's designed for extensive graphical applications like vector rendering and image processing."
+description = "Aloe Graphics provides advanced graphics rendering functionalities, including high-quality resampling, effect filters, and flexible rendering contexts. It's designed for extensive graphical applications like vector rendering and image processing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-graphics"
 edition = "2024"
 keywords = ["graphics", "rendering", "image", "effects", "vector"]

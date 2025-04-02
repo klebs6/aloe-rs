@@ -11,7 +11,7 @@ path = "../aloe-events"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "command-line-utilities"]
-description = "A comprehensive Rust library to manage and interface with various audio plugin formats such as VST, AudioUnit, and LADSPA. Supports synchronous and asynchronous plugin operations within diverse audio environments."
+description = "A comprehensive Rust library to manage and interface with various audio plugin formats such as VST, AudioUnit, and LADSPA. Supports synchronous and asynchronous plugin operations within diverse audio environments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-plugin-format"
 edition = "2024"
 keywords = ["audio", "plugin", "vst", "audiounit", "ladspa"]

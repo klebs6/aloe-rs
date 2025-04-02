@@ -13,7 +13,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["memory-management", "multimedia", "data-structures"]
-description = "Manages and manipulates audio buffer lists with efficient memory operations, inspired by Core Audio frameworks."
+description = "Manages and manipulates audio buffer lists with efficient memory operations, inspired by Core Audio frameworks. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-buffer"
 edition = "2024"
 keywords = ["audio", "buffer", "coreaudio", "memory", "interleaved"]

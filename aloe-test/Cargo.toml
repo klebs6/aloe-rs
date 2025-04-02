@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["development-tools", "command-line-utilities"]
-description = "Aloe Test is a Rust library for managing and running unit tests, providing interfaces for initialization, execution, and result logging of structured tests."
+description = "Aloe Test is a Rust library for managing and running unit tests, providing interfaces for initialization, execution, and result logging of structured tests. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-test"
 edition = "2024"
 keywords = ["unittesting", "testrunner", "resultlogging", "testmanagement", "structuredtesting"]

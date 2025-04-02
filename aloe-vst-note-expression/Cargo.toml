@@ -7,7 +7,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "api-bindings", "game-development", "command-line-utilities"]
-description = "Rust crate providing tools for advanced VST plug-in development with a focus on note expression manipulation, key switch handling, and physical UI mapping."
+description = "Rust crate providing tools for advanced VST plug-in development with a focus on note expression manipulation, key switch handling, and physical UI mapping. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-note-expression"
 edition = "2024"
 keywords = ["vst", "noteexpression", "audio", "plugin", "physicalui"]

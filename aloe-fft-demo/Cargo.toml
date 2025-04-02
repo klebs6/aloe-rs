@@ -19,7 +19,7 @@ path = "../aloe-image"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["rendering", "visualization", "simulation", "multimedia"]
-description = "Provides an advanced demonstration of real-time FFT and spectrogram visualization using Rust. Ideal for audio signal processing and dynamic frequency analysis."
+description = "Provides an advanced demonstration of real-time FFT and spectrogram visualization using Rust. Ideal for audio signal processing and dynamic frequency analysis. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-fft-demo"
 edition = "2024"
 keywords = ["fft", "audio", "spectrogram", "visualization", "realtime"]

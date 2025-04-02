@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "algorithms"]
-description = "Provides an efficient node-based architecture for audio processing flowgraphs with customizable input and output ports for streamlining audio data management."
+description = "Provides an efficient node-based architecture for audio processing flowgraphs with customizable input and output ports for streamlining audio data management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-flowgraph-node"
 edition = "2024"
 keywords = ["audio", "flowgraph", "node", "processing", "signal"]

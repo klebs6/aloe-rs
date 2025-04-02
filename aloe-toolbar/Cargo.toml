@@ -29,7 +29,7 @@ path = "../aloe-viewport"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "config", "development-tools", "command-line-interface", "graphics"]
-description = "Aloe Toolbar is a Rust library providing a customizable toolbar component for GUI applications with various item styles and editing modes."
+description = "Aloe Toolbar is a Rust library providing a customizable toolbar component for GUI applications with various item styles and editing modes. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-toolbar"
 edition = "2024"
 keywords = ["toolbar", "gui", "customization", "editing", "interface"]

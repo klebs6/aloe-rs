@@ -79,7 +79,7 @@ path = "../aloe-windowing"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "rendering", "graphics", "visualization"]
-description = "A versatile crate for defining look-and-feel aspects of GUI components in the Aloe toolkit, allowing comprehensive customization using color ID enums and appearance modification methods."
+description = "A versatile crate for defining look-and-feel aspects of GUI components in the Aloe toolkit, allowing comprehensive customization using color ID enums and appearance modification methods. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-lookandfeel"
 edition = "2024"
 keywords = ["rust", "gui", "lookandfeel", "graphics", "design"]

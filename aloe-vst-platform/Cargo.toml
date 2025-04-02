@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["development-tools", "external-ffi-bindings", "os", "compilers"]
-description = "Aloe VST Platform is a Rust library facilitating cross-platform VST plugin development with macros for CPU and OS-specific functionalities."
+description = "Aloe VST Platform is a Rust library facilitating cross-platform VST plugin development with macros for CPU and OS-specific functionalities. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-platform"
 edition = "2024"
 keywords = ["vst", "plugin", "crossplatform", "audio", "macros"]

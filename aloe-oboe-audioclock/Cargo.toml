@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia"]
-description = "Aloe Oboe AudioClock provides precise audio timing operations, including nanosecond-level sleep functions and stream latency calculations for real-time systems."
+description = "Aloe Oboe AudioClock provides precise audio timing operations, including nanosecond-level sleep functions and stream latency calculations for real-time systems. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-audioclock"
 edition = "2024"
 keywords = ["audio", "timing", "realtime", "latency", "precision"]

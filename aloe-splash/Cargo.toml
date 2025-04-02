@@ -21,7 +21,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "development-tools", "rendering", "graphics", "multimedia"]
-description = "A Rust crate for displaying splash screens during application startup. Provides automatic positioning and timed auto-deletion for a smooth user experience."
+description = "A Rust crate for displaying splash screens during application startup. Provides automatic positioning and timed auto-deletion for a smooth user experience. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-splash"
 edition = "2024"
 keywords = ["splashscreen", "gui", "automaticpositioning", "autodelete", "visualization"]

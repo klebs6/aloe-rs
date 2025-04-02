@@ -20,7 +20,7 @@ version = "*"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["os", "api-bindings", "embedded", "network-programming", "external-ffi-bindings"]
-description = "A Rust library for managing macOS push notifications, providing interfaces for notification registration, delivery, and handling."
+description = "A Rust library for managing macOS push notifications, providing interfaces for notification registration, delivery, and handling. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-mac-notifications"
 edition = "2024"
 keywords = ["macos", "notifications", "push", "integration", "api"]

@@ -37,7 +37,7 @@ path = "../aloe-url"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "network-programming", "multimedia", "text-processing", "development-tools"]
-description = "A demonstration crate showcasing GUI components, networking, color messaging, timers, and font rendering in Rust. It provides graphical interface widgets and utilities useful for application development."
+description = "A demonstration crate showcasing GUI components, networking, color messaging, timers, and font rendering in Rust. It provides graphical interface widgets and utilities useful for application development. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-demo"
 edition = "2024"
 keywords = ["gui", "networking", "colors", "timers", "fonts"]

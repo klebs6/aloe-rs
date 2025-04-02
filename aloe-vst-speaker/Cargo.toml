@@ -11,7 +11,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "value-formatting", "external-ffi-bindings"]
-description = "A Rust library for managing and converting VST speaker arrangements, facilitating digital audio applications. Provides functions for querying and manipulating audio channel sets to ensure accurate speaker configurations."
+description = "A Rust library for managing and converting VST speaker arrangements, facilitating digital audio applications. Provides functions for querying and manipulating audio channel sets to ensure accurate speaker configurations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-speaker"
 edition = "2024"
 keywords = ["vst", "audio", "speaker", "arrangement", "channels"]

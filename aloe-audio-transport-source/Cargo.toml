@@ -17,7 +17,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "concurrency", "data-structures"]
-description = "`aloe-audio-transport-source` offers an efficient platform for managing audio stream playback, including facilities for buffering, sample rate correction, and gain manipulation, designed for advanced digital audio processing environments."
+description = "`aloe-audio-transport-source` offers an efficient platform for managing audio stream playback, including facilities for buffering, sample rate correction, and gain manipulation, designed for advanced digital audio processing environments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-transport-source"
 edition = "2024"
 keywords = ["audio", "buffering", "playback", "samplerate", "gaincontrol"]

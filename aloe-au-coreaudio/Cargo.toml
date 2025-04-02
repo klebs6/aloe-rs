@@ -40,7 +40,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["network-programming", "multimedia", "wasm"]
-description = "A sophisticated Rust library for macOS and iOS audio handling through CoreAudio, focusing on real-time processing and device management."
+description = "A sophisticated Rust library for macOS and iOS audio handling through CoreAudio, focusing on real-time processing and device management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-coreaudio"
 edition = "2024"
 keywords = ["coreaudio", "macos", "ios", "audio", "aac"]

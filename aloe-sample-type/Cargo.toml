@@ -7,7 +7,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "science", "simulation", "mathematics", "algorithms"]
-description = "A Rust library for digital signal processing interfaces, defining flexible and performant sample and numeric type abstractions."
+description = "A Rust library for digital signal processing interfaces, defining flexible and performant sample and numeric type abstractions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-sample-type"
 edition = "2024"
 keywords = ["dsp", "sample", "numeric", "trait", "interface"]

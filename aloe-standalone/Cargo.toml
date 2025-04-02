@@ -41,7 +41,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "os"]
-description = "Aloe Standalone is a Rust crate facilitating standalone audio plugin processing. It integrates audio and MIDI device management while providing state control and buffer size predictability."
+description = "Aloe Standalone is a Rust crate facilitating standalone audio plugin processing. It integrates audio and MIDI device management while providing state control and buffer size predictability. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-standalone"
 edition = "2024"
 keywords = ["audio", "midi", "plugin", "standalone", "processing"]

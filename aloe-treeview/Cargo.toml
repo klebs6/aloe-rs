@@ -29,7 +29,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "data-structures", "visualization", "rendering", "accessibility"]
-description = "An advanced library for creating and managing a tree view component in GUI applications, supporting custom rendering, selection, drag-and-drop, and accessibility features."
+description = "An advanced library for creating and managing a tree view component in GUI applications, supporting custom rendering, selection, drag-and-drop, and accessibility features. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-treeview"
 edition = "2024"
 keywords = ["rust", "treeview", "gui", "draganddrop", "component"]

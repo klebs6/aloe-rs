@@ -27,7 +27,7 @@ path = "../aloe-valuetree"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "accessibility", "graphics", "development-tools", "multimedia"]
-description = "A Rust crate for managing GUI text labels with editable components and event listeners."
+description = "A Rust crate for managing GUI text labels with editable components and event listeners. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-label"
 edition = "2024"
 keywords = ["gui", "label", "text", "editable", "accessibility"]

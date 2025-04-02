@@ -76,7 +76,7 @@ path = "../aloe-valuetree"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "multimedia", "science"]
-description = "Aloe-DSP is a comprehensive Rust library providing structures and traits for digital signal processing, applicable in audio processing and manipulation contexts."
+description = "Aloe-DSP is a comprehensive Rust library providing structures and traits for digital signal processing, applicable in audio processing and manipulation contexts. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-dsp"
 edition = "2024"
 keywords = ["audio", "dsp", "signalprocessing", "music", "algorithm"]

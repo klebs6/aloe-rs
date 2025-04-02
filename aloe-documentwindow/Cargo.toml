@@ -23,7 +23,7 @@ path = "../aloe-windowing"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "rendering"]
-description = "A Rust crate for creating and managing resizable document windows with customizable title bars featuring minimize, maximize, and close buttons."
+description = "A Rust crate for creating and managing resizable document windows with customizable title bars featuring minimize, maximize, and close buttons. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-documentwindow"
 edition = "2024"
 keywords = ["gui", "window", "document", "resizable", "buttons"]

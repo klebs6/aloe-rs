@@ -41,7 +41,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "os", "concurrency", "external-ffi-bindings"]
-description = "Aloe Audio Plugin Client interfaces with audio plugins across multiple platforms, managing message handling, macOS window event quirks, and plugin instance lifecycle. It supports interoperability with VST standards."
+description = "Aloe Audio Plugin Client interfaces with audio plugins across multiple platforms, managing message handling, macOS window event quirks, and plugin instance lifecycle. It supports interoperability with VST standards. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-plugin-client"
 edition = "2024"
 keywords = ["audio", "plugin", "crossplatform", "vst", "concurrency"]

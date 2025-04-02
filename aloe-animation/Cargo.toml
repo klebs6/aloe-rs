@@ -21,7 +21,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "rendering", "computer-vision", "graphics", "simulation"]
-description = "Rust crate for implementing dynamic and customizable animation behaviors for GUI components, supporting physics-based movement and state notifications."
+description = "Rust crate for implementing dynamic and customizable animation behaviors for GUI components, supporting physics-based movement and state notifications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-animation"
 edition = "2024"
 keywords = ["animation", "gui", "physics", "dynamic", "animationbehaviors"]

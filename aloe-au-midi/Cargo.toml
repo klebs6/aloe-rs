@@ -13,7 +13,7 @@ path = "../aloe-windowing"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings"]
-description = "Rust crate providing an interface for handling MIDI events in conjunction with Audio Unit components, suitable for MIDI message processing and Audio Unit interaction."
+description = "Rust crate providing an interface for handling MIDI events in conjunction with Audio Unit components, suitable for MIDI message processing and Audio Unit interaction. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-midi"
 edition = "2024"
 keywords = ["midi", "audiounit", "sysex", "music", "sound"]

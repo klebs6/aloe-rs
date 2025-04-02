@@ -46,7 +46,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["graphics", "rendering", "algorithms", "gui"]
-description = "A Rust crate for OpenGL rendering, providing tools for context management, shaders, and texture operations."
+description = "A Rust crate for OpenGL rendering, providing tools for context management, shaders, and texture operations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-opengl"
 edition = "2024"
 keywords = ["opengl", "graphics", "rendering", "shaders", "textures"]

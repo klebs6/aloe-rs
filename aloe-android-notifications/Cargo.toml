@@ -39,7 +39,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["os", "api-bindings", "network-programming", "asynchronous"]
-description = "Comprehensive crate for managing Android push notifications, supporting badge icons, priority settings, timestamp visibility, lock screen appearance, and group alert behaviors."
+description = "Comprehensive crate for managing Android push notifications, supporting badge icons, priority settings, timestamp visibility, lock screen appearance, and group alert behaviors. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-android-notifications"
 edition = "2024"
 keywords = ["android", "notifications", "push", "firebase", "api"]

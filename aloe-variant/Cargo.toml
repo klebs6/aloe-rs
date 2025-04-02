@@ -9,7 +9,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "data-structures", "encoding"]
-description = "Aloe-Variant is a Rust crate providing dynamically typed variant objects for complex data handling akin to scripting languages."
+description = "Aloe-Variant is a Rust crate providing dynamically typed variant objects for complex data handling akin to scripting languages. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-variant"
 edition = "2024"
 keywords = ["variant", "dynamic", "serialization", "namedvalues", "datamanagement"]

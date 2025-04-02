@@ -9,7 +9,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "development-tools", "memory-management", "rust-patterns"]
-description = "A sophisticated Rust library for managing undo/redo actions within applications, facilitating transactional history management through an intuitive API."
+description = "A sophisticated Rust library for managing undo/redo actions within applications, facilitating transactional history management through an intuitive API. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-undo"
 edition = "2024"
 keywords = ["undo", "redo", "transaction", "history", "action"]

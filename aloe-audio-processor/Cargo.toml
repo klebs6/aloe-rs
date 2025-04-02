@@ -27,7 +27,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "api-bindings", "development-tools", "rendering"]
-description = "Aloe Audio Processor provides a base structure for audio processing and plugin collaboration, suitable for VST, AU, and RTAS, with comprehensive bus and precision management capabilities."
+description = "Aloe Audio Processor provides a base structure for audio processing and plugin collaboration, suitable for VST, AU, and RTAS, with comprehensive bus and precision management capabilities. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-processor"
 edition = "2024"
 keywords = ["audio", "plugin", "dsp", "vst", "audioprocessing"]

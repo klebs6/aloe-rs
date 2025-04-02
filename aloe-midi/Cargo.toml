@@ -57,7 +57,7 @@ path = "../aloe-valuetree"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "embedded", "external-ffi-bindings"]
-description = "This crate provides functionality for handling and converting MIDI messages, supporting both MIDI 1.0 and MIDI 2.0 protocols, including System Exclusive message handling and Universal MIDI Packets."
+description = "This crate provides functionality for handling and converting MIDI messages, supporting both MIDI 1.0 and MIDI 2.0 protocols, including System Exclusive message handling and Universal MIDI Packets. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-midi"
 edition = "2024"
 keywords = ["midi", "sysex", "universalmidipackets", "realtime", "audio"]

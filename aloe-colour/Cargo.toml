@@ -11,7 +11,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["graphics", "multimedia", "game-development", "rendering", "science"]
-description = "Aloe Colour: A Rust library for sophisticated colour handling and gradient manipulation in graphics programming, supporting ARGB/RGB operations, alpha compositing, and HSV/HSL conversions."
+description = "Aloe Colour: A Rust library for sophisticated colour handling and gradient manipulation in graphics programming, supporting ARGB/RGB operations, alpha compositing, and HSV/HSL conversions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-colour"
 edition = "2024"
 keywords = ["graphics", "colour", "gradient", "rendering", "argb"]

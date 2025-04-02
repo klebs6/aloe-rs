@@ -27,7 +27,7 @@ path = "../aloe-smoothed-value"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "simulation", "external-ffi-bindings"]
-description = "Aloe Phaser provides a comprehensive 6-stage phaser effect with first-order all-pass filters, modulated by LFO, with flexible control over rate, depth, mix, feedback, and center frequency."
+description = "Aloe Phaser provides a comprehensive 6-stage phaser effect with first-order all-pass filters, modulated by LFO, with flexible control over rate, depth, mix, feedback, and center frequency. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-phaser"
 edition = "2024"
 keywords = ["phaser", "audioprocessing", "lfo", "dsp", "filters"]

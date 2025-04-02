@@ -19,7 +19,7 @@ path = "../aloe-oboe-stream"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "embedded", "external-ffi-bindings"]
-description = "A Rust crate for managing audio streams using OpenSL ES, providing low-level audio stream control with buffering options."
+description = "A Rust crate for managing audio streams using OpenSL ES, providing low-level audio stream control with buffering options. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-sles"
 edition = "2024"
 keywords = ["audio", "opensles", "streaming", "embedded", "buffering"]

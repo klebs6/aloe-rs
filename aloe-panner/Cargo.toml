@@ -19,7 +19,7 @@ path = "../aloe-smoothed-value"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "multimedia", "mathematics"]
-description = "A digital audio panning processor for stereo audio utilizing customizable panning rules and DSP optimization."
+description = "A digital audio panning processor for stereo audio utilizing customizable panning rules and DSP optimization. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-panner"
 edition = "2024"
 keywords = ["panning", "audio", "dsp", "stereo", "processing"]

@@ -43,7 +43,7 @@ path = "../aloe-valuetree"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = []
-description = "Aloe Buttons is a Rust library for advanced, customizable button components in GUI applications, offering various styles and accessibility features."
+description = "Aloe Buttons is a Rust library for advanced, customizable button components in GUI applications, offering various styles and accessibility features. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-buttons"
 edition = "2024"
 keywords = ["buttonsguicustomizationaccessibilityrust"]

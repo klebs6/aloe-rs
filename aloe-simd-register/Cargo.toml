@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "science", "mathematics", "simulation"]
-description = "Aloe SIMD Register provides a high-performance abstraction over SIMD register operations, designed for efficient computation in vectorized data contexts using Rust traits."
+description = "Aloe SIMD Register provides a high-performance abstraction over SIMD register operations, designed for efficient computation in vectorized data contexts using Rust traits. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-simd-register"
 edition = "2024"
 keywords = ["simd", "vectorization", "performance", "parallelcomputing", "highperformancecomputing"]

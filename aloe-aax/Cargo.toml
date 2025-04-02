@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "gui", "external-ffi-bindings", "network-programming", "development-tools"]
-description = "A crate for managing modifier key interactions in Rust applications. It provides interfaces for setting and getting Win32 modifier key states through trait implementations."
+description = "A crate for managing modifier key interactions in Rust applications. It provides interfaces for setting and getting Win32 modifier key states through trait implementations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-aax"
 edition = "2024"
 keywords = ["modifier", "win32", "input", "keybinding", "interface"]

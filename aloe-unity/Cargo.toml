@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["web-programming", "games", "multimedia"]
-description = "Aloe-Unity is a Rust crate for developing Unity audio plugins, providing essential enums, callbacks, and data structures for audio effect integration and management."
+description = "Aloe-Unity is a Rust crate for developing Unity audio plugins, providing essential enums, callbacks, and data structures for audio effect integration and management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-unity"
 edition = "2024"
 keywords = ["unity", "audio", "plugin", "effect", "integration"]

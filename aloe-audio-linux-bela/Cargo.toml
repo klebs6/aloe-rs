@@ -17,7 +17,7 @@ path = "../aloe-midi"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["embedded", "development-tools", "hardware-support"]
-description = "A Rust crate for managing audio devices using BELA on Linux platforms, facilitating audio processing and device control."
+description = "A Rust crate for managing audio devices using BELA on Linux platforms, facilitating audio processing and device control. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-linux-bela"
 edition = "2024"
 keywords = ["audio", "bela", "linux", "devicemanagement", "audioprocessing"]

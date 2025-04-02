@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["encoding", "data-structures", "external-ffi-bindings", "multimedia"]
-description = "Alo-rust crate for manipulating characters and strings with configurable UTF encodings, supporting ASCII, UTF-8, UTF-16, and UTF-32."
+description = "Alo-rust crate for manipulating characters and strings with configurable UTF encodings, supporting ASCII, UTF-8, UTF-16, and UTF-32. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-char"
 edition = "2024"
 keywords = ["utf8", "utf16", "utf32", "encoding", "stringmanipulation"]

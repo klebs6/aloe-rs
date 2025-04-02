@@ -16,7 +16,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "science", "hardware-support", "embedded"]
-description = "A Rust crate for managing and manipulating AudioUnit channel layouts, buses, and processors."
+description = "A Rust crate for managing and manipulating AudioUnit channel layouts, buses, and processors. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-channel"
 edition = "2024"
 keywords = ["audio", "channel", "layout", "audiounit", "processor"]

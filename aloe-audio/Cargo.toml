@@ -111,7 +111,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "multimedia", "network-programming", "visualization"]
-description = "Provides a comprehensive suite of tools and utilities for audio processing, synthesis, and interface design, including abstract interfaces for audio device management and visualization components."
+description = "Provides a comprehensive suite of tools and utilities for audio processing, synthesis, and interface design, including abstract interfaces for audio device management and visualization components. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio"
 edition = "2024"
 keywords = ["audio", "synthesis", "ui", "volumecontrol", "visualization"]

@@ -35,7 +35,7 @@ path = "../aloe-smoothed-value"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "encoding", "asynchronous"]
-description = "Aloe Mixer provides a robust dry/wet mixing solution for audio signals in Rust, supporting configurable latency compensation and various mixing rules."
+description = "Aloe Mixer provides a robust dry/wet mixing solution for audio signals in Rust, supporting configurable latency compensation and various mixing rules. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-mixer"
 edition = "2024"
 keywords = ["audio", "mixer", "drywet", "latency", "signalprocessing"]

@@ -45,7 +45,7 @@ path = "../aloe-windowing"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "web-programming", "development-tools", "multimedia", "network-programming"]
-description = "A Rust crate for managing runtime permissions and developing dynamic preference panels similar to Mac-style GUIs."
+description = "A Rust crate for managing runtime permissions and developing dynamic preference panels similar to Mac-style GUIs. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-app"
 edition = "2024"
 keywords = ["runtimepermissions", "preferencepanel", "gui", "android", "applicationlifecycle"]

@@ -43,7 +43,7 @@ path = "../aloe-texteditor"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["simulation", "mathematics", "embedded", "multimedia"]
-description = "Aloe Ex Audio is a cutting-edge Rust-based library crafted to handle intricate audio processing and synthesis. It includes tools for latency measurement, audio device management, and implements the Karplus-Strong algorithm for string sound synthesis."
+description = "Aloe Ex Audio is a cutting-edge Rust-based library crafted to handle intricate audio processing and synthesis. It includes tools for latency measurement, audio device management, and implements the Karplus-Strong algorithm for string sound synthesis. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ex-audio"
 edition = "2024"
 keywords = ["audio", "synthesis", "latency", "signalprocessing", "rust"]

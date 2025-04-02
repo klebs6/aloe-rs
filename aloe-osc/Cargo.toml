@@ -45,7 +45,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["network-programming", "multimedia", "encoding"]
-description = "Aloe OSC is an Open Sound Control protocol implementation in Rust, enabling efficient multimedia data exchange over UDP with real-time guarantees."
+description = "Aloe OSC is an Open Sound Control protocol implementation in Rust, enabling efficient multimedia data exchange over UDP with real-time guarantees. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-osc"
 edition = "2024"
 keywords = ["osc", "network", "multimedia", "audio", "realtime"]

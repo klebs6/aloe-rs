@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "mathematics", "memory-management", "graphics", "science"]
-description = "A high-performance SIMD core library for Rust, enabling efficient vectorized operations with aligned data structures and mask types."
+description = "A high-performance SIMD core library for Rust, enabling efficient vectorized operations with aligned data structures and mask types. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-simd-core"
 edition = "2024"
 keywords = ["simd", "performance", "vector", "alignment", "parallelism"]

@@ -70,7 +70,7 @@ path = "../aloe-windowing"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "gui", "network-programming"]
-description = "Aloe-Android provides comprehensive support for Android applications needing MIDI interfaces via Bluetooth, media management, and seamless Android component interaction."
+description = "Aloe-Android provides comprehensive support for Android applications needing MIDI interfaces via Bluetooth, media management, and seamless Android component interaction. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-android"
 edition = "2024"
 keywords = ["android", "midi", "bluetooth", "multimedia", "audio"]

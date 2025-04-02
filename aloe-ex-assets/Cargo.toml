@@ -19,7 +19,7 @@ path = "../aloe-string"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["computer-vision", "graphics", "rendering", "simulation", "games"]
-description = "A Rust crate for parsing and managing 3D Wavefront OBJ files, featuring robust mesh, texture, and material handling for use in graphics applications."
+description = "A Rust crate for parsing and managing 3D Wavefront OBJ files, featuring robust mesh, texture, and material handling for use in graphics applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ex-assets"
 edition = "2024"
 keywords = ["3d", "obj", "graphics", "parser", "mesh"]

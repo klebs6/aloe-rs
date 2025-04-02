@@ -27,7 +27,7 @@ path = "../aloe-ex-utilities"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["asynchronous", "concurrency", "network-programming", "algorithms", "data-structures"]
-description = "Aloe-Ex is a Rust crate for advanced asynchronous programming with a focus on network-centric applications, providing seamless concurrency and high-performance data structures."
+description = "Aloe-Ex is a Rust crate for advanced asynchronous programming with a focus on network-centric applications, providing seamless concurrency and high-performance data structures. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ex"
 edition = "2024"
 keywords = ["asynchronous", "concurrency", "network", "performance", "rust"]

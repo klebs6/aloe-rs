@@ -25,7 +25,7 @@ path = "../aloe-url"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["asynchronous", "multimedia", "gui", "game-development"]
-description = "Aloe Video is a Rust crate providing a comprehensive video playback component supporting multi-platform asynchronous loading and playback controls."
+description = "Aloe Video is a Rust crate providing a comprehensive video playback component supporting multi-platform asynchronous loading and playback controls. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-video"
 edition = "2024"
 keywords = ["video", "playback", "asynchronous", "gui", "multimedia"]

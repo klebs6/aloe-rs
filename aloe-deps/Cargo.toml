@@ -20,7 +20,7 @@ wchar = "*"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "development-tools", "external-ffi-bindings", "rust-patterns"]
-description = "Aloe Deps offers advanced traits and macros for system development, including enhanced iterator capabilities and JNI interface operations."
+description = "Aloe Deps offers advanced traits and macros for system development, including enhanced iterator capabilities and JNI interface operations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-deps"
 edition = "2024"
 keywords = ["traits", "macros", "jni", "iterators", "rust"]

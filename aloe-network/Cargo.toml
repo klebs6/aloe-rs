@@ -28,7 +28,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["network-programming", "asynchronous", "api-bindings", "web-programming"]
-description = "Aloe-Network provides utilities for robust network communication, including TCP/UDP sockets, asynchronous updates, and network service discovery."
+description = "Aloe-Network provides utilities for robust network communication, including TCP/UDP sockets, asynchronous updates, and network service discovery. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-network"
 edition = "2024"
 keywords = ["network", "socket", "async", "services", "datagram"]

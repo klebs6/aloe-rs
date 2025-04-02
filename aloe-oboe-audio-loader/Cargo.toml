@@ -11,7 +11,7 @@ path = "../aloe-oboe-stream"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["external-ffi-bindings", "embedded", "multimedia", "network-programming"]
-description = "Aloe-Oboe-Audio-Loader provides dynamic runtime linking for Android's AAudio API facilitating high-performance audio stream management and manipulation in Rust."
+description = "Aloe-Oboe-Audio-Loader provides dynamic runtime linking for Android's AAudio API facilitating high-performance audio stream management and manipulation in Rust. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-audio-loader"
 edition = "2024"
 keywords = ["audio", "android", "dlsym", "aaudio", "dynamiclinking"]

@@ -9,7 +9,7 @@ path = "../aloe-geometry"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "visualization", "development-tools", "rust-patterns"]
-description = "Aloe Grid is a Rust crate for creating highly configurable and performant grid layouts, based on the CSS Grid Layout model, suitable for GUI applications."
+description = "Aloe Grid is a Rust crate for creating highly configurable and performant grid layouts, based on the CSS Grid Layout model, suitable for GUI applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-grid"
 edition = "2024"
 keywords = ["grid", "layout", "gui", "css", "rust"]

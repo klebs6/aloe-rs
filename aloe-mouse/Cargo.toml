@@ -33,7 +33,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "hardware-support", "os", "multimedia"]
-description = "A comprehensive library for managing mouse cursors and tooltips in GUI applications, with special support for Apple Remote integration on macOS."
+description = "A comprehensive library for managing mouse cursors and tooltips in GUI applications, with special support for Apple Remote integration on macOS. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-mouse"
 edition = "2024"
 keywords = ["mouse", "cursor", "tooltip", "gui", "graphics"]

@@ -21,7 +21,7 @@ path = "../aloe-image"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["compression", "graphics", "multimedia", "web-programming"]
-description = "Aloe-gif is a Rust library for efficient GIF image parsing and decoding using LZW compression, supporting buffer management and interlacing."
+description = "Aloe-gif is a Rust library for efficient GIF image parsing and decoding using LZW compression, supporting buffer management and interlacing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-gif"
 edition = "2024"
 keywords = ["gif", "image", "decoder", "lzw", "palette"]

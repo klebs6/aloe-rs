@@ -37,7 +37,7 @@ version = "*"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["external-ffi-bindings", "development-tools", "multimedia"]
-description = "Aloe iOS Audio is a Rust crate that provides abstractions over iOS audio functionalities, via Apple's AVAudioSession, allowing efficient audio device management and processing for iOS apps."
+description = "Aloe iOS Audio is a Rust crate that provides abstractions over iOS audio functionalities, via Apple's AVAudioSession, allowing efficient audio device management and processing for iOS apps. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ios-audio"
 edition = "2024"
 keywords = ["ios", "audio", "avaudiosession", "audioprocessing", "rust"]

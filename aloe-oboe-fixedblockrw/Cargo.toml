@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "multimedia"]
-description = "Aloe-Oboe-FixedBlockRW offers conversion of variable-sized data buffers to fixed-size blocks, ideal for audio processing, maintaining alignment and efficient memory usage."
+description = "Aloe-Oboe-FixedBlockRW offers conversion of variable-sized data buffers to fixed-size blocks, ideal for audio processing, maintaining alignment and efficient memory usage. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-fixedblockrw"
 edition = "2024"
 keywords = ["bufferconversion", "fixedsizeblocks", "audioprocessing", "dataflow", "buffermanagement"]

@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "encoding", "memory-management", "multimedia"]
-description = "Robust VST buffer management crate facilitating dynamic memory and string encoding operations critical for VST plugin applications."
+description = "Robust VST buffer management crate facilitating dynamic memory and string encoding operations critical for VST plugin applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-buffer"
 edition = "2024"
 keywords = ["vst", "buffer", "memory", "encoding", "audio"]

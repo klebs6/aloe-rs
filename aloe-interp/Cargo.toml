@@ -15,7 +15,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "mathematics", "science"]
-description = "Aloe-Interp provides stateful, high-quality interpolation for resampling streams of floating-point numbers, applicable in advanced audio processing."
+description = "Aloe-Interp provides stateful, high-quality interpolation for resampling streams of floating-point numbers, applicable in advanced audio processing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-interp"
 edition = "2024"
 keywords = ["interpolation", "audio", "resampling", "signalprocessing", "stream"]

@@ -19,7 +19,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "hardware-support", "config"]
-description = "Comprehensive ALSA audio device management library for Linux, facilitating interactions with sound hardware using ALSA. Provides device management and audio stream manipulation."
+description = "Comprehensive ALSA audio device management library for Linux, facilitating interactions with sound hardware using ALSA. Provides device management and audio stream manipulation. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-linux-alsa"
 edition = "2024"
 keywords = ["alsa", "linux", "audio", "device", "hardware"]

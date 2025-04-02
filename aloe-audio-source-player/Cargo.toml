@@ -15,7 +15,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "network-programming", "hardware-support", "gui"]
-description = "Aloe Audio Source Player provides a mechanism to stream audio from an audio source to an AudioIODevice. It acts as an AudioIODeviceCallback for devices, managing source changes, gain control, and buffering."
+description = "Aloe Audio Source Player provides a mechanism to stream audio from an audio source to an AudioIODevice. It acts as an AudioIODeviceCallback for devices, managing source changes, gain control, and buffering. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-source-player"
 edition = "2024"
 keywords = ["audio", "streaming", "audiosource", "devicecallback", "gain"]

@@ -27,7 +27,7 @@ path = "../aloe-valuetree"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "accessibility"]
-description = "A Rust crate for creating customizable and accessible combo box GUI components, supporting editable text, event handling, and item management in graphical applications."
+description = "A Rust crate for creating customizable and accessible combo box GUI components, supporting editable text, event handling, and item management in graphical applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-combobox"
 edition = "2024"
 keywords = ["combobox", "gui", "dropdown", "editable", "accessibility"]

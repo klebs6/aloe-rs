@@ -42,8 +42,8 @@ path = "../aloe-deps"
 path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
-categories = ["algorithms", "mathematics", "science", "finance", "data-structures"]
-description = "Aloe-au is a Rust library crafted for high-performance numerical computations, offering efficient algorithms for complex data transformations, pivotal in scientific and financial domains."
+categories = ["algorithms", "mathematics", "science", "data-structures"]
+description = "Aloe-au is a Rust library crafted for high-performance audio applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au"
 edition = "2024"
 keywords = ["rust", "numericalcomputations", "algorithmicefficiency", "precisionmathematics", "datatransformations"]

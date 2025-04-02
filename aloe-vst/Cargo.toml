@@ -73,7 +73,7 @@ path = "../aloe-vst-units"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["embedded", "multimedia", "science", "os"]
-description = "Aloe VST is a Rust crate for creating Virtual Studio Technology plugins with high-performance audio processing capabilities."
+description = "Aloe VST is a Rust crate for creating Virtual Studio Technology plugins with high-performance audio processing capabilities. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst"
 edition = "2024"
 keywords = ["audio", "vst", "plugin", "rust", "crossplatform"]

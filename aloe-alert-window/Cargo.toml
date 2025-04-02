@@ -33,7 +33,7 @@ path = "../aloe-windowing"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "command-line-interface", "text-editors", "accessibility"]
-description = "Aloe Alert Window provides advanced modal alert windows management for Rust applications, featuring asynchronous capabilities and flexible component integration."
+description = "Aloe Alert Window provides advanced modal alert windows management for Rust applications, featuring asynchronous capabilities and flexible component integration. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-alert-window"
 edition = "2024"
 keywords = ["alert", "modal", "gui", "asynchronous", "component"]

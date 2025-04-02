@@ -23,7 +23,7 @@ path = "../aloe-string"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["asynchronous", "multimedia"]
-description = "A Rust library for reading and writing AIFF audio files, supporting detailed chunk manipulation and metadata handling."
+description = "A Rust library for reading and writing AIFF audio files, supporting detailed chunk manipulation and metadata handling. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-aiff"
 edition = "2024"
 keywords = ["aiff", "audio", "fileformat", "audioprocessing", "metadata"]

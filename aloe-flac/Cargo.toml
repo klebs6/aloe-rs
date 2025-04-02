@@ -9,7 +9,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = [ "gui", "graphics", "hardware-support" ]
-description = "Support for FLAC (Free Lossless Audio Codec) reading/writing -- see JUCE's FLAC format integration."
+description = "Support for FLAC (Free Lossless Audio Codec) reading/writing -- see JUCE's FLAC format integration. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-flac"
 edition = "2024"
 keywords = [ "juce", "audio", "gui", "graphics", "listener" ]

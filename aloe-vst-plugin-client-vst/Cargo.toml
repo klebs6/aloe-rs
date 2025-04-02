@@ -41,7 +41,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "gui", "external-ffi-bindings", "command-line-utilities"]
-description = "Aloe VST Plugin Client VST facilitates the creation of VST audio plugins for cross-platform, high-performance digital audio processing and seamless host interactions."
+description = "Aloe VST Plugin Client VST facilitates the creation of VST audio plugins for cross-platform, high-performance digital audio processing and seamless host interactions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-plugin-client-vst"
 edition = "2024"
 keywords = ["vst", "audio", "plugin", "crossplatform", "digitalsignalprocessing"]

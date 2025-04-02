@@ -42,7 +42,7 @@ path = "../aloe-simd-register"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "data-structures", "simulation", "science"]
-description = "Aloe-SIMD enables high-performance computations using SIMD instructions for efficient parallel data processing tasks."
+description = "Aloe-SIMD enables high-performance computations using SIMD instructions for efficient parallel data processing tasks. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-simd"
 edition = "2024"
 keywords = ["simd", "parallelism", "performance", "computations", "numerical"]

@@ -21,7 +21,7 @@ path = "../aloe-test"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["mathematics", "science", "algorithms", "simulation", "rendering"]
-description = "Aloe Math: Approximate arithmetic operations via linear interpolation and Pade approximations. Ideal for DSP, statistical analysis, and matrix operations."
+description = "Aloe Math: Approximate arithmetic operations via linear interpolation and Pade approximations. Ideal for DSP, statistical analysis, and matrix operations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-math"
 edition = "2024"
 keywords = ["approximation", "mathematics", "dsp", "linearalgebra", "statistics"]

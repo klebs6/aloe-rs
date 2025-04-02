@@ -26,7 +26,7 @@ mp3 = [  ]
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "encoding", "external-ffi-bindings"]
-description = "Aloe-MP3 provides software-based MP3 decoding in Rust, supporting frame parsing and VBR data, with integration for LAME encoding."
+description = "Aloe-MP3 provides software-based MP3 decoding in Rust, supporting frame parsing and VBR data, with integration for LAME encoding. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-mp3"
 edition = "2024"
 keywords = ["mp3", "audio", "decoder", "lame", "vbr"]

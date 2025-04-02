@@ -39,7 +39,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "accessibility", "rendering", "graphics", "hardware-support"]
-description = "Aloe Component provides a comprehensive interface for GUI components with accessibility and rendering customization, suitable for detailed user interface applications."
+description = "Aloe Component provides a comprehensive interface for GUI components with accessibility and rendering customization, suitable for detailed user interface applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-component"
 edition = "2024"
 keywords = ["gui", "accessibility", "rendering", "colors", "customcomponents"]

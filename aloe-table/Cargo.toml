@@ -29,7 +29,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "data-structures", "development-tools"]
-description = "Aloe Table is a Rust crate that provides components for building dynamic, GUI-based tables with functionality such as column resizing, sorting, and custom rendering. It includes extensive event handling through listener traits and supports accessibility features."
+description = "Aloe Table is a Rust crate that provides components for building dynamic, GUI-based tables with functionality such as column resizing, sorting, and custom rendering. It includes extensive event handling through listener traits and supports accessibility features. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-table"
 edition = "2024"
 keywords = ["table", "gui", "eventdriven", "column", "customrendering"]

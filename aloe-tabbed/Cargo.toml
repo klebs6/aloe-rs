@@ -23,7 +23,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = []
-description = "A versatile GUI component library for creating tabbed navigation systems, featuring vibrant tab orientation and layout settings."
+description = "A versatile GUI component library for creating tabbed navigation systems, featuring vibrant tab orientation and layout settings. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-tabbed"
 edition = "2024"
 keywords = ["tabs", "guicomponentsgraphicslayout"]

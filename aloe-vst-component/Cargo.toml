@@ -21,7 +21,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "development-tools"]
-description = "Aloe VST Component provides essential interfaces and structures for implementing VST 3.0 plugins, focusing on host-plugin communication, media processing, and parameter handling."
+description = "Aloe VST Component provides essential interfaces and structures for implementing VST 3.0 plugins, focusing on host-plugin communication, media processing, and parameter handling. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-component"
 edition = "2024"
 keywords = ["vst", "plugin", "audio", "parameter", "interface"]

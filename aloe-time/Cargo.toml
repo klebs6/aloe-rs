@@ -19,7 +19,7 @@ path = "../aloe-string"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["date-and-time", "mathematics", "science", "development-tools", "parsing"]
-description = "Aloe Time offers precise time management features, including absolute time storage with millisecond precision, relative time calculation with floating point accuracy, and tools for measuring execution time via RAII. Comprehensive date and time utilities ensure seamless time handling in Rust applications."
+description = "Aloe Time offers precise time management features, including absolute time storage with millisecond precision, relative time calculation with floating point accuracy, and tools for measuring execution time via RAII. Comprehensive date and time utilities ensure seamless time handling in Rust applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-time"
 edition = "2024"
 keywords = ["time", "measurement", "precision", "date", "iso8601"]

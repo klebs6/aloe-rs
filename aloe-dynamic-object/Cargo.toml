@@ -11,7 +11,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "data-structures", "parsing"]
-description = "Aloe Dynamic Object provides dynamic object management for scripting integration in Rust, enabling runtime-defined methods and properties with JSON support."
+description = "Aloe Dynamic Object provides dynamic object management for scripting integration in Rust, enabling runtime-defined methods and properties with JSON support. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-dynamic-object"
 edition = "2024"
 keywords = ["dynamic", "object", "properties", "methods", "scripting"]

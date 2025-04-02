@@ -6,7 +6,7 @@ proc-macro = true
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["external-ffi-bindings", "development-tools", "concurrency", "network-programming", "web-programming"]
-description = "A suite of procedural macros for enhancing Rust interoperability with various external systems, focusing on FFI, C interoperability, and DLL exports."
+description = "A suite of procedural macros for enhancing Rust interoperability with various external systems, focusing on FFI, C interoperability, and DLL exports. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-derive"
 edition = "2024"
 keywords = ["proceduralmacro", "ffi", "dll", "cinteroperability", "jni"]

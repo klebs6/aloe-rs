@@ -63,7 +63,7 @@ path = "../aloe-oboe-trace"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["rendering", "graphics", "asynchronous", "concurrency", "visualization"]
-description = "Aloe-Oboe enhances graphical rendering systems, offering streamlined parallelization and shader management."
+description = "Aloe-Oboe enhances graphical rendering systems, offering streamlined parallelization and shader management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe"
 edition = "2024"
 keywords = ["rendering", "graphics", "shaders", "concurrency", "visualization"]

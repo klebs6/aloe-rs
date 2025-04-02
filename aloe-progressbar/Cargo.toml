@@ -13,7 +13,7 @@ path = "../aloe-mouse"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "visualization", "development-tools", "rendering"]
-description = "A GUI component crate for creating interactive progress bars, providing both linear and circular displays for progress tracking in Rust applications."
+description = "A GUI component crate for creating interactive progress bars, providing both linear and circular displays for progress tracking in Rust applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-progressbar"
 edition = "2024"
 keywords = ["rust", "progressbar", "gui", "visualization", "interactive"]

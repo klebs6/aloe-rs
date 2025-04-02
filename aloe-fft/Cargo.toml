@@ -35,7 +35,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "mathematics", "rendering"]
-description = "Aloe-FFT provides an advanced audio processing library for frequency domain convolution, using customizable FFT engines."
+description = "Aloe-FFT provides an advanced audio processing library for frequency domain convolution, using customizable FFT engines. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-fft"
 edition = "2024"
 keywords = ["fft", "convolution", "audio", "dsp", "windowing"]

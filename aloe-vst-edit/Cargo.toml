@@ -21,7 +21,7 @@ path = "../aloe-vst-units"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "gui"]
-description = "A Rust implementation of VST 3.x plugin editor interfaces, handling parameters, MIDI mappings, context menus, and host interactions."
+description = "A Rust implementation of VST 3.x plugin editor interfaces, handling parameters, MIDI mappings, context menus, and host interactions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-edit"
 edition = "2024"
 keywords = ["vst", "plugin", "audio", "midi", "host"]

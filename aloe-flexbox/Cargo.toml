@@ -11,7 +11,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "visualization", "rendering"]
-description = "A Rust library for implementing advanced flexbox layouts in GUI. The crate provides a systematic way to control layout flexibility, alignment, and responsiveness akin to web flexbox techniques."
+description = "A Rust library for implementing advanced flexbox layouts in GUI. The crate provides a systematic way to control layout flexibility, alignment, and responsiveness akin to web flexbox techniques. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-flexbox"
 edition = "2024"
 keywords = ["flexbox", "layout", "gui", "responsive", "design"]

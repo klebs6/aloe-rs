@@ -23,7 +23,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "command-line-utilities", "external-ffi-bindings"]
-description = "Aloe Drag and Drop provides extensible Rust traits and structs for adding drag-and-drop functionality to GUI components, supporting files, text, and custom object interactions."
+description = "Aloe Drag and Drop provides extensible Rust traits and structs for adding drag-and-drop functionality to GUI components, supporting files, text, and custom object interactions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-drag-and-drop"
 edition = "2024"
 keywords = ["draganddrop", "gui", "component", "external", "interaction"]

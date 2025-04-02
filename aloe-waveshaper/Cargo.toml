@@ -21,7 +21,7 @@ path = "../aloe-sample-type"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["science", "multimedia", "compilers"]
-description = "Aloe Waveshaper applies nonlinear waveshaping techniques to audio signals, offering custom parametric processing for audio synthesis and effects."
+description = "Aloe Waveshaper applies nonlinear waveshaping techniques to audio signals, offering custom parametric processing for audio synthesis and effects. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-waveshaper"
 edition = "2024"
 keywords = ["rust", "audio", "waveshaping", "dsp", "signalprocessing"]

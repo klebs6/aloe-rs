@@ -9,7 +9,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia"]
-description = "A Rust crate for generating and managing audio timestamps with attention to continuity and precision in environments like CoreAudio."
+description = "A Rust crate for generating and managing audio timestamps with attention to continuity and precision in environments like CoreAudio. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-time"
 edition = "2024"
 keywords = ["audio", "timestamps", "coreaudio", "discontinuity", "hosttime"]

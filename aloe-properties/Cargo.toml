@@ -45,7 +45,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "data-structures", "development-tools", "config"]
-description = "Aloe Properties is a Rust crate providing a structured framework for component property management within graphical interfaces. It offers enums, traits, and structs for color customization, storage formatting, and component interfacing."
+description = "Aloe Properties is a Rust crate providing a structured framework for component property management within graphical interfaces. It offers enums, traits, and structs for color customization, storage formatting, and component interfacing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-properties"
 edition = "2024"
 keywords = ["properties", "gui", "customization", "components", "storage"]

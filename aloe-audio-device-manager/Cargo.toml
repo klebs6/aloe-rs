@@ -23,7 +23,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "network-programming", "os"]
-description = "Aloe Audio Device Manager facilitates managing audio I/O and MIDI devices in Rust, supporting device modes, change events, and setup persistence."
+description = "Aloe Audio Device Manager facilitates managing audio I/O and MIDI devices in Rust, supporting device modes, change events, and setup persistence. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-device-manager"
 edition = "2024"
 keywords = ["audio", "device", "wasapi", "midi", "management"]

@@ -9,7 +9,7 @@ path = "../aloe-string"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["text-processing", "algorithms", "data-structures", "encoding", "development-tools"]
-description = "A Rust library for efficient text manipulation including diff algorithms, base-64 encoding, and string pooling."
+description = "A Rust library for efficient text manipulation including diff algorithms, base-64 encoding, and string pooling. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-text"
 edition = "2024"
 keywords = ["text", "diff", "base64", "stringpool", "encoding"]

@@ -27,7 +27,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "rendering", "web-programming", "development-tools", "api-bindings"]
-description = "A comprehensive data tree management system with synchronization, undo/redo capabilities, and listener-driven event handling."
+description = "A comprehensive data tree management system with synchronization, undo/redo capabilities, and listener-driven event handling. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-valuetree"
 edition = "2024"
 keywords = ["valuetree", "synchronization", "datastructure", "undoredo", "listener"]

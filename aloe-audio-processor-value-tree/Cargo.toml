@@ -31,7 +31,7 @@ path = "../aloe-valuetree"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "data-structures", "multimedia"]
-description = "A Rust crate managing audio processor states via a hierarchical value tree, supporting parameter synchronization with GUI components and offering undo/redo state management."
+description = "A Rust crate managing audio processor states via a hierarchical value tree, supporting parameter synchronization with GUI components and offering undo/redo state management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-processor-value-tree"
 edition = "2024"
 keywords = ["audio", "processor", "valuetree", "parametermanagement", "guiintegration"]

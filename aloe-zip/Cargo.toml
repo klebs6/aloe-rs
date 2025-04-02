@@ -25,7 +25,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["compression", "parsing", "filesystem", "data-structures", "development-tools"]
-description = "A comprehensive library for reading and writing ZIP archive files, complete with compression and decompression capabilities leveraging the DEFLATE algorithm. This crate offers functionalities to handle ZIP file entries, including symbolic links, with a focus on correctness and efficiency."
+description = "A comprehensive library for reading and writing ZIP archive files, complete with compression and decompression capabilities leveraging the DEFLATE algorithm. This crate offers functionalities to handle ZIP file entries, including symbolic links, with a focus on correctness and efficiency. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-zip"
 edition = "2024"
 keywords = ["zip", "compression", "decompression", "archive", "files"]

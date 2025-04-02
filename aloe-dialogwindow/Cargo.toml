@@ -15,7 +15,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "api-bindings", "asynchronous", "web-programming"]
-description = "Aloe DialogWindow is a Rust crate providing facilities for GUI dialogs, including customizable modal windows, asynchronous dialog display, and enhanced user interaction through keyboard shortcuts."
+description = "Aloe DialogWindow is a Rust crate providing facilities for GUI dialogs, including customizable modal windows, asynchronous dialog display, and enhanced user interaction through keyboard shortcuts. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-dialogwindow"
 edition = "2024"
 keywords = ["dialog", "gui", "modal", "asynchronous", "graphics"]

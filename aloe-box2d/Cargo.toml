@@ -35,7 +35,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = [ "gui", "graphics", "hardware-support" ]
-description = "Integration of the Box2D physics engine for 2D collision and simulation demos -- see JUCE's Box2D examples."
+description = "Integration of the Box2D physics engine for 2D collision and simulation demos -- see JUCE's Box2D examples. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-box2d"
 edition = "2024"
 keywords = [ "juce", "audio", "gui", "graphics", "listener" ]

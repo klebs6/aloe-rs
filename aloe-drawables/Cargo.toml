@@ -31,7 +31,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["graphics", "gui", "rendering", "multimedia", "visualization"]
-description = "Aloe Drawables provides a rich framework for creating and managing drawable graphical objects using Rust. It includes traits and structures for bitmap images, shapes, text, and composites for graphical rendering, ideal for GUI applications."
+description = "Aloe Drawables provides a rich framework for creating and managing drawable graphical objects using Rust. It includes traits and structures for bitmap images, shapes, text, and composites for graphical rendering, ideal for GUI applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-drawables"
 edition = "2024"
 keywords = ["drawable", "graphics", "rendering", "framework", "visualization"]

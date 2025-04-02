@@ -31,7 +31,7 @@ path = "../aloe-smoothed-value"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "multimedia", "science"]
-description = "A DSP library for generating customizable audio oscillators for digital signal processing applications, featuring sine, saw, and square waveforms with support for frequency and gain adjustments."
+description = "A DSP library for generating customizable audio oscillators for digital signal processing applications, featuring sine, saw, and square waveforms with support for frequency and gain adjustments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oscillator"
 edition = "2024"
 keywords = ["audio", "oscillator", "dsp", "waveform", "rust"]

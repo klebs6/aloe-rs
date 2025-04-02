@@ -53,7 +53,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "development-tools", "visualization"]
-description = "Aloe Scanning is a sophisticated crate for managing audio plugins, optimized for scanning, organizing, and controlling plugin data in a structured manner."
+description = "Aloe Scanning is a sophisticated crate for managing audio plugins, optimized for scanning, organizing, and controlling plugin data in a structured manner. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-scanning"
 edition = "2024"
 keywords = ["audio", "plugins", "scanning", "sorting", "blacklist"]

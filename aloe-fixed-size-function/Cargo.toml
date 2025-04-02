@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "memory-management", "data-structures"]
-description = "A type similar to `std::function` for storing callable objects in a fixed-size buffer, optimized for real-time and DSP contexts by preventing dynamic memory allocation."
+description = "A type similar to `std::function` for storing callable objects in a fixed-size buffer, optimized for real-time and DSP contexts by preventing dynamic memory allocation. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-fixed-size-function"
 edition = "2024"
 keywords = ["function", "realtime", "dsp", "noallocation", "performance"]

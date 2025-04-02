@@ -17,7 +17,7 @@ path = "../aloe-scrollbar"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "data-structures"]
-description = "Provides advanced viewport functionality with dynamic scrolling, customizable scrollbars, and comprehensive mouse event handling for Rust GUI development."
+description = "Provides advanced viewport functionality with dynamic scrolling, customizable scrollbars, and comprehensive mouse event handling for Rust GUI development. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-viewport"
 edition = "2024"
 keywords = ["viewport", "scroll", "gui", "component", "drag"]

@@ -19,7 +19,7 @@ path = "../aloe-network"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "development-tools", "rendering"]
-description = "Aloe Scrollbar provides an advanced scroll bar management system for GUI applications in Rust. It facilitates user interaction through an efficient event-driven architecture, allowing seamless integration with existing interfaces."
+description = "Aloe Scrollbar provides an advanced scroll bar management system for GUI applications in Rust. It facilitates user interaction through an efficient event-driven architecture, allowing seamless integration with existing interfaces. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-scrollbar"
 edition = "2024"
 keywords = ["scrollbar", "gui", "rust", "eventdriven", "interface"]

@@ -7,7 +7,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["development-tools", "filesystem", "os"]
-description = "A Rust crate for logging error and warning messages to syslog with optional stderr output if debugging."
+description = "A Rust crate for logging error and warning messages to syslog with optional stderr output if debugging. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-debug"
 edition = "2024"
 keywords = ["rust", "logging", "syslog", "debugging", "errorhandling"]

@@ -67,7 +67,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "asynchronous", "multimedia", "network-programming", "gui"]
-description = "Aloe-Ex-Utilities provides utilities for XML/JSON parsing, asynchronous and multithreading operations, GUI management, and in-app purchase simulation in Rust."
+description = "Aloe-Ex-Utilities provides utilities for XML/JSON parsing, asynchronous and multithreading operations, GUI management, and in-app purchase simulation in Rust. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ex-utilities"
 edition = "2024"
 keywords = ["xml", "json", "asynchronous", "gui", "multithreading"]

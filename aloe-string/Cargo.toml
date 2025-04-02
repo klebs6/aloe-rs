@@ -10,7 +10,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["text-processing", "localization", "internationalization", "encoding", "data-structures"]
-description = "Aloe-String is a Rust library for advanced string manipulation and internationalization, featuring encoding conversion, pattern matching, and optimized memory management."
+description = "Aloe-String is a Rust library for advanced string manipulation and internationalization, featuring encoding conversion, pattern matching, and optimized memory management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-string"
 edition = "2024"
 keywords = ["string", "localization", "translation", "encoding", "textprocessing"]

@@ -19,7 +19,7 @@ path = "../aloe-smoothed-value"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia"]
-description = "Aloe Reverb provides a high-quality reverb implementation for digital signal processing, supporting stereo and mono audio with configurable parameters following FreeVerb techniques."
+description = "Aloe Reverb provides a high-quality reverb implementation for digital signal processing, supporting stereo and mono audio with configurable parameters following FreeVerb techniques. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-reverb"
 edition = "2024"
 keywords = ["audio", "reverb", "dsp", "processing", "effects"]

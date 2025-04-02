@@ -16,7 +16,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "os", "hardware-support"]
-description = "Provides a foundational library for managing virtual music devices using Rust, encompassing MIDI event handling, SysEx data processing, property management, note triggering, and more for audio unit components."
+description = "Provides a foundational library for managing virtual music devices using Rust, encompassing MIDI event handling, SysEx data processing, property management, note triggering, and more for audio unit components. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-device"
 edition = "2024"
 keywords = ["audio", "midi", "musicdevice", "rust", "virtualinstrument"]

@@ -15,7 +15,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["simulation", "science", "game-development", "multimedia", "algorithms"]
-description = "Aloe-RTAS is a Rust library for simulating real-time acoustics using advanced computational algorithms. It is suitable for applications needing high-precision and low-latency acoustic simulation."
+description = "Aloe-RTAS is a Rust library for simulating real-time acoustics using advanced computational algorithms. It is suitable for applications needing high-precision and low-latency acoustic simulation. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-rtas"
 edition = "2024"
 keywords = ["acoustics", "realtime", "simulation", "processing", "audio"]

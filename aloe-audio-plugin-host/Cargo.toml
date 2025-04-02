@@ -11,7 +11,7 @@ path = "../aloe-image"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "network-programming", "rust-patterns"]
-description = "Aloe Audio Plugin Host is a Rust library for identifying and interacting with Digital Audio Workstations (DAWs), providing capabilities to detect host software and customize plugin behavior according to host environments."
+description = "Aloe Audio Plugin Host is a Rust library for identifying and interacting with Digital Audio Workstations (DAWs), providing capabilities to detect host software and customize plugin behavior according to host environments. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-audio-plugin-host"
 edition = "2024"
 keywords = ["audio", "daw", "plugin", "hostdetection", "multimedia"]

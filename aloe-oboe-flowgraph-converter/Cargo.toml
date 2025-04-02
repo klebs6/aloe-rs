@@ -23,7 +23,7 @@ path = "../aloe-oboe-stream"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "config", "encoding", "rust-patterns"]
-description = "A Rust crate that converts PCM channels, sample rates, and formats for optimal latency. Implements a flexible flow graph architecture for audio data processing."
+description = "A Rust crate that converts PCM channels, sample rates, and formats for optimal latency. Implements a flexible flow graph architecture for audio data processing. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-flowgraph-converter"
 edition = "2024"
 keywords = ["pcm", "audio", "flowgraph", "conversion", "latency"]

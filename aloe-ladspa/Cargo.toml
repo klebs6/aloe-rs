@@ -13,7 +13,7 @@ path = "../aloe-string"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["network-programming", "multimedia", "graphics", "command-line-utilities"]
-description = "A Rust crate for managing and interfacing with LADSPA audio plugins, supporting loading and operating plugins on Linux and BSD."
+description = "A Rust crate for managing and interfacing with LADSPA audio plugins, supporting loading and operating plugins on Linux and BSD. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ladspa"
 edition = "2024"
 keywords = ["ladspa", "audio", "plugin", "dynamiclibrary", "unix"]

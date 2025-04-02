@@ -15,7 +15,7 @@ path = "../aloe-sample-type"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["science", "algorithms"]
-description = "A flexible multiband audio processing crate using Linkwitz-Riley filters with gain control. Ideal for real-time applications."
+description = "A flexible multiband audio processing crate using Linkwitz-Riley filters with gain control. Ideal for real-time applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-multiband"
 edition = "2024"
 keywords = ["multiband", "audio", "linkwitzriley", "filter", "processing"]

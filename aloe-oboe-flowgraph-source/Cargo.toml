@@ -7,7 +7,7 @@ path = "../aloe-oboe-flowgraph-node"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["data-structures", "multimedia"]
-description = "Aloe Oboe Flowgraph Source provides a framework for edge nodes in audio processing graphs, offering support for different audio data formats including 16-bit, 24-bit packed, 32-bit integer, and float."
+description = "Aloe Oboe Flowgraph Source provides a framework for edge nodes in audio processing graphs, offering support for different audio data formats including 16-bit, 24-bit packed, 32-bit integer, and float. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-flowgraph-source"
 edition = "2024"
 keywords = ["audio", "flowgraph", "multimedia", "databuffering", "signalprocessing"]

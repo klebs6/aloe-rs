@@ -9,7 +9,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["asynchronous", "api-bindings", "gui", "network-programming", "multimedia"]
-description = "A comprehensive library for managing push notifications across iOS and Android platforms, allowing for detailed customization and integration of notification features."
+description = "A comprehensive library for managing push notifications across iOS and Android platforms, allowing for detailed customization and integration of notification features. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-notifications"
 edition = "2024"
 keywords = ["notifications", "pushnotifications", "ios", "android", "crossplatform"]

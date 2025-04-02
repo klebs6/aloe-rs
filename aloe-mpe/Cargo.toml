@@ -53,7 +53,7 @@ path = "../aloe-viewport"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia"]
-description = "Aloe-MPE handles MIDI Polyphonic Expression in an MPE-compatible environment, managing note states through pressure, pitchbend, and timbre dimensions."
+description = "Aloe-MPE handles MIDI Polyphonic Expression in an MPE-compatible environment, managing note states through pressure, pitchbend, and timbre dimensions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-mpe"
 edition = "2024"
 keywords = ["midi", "mpe", "synthesizer", "expression", "audio"]

@@ -11,7 +11,7 @@ path = "../aloe-image"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = [ "gui", "graphics", "hardware-support" ]
-description = "JPEG image encoding and decoding with adjustable quality -- see JUCE's JPEG handling."
+description = "JPEG image encoding and decoding with adjustable quality -- see JUCE's JPEG handling. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-jpg"
 edition = "2024"
 keywords = [ "juce", "audio", "gui", "graphics", "listener" ]

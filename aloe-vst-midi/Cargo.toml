@@ -11,7 +11,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "network-programming", "external-ffi-bindings"]
-description = "A sophisticated Rust crate facilitating MIDI control and event handling within VST plugins and hosts, providing real-time MIDI parameter manipulation."
+description = "A sophisticated Rust crate facilitating MIDI control and event handling within VST plugins and hosts, providing real-time MIDI parameter manipulation. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-midi"
 edition = "2024"
 keywords = ["vst", "midi", "audio", "plugin", "control"]

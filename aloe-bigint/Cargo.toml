@@ -9,7 +9,7 @@ path = "../aloe-text"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "mathematics", "data-structures", "science", "simulation"]
-description = "Aloe BigInt is a Rust library for arbitrary precision integer arithmetic. It supports standard arithmetic operations, bitwise manipulation, modular arithmetic, and provides functionalities for applications needing large integer support."
+description = "Aloe BigInt is a Rust library for arbitrary precision integer arithmetic. It supports standard arithmetic operations, bitwise manipulation, modular arithmetic, and provides functionalities for applications needing large integer support. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-bigint"
 edition = "2024"
 keywords = ["bigint", "arbitraryprecision", "integerarithmetic", "mathematics", "cryptography"]

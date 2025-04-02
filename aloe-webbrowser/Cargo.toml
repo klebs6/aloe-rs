@@ -31,7 +31,7 @@ path = "../aloe-xembed"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "network-programming", "web-programming", "api-bindings"]
-description = "A cross-platform Rust crate for embedding a configurable web browser component, interfacing with WebKit, Internet Explorer, and WebView2 engines depending on the OS."
+description = "A cross-platform Rust crate for embedding a configurable web browser component, interfacing with WebKit, Internet Explorer, and WebView2 engines depending on the OS. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-webbrowser"
 edition = "2024"
 keywords = ["webbrowser", "embed", "crossplatform", "webkit", "webview2"]

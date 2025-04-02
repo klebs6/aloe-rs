@@ -11,7 +11,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "encoding", "network-programming"]
-description = "Aloe VST Channel provides Rust interfaces to integrate VST plugins with host channel contexts, extracting channel information and managing plugin automation state."
+description = "Aloe VST Channel provides Rust interfaces to integrate VST plugins with host channel contexts, extracting channel information and managing plugin automation state. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-channel"
 edition = "2024"
 keywords = ["vst", "audio", "plugins", "channel", "automation"]

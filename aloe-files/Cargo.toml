@@ -23,7 +23,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["filesystem", "data-structures", "os"]
-description = "Aloe Files is a comprehensive Rust library for filesystem operations, offering support for file I/O, directory iteration, and cross-platform file path handling with special location resolution."
+description = "Aloe Files is a comprehensive Rust library for filesystem operations, offering support for file I/O, directory iteration, and cross-platform file path handling with special location resolution. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-files"
 edition = "2024"
 keywords = ["filesystem", "crossplatform", "directory", "filemanagement", "path"]

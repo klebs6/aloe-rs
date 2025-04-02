@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "data-structures", "mathematics", "development-tools"]
-description = "Aloe-Oboe Counters crate provides a non-atomic 64-bit monotonic counter with support for converting 32-bit wrapping counters."
+description = "Aloe-Oboe Counters crate provides a non-atomic 64-bit monotonic counter with support for converting 32-bit wrapping counters. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-counters"
 edition = "2024"
 keywords = ["counter", "monotonic", "32bit", "64bit", "nonatomic"]

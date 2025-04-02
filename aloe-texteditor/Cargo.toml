@@ -37,7 +37,7 @@ path = "../aloe-viewport"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["text-editors", "gui", "multimedia", "text-processing", "gui"]
-description = "Aloe TextEditor is a robust module for creating advanced text editing components. It supports single/multi-line modes, mixed fonts, custom filters, and accessibility features, along with undo/redo functionality and a contextual popup menu."
+description = "Aloe TextEditor is a robust module for creating advanced text editing components. It supports single/multi-line modes, mixed fonts, custom filters, and accessibility features, along with undo/redo functionality and a contextual popup menu. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-texteditor"
 edition = "2024"
 keywords = ["texteditor", "gui", "rust", "efficient", "keyboardevents"]

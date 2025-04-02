@@ -9,7 +9,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "network-programming", "development-tools"]
-description = "Facilitates inter-component communication in VST3 host environments via standardized message interfaces."
+description = "Facilitates inter-component communication in VST3 host environments via standardized message interfaces. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-message"
 edition = "2024"
 keywords = ["vst", "communication", "host", "plugin", "interface"]

@@ -61,7 +61,7 @@ path = "../aloe-visualizer"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["visualization", "multimedia", "game-development", "gui", "mathematics"]
-description = "A sophisticated Rust library designed for executing and rendering demos including 3D, audio, and GUI components using Wavefront OBJ files, real-time audio visualization, and advanced graphical interfaces."
+description = "A sophisticated Rust library designed for executing and rendering demos including 3D, audio, and GUI components using Wavefront OBJ files, real-time audio visualization, and advanced graphical interfaces. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ex-demorunner"
 edition = "2024"
 keywords = ["3d", "obj", "demo", "gui", "audio"]

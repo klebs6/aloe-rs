@@ -37,7 +37,7 @@ path = "../aloe-threads"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["development-tools", "multimedia", "science", "simulation"]
-description = "Aloe Filter is a Rust library for advanced audio signal processing, offering a versatile array of digital filters and DSP utilities."
+description = "Aloe Filter is a Rust library for advanced audio signal processing, offering a versatile array of digital filters and DSP utilities. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-filter"
 edition = "2024"
 keywords = ["audio", "dsp", "filter", "signalprocessing", "linkwitzriley"]

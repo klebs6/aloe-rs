@@ -13,7 +13,7 @@ path = "../aloe-vst-types"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "development-tools"]
-description = "Aloe VST Host provides VST3 to VST2, AAX, and AU host wrappers for interoperability and effective host-plug-in communication and MIDI Polyphonic Expression support."
+description = "Aloe VST Host provides VST3 to VST2, AAX, and AU host wrappers for interoperability and effective host-plug-in communication and MIDI Polyphonic Expression support. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-vst-host"
 edition = "2024"
 keywords = ["vst", "vst3", "daw", "audioprocessing", "mpe"]

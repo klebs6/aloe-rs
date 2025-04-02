@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "science", "hardware-support", "mathematics", "simulation"]
-description = "Aloe-simd-avx offers SIMD processing using AVX intrinsics for efficient data manipulation and parallel computations, optimizing performance for digital signal processing and high-performance applications."
+description = "Aloe-simd-avx offers SIMD processing using AVX intrinsics for efficient data manipulation and parallel computations, optimizing performance for digital signal processing and high-performance applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-simd-avx"
 edition = "2024"
 keywords = ["simd", "avx", "intrinsics", "highperformance", "parallelcomputing"]

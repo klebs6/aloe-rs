@@ -15,7 +15,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = [ "gui", "graphics", "hardware-support" ]
-description = "OGG Vorbis file I/O for compressed audio streams -- see JUCE's OGG support."
+description = "OGG Vorbis file I/O for compressed audio streams -- see JUCE's OGG support. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-ogg"
 edition = "2024"
 keywords = [ "juce", "audio", "gui", "graphics", "listener" ]

@@ -5,7 +5,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "development-tools", "network-programming"]
-description = "Aloe Playhead is a Rust crate providing an interface for audio playback control and status tracking, featuring frame rate management and playhead position struct."
+description = "Aloe Playhead is a Rust crate providing an interface for audio playback control and status tracking, featuring frame rate management and playhead position struct. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-playhead"
 edition = "2024"
 keywords = ["audio", "playhead", "control", "framerate", "playback"]

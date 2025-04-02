@@ -27,7 +27,7 @@ path = "../aloe-smoothed-value"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "command-line-utilities", "development-tools", "multimedia"]
-description = "Aloe Chorus is a DSP library for crafting customizable chorus audio effects through LFO-modulated delay lines and echo feedback with flexible parameters."
+description = "Aloe Chorus is a DSP library for crafting customizable chorus audio effects through LFO-modulated delay lines and echo feedback with flexible parameters. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-chorus"
 edition = "2024"
 keywords = ["chorus", "dsp", "audioeffect", "modulation", "rust"]

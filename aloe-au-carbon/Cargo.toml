@@ -14,7 +14,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "gui"]
-description = "Bindings for interfacing Apple's Carbon APIs with Audio Unites, facilitating UI control implementations for audio parameters in a music processing context."
+description = "Bindings for interfacing Apple's Carbon APIs with Audio Unites, facilitating UI control implementations for audio parameters in a music processing context. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-carbon"
 edition = "2024"
 keywords = ["carbon", "audiounit", "audio", "interface", "control"]

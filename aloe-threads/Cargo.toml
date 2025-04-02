@@ -30,7 +30,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["concurrency", "os"]
-description = "Aloe Threads provides advanced multithreading utilities for Rust, featuring a dynamic thread pool, high-resolution timers, and synchronization primitives."
+description = "Aloe Threads provides advanced multithreading utilities for Rust, featuring a dynamic thread pool, high-resolution timers, and synchronization primitives. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-threads"
 edition = "2024"
 keywords = ["threading", "concurrency", "performance", "timers", "synchronization"]

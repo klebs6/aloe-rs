@@ -7,7 +7,7 @@ path = "../aloe-simd-deps"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "science", "simulation", "mathematics"]
-description = "`aloe-simd-fallback` provides efficient and uniform SIMD operations with reliable fallback routines for unsupported architectures."
+description = "`aloe-simd-fallback` provides efficient and uniform SIMD operations with reliable fallback routines for unsupported architectures. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-simd-fallback"
 edition = "2024"
 keywords = ["simd", "vectorization", "performance", "fallback", "mathematics"]

@@ -7,7 +7,7 @@ path = "../aloe-simd-deps"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "compilers", "development-tools", "science", "parsing"]
-description = "Efficient SIMD operations in Rust for various data types focusing on precision and performance with architecture-specific optimizations."
+description = "Efficient SIMD operations in Rust for various data types focusing on precision and performance with architecture-specific optimizations. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-simd-native"
 edition = "2024"
 keywords = ["simd", "rust", "performance", "intrinsics", "arithmetic"]

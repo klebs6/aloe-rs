@@ -37,7 +37,7 @@ path = "../aloe-midi"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "game-development", "rendering"]
-description = "Aloe Synthesizer offers advanced polyphonic sound synthesis with robust MIDI handling and dynamic voice allocation, enabling precise audio rendering through sound and voice abstractions."
+description = "Aloe Synthesizer offers advanced polyphonic sound synthesis with robust MIDI handling and dynamic voice allocation, enabling precise audio rendering through sound and voice abstractions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-synthesizer"
 edition = "2024"
 keywords = ["synthesizer", "audio", "midi", "sound", "polyphony"]

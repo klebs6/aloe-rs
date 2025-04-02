@@ -18,7 +18,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["command-line-utilities", "compilers", "development-tools", "external-ffi-bindings", "os"]
-description = "Aloe-Core is a Rust library to facilitate advanced Rust-Objective-C interoperability, focusing on command-line applications, system utilities, and memory-safe handling of Objective-C objects."
+description = "Aloe-Core is a Rust library to facilitate advanced Rust-Objective-C interoperability, focusing on command-line applications, system utilities, and memory-safe handling of Objective-C objects. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-core"
 edition = "2024"
 keywords = ["rustobjectivec", "ffi", "commandline", "integration", "arc"]

@@ -19,7 +19,7 @@ path = "../aloe-time"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "multimedia", "rendering"]
-description = "The Aloe CallOut Box provides dynamic pop-up windows with an arrow that points to a target. Ideal for enhancing user interface interactivity in Rust applications."
+description = "The Aloe CallOut Box provides dynamic pop-up windows with an arrow that points to a target. Ideal for enhancing user interface interactivity in Rust applications. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-callout-box"
 edition = "2024"
 keywords = ["gui", "callout", "popup", "asynchronous", "component"]

@@ -15,7 +15,7 @@ path = "../aloe-url"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["network-programming", "development-tools", "command-line-utilities", "gui", "web-programming"]
-description = "Aloe Content Sharer facilitates cross-application content sharing in Rust, offering functionalities to share text, images, files, and data with callbacks for operation results."
+description = "Aloe Content Sharer facilitates cross-application content sharing in Rust, offering functionalities to share text, images, files, and data with callbacks for operation results. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-content-sharer"
 edition = "2024"
 keywords = ["contentsharing", "rust", "files", "images", "callbacks"]

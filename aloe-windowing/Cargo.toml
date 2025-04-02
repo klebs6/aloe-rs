@@ -47,7 +47,7 @@ path = "../aloe-xembed"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["graphics", "gui", "rendering", "multimedia", "os"]
-description = "Aloe-windowing provides advanced window management interfaces and components for cross-platform GUI applications, focusing on Carbon-based systems and integrating window style management, resizing, and active window tracking."
+description = "Aloe-windowing provides advanced window management interfaces and components for cross-platform GUI applications, focusing on Carbon-based systems and integrating window style management, resizing, and active window tracking. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-windowing"
 edition = "2024"
 keywords = ["windowing", "gui", "carbon", "crossplatform", "aloe"]

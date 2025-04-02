@@ -21,7 +21,7 @@ path = "../aloe-memory"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "data-structures", "science", "embedded"]
-description = "Aloe-buffers provide a set of advanced data structures and utilities for handling and processing multi-channel audio data efficiently in Rust. It supports format conversion, precise operations on audio samples, and flexible buffer management."
+description = "Aloe-buffers provide a set of advanced data structures and utilities for handling and processing multi-channel audio data efficiently in Rust. It supports format conversion, precise operations on audio samples, and flexible buffer management. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-buffers"
 edition = "2024"
 keywords = ["audio", "buffers", "conversion", "multichannel", "performance"]

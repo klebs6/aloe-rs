@@ -39,7 +39,7 @@ path = "../aloe-network"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "text-processing", "localization", "web-programming"]
-description = "Aloe Menus is a Rust library for creating advanced GUI menu systems with support for popups, dropdowns, custom components, and accessibility features."
+description = "Aloe Menus is a Rust library for creating advanced GUI menu systems with support for popups, dropdowns, custom components, and accessibility features. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-menus"
 edition = "2024"
 keywords = ["popup", "menu", "gui", "dropdown", "customization"]

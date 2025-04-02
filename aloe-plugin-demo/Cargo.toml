@@ -69,7 +69,7 @@ path = "../aloe-xml"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia"]
-description = "An advanced demonstration crate of audio DSP using effect chains such as distortion, convolution, multiband dynamics, and others with parameter optimization using AudioProcessorValueTreeState."
+description = "An advanced demonstration crate of audio DSP using effect chains such as distortion, convolution, multiband dynamics, and others with parameter optimization using AudioProcessorValueTreeState. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-plugin-demo"
 edition = "2024"
 keywords = ["audio", "dsp", "plugin", "effects", "signalprocessing"]

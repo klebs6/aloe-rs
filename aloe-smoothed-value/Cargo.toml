@@ -9,7 +9,7 @@ path = "../aloe-derive"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms"]
-description = "A Rust crate for smoothing values in digital signal processing to minimize audio artifacts. Provides linear and multiplicative smoothing strategies, suitable for both linear and logarithmic scale transitions."
+description = "A Rust crate for smoothing values in digital signal processing to minimize audio artifacts. Provides linear and multiplicative smoothing strategies, suitable for both linear and logarithmic scale transitions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-smoothed-value"
 edition = "2024"
 keywords = ["audio", "smoothing", "dsp", "exponential", "linear"]

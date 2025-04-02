@@ -21,7 +21,7 @@ path = "../aloe-variant"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["parsing", "algorithms", "web-programming", "data-structures"]
-description = "Aloe-XML is a crate for parsing and manipulating XML documents in Rust. It provides a comprehensive set of tools for XML document parsing, attribute management, and document serialization."
+description = "Aloe-XML is a crate for parsing and manipulating XML documents in Rust. It provides a comprehensive set of tools for XML document parsing, attribute management, and document serialization. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-xml"
 edition = "2024"
 keywords = ["xml", "parsing", "serialization", "document", "attribute"]

@@ -23,7 +23,7 @@ path = "../aloe-mouse"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "multimedia", "command-line-utilities"]
-description = "A dynamic GUI component for mobile apps, providing animated side panels with customizable content and title bars."
+description = "A dynamic GUI component for mobile apps, providing animated side panels with customizable content and title bars. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-sidepanel"
 edition = "2024"
 keywords = ["sidepanel", "gui", "rust", "animation", "mobile"]

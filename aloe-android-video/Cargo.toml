@@ -19,7 +19,7 @@ path = "../aloe-video"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = []
-description = "Aloe Android Video provides an extensive API for managing video playback in Android applications using Rust. Engagement with Java components through JNI is optimized for efficient media handling and state control."
+description = "Aloe Android Video provides an extensive API for managing video playback in Android applications using Rust. Engagement with Java components through JNI is optimized for efficient media handling and state control. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-android-video"
 edition = "2024"
 keywords = ["android", "video", "media", "rust", "jni"]

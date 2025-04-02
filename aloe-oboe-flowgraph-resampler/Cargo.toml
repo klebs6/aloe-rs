@@ -7,7 +7,7 @@ path = "../aloe-oboe-flowgraph-filter"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "algorithms"]
-description = "A multi-channel audio resampling library in Rust, providing high-quality audio processing tools with various resampling algorithms and smooth control transitions."
+description = "A multi-channel audio resampling library in Rust, providing high-quality audio processing tools with various resampling algorithms and smooth control transitions. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-oboe-flowgraph-resampler"
 edition = "2024"
 keywords = ["audio", "resampling", "multichannel", "filter", "window"]

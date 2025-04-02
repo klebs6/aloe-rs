@@ -14,7 +14,7 @@ path = "../aloe-windowing"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "os", "external-ffi-bindings"]
-description = "Provides a convenient interface to CoreAudio's AudioStreamBasicDescription, with utility functions for format decomposition and manipulation."
+description = "Provides a convenient interface to CoreAudio's AudioStreamBasicDescription, with utility functions for format decomposition and manipulation. This crate is a translation of the c++ juce module serving the same function."
 documentation = "https://docs.rs/aloe-au-streams"
 edition = "2024"
 keywords = ["audio", "coreaudio", "audiostream", "pcm", "format"]
