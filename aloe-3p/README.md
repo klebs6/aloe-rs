@@ -20,7 +20,7 @@ Add the following to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-aloe-deps = "0.1.0"
+aloe-3p = "0.1.0"
 ```
 
 Import the desired traits or macros in your Rust code:

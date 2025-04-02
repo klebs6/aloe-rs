@@ -2,8 +2,8 @@
 core-foundation-sys = "0.8.6"
 coreaudio-sys = "0.2.15"
 libc = "0.2.155"
-[dependencies.aloe-deps]
-path = "../aloe-deps"
+[dependencies.aloe-3p]
+path = "../aloe-3p"
 version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"

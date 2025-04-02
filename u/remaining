@@ -156,7 +156,7 @@ sub rank-remaining {
         aloe-identifier
         aloe-image
         aloe-imagecomponent
-        aloe-deps
+        aloe-3p
         aloe-interp
         aloe-ios-camera
         aloe-ios-notifications
@@ -376,7 +376,7 @@ sub rank-remaining {
         aloe-font
         aloe-graphics
         aloe-identifier
-        aloe-deps
+        aloe-3p
         aloe-keyboard
         aloe-label
         aloe-listbox

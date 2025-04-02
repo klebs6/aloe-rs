@@ -2114,8 +2114,8 @@
         "OSCType"
       ]
     },
-    "aloe-simd-deps": {
-      "crate_name": "aloe-simd-deps",
+    "aloe-simd-3p": {
+      "crate_name": "aloe-simd-3p",
       "traits": [],
       "fns": [],
       "structs": [],
@@ -16979,8 +16979,8 @@
       ],
       "types": []
     },
-    "aloe-deps": {
-      "crate_name": "aloe-deps",
+    "aloe-3p": {
+      "crate_name": "aloe-3p",
       "traits": [
         "GetName",
         "HasReference",
@@ -39166,7 +39166,7 @@
       "aloe-android"
     ],
     "GetName": [
-      "aloe-deps"
+      "aloe-3p"
     ],
     "register_demos_one": [
       "aloe-ex-demorunner"
@@ -42215,7 +42215,7 @@
       "aloe-graphics"
     ],
     "HasValueType": [
-      "aloe-deps",
+      "aloe-3p",
       "aloe-xml",
       "aloe-simd-register"
     ],
@@ -44712,7 +44712,7 @@
       "aloe-ex-gui"
     ],
     "HasIteratorCategory": [
-      "aloe-deps"
+      "aloe-3p"
     ],
     "BluetoothMidiDevicePairingDialogue": [
       "aloe-midi"
@@ -44901,7 +44901,7 @@
       "aloe-ex-utilities"
     ],
     "HasDifferenceType": [
-      "aloe-deps",
+      "aloe-3p",
       "aloe-xml"
     ],
     "get_socket": [
@@ -54189,7 +54189,7 @@
       "aloe-positioning"
     ],
     "HasReference": [
-      "aloe-deps",
+      "aloe-3p",
       "aloe-xml"
     ],
     "VorbisInfoFloor": [
@@ -59809,7 +59809,7 @@
       "aloe-box2d"
     ],
     "InputIteratorTag": [
-      "aloe-deps",
+      "aloe-3p",
       "aloe-xml"
     ],
     "succeeded": [
@@ -64163,7 +64163,7 @@
       "aloe-vst-string"
     ],
     "aloe_wchar": [
-      "aloe-deps"
+      "aloe-3p"
     ],
     "flac_metadata_chain_read_ogg": [
       "aloe-flac"
@@ -77786,7 +77786,7 @@
       "aloe-flac"
     ],
     "HasPointer": [
-      "aloe-deps",
+      "aloe-3p",
       "aloe-xml"
     ],
     "ScalarSub": [

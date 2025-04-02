@@ -1,6 +1,6 @@
-# Aloe-SIMD-Deps
+# aloe-simd-3p
 
-Aloe-SIMD-Deps is a Rust crate designed for sophisticated numerical computations leveraging SIMD (Single Instruction, Multiple Data) parallelism. The crate exposes low-level SIMD functionalities encapsulated in types such as `m8x16`, which is a mask over 16 elements of 8-bit integers.
+aloe-simd-3p is a Rust crate designed for sophisticated numerical computations leveraging SIMD (Single Instruction, Multiple Data) parallelism. The crate exposes low-level SIMD functionalities encapsulated in types such as `m8x16`, which is a mask over 16 elements of 8-bit integers.
 
 ## Features
 
@@ -9,11 +9,11 @@ Aloe-SIMD-Deps is a Rust crate designed for sophisticated numerical computations
 
 ## Installation
 
-Add Aloe-SIMD-Deps to your project's `Cargo.toml`:
+Add aloe-simd-3p to your project's `Cargo.toml`:
 
 ```toml
 [dependencies]
-aloe-simd-deps = "0.1.0"
+aloe-simd-3p = "0.1.0"
 ```
 
 ## Usage

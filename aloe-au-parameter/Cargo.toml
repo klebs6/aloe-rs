@@ -4,8 +4,8 @@ coreaudio-sys = "0.2.15"
 [dependencies.aloe-au-imports]
 path = "../aloe-au-imports"
 version = "0.1.0"
-[dependencies.aloe-deps]
-path = "../aloe-deps"
+[dependencies.aloe-3p]
+path = "../aloe-3p"
 version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"

@@ -12,7 +12,7 @@ sub MAIN(Str $name, Bool :$write) {
     );
 
     add-workspace-crate-to-neighbor-cargo-toml(
-        workspace-crate => "aloe-deps", 
+        workspace-crate => "aloe-3p", 
         neighbor        => $name,
         write => True
     );

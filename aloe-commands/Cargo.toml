@@ -14,8 +14,8 @@ version = "0.1.0"
 [dependencies.aloe-container]
 path = "../aloe-container"
 version = "0.1.0"
-[dependencies.aloe-deps]
-path = "../aloe-deps"
+[dependencies.aloe-3p]
+path = "../aloe-3p"
 version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
