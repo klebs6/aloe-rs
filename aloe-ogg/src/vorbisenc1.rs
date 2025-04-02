@@ -14,7 +14,7 @@ crate::ix!();
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_audio_formats/codecs/oggvorbis/vorbisenc.h]
 
-extern "C"
+unsafe extern "C"
 {
 
     /**

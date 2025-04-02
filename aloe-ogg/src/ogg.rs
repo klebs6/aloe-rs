@@ -157,7 +157,7 @@ pub struct OggSyncState {
     bodybytes:   i32,
 }
 
-extern "C" {
+unsafe extern "C" {
 
     /**
       | Ogg BITSTREAM PRIMITIVES: bitstream

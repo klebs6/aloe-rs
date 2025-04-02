@@ -2,16 +2,16 @@ crate::ix!();
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_core/native/aloe_linux_SystemStats.cpp]
 
-extern "C"  {
+unsafe extern "C"  {
 
     #[cfg(target_os="linux")]
     #[cfg(ALOE_BELA)]
     pub fn cobalt_thread_mode() -> i32 {
-        
+
         todo!();
         /*
-        
-        */
+
+*/
     }
 }
 

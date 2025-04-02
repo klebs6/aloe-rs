@@ -181,7 +181,7 @@ pub struct UnityAudioEffectDefinition
 /**
    Unity callback
   */
-extern "C"  {
+unsafe extern "C"  {
     lazy_static!{
         /*
         UNITY_INTERFACE_EXPORT int  UNITY_INTERFACE_API UnityGetAudioEffectDefinitions (UnityAudioEffectDefinition*** definitionsPtr);

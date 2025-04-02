@@ -62,7 +62,7 @@ pub const FLAC_API_VERSION_CURRENT:  usize = 11;
 pub const FLAC_API_VERSION_REVISION: usize = 0;
 pub const FLAC_API_VERSION_AGE:      usize = 3;
 
-extern "C" {
+unsafe extern "C" {
 
     /**
       | \c 1 if the library has been compiled

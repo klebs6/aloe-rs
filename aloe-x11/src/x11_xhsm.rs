@@ -8,7 +8,7 @@ lazy_static!{
 }
 
 #[cfg(ALOE_USE_XSHM)]
-extern "C" {
+unsafe extern "C" {
 
     pub fn error_trap_handler(
             _0:  *mut Display,

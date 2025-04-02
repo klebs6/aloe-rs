@@ -154,7 +154,7 @@ pub const OS_CODE: usize = 0x00;
 #[cfg(any(MSDOS,all(WINDOWS,not(WIN32))))]
 #[cfg(any(__TURBOC__,__BORLANDC__))]
 #[cfg(all(__STDC___EQ_1,any(__LARGE__,__COMPACT__)))]
-extern "cdecl" {
+unsafe extern "cdecl" {
 
     pub fn farfree(block: *mut c_void)  {
         

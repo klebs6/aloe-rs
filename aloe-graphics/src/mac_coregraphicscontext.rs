@@ -3,7 +3,7 @@ crate::ix!();
 //-------------------------------------------[.cpp/Aloe/modules/aloe_graphics/native/aloe_mac_CoreGraphicsContext.h]
 
 // Assume the extern "C" functions have been defined or imported appropriately
-extern "C" {
+unsafe extern "C" {
 
     fn CGColorSpaceRelease(space: *mut libc::c_void);
     fn CGContextRelease(context: *mut libc::c_void);
