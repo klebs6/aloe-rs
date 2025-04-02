@@ -1,23 +1,32 @@
 [dependencies]
-bitflags = "*"
+bitflags = "2.6.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-vst-component]
 path = "../aloe-vst-component"
+version = "0.1.0"
 [dependencies.aloe-vst-parameters]
 path = "../aloe-vst-parameters"
+version = "0.1.0"
 [dependencies.aloe-vst-plugin]
 path = "../aloe-vst-plugin"
+version = "0.1.0"
 [dependencies.aloe-vst-plugview]
 path = "../aloe-vst-plugview"
+version = "0.1.0"
 [dependencies.aloe-vst-stream]
 path = "../aloe-vst-stream"
+version = "0.1.0"
 [dependencies.aloe-vst-types]
 path = "../aloe-vst-types"
+version = "0.1.0"
 [dependencies.aloe-vst-units]
 path = "../aloe-vst-units"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "gui"]

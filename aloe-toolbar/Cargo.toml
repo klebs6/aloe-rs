@@ -1,31 +1,45 @@
 [dependencies.aloe-buttons]
 path = "../aloe-buttons"
+version = "0.1.0"
 [dependencies.aloe-combobox]
 path = "../aloe-combobox"
+version = "0.1.0"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-dialogwindow]
 path = "../aloe-dialogwindow"
+version = "0.1.0"
 [dependencies.aloe-drag-and-drop]
 path = "../aloe-drag-and-drop"
+version = "0.1.0"
 [dependencies.aloe-drawables]
 path = "../aloe-drawables"
+version = "0.1.0"
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
+version = "0.1.0"
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
+version = "0.1.0"
 [dependencies.aloe-label]
 path = "../aloe-label"
+version = "0.1.0"
 [dependencies.aloe-menus]
 path = "../aloe-menus"
+version = "0.1.0"
 [dependencies.aloe-mouse]
 path = "../aloe-mouse"
+version = "0.1.0"
 [dependencies.aloe-viewport]
 path = "../aloe-viewport"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "config", "development-tools", "command-line-interface", "graphics"]

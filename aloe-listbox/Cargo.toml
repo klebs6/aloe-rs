@@ -1,29 +1,42 @@
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-container]
 path = "../aloe-container"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-events]
 path = "../aloe-events"
+version = "0.1.0"
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
+version = "0.1.0"
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
+version = "0.1.0"
 [dependencies.aloe-image]
 path = "../aloe-image"
+version = "0.1.0"
 [dependencies.aloe-keyboard]
 path = "../aloe-keyboard"
+version = "0.1.0"
 [dependencies.aloe-mouse]
 path = "../aloe-mouse"
+version = "0.1.0"
 [dependencies.aloe-scrollbar]
 path = "../aloe-scrollbar"
+version = "0.1.0"
 [dependencies.aloe-variant]
 path = "../aloe-variant"
+version = "0.1.0"
 [dependencies.aloe-viewport]
 path = "../aloe-viewport"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "graphics", "accessibility", "rendering", "text-processing"]

@@ -1,21 +1,27 @@
 [dependencies]
-objc = "*"
-objc_id = "*"
+objc = "0.2.7"
+objc_id = "0.1.1"
 [dependencies.aloe-audio-plugin-instance]
 path = "../aloe-audio-plugin-instance"
+version = "0.1.0"
 [dependencies.aloe-core]
 path = "../aloe-core"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-embedding]
 path = "../aloe-embedding"
+version = "0.1.0"
 [dependencies.aloe-network]
 path = "../aloe-network"
+version = "0.1.0"
 [dependencies.icrate]
 features = [ "Foundation", "AppKit", "AppKit_NSView" ]
-version = "*"
+version = "0.1.2"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "asynchronous", "embedded"]

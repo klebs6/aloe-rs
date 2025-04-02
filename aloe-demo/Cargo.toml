@@ -1,39 +1,57 @@
 [dependencies.aloe-buttons]
 path = "../aloe-buttons"
+version = "0.1.0"
 [dependencies.aloe-colour]
 path = "../aloe-colour"
+version = "0.1.0"
 [dependencies.aloe-combobox]
 path = "../aloe-combobox"
+version = "0.1.0"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-editor]
 path = "../aloe-editor"
+version = "0.1.0"
 [dependencies.aloe-events]
 path = "../aloe-events"
+version = "0.1.0"
 [dependencies.aloe-font]
 path = "../aloe-font"
+version = "0.1.0"
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
+version = "0.1.0"
 [dependencies.aloe-label]
 path = "../aloe-label"
+version = "0.1.0"
 [dependencies.aloe-listbox]
 path = "../aloe-listbox"
+version = "0.1.0"
 [dependencies.aloe-random]
 path = "../aloe-random"
+version = "0.1.0"
 [dependencies.aloe-slider]
 path = "../aloe-slider"
+version = "0.1.0"
 [dependencies.aloe-stretchable]
 path = "../aloe-stretchable"
+version = "0.1.0"
 [dependencies.aloe-texteditor]
 path = "../aloe-texteditor"
+version = "0.1.0"
 [dependencies.aloe-threads]
 path = "../aloe-threads"
+version = "0.1.0"
 [dependencies.aloe-url]
 path = "../aloe-url"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "network-programming", "multimedia", "text-processing", "development-tools"]

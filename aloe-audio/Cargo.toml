@@ -1,113 +1,166 @@
 [dependencies]
-cocoa = "*"
-objc = "*"
-static_assertions = "*"
+cocoa = "0.25.0"
+objc = "0.2.7"
+static_assertions = "1.1.0"
 [dependencies.aloe-app]
 path = "../aloe-app"
+version = "0.1.0"
 [dependencies.aloe-audio-device-manager]
 path = "../aloe-audio-device-manager"
+version = "0.1.0"
 [dependencies.aloe-audio-devices]
 path = "../aloe-audio-devices"
+version = "0.1.0"
 [dependencies.aloe-audio-interface]
 path = "../aloe-audio-interface"
+version = "0.1.0"
 [dependencies.aloe-audio-plugin-client]
 path = "../aloe-audio-plugin-client"
+version = "0.1.0"
 [dependencies.aloe-audio-processor]
 path = "../aloe-audio-processor"
+version = "0.1.0"
 [dependencies.aloe-audio-processor-editor]
 path = "../aloe-audio-processor-editor"
+version = "0.1.0"
 [dependencies.aloe-audio-processor-graph]
 path = "../aloe-audio-processor-graph"
+version = "0.1.0"
 [dependencies.aloe-audio-source]
 path = "../aloe-audio-source"
+version = "0.1.0"
 [dependencies.aloe-audio-source-player]
 path = "../aloe-audio-source-player"
+version = "0.1.0"
 [dependencies.aloe-bigint]
 path = "../aloe-bigint"
+version = "0.1.0"
 [dependencies.aloe-buffers]
 path = "../aloe-buffers"
+version = "0.1.0"
 [dependencies.aloe-buttons]
 path = "../aloe-buttons"
+version = "0.1.0"
 [dependencies.aloe-codec]
 path = "../aloe-codec"
+version = "0.1.0"
 [dependencies.aloe-colour]
 path = "../aloe-colour"
+version = "0.1.0"
 [dependencies.aloe-combobox]
 path = "../aloe-combobox"
+version = "0.1.0"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-container]
 path = "../aloe-container"
+version = "0.1.0"
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-documentwindow]
 path = "../aloe-documentwindow"
+version = "0.1.0"
 [dependencies.aloe-events]
 path = "../aloe-events"
+version = "0.1.0"
 [dependencies.aloe-filebrowser]
 path = "../aloe-filebrowser"
+version = "0.1.0"
 [dependencies.aloe-files]
 path = "../aloe-files"
+version = "0.1.0"
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
+version = "0.1.0"
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
+version = "0.1.0"
 [dependencies.aloe-identifier]
 path = "../aloe-identifier"
+version = "0.1.0"
 [dependencies.aloe-image]
 path = "../aloe-image"
+version = "0.1.0"
 [dependencies.aloe-label]
 path = "../aloe-label"
+version = "0.1.0"
 [dependencies.aloe-level-meter]
 path = "../aloe-level-meter"
+version = "0.1.0"
 [dependencies.aloe-listbox]
 path = "../aloe-listbox"
+version = "0.1.0"
 [dependencies.aloe-math]
 path = "../aloe-math"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [dependencies.aloe-menus]
 path = "../aloe-menus"
+version = "0.1.0"
 [dependencies.aloe-midi]
 path = "../aloe-midi"
+version = "0.1.0"
 [dependencies.aloe-network]
 path = "../aloe-network"
+version = "0.1.0"
 [dependencies.aloe-param]
 path = "../aloe-param"
+version = "0.1.0"
 [dependencies.aloe-player]
 path = "../aloe-player"
+version = "0.1.0"
 [dependencies.aloe-playhead]
 path = "../aloe-playhead"
+version = "0.1.0"
 [dependencies.aloe-properties]
 path = "../aloe-properties"
+version = "0.1.0"
 [dependencies.aloe-resizable]
 path = "../aloe-resizable"
+version = "0.1.0"
 [dependencies.aloe-slider]
 path = "../aloe-slider"
+version = "0.1.0"
 [dependencies.aloe-standalone]
 path = "../aloe-standalone"
+version = "0.1.0"
 [dependencies.aloe-synthesizer]
 path = "../aloe-synthesizer"
+version = "0.1.0"
 [dependencies.aloe-threads]
 path = "../aloe-threads"
+version = "0.1.0"
 [dependencies.aloe-time]
 path = "../aloe-time"
+version = "0.1.0"
 [dependencies.aloe-undo]
 path = "../aloe-undo"
+version = "0.1.0"
 [dependencies.aloe-valuetree]
 path = "../aloe-valuetree"
+version = "0.1.0"
 [dependencies.aloe-variant]
 path = "../aloe-variant"
+version = "0.1.0"
 [dependencies.aloe-viewport]
 path = "../aloe-viewport"
+version = "0.1.0"
 [dependencies.aloe-visualizer]
 path = "../aloe-visualizer"
+version = "0.1.0"
 [dependencies.aloe-xml]
 path = "../aloe-xml"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "multimedia", "network-programming", "visualization"]

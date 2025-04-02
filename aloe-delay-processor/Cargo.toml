@@ -1,19 +1,26 @@
 [dependencies]
-num = "*"
+num = "0.4.3"
 [dependencies.aloe-delay]
 path = "../aloe-delay"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-filter]
 path = "../aloe-filter"
+version = "0.1.0"
 [dependencies.aloe-mixer]
 path = "../aloe-mixer"
+version = "0.1.0"
 [dependencies.aloe-sample-type]
 path = "../aloe-sample-type"
+version = "0.1.0"
 [dependencies.aloe-smoothed-value]
 path = "../aloe-smoothed-value"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["compilers", "rendering", "science"]

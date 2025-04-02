@@ -1,39 +1,57 @@
 [dependencies.aloe-caret-component]
 path = "../aloe-caret-component"
+version = "0.1.0"
 [dependencies.aloe-colour]
 path = "../aloe-colour"
+version = "0.1.0"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-container]
 path = "../aloe-container"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-events]
 path = "../aloe-events"
+version = "0.1.0"
 [dependencies.aloe-font]
 path = "../aloe-font"
+version = "0.1.0"
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
+version = "0.1.0"
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
+version = "0.1.0"
 [dependencies.aloe-keyboard]
 path = "../aloe-keyboard"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [dependencies.aloe-menus]
 path = "../aloe-menus"
+version = "0.1.0"
 [dependencies.aloe-mouse]
 path = "../aloe-mouse"
+version = "0.1.0"
 [dependencies.aloe-streams]
 path = "../aloe-streams"
+version = "0.1.0"
 [dependencies.aloe-undo]
 path = "../aloe-undo"
+version = "0.1.0"
 [dependencies.aloe-valuetree]
 path = "../aloe-valuetree"
+version = "0.1.0"
 [dependencies.aloe-viewport]
 path = "../aloe-viewport"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["text-editors", "gui", "multimedia", "text-processing", "gui"]

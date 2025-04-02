@@ -1,21 +1,29 @@
 [dependencies]
-libc = "*"
+libc = "0.2.155"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-vst-buffer]
 path = "../aloe-vst-buffer"
+version = "0.1.0"
 [dependencies.aloe-vst-component]
 path = "../aloe-vst-component"
+version = "0.1.0"
 [dependencies.aloe-vst-edit]
 path = "../aloe-vst-edit"
+version = "0.1.0"
 [dependencies.aloe-vst-stream]
 path = "../aloe-vst-stream"
+version = "0.1.0"
 [dependencies.aloe-vst-types]
 path = "../aloe-vst-types"
+version = "0.1.0"
 [dependencies.aloe-vst-units]
 path = "../aloe-vst-units"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "data-structures", "parser-implementations"]

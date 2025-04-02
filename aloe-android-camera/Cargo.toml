@@ -1,35 +1,51 @@
 [dependencies.aloe-android]
 path = "../aloe-android"
+version = "0.1.0"
 [dependencies.aloe-camera]
 path = "../aloe-camera"
+version = "0.1.0"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-container]
 path = "../aloe-container"
+version = "0.1.0"
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-desktop]
 path = "../aloe-desktop"
+version = "0.1.0"
 [dependencies.aloe-events]
 path = "../aloe-events"
+version = "0.1.0"
 [dependencies.aloe-files]
 path = "../aloe-files"
+version = "0.1.0"
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
+version = "0.1.0"
 [dependencies.aloe-image]
 path = "../aloe-image"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [dependencies.aloe-string]
 path = "../aloe-string"
+version = "0.1.0"
 [dependencies.aloe-threads]
 path = "../aloe-threads"
+version = "0.1.0"
 [dependencies.aloe-time]
 path = "../aloe-time"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "embedded", "multimedia", "hardware-support", "asynchronous"]

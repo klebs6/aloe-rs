@@ -1,21 +1,30 @@
 [dependencies.aloe-audio-block]
 path = "../aloe-audio-block"
+version = "0.1.0"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-dsp]
 path = "../aloe-dsp"
+version = "0.1.0"
 [dependencies.aloe-filter]
 path = "../aloe-filter"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [dependencies.aloe-sample-type]
 path = "../aloe-sample-type"
+version = "0.1.0"
 [dependencies.aloe-simd]
 path = "../aloe-simd"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "science", "simulation", "hardware-support"]

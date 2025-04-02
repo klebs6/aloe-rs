@@ -1,11 +1,13 @@
 [dependencies]
-libc = "*"
+libc = "0.2.155"
 libflac-sys = "0.3.0"
-modular-bitfield = "*"
+modular-bitfield = "0.11.2"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = [ "gui", "graphics", "hardware-support" ]

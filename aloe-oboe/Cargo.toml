@@ -1,65 +1,91 @@
 [dependencies]
-atomic = "*"
-bitfield = "*"
-lazy_static = "*"
-libc = "*"
-modular-bitfield = "*"
-num = "*"
-parking_lot = "*"
-static_assertions = "*"
-wchar = "*"
+atomic = "0.6.0"
+bitfield = "0.15.0"
+lazy_static = "1.5.0"
+libc = "0.2.155"
+modular-bitfield = "0.11.2"
+num = "0.4.3"
+parking_lot = "0.12.3"
+static_assertions = "1.1.0"
+wchar = "0.11.1"
 [dependencies.aloe-buffers]
 path = "../aloe-buffers"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-oboe-audio-loader]
 path = "../aloe-oboe-audio-loader"
+version = "0.1.0"
 [dependencies.aloe-oboe-audioclock]
 path = "../aloe-oboe-audioclock"
+version = "0.1.0"
 [dependencies.aloe-oboe-audioio]
 path = "../aloe-oboe-audioio"
+version = "0.1.0"
 [dependencies.aloe-oboe-core]
 path = "../aloe-oboe-core"
+version = "0.1.0"
 [dependencies.aloe-oboe-counters]
 path = "../aloe-oboe-counters"
+version = "0.1.0"
 [dependencies.aloe-oboe-devicequirks]
 path = "../aloe-oboe-devicequirks"
+version = "0.1.0"
 [dependencies.aloe-oboe-extensions]
 path = "../aloe-oboe-extensions"
+version = "0.1.0"
 [dependencies.aloe-oboe-fifo]
 path = "../aloe-oboe-fifo"
+version = "0.1.0"
 [dependencies.aloe-oboe-fixedblockrw]
 path = "../aloe-oboe-fixedblockrw"
+version = "0.1.0"
 [dependencies.aloe-oboe-flowgraph]
 path = "../aloe-oboe-flowgraph"
+version = "0.1.0"
 [dependencies.aloe-oboe-flowgraph-converter]
 path = "../aloe-oboe-flowgraph-converter"
+version = "0.1.0"
 [dependencies.aloe-oboe-flowgraph-filter]
 path = "../aloe-oboe-flowgraph-filter"
+version = "0.1.0"
 [dependencies.aloe-oboe-flowgraph-node]
 path = "../aloe-oboe-flowgraph-node"
+version = "0.1.0"
 [dependencies.aloe-oboe-flowgraph-resampler]
 path = "../aloe-oboe-flowgraph-resampler"
+version = "0.1.0"
 [dependencies.aloe-oboe-flowgraph-sink]
 path = "../aloe-oboe-flowgraph-sink"
+version = "0.1.0"
 [dependencies.aloe-oboe-flowgraph-source]
 path = "../aloe-oboe-flowgraph-source"
+version = "0.1.0"
 [dependencies.aloe-oboe-latencytuner]
 path = "../aloe-oboe-latencytuner"
+version = "0.1.0"
 [dependencies.aloe-oboe-no-aaudio]
 path = "../aloe-oboe-no-aaudio"
+version = "0.1.0"
 [dependencies.aloe-oboe-session]
 path = "../aloe-oboe-session"
+version = "0.1.0"
 [dependencies.aloe-oboe-sles]
 path = "../aloe-oboe-sles"
+version = "0.1.0"
 [dependencies.aloe-oboe-sourcefloatcaller]
 path = "../aloe-oboe-sourcefloatcaller"
+version = "0.1.0"
 [dependencies.aloe-oboe-stream]
 path = "../aloe-oboe-stream"
+version = "0.1.0"
 [dependencies.aloe-oboe-trace]
 path = "../aloe-oboe-trace"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["rendering", "graphics", "asynchronous", "concurrency", "visualization"]

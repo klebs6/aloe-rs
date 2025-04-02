@@ -1,28 +1,37 @@
 [dependencies]
-cocoa = "*"
-objc = "*"
-objc_id = "*"
+cocoa = "0.25.0"
+objc = "0.2.7"
+objc_id = "0.1.1"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-core]
 path = "../aloe-core"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-events]
 path = "../aloe-events"
+version = "0.1.0"
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
+version = "0.1.0"
 [dependencies.aloe-image]
 path = "../aloe-image"
+version = "0.1.0"
 [dependencies.aloe-menus]
 path = "../aloe-menus"
+version = "0.1.0"
 [dependencies.aloe-xembed]
 path = "../aloe-xembed"
+version = "0.1.0"
 [dependencies.icrate]
 features = [ "Foundation", "Foundation_NSError", "Foundation_NSNotification" ]
-version = "*"
+version = "0.1.2"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "command-line-utilities", "development-tools", "os", "web-programming"]

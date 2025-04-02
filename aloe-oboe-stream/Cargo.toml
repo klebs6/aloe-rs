@@ -1,16 +1,21 @@
 [dependencies]
-libc = "*"
-parking_lot = "*"
+libc = "0.2.155"
+parking_lot = "0.12.3"
 [dependencies.aloe-codec]
 path = "../aloe-codec"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-oboe-core]
 path = "../aloe-oboe-core"
+version = "0.1.0"
 [dependencies.aloe-oboe-no-aaudio]
 path = "../aloe-oboe-no-aaudio"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["network-programming"]

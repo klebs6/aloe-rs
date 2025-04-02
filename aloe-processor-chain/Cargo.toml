@@ -1,11 +1,15 @@
 [dependencies.aloe-audio-interface]
 path = "../aloe-audio-interface"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-sample-type]
 path = "../aloe-sample-type"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "graphics", "multimedia", "config"]

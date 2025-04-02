@@ -1,43 +1,63 @@
 [dependencies.aloe-audio-interface]
 path = "../aloe-audio-interface"
+version = "0.1.0"
 [dependencies.aloe-audio-processor]
 path = "../aloe-audio-processor"
+version = "0.1.0"
 [dependencies.aloe-audio-processor-editor]
 path = "../aloe-audio-processor-editor"
+version = "0.1.0"
 [dependencies.aloe-buffers]
 path = "../aloe-buffers"
+version = "0.1.0"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-events]
 path = "../aloe-events"
+version = "0.1.0"
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
+version = "0.1.0"
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
+version = "0.1.0"
 [dependencies.aloe-keyboard]
 path = "../aloe-keyboard"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [dependencies.aloe-midi]
 path = "../aloe-midi"
+version = "0.1.0"
 [dependencies.aloe-network]
 path = "../aloe-network"
+version = "0.1.0"
 [dependencies.aloe-param]
 path = "../aloe-param"
+version = "0.1.0"
 [dependencies.aloe-playhead]
 path = "../aloe-playhead"
+version = "0.1.0"
 [dependencies.aloe-threads]
 path = "../aloe-threads"
+version = "0.1.0"
 [dependencies.aloe-vst-midi]
 path = "../aloe-vst-midi"
+version = "0.1.0"
 [dependencies.aloe-vst-types]
 path = "../aloe-vst-types"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "gui", "external-ffi-bindings", "command-line-utilities"]

@@ -1,30 +1,41 @@
 [dependencies]
-bitflags = "*"
-core-graphics = "*"
-libc = "*"
-objc = "*"
+bitflags = "2.6.0"
+core-graphics = "0.23.2"
+libc = "0.2.155"
+objc = "0.2.7"
 [dependencies.aloe-colour]
 path = "../aloe-colour"
+version = "0.1.0"
 [dependencies.aloe-container]
 path = "../aloe-container"
+version = "0.1.0"
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-events]
 path = "../aloe-events"
+version = "0.1.0"
 [dependencies.aloe-files]
 path = "../aloe-files"
+version = "0.1.0"
 [dependencies.aloe-font]
 path = "../aloe-font"
+version = "0.1.0"
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
+version = "0.1.0"
 [dependencies.aloe-image]
 path = "../aloe-image"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["graphics", "rendering", "gui", "multimedia"]

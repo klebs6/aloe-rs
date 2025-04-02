@@ -1,13 +1,18 @@
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [dependencies.aloe-midi]
 path = "../aloe-midi"
+version = "0.1.0"
 [dependencies.aloe-vst-types]
 path = "../aloe-vst-types"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "network-programming", "external-ffi-bindings"]

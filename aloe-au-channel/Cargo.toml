@@ -1,18 +1,24 @@
 [dependencies]
-coreaudio-sys = "*"
-libc = "*"
+coreaudio-sys = "0.2.15"
+libc = "0.2.155"
 [dependencies.aloe-au-imports]
 path = "../aloe-au-imports"
+version = "0.1.0"
 [dependencies.aloe-au-types]
 path = "../aloe-au-types"
+version = "0.1.0"
 [dependencies.aloe-audio-processor]
 path = "../aloe-audio-processor"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "science", "hardware-support", "embedded"]

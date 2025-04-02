@@ -1,39 +1,53 @@
 [dependencies]
-coreaudio-rs = "*"
-objc = "*"
+coreaudio-rs = "0.12.0"
+objc = "0.2.7"
 objc-foundation = "0.1"
-objc_id = "*"
+objc_id = "0.1.1"
 [dependencies.aloe-au]
 path = "../aloe-au"
+version = "0.1.0"
 [dependencies.aloe-au-base]
 path = "../aloe-au-base"
+version = "0.1.0"
 [dependencies.aloe-audio-device-manager]
 path = "../aloe-audio-device-manager"
+version = "0.1.0"
 [dependencies.aloe-audio-interface]
 path = "../aloe-audio-interface"
+version = "0.1.0"
 [dependencies.aloe-bigint]
 path = "../aloe-bigint"
+version = "0.1.0"
 [dependencies.aloe-buffers]
 path = "../aloe-buffers"
+version = "0.1.0"
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [dependencies.aloe-midi]
 path = "../aloe-midi"
+version = "0.1.0"
 [dependencies.aloe-network]
 path = "../aloe-network"
+version = "0.1.0"
 [dependencies.aloe-playhead]
 path = "../aloe-playhead"
+version = "0.1.0"
 [dependencies.aloe-windowing]
 path = "../aloe-windowing"
+version = "0.1.0"
 [dependencies.icrate]
 features = [ "Foundation", "Foundation_NSError", "Foundation_NSNotification" ]
-version = "*"
+version = "0.1.2"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["external-ffi-bindings", "development-tools", "multimedia"]

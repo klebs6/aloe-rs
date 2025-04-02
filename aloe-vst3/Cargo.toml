@@ -1,87 +1,126 @@
 [dependencies]
-core-foundation-sys = "*"
-num = "*"
+core-foundation-sys = "0.8.6"
+num = "0.4.3"
 [dependencies.aloe-audio-interface]
 path = "../aloe-audio-interface"
+version = "0.1.0"
 [dependencies.aloe-audio-plugin-format]
 path = "../aloe-audio-plugin-format"
+version = "0.1.0"
 [dependencies.aloe-audio-plugin-instance]
 path = "../aloe-audio-plugin-instance"
+version = "0.1.0"
 [dependencies.aloe-audio-processor]
 path = "../aloe-audio-processor"
+version = "0.1.0"
 [dependencies.aloe-audio-processor-editor]
 path = "../aloe-audio-processor-editor"
+version = "0.1.0"
 [dependencies.aloe-buffers]
 path = "../aloe-buffers"
+version = "0.1.0"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-core]
 path = "../aloe-core"
+version = "0.1.0"
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-events]
 path = "../aloe-events"
+version = "0.1.0"
 [dependencies.aloe-files]
 path = "../aloe-files"
+version = "0.1.0"
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
+version = "0.1.0"
 [dependencies.aloe-keyboard]
 path = "../aloe-keyboard"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [dependencies.aloe-midi]
 path = "../aloe-midi"
+version = "0.1.0"
 [dependencies.aloe-network]
 path = "../aloe-network"
+version = "0.1.0"
 [dependencies.aloe-nsview]
 path = "../aloe-nsview"
+version = "0.1.0"
 [dependencies.aloe-param]
 path = "../aloe-param"
+version = "0.1.0"
 [dependencies.aloe-playhead]
 path = "../aloe-playhead"
+version = "0.1.0"
 [dependencies.aloe-string]
 path = "../aloe-string"
+version = "0.1.0"
 [dependencies.aloe-threads]
 path = "../aloe-threads"
+version = "0.1.0"
 [dependencies.aloe-variant]
 path = "../aloe-variant"
+version = "0.1.0"
 [dependencies.aloe-vst-attributes]
 path = "../aloe-vst-attributes"
+version = "0.1.0"
 [dependencies.aloe-vst-channel]
 path = "../aloe-vst-channel"
+version = "0.1.0"
 [dependencies.aloe-vst-component]
 path = "../aloe-vst-component"
+version = "0.1.0"
 [dependencies.aloe-vst-edit]
 path = "../aloe-vst-edit"
+version = "0.1.0"
 [dependencies.aloe-vst-events]
 path = "../aloe-vst-events"
+version = "0.1.0"
 [dependencies.aloe-vst-host]
 path = "../aloe-vst-host"
+version = "0.1.0"
 [dependencies.aloe-vst-message]
 path = "../aloe-vst-message"
+version = "0.1.0"
 [dependencies.aloe-vst-parameters]
 path = "../aloe-vst-parameters"
+version = "0.1.0"
 [dependencies.aloe-vst-plugin]
 path = "../aloe-vst-plugin"
+version = "0.1.0"
 [dependencies.aloe-vst-plugview]
 path = "../aloe-vst-plugview"
+version = "0.1.0"
 [dependencies.aloe-vst-processor]
 path = "../aloe-vst-processor"
+version = "0.1.0"
 [dependencies.aloe-vst-stream]
 path = "../aloe-vst-stream"
+version = "0.1.0"
 [dependencies.aloe-vst-types]
 path = "../aloe-vst-types"
+version = "0.1.0"
 [dependencies.aloe-vst-units]
 path = "../aloe-vst-units"
+version = "0.1.0"
 [dependencies.aloe-xml]
 path = "../aloe-xml"
+version = "0.1.0"
 [dependencies.icrate]
 features = [ "AppKit_NSView" ]
-version = "*"
+version = "0.1.2"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "game-development", "network-programming"]

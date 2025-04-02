@@ -1,28 +1,37 @@
 [dependencies]
-objc = "*"
+objc = "0.2.7"
 objc-foundation = "0.1"
-objc_id = "*"
+objc_id = "0.1.1"
 [dependencies.aloe-core]
 path = "../aloe-core"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-embedding]
 path = "../aloe-embedding"
+version = "0.1.0"
 [dependencies.aloe-files]
 path = "../aloe-files"
+version = "0.1.0"
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
+version = "0.1.0"
 [dependencies.aloe-time]
 path = "../aloe-time"
+version = "0.1.0"
 [dependencies.aloe-url]
 path = "../aloe-url"
+version = "0.1.0"
 [dependencies.aloe-video]
 path = "../aloe-video"
+version = "0.1.0"
 [dependencies.icrate]
 features = [ "AppKit", "AppKit_NSView", "Foundation", "Foundation_NSError", "Foundation_NSNotification" ]
-version = "*"
+version = "0.1.2"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "os", "asynchronous", "external-ffi-bindings", "rust-patterns"]

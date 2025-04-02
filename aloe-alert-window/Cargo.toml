@@ -1,35 +1,51 @@
 [dependencies.aloe-buttons]
 path = "../aloe-buttons"
+version = "0.1.0"
 [dependencies.aloe-combobox]
 path = "../aloe-combobox"
+version = "0.1.0"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-dialogwindow]
 path = "../aloe-dialogwindow"
+version = "0.1.0"
 [dependencies.aloe-drag-and-drop]
 path = "../aloe-drag-and-drop"
+version = "0.1.0"
 [dependencies.aloe-font]
 path = "../aloe-font"
+version = "0.1.0"
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
+version = "0.1.0"
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
+version = "0.1.0"
 [dependencies.aloe-keyboard]
 path = "../aloe-keyboard"
+version = "0.1.0"
 [dependencies.aloe-label]
 path = "../aloe-label"
+version = "0.1.0"
 [dependencies.aloe-mouse]
 path = "../aloe-mouse"
+version = "0.1.0"
 [dependencies.aloe-progressbar]
 path = "../aloe-progressbar"
+version = "0.1.0"
 [dependencies.aloe-texteditor]
 path = "../aloe-texteditor"
+version = "0.1.0"
 [dependencies.aloe-windowing]
 path = "../aloe-windowing"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["gui", "command-line-interface", "text-editors", "accessibility"]

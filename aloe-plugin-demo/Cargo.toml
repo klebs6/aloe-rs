@@ -1,71 +1,104 @@
 [dependencies]
-num = "*"
+num = "0.4.3"
 [dependencies.aloe-audio-interface]
 path = "../aloe-audio-interface"
+version = "0.1.0"
 [dependencies.aloe-audio-processor]
 path = "../aloe-audio-processor"
+version = "0.1.0"
 [dependencies.aloe-audio-processor-editor]
 path = "../aloe-audio-processor-editor"
+version = "0.1.0"
 [dependencies.aloe-audio-processor-value-tree]
 path = "../aloe-audio-processor-value-tree"
+version = "0.1.0"
 [dependencies.aloe-buffers]
 path = "../aloe-buffers"
+version = "0.1.0"
 [dependencies.aloe-chorus]
 path = "../aloe-chorus"
+version = "0.1.0"
 [dependencies.aloe-combobox]
 path = "../aloe-combobox"
+version = "0.1.0"
 [dependencies.aloe-component]
 path = "../aloe-component"
+version = "0.1.0"
 [dependencies.aloe-convolution]
 path = "../aloe-convolution"
+version = "0.1.0"
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
+version = "0.1.0"
 [dependencies.aloe-delay-processor]
 path = "../aloe-delay-processor"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-distortion]
 path = "../aloe-distortion"
+version = "0.1.0"
 [dependencies.aloe-dynamics]
 path = "../aloe-dynamics"
+version = "0.1.0"
 [dependencies.aloe-filter]
 path = "../aloe-filter"
+version = "0.1.0"
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
+version = "0.1.0"
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
+version = "0.1.0"
 [dependencies.aloe-identifier]
 path = "../aloe-identifier"
+version = "0.1.0"
 [dependencies.aloe-label]
 path = "../aloe-label"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [dependencies.aloe-midi]
 path = "../aloe-midi"
+version = "0.1.0"
 [dependencies.aloe-mixer]
 path = "../aloe-mixer"
+version = "0.1.0"
 [dependencies.aloe-multiband]
 path = "../aloe-multiband"
+version = "0.1.0"
 [dependencies.aloe-notifications]
 path = "../aloe-notifications"
+version = "0.1.0"
 [dependencies.aloe-panner]
 path = "../aloe-panner"
+version = "0.1.0"
 [dependencies.aloe-param]
 path = "../aloe-param"
+version = "0.1.0"
 [dependencies.aloe-phaser]
 path = "../aloe-phaser"
+version = "0.1.0"
 [dependencies.aloe-playhead]
 path = "../aloe-playhead"
+version = "0.1.0"
 [dependencies.aloe-processor-chain]
 path = "../aloe-processor-chain"
+version = "0.1.0"
 [dependencies.aloe-sample-type]
 path = "../aloe-sample-type"
+version = "0.1.0"
 [dependencies.aloe-valuetree]
 path = "../aloe-valuetree"
+version = "0.1.0"
 [dependencies.aloe-xml]
 path = "../aloe-xml"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia"]

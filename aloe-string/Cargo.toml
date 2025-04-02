@@ -1,12 +1,15 @@
 [dependencies]
-core-foundation-sys = "*"
-libc = "*"
+core-foundation-sys = "0.8.6"
+libc = "0.2.155"
 [dependencies.aloe-char]
 path = "../aloe-char"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["text-processing", "localization", "internationalization", "encoding", "data-structures"]

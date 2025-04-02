@@ -1,18 +1,24 @@
 [dependencies]
-core-foundation = "*"
-coreaudio-sys = "*"
+core-foundation = "0.9.4"
+coreaudio-sys = "0.2.15"
 [dependencies.aloe-au-base]
 path = "../aloe-au-base"
+version = "0.1.0"
 [dependencies.aloe-au-component]
 path = "../aloe-au-component"
+version = "0.1.0"
 [dependencies.aloe-au-imports]
 path = "../aloe-au-imports"
+version = "0.1.0"
 [dependencies.aloe-au-midi]
 path = "../aloe-au-midi"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["api-bindings", "multimedia", "os", "hardware-support"]

@@ -1,11 +1,15 @@
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-oboe-core]
 path = "../aloe-oboe-core"
+version = "0.1.0"
 [dependencies.aloe-oboe-extensions]
 path = "../aloe-oboe-extensions"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["embedded", "hardware-support", "os", "multimedia"]

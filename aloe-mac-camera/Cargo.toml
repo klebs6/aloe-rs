@@ -1,36 +1,49 @@
 [dependencies]
-objc = "*"
+objc = "0.2.7"
 objc-foundation = "0.1"
-objc_id = "*"
+objc_id = "0.1.1"
 [dependencies.aloe-camera]
 path = "../aloe-camera"
+version = "0.1.0"
 [dependencies.aloe-container]
 path = "../aloe-container"
+version = "0.1.0"
 [dependencies.aloe-core]
 path = "../aloe-core"
+version = "0.1.0"
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
+version = "0.1.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-embedding]
 path = "../aloe-embedding"
+version = "0.1.0"
 [dependencies.aloe-files]
 path = "../aloe-files"
+version = "0.1.0"
 [dependencies.aloe-image]
 path = "../aloe-image"
+version = "0.1.0"
 [dependencies.aloe-memory]
 path = "../aloe-memory"
+version = "0.1.0"
 [dependencies.aloe-nsview]
 path = "../aloe-nsview"
+version = "0.1.0"
 [dependencies.aloe-string]
 path = "../aloe-string"
+version = "0.1.0"
 [dependencies.aloe-time]
 path = "../aloe-time"
+version = "0.1.0"
 [dependencies.icrate]
 features = [ "Foundation", "Foundation_NSError", "Foundation_NSNotification" ]
-version = "*"
+version = "0.1.2"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["external-ffi-bindings", "multimedia", "os", "hardware-support", "network-programming"]

@@ -1,13 +1,18 @@
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-oboe-core]
 path = "../aloe-oboe-core"
+version = "0.1.0"
 [dependencies.aloe-oboe-flowgraph-node]
 path = "../aloe-oboe-flowgraph-node"
+version = "0.1.0"
 [dependencies.aloe-oboe-stream]
 path = "../aloe-oboe-stream"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["compilers", "concurrency", "external-ffi-bindings", "multimedia"]

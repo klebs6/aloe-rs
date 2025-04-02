@@ -1,17 +1,19 @@
 [dependencies]
-atomic = "*"
-bitfield = "*"
-lazy_static = "*"
-libc = "*"
-modular-bitfield = "*"
-num = "*"
-parking_lot = "*"
-static_assertions = "*"
-wchar = "*"
+atomic = "0.6.0"
+bitfield = "0.15.0"
+lazy_static = "1.5.0"
+libc = "0.2.155"
+modular-bitfield = "0.11.2"
+num = "0.4.3"
+parking_lot = "0.12.3"
+static_assertions = "1.1.0"
+wchar = "0.11.1"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["algorithms", "mathematics", "science"]

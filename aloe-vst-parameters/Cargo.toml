@@ -1,15 +1,20 @@
 [dependencies]
-bitflags = "*"
+bitflags = "2.6.0"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.aloe-vst-events]
 path = "../aloe-vst-events"
+version = "0.1.0"
 [dependencies.aloe-vst-types]
 path = "../aloe-vst-types"
+version = "0.1.0"
 [dependencies.aloe-vst-units]
 path = "../aloe-vst-units"
+version = "0.1.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["multimedia", "command-line-utilities", "api-bindings", "gui"]

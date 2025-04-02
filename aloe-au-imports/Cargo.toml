@@ -1,14 +1,16 @@
 [dependencies]
-core-foundation-sys = "*"
-coreaudio-sys = "*"
-libc = "*"
+core-foundation-sys = "0.8.6"
+coreaudio-sys = "0.2.15"
+libc = "0.2.155"
 [dependencies.aloe-deps]
 path = "../aloe-deps"
+version = "0.1.0"
 [dependencies.aloe-derive]
 path = "../aloe-derive"
+version = "0.1.0"
 [dependencies.coreaudio-rs]
 features = [ "audio_unit" ]
-version = "*"
+version = "0.12.0"
 [package]
 authors = [ "klebs <tpk3.mx@gmail.com>" ]
 categories = ["localization", "data-structures", "finance"]
