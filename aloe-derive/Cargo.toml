@@ -28,7 +28,7 @@ license = "GPL-3.0"
 name = "aloe-derive"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

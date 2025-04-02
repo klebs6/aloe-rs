@@ -1,54 +1,54 @@
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-camera]
 path = "../aloe-camera"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-container]
 path = "../aloe-container"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-core]
 path = "../aloe-core"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-embedding]
 path = "../aloe-embedding"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-files]
 path = "../aloe-files"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-image]
 path = "../aloe-image"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-memory]
 path = "../aloe-memory"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-string]
 path = "../aloe-string"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-threads]
 path = "../aloe-threads"
-version = "0.1.0"
+version = "0.1.1"
 
 [package]
 authors = ["klebs <tpk3.mx@gmail.com>"]
@@ -73,7 +73,7 @@ license = "GPL-3.0"
 name = "aloe-ios-camera"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

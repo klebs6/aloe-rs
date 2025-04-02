@@ -3,51 +3,51 @@ libc = "0.2.155"
 
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-container]
 path = "../aloe-container"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-files]
 path = "../aloe-files"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-identifier]
 path = "../aloe-identifier"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-memory]
 path = "../aloe-memory"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-network]
 path = "../aloe-network"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-streams]
 path = "../aloe-streams"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-time]
 path = "../aloe-time"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-undo]
 path = "../aloe-undo"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-variant]
 path = "../aloe-variant"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-xml]
 path = "../aloe-xml"
-version = "0.1.0"
+version = "0.1.1"
 
 [package]
 authors = ["klebs <tpk3.mx@gmail.com>"]
@@ -72,7 +72,7 @@ license = "GPL-3.0"
 name = "aloe-valuetree"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

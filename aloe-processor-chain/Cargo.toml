@@ -1,18 +1,18 @@
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-audio-interface]
 path = "../aloe-audio-interface"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-sample-type]
 path = "../aloe-sample-type"
-version = "0.1.0"
+version = "0.1.1"
 
 [package]
 authors = ["klebs <tpk3.mx@gmail.com>"]
@@ -36,7 +36,7 @@ license = "GPL-3.0"
 name = "aloe-processor-chain"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

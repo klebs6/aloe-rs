@@ -1,30 +1,30 @@
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-colour]
 path = "../aloe-colour"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-component]
 path = "../aloe-component"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-documentwindow]
 path = "../aloe-documentwindow"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-tabbed]
 path = "../aloe-tabbed"
-version = "0.1.0"
+version = "0.1.2"
 
 [package]
 authors = ["klebs <tpk3.mx@gmail.com>"]
@@ -49,7 +49,7 @@ license = "GPL-3.0"
 name = "aloe-multidoc"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

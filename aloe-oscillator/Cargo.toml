@@ -11,43 +11,43 @@ wchar = "0.11.1"
 
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-audio-block]
 path = "../aloe-audio-block"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-component]
 path = "../aloe-component"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-dsp]
 path = "../aloe-dsp"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-dynamics]
 path = "../aloe-dynamics"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-math]
 path = "../aloe-math"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-memory]
 path = "../aloe-memory"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-sample-type]
 path = "../aloe-sample-type"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-smoothed-value]
 path = "../aloe-smoothed-value"
-version = "0.1.0"
+version = "0.1.2"
 
 [package]
 authors = ["klebs <tpk3.mx@gmail.com>"]
@@ -70,7 +70,7 @@ license = "GPL-3.0"
 name = "aloe-oscillator"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

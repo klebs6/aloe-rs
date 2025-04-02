@@ -3,119 +3,119 @@ core-foundation-sys = "0.8.6"
 
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-atomic]
 path = "../aloe-atomic"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-audio-interface]
 path = "../aloe-audio-interface"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-audio-plugin-client]
 path = "../aloe-audio-plugin-client"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-audio-processor-editor]
 path = "../aloe-audio-processor-editor"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-buffers]
 path = "../aloe-buffers"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-component]
 path = "../aloe-component"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-container]
 path = "../aloe-container"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-events]
 path = "../aloe-events"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-memory]
 path = "../aloe-memory"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-menus]
 path = "../aloe-menus"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-midi]
 path = "../aloe-midi"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-network]
 path = "../aloe-network"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-param]
 path = "../aloe-param"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-playhead]
 path = "../aloe-playhead"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-streams]
 path = "../aloe-streams"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-vst-component]
 path = "../aloe-vst-component"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-vst-events]
 path = "../aloe-vst-events"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-vst-message]
 path = "../aloe-vst-message"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-vst-midi]
 path = "../aloe-vst-midi"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-vst-plugin]
 path = "../aloe-vst-plugin"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-vst-plugview]
 path = "../aloe-vst-plugview"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-vst-stream]
 path = "../aloe-vst-stream"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-vst-types]
 path = "../aloe-vst-types"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-vst3]
 path = "../aloe-vst3"
-version = "0.1.0"
+version = "0.1.1"
 
 [package]
 authors = ["klebs <tpk3.mx@gmail.com>"]
@@ -139,7 +139,7 @@ license = "GPL-3.0"
 name = "aloe-vst-plugin-client-vst3"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

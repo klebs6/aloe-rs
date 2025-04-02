@@ -1,34 +1,34 @@
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-buffers]
 path = "../aloe-buffers"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-memory]
 path = "../aloe-memory"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-oboe-audioio]
 path = "../aloe-oboe-audioio"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-oboe-core]
 path = "../aloe-oboe-core"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-oboe-extensions]
 path = "../aloe-oboe-extensions"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-oboe-stream]
 path = "../aloe-oboe-stream"
-version = "0.1.0"
+version = "0.1.1"
 
 [package]
 authors = ["klebs <tpk3.mx@gmail.com>"]
@@ -52,7 +52,7 @@ license = "GPL-3.0"
 name = "aloe-oboe-session"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

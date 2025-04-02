@@ -5,39 +5,39 @@ objc_id = "0.1.1"
 
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-component]
 path = "../aloe-component"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-core]
 path = "../aloe-core"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-events]
 path = "../aloe-events"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-image]
 path = "../aloe-image"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-menus]
 path = "../aloe-menus"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-xembed]
 path = "../aloe-xembed"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.icrate]
 features = [
@@ -70,7 +70,7 @@ license = "GPL-3.0"
 name = "aloe-system-tray"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

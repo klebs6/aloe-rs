@@ -1,74 +1,74 @@
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-buttons]
 path = "../aloe-buttons"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-colour]
 path = "../aloe-colour"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-component]
 path = "../aloe-component"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-documentwindow]
 path = "../aloe-documentwindow"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-editor]
 path = "../aloe-editor"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-events]
 path = "../aloe-events"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-files]
 path = "../aloe-files"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-label]
 path = "../aloe-label"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-lookandfeel]
 path = "../aloe-lookandfeel"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-memory]
 path = "../aloe-memory"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-network]
 path = "../aloe-network"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-slider]
 path = "../aloe-slider"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-texteditor]
 path = "../aloe-texteditor"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-viewport]
 path = "../aloe-viewport"
-version = "0.1.0"
+version = "0.1.1"
 
 [package]
 authors = ["klebs <tpk3.mx@gmail.com>"]
@@ -93,7 +93,7 @@ license = "GPL-3.0"
 name = "aloe-live-constant-editor"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

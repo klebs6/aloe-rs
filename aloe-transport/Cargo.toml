@@ -11,99 +11,99 @@ wchar = "0.11.1"
 
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-audio]
 path = "../aloe-audio"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-audio-device-manager]
 path = "../aloe-audio-device-manager"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-audio-interface]
 path = "../aloe-audio-interface"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-audio-source-player]
 path = "../aloe-audio-source-player"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-audio-thumbnail]
 path = "../aloe-audio-thumbnail"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-audio-transport-source]
 path = "../aloe-audio-transport-source"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-buttons]
 path = "../aloe-buttons"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-codec]
 path = "../aloe-codec"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-component]
 path = "../aloe-component"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-drag-and-drop]
 path = "../aloe-drag-and-drop"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-drawables]
 path = "../aloe-drawables"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-events]
 path = "../aloe-events"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-filebrowser]
 path = "../aloe-filebrowser"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-files]
 path = "../aloe-files"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-geometry]
 path = "../aloe-geometry"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-graphics]
 path = "../aloe-graphics"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-label]
 path = "../aloe-label"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-scrollbar]
 path = "../aloe-scrollbar"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-slider]
 path = "../aloe-slider"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-threads]
 path = "../aloe-threads"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-url]
 path = "../aloe-url"
-version = "0.1.0"
+version = "0.1.1"
 
 [package]
 authors = ["klebs <tpk3.mx@gmail.com>"]
@@ -127,7 +127,7 @@ license = "GPL-3.0"
 name = "aloe-transport"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [

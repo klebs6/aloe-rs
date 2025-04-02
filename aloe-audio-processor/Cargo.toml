@@ -3,51 +3,51 @@ num = "0.4.3"
 
 [dependencies.aloe-3p]
 path = "../aloe-3p"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-audio-interface]
 path = "../aloe-audio-interface"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-audio-processor-editor]
 path = "../aloe-audio-processor-editor"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-buffers]
 path = "../aloe-buffers"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-component]
 path = "../aloe-component"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-critical-section]
 path = "../aloe-critical-section"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-derive]
 path = "../aloe-derive"
-version = "0.1.0"
+version = "0.1.2"
 
 [dependencies.aloe-memory]
 path = "../aloe-memory"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-midi]
 path = "../aloe-midi"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-param]
 path = "../aloe-param"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-playhead]
 path = "../aloe-playhead"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies.aloe-xml]
 path = "../aloe-xml"
-version = "0.1.0"
+version = "0.1.1"
 
 [package]
 authors = ["klebs <tpk3.mx@gmail.com>"]
@@ -71,7 +71,7 @@ license = "GPL-3.0"
 name = "aloe-audio-processor"
 readme = "README.md"
 repository = "https://github.com/klebs6/aloe-rs"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.metadata]
 cpp-authors = [
