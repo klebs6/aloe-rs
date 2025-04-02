@@ -22,7 +22,6 @@ keywords = [
     "vectorization",
     "performance",
     "parallelcomputing",
-    "highperformancecomputing",
 ]
 license = "GPL-3.0"
 name = "aloe-simd-register"

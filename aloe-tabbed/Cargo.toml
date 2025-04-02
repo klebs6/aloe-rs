@@ -50,7 +50,6 @@ documentation = "https://docs.rs/aloe-tabbed"
 edition = "2024"
 keywords = [
     "tabs",
-    "guicomponentsgraphicslayout",
 ]
 license = "GPL-3.0"
 name = "aloe-tabbed"

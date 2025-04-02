@@ -40,7 +40,6 @@ keywords = [
     "audio",
     "dsp",
     "impulseresponse",
-    "digitalsignalprocessing",
 ]
 license = "GPL-3.0"
 name = "aloe-convolution-demo"

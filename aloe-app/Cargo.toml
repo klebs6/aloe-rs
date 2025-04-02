@@ -90,11 +90,11 @@ description = "A Rust crate for managing runtime permissions and developing dyna
 documentation = "https://docs.rs/aloe-app"
 edition = "2024"
 keywords = [
+    "lifecycle",
     "runtimepermissions",
     "preferencepanel",
     "gui",
     "android",
-    "applicationlifecycle",
 ]
 license = "GPL-3.0"
 name = "aloe-app"

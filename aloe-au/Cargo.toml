@@ -85,11 +85,11 @@ description = "Aloe-au is a Rust library crafted for high-performance audio appl
 documentation = "https://docs.rs/aloe-au"
 edition = "2024"
 keywords = [
-    "rust",
-    "numericalcomputations",
-    "algorithmicefficiency",
-    "precisionmathematics",
     "datatransformations",
+    "numerical",
+    "computation",
+    "efficiency",
+    "precision",
 ]
 license = "GPL-3.0"
 name = "aloe-au"

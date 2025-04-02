@@ -94,7 +94,6 @@ keywords = [
     "audio",
     "plugin",
     "crossplatform",
-    "digitalsignalprocessing",
 ]
 license = "GPL-3.0"
 name = "aloe-vst-plugin-client-vst"
