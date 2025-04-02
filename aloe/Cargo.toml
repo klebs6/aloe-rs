@@ -568,3 +568,6 @@ path = "../aloe-zip"
 edition = "2021"
 name = "aloe"
 version = "0.1.0"
+description = "Aloe provides high-performance support for asynchronous network programming and concurrency in Rust, leveraging modern Rust 2021 edition capabilities."
+keywords = ["asynchronous", "concurrency", "networkprogramming", "rust", "performance"]
+categories = ["asynchronous", "concurrency", "network-programming", "development-tools"]
