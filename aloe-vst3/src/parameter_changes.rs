@@ -103,7 +103,7 @@ impl IParameterChanges for ParameterChanges {
 
 impl FUnknown for ParameterChanges {
 
-    fn query_interface(&mut self, _: [i8; 16], _: *mut *mut aloe_deps::c_void) -> i32 { todo!() }
+    fn query_interface(&mut self, _: [i8; 16], _: *mut *mut aloe_3p::c_void) -> i32 { todo!() }
 
     fn add_ref(&mut self) -> u32 { todo!() }
 

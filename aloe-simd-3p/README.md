@@ -21,7 +21,7 @@ aloe-simd-deps = "0.1.0"
 Begin by importing the crate and leveraging the `m8x16` type for data manipulation:
 
 ```rust
-use aloe_simd_deps::m8x16;
+use aloe_simd_3p::m8x16;
 
 fn main() {
     let mask: m8x16 = /* initialize mask */;

@@ -5,4 +5,4 @@ pub(crate) use aloe_events::*;
 pub(crate) use aloe_font::*;
 pub(crate) use aloe_geometry::*;
 pub(crate) use aloe_graphics::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;

@@ -11,7 +11,7 @@ pub(crate) use aloe_events::*;
 pub(crate) use aloe_filebrowser::*;
 pub(crate) use aloe_files::*;
 pub(crate) use aloe_graphics::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;
 pub(crate) use aloe_listbox::*;
 pub(crate) use aloe_menus::*;
 pub(crate) use aloe_properties::*;

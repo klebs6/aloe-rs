@@ -3,7 +3,7 @@ pub(crate) use aloe_derive::*;
 pub(crate) use aloe_dsp::*;
 pub(crate) use aloe_dynamics::*;
 pub(crate) use aloe_filter::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;
 pub(crate) use aloe_mixer::*;
 pub(crate) use aloe_oversampling::*;
 pub(crate) use aloe_processor_chain::*;

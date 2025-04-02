@@ -119,7 +119,7 @@ pub use aloe_grid::*;
 pub use aloe_identifier::*;
 pub use aloe_image::*;
 pub use aloe_imagecomponent::*;
-pub use aloe_deps::*;
+pub use aloe_3p::*;
 pub use aloe_interp::*;
 pub use aloe_ios_audio::*;
 pub use aloe_ios_camera::*;

@@ -7,7 +7,7 @@ pub use aloe_component::*;
 pub use aloe_derive::*;
 pub use aloe_dsp::*;
 pub use aloe_filter::*;
-pub use aloe_deps::*;
+pub use aloe_3p::*;
 pub use aloe_memory::*;
 pub use aloe_sample_type::*;
 pub use aloe_simd_avx::*;

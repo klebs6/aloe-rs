@@ -27,7 +27,7 @@ pub(crate) use aloe_geometry::*;
 pub(crate) use aloe_graphics::*;
 pub(crate) use aloe_identifier::*;
 pub(crate) use aloe_image::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;
 pub(crate) use aloe_label::*;
 pub(crate) use aloe_level_meter::*;
 pub(crate) use aloe_listbox::*;

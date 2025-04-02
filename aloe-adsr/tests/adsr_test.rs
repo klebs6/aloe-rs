@@ -1,7 +1,7 @@
 use aloe_adsr::*;
 use aloe_buffers::*;
 use aloe_test::*;
-use aloe_deps::*;
+use aloe_3p::*;
 
 //-------------------------------------------[.cpp/Aloe/modules/aloe_audio_basics/utilities/aloe_ADSR_test.cpp]
 

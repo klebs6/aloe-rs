@@ -4,4 +4,4 @@ pub(crate) use aloe_au_imports::*;
 pub(crate) use aloe_component::*;
 pub(crate) use aloe_derive::*;
 pub(crate) use aloe_files::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;

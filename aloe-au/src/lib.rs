@@ -13,4 +13,4 @@ pub use aloe_au_streams::*;
 pub use aloe_au_time::*;
 pub use aloe_au_types::*;
 pub use aloe_derive::*;
-pub use aloe_deps::*;
+pub use aloe_3p::*;

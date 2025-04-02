@@ -23,14 +23,14 @@ impl<'a> IAttributeList for Vst3HostContextAttributeList<'a> {
 
     fn get_string(&mut self, _: <Self as aloe_vst_attributes::IAttributeList>::AttrID, _: *mut u16, _: u32) -> i32 { todo!() }
 
-    fn set_binary(&mut self, _: <Self as aloe_vst_attributes::IAttributeList>::AttrID, _: *const aloe_deps::c_void, _: u32) -> i32 { todo!() }
+    fn set_binary(&mut self, _: <Self as aloe_vst_attributes::IAttributeList>::AttrID, _: *const aloe_3p::c_void, _: u32) -> i32 { todo!() }
 
-    fn get_binary(&mut self, _: <Self as aloe_vst_attributes::IAttributeList>::AttrID, _: &mut *const aloe_deps::c_void, _: &mut u32) -> i32 { todo!() }
+    fn get_binary(&mut self, _: <Self as aloe_vst_attributes::IAttributeList>::AttrID, _: &mut *const aloe_3p::c_void, _: &mut u32) -> i32 { todo!() }
 }
 
 impl<'a> FUnknown for Vst3HostContextAttributeList<'a> {
 
-    fn query_interface(&mut self, _: [i8; 16], _: *mut *mut aloe_deps::c_void) -> i32 { todo!() }
+    fn query_interface(&mut self, _: [i8; 16], _: *mut *mut aloe_3p::c_void) -> i32 { todo!() }
 
     fn add_ref(&mut self) -> u32 { todo!() }
 

@@ -44,7 +44,7 @@ impl<'a> IUnitHandler for Vst3HostContext<'a> {
 
 impl<'a> FUnknown for Vst3HostContext<'a> {
 
-    fn query_interface(&mut self, _: [i8; 16], _: *mut *mut aloe_deps::c_void) -> i32 { todo!() }
+    fn query_interface(&mut self, _: [i8; 16], _: *mut *mut aloe_3p::c_void) -> i32 { todo!() }
 
     fn add_ref(&mut self) -> u32 { todo!() }
 
@@ -55,7 +55,7 @@ impl<'a> IHostApplication for Vst3HostContext<'a> {
 
     fn get_name(&mut self, _: [u16; 128]) -> i32 { todo!() }
 
-    fn create_instance(&mut self, _: [i8; 16], _: [i8; 16], _: *mut *mut aloe_deps::c_void) -> i32 { todo!() }
+    fn create_instance(&mut self, _: [i8; 16], _: [i8; 16], _: *mut *mut aloe_3p::c_void) -> i32 { todo!() }
 }
 
 impl<'a> IContextMenuTarget for Vst3HostContext<'a> {

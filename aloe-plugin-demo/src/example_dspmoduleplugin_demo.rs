@@ -382,7 +382,7 @@ impl<'a> AudioProcessorAddBus for DspModulePluginDemo<'a> {
 }
 
 impl<'a> SetStateInformation for DspModulePluginDemo<'a> {
-    fn set_state_information(&mut self, _: *const aloe_deps::c_void, _: i32) { todo!() }
+    fn set_state_information(&mut self, _: *const aloe_3p::c_void, _: i32) { todo!() }
 }
 
 impl<'a> SetRateAndBufferSizeDetails for DspModulePluginDemo<'a> {
@@ -414,7 +414,7 @@ impl<'a> SetLatencySamples for DspModulePluginDemo<'a> {
 }
 
 impl<'a> SetCurrentProgramStateInformation for DspModulePluginDemo<'a> {
-    fn set_current_program_state_information(&mut self, _: *const aloe_deps::c_void, _: i32) { todo!() }
+    fn set_current_program_state_information(&mut self, _: *const aloe_3p::c_void, _: i32) { todo!() }
 }
 
 impl<'a> SetChannelLayoutOfBus for DspModulePluginDemo<'a> {

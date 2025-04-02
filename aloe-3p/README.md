@@ -26,8 +26,8 @@ aloe-deps = "0.1.0"
 Import the desired traits or macros in your Rust code:
 
 ```rust
-use aloe_deps::GetName;
-use aloe_deps::x;
+use aloe_3p::GetName;
+use aloe_3p::x;
 ```
 
 ## Contributing

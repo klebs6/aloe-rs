@@ -8,7 +8,7 @@ pub(crate) use aloe_drag_and_drop::*;
 pub(crate) use aloe_drawables::*;
 pub(crate) use aloe_geometry::*;
 pub(crate) use aloe_graphics::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;
 pub(crate) use aloe_label::*;
 pub(crate) use aloe_menus::*;
 pub(crate) use aloe_mouse::*;

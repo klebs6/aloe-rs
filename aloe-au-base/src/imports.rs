@@ -9,4 +9,4 @@ pub(crate) use aloe_au_streams::*;
 pub(crate) use aloe_au_time::*;
 pub(crate) use aloe_au_types::*;
 pub(crate) use aloe_derive::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;

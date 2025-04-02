@@ -2,7 +2,7 @@ pub(crate) use aloe_array::*;
 pub(crate) use aloe_atomic::*;
 pub(crate) use aloe_critical_section::*;
 pub(crate) use aloe_derive::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;
 pub(crate) use aloe_memory::*;
 pub(crate) use aloe_test::*;
 pub(crate) use aloe_uuid::*;

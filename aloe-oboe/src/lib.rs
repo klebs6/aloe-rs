@@ -1,6 +1,6 @@
 pub use aloe_buffers::*;
 pub use aloe_derive::*;
-pub use aloe_deps::*;
+pub use aloe_3p::*;
 pub use aloe_oboe_audio_loader::*;
 pub use aloe_oboe_audioclock::*;
 pub use aloe_oboe_audioio::*;

@@ -22,7 +22,7 @@ impl IMessage for Vst3HostContextMessage {
 
 impl FUnknown for Vst3HostContextMessage {
 
-    fn query_interface(&mut self, _: [i8; 16], _: *mut *mut aloe_deps::c_void) -> i32 { todo!() }
+    fn query_interface(&mut self, _: [i8; 16], _: *mut *mut aloe_3p::c_void) -> i32 { todo!() }
 
     fn add_ref(&mut self) -> u32 { todo!() }
 

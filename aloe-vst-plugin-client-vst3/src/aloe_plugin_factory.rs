@@ -16,7 +16,7 @@ pub struct AloePluginFactory {
 }
 
 impl FUnknown for AloePluginFactory {
-    fn query_interface(&mut self, _: [i8; 16], _: *mut *mut aloe_deps::c_void) -> i32 { todo!() }
+    fn query_interface(&mut self, _: [i8; 16], _: *mut *mut aloe_3p::c_void) -> i32 { todo!() }
     fn add_ref(&mut self) -> u32 { todo!() }
     fn release(&mut self) -> u32 { todo!() }
 
@@ -27,7 +27,7 @@ impl IPluginFactory for AloePluginFactory {
     fn get_factory_info(&mut self, _: *mut aloe_vst_plugin::PFactoryInfo) -> i32 { todo!() }
     fn count_classes(&mut self) -> i32 { todo!() }
     fn get_class_info(&mut self, _: i32, _: *mut aloe_vst_plugin::PClassInfo) -> i32 { todo!() }
-    fn create_instance(&mut self, _: &'static str, _: &'static str, _: *mut *mut aloe_deps::c_void) -> i32 { todo!() }
+    fn create_instance(&mut self, _: &'static str, _: &'static str, _: *mut *mut aloe_3p::c_void) -> i32 { todo!() }
 }
 
 impl IPluginFactory2 for AloePluginFactory {

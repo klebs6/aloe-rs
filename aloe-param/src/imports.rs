@@ -3,7 +3,7 @@ pub(crate) use aloe_buttons::*;
 pub(crate) use aloe_combobox::*;
 pub(crate) use aloe_critical_section::*;
 pub(crate) use aloe_derive::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;
 pub(crate) use aloe_math::*;
 pub(crate) use aloe_network::*;
 pub(crate) use aloe_slider::*;

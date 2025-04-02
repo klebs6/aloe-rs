@@ -21,7 +21,7 @@ pub(crate) use aloe_fft::*;
 pub(crate) use aloe_filebrowser::*;
 pub(crate) use aloe_graphics::*;
 pub(crate) use aloe_grid::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;
 pub(crate) use aloe_label::*;
 pub(crate) use aloe_memory::*;
 pub(crate) use aloe_mouse::*;

@@ -1,7 +1,7 @@
 pub(crate) use aloe_buffers::*;
 pub(crate) use aloe_derive::*;
 pub(crate) use aloe_filter::*;
-pub(crate) use aloe_deps::*;
+pub(crate) use aloe_3p::*;
 pub(crate) use aloe_mixer::*;
 pub(crate) use aloe_oscillator::*;
 pub(crate) use aloe_sample_type::*;

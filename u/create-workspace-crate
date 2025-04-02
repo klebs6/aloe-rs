@@ -20,7 +20,7 @@ sub MAIN(Str $name, Bool :$write) {
     add-starter-lib-file-for-crate($name);
 
     glob-import-from-crates($name, [
-        "aloe_deps", 
+        "aloe_3p", 
         "aloe_derive",
     ]);
 
