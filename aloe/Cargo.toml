@@ -8,844 +8,1134 @@ num = "0.4.3"
 parking_lot = "0.12.3"
 static_assertions = "1.1.0"
 wchar = "0.11.1"
-[dependencies.aloe-aax]
-path = "../aloe-aax"
-version = "0.1.0"
-[dependencies.aloe-adsr]
-path = "../aloe-adsr"
-version = "0.1.0"
-[dependencies.aloe-aiff]
-path = "../aloe-aiff"
-version = "0.1.0"
-[dependencies.aloe-alert-window]
-path = "../aloe-alert-window"
-version = "0.1.0"
-[dependencies.aloe-analytics]
-path = "../aloe-analytics"
-version = "0.1.0"
-[dependencies.aloe-android]
-path = "../aloe-android"
-version = "0.1.0"
-[dependencies.aloe-android-audio]
-path = "../aloe-android-audio"
-version = "0.1.0"
-[dependencies.aloe-android-camera]
-path = "../aloe-android-camera"
-version = "0.1.0"
-[dependencies.aloe-android-notifications]
-path = "../aloe-android-notifications"
-version = "0.1.0"
-[dependencies.aloe-android-video]
-path = "../aloe-android-video"
-version = "0.1.0"
-[dependencies.aloe-animation]
-path = "../aloe-animation"
-version = "0.1.0"
-[dependencies.aloe-app]
-path = "../aloe-app"
-version = "0.1.0"
-[dependencies.aloe-array]
-path = "../aloe-array"
-version = "0.1.0"
-[dependencies.aloe-atomic]
-path = "../aloe-atomic"
-version = "0.1.0"
-[dependencies.aloe-au]
-path = "../aloe-au"
-version = "0.1.0"
-[dependencies.aloe-au-base]
-path = "../aloe-au-base"
-version = "0.1.0"
-[dependencies.aloe-au-buffer]
-path = "../aloe-au-buffer"
-version = "0.1.0"
-[dependencies.aloe-au-carbon]
-path = "../aloe-au-carbon"
-version = "0.1.0"
-[dependencies.aloe-au-channel]
-path = "../aloe-au-channel"
-version = "0.1.0"
-[dependencies.aloe-au-component]
-path = "../aloe-au-component"
-version = "0.1.0"
-[dependencies.aloe-au-coreaudio]
-path = "../aloe-au-coreaudio"
-version = "0.1.0"
-[dependencies.aloe-au-debug]
-path = "../aloe-au-debug"
-version = "0.1.0"
-[dependencies.aloe-au-device]
-path = "../aloe-au-device"
-version = "0.1.0"
-[dependencies.aloe-au-dispatch]
-path = "../aloe-au-dispatch"
-version = "0.1.0"
-[dependencies.aloe-au-imports]
-path = "../aloe-au-imports"
-version = "0.1.0"
-[dependencies.aloe-au-midi]
-path = "../aloe-au-midi"
-version = "0.1.0"
-[dependencies.aloe-au-parameter]
-path = "../aloe-au-parameter"
-version = "0.1.0"
-[dependencies.aloe-au-streams]
-path = "../aloe-au-streams"
-version = "0.1.0"
-[dependencies.aloe-au-time]
-path = "../aloe-au-time"
-version = "0.1.0"
-[dependencies.aloe-au-types]
-path = "../aloe-au-types"
-version = "0.1.0"
-[dependencies.aloe-audio]
-path = "../aloe-audio"
-version = "0.1.0"
-[dependencies.aloe-audio-app-component]
-path = "../aloe-audio-app-component"
-version = "0.1.0"
-[dependencies.aloe-audio-block]
-path = "../aloe-audio-block"
-version = "0.1.0"
-[dependencies.aloe-audio-device-manager]
-path = "../aloe-audio-device-manager"
-version = "0.1.0"
-[dependencies.aloe-audio-devices]
-path = "../aloe-audio-devices"
-version = "0.1.0"
-[dependencies.aloe-audio-interface]
-path = "../aloe-audio-interface"
-version = "0.1.0"
-[dependencies.aloe-audio-linux-alsa]
-path = "../aloe-audio-linux-alsa"
-version = "0.1.0"
-[dependencies.aloe-audio-linux-bela]
-path = "../aloe-audio-linux-bela"
-version = "0.1.0"
-[dependencies.aloe-audio-linux-jack]
-path = "../aloe-audio-linux-jack"
-version = "0.1.0"
-[dependencies.aloe-audio-plugin-client]
-path = "../aloe-audio-plugin-client"
-version = "0.1.0"
-[dependencies.aloe-audio-plugin-format]
-path = "../aloe-audio-plugin-format"
-version = "0.1.0"
-[dependencies.aloe-audio-plugin-host]
-path = "../aloe-audio-plugin-host"
-version = "0.1.0"
-[dependencies.aloe-audio-plugin-instance]
-path = "../aloe-audio-plugin-instance"
-version = "0.1.0"
-[dependencies.aloe-audio-processor]
-path = "../aloe-audio-processor"
-version = "0.1.0"
-[dependencies.aloe-audio-processor-editor]
-path = "../aloe-audio-processor-editor"
-version = "0.1.0"
-[dependencies.aloe-audio-processor-graph]
-path = "../aloe-audio-processor-graph"
-version = "0.1.0"
-[dependencies.aloe-audio-processor-value-tree]
-path = "../aloe-audio-processor-value-tree"
-version = "0.1.0"
-[dependencies.aloe-audio-source]
-path = "../aloe-audio-source"
-version = "0.1.0"
-[dependencies.aloe-audio-source-player]
-path = "../aloe-audio-source-player"
-version = "0.1.0"
-[dependencies.aloe-audio-thumbnail]
-path = "../aloe-audio-thumbnail"
-version = "0.1.0"
-[dependencies.aloe-audio-transport-source]
-path = "../aloe-audio-transport-source"
-version = "0.1.0"
-[dependencies.aloe-bigint]
-path = "../aloe-bigint"
-version = "0.1.0"
-[dependencies.aloe-box2d]
-path = "../aloe-box2d"
-version = "0.1.0"
-[dependencies.aloe-bubble]
-path = "../aloe-bubble"
-version = "0.1.0"
-[dependencies.aloe-buffers]
-path = "../aloe-buffers"
-version = "0.1.0"
-[dependencies.aloe-buttons]
-path = "../aloe-buttons"
-version = "0.1.0"
-[dependencies.aloe-callout-box]
-path = "../aloe-callout-box"
-version = "0.1.0"
-[dependencies.aloe-camera]
-path = "../aloe-camera"
-version = "0.1.0"
-[dependencies.aloe-caret-component]
-path = "../aloe-caret-component"
-version = "0.1.0"
-[dependencies.aloe-cd]
-path = "../aloe-cd"
-version = "0.1.0"
-[dependencies.aloe-char]
-path = "../aloe-char"
-version = "0.1.0"
-[dependencies.aloe-chorus]
-path = "../aloe-chorus"
-version = "0.1.0"
-[dependencies.aloe-codec]
-path = "../aloe-codec"
-version = "0.1.0"
-[dependencies.aloe-colour]
-path = "../aloe-colour"
-version = "0.1.0"
-[dependencies.aloe-colourselector]
-path = "../aloe-colourselector"
-version = "0.1.0"
-[dependencies.aloe-combobox]
-path = "../aloe-combobox"
-version = "0.1.0"
-[dependencies.aloe-commands]
-path = "../aloe-commands"
-version = "0.1.0"
-[dependencies.aloe-component]
-path = "../aloe-component"
-version = "0.1.0"
-[dependencies.aloe-concertina]
-path = "../aloe-concertina"
-version = "0.1.0"
-[dependencies.aloe-container]
-path = "../aloe-container"
-version = "0.1.0"
-[dependencies.aloe-content-sharer]
-path = "../aloe-content-sharer"
-version = "0.1.0"
-[dependencies.aloe-convolution]
-path = "../aloe-convolution"
-version = "0.1.0"
-[dependencies.aloe-convolution-demo]
-path = "../aloe-convolution-demo"
-version = "0.1.0"
-[dependencies.aloe-core]
-path = "../aloe-core"
-version = "0.1.0"
-[dependencies.aloe-critical-section]
-path = "../aloe-critical-section"
-version = "0.1.0"
-[dependencies.aloe-crypto]
-path = "../aloe-crypto"
-version = "0.1.0"
-[dependencies.aloe-delay]
-path = "../aloe-delay"
-version = "0.1.0"
-[dependencies.aloe-delay-processor]
-path = "../aloe-delay-processor"
-version = "0.1.0"
-[dependencies.aloe-demo]
-path = "../aloe-demo"
-version = "0.1.0"
-[dependencies.aloe-derive]
-path = "../aloe-derive"
-version = "0.1.0"
-[dependencies.aloe-desktop]
-path = "../aloe-desktop"
-version = "0.1.0"
-[dependencies.aloe-dialogwindow]
-path = "../aloe-dialogwindow"
-version = "0.1.0"
-[dependencies.aloe-distortion]
-path = "../aloe-distortion"
-version = "0.1.0"
-[dependencies.aloe-documentwindow]
-path = "../aloe-documentwindow"
-version = "0.1.0"
-[dependencies.aloe-drag-and-drop]
-path = "../aloe-drag-and-drop"
-version = "0.1.0"
-[dependencies.aloe-drawables]
-path = "../aloe-drawables"
-version = "0.1.0"
-[dependencies.aloe-dsp]
-path = "../aloe-dsp"
-version = "0.1.0"
-[dependencies.aloe-dynamic-object]
-path = "../aloe-dynamic-object"
-version = "0.1.0"
-[dependencies.aloe-dynamics]
-path = "../aloe-dynamics"
-version = "0.1.0"
-[dependencies.aloe-editor]
-path = "../aloe-editor"
-version = "0.1.0"
-[dependencies.aloe-embedding]
-path = "../aloe-embedding"
-version = "0.1.0"
-[dependencies.aloe-events]
-path = "../aloe-events"
-version = "0.1.0"
-[dependencies.aloe-ex]
-path = "../aloe-ex"
-version = "0.1.0"
-[dependencies.aloe-ex-app]
-path = "../aloe-ex-app"
-version = "0.1.0"
-[dependencies.aloe-ex-assets]
-path = "../aloe-ex-assets"
-version = "0.1.0"
-[dependencies.aloe-ex-audio]
-path = "../aloe-ex-audio"
-version = "0.1.0"
-[dependencies.aloe-ex-demorunner]
-path = "../aloe-ex-demorunner"
-version = "0.1.0"
-[dependencies.aloe-ex-gui]
-path = "../aloe-ex-gui"
-version = "0.1.0"
-[dependencies.aloe-ex-plugins]
-path = "../aloe-ex-plugins"
-version = "0.1.0"
-[dependencies.aloe-ex-utilities]
-path = "../aloe-ex-utilities"
-version = "0.1.0"
-[dependencies.aloe-fft]
-path = "../aloe-fft"
-version = "0.1.0"
-[dependencies.aloe-fft-demo]
-path = "../aloe-fft-demo"
-version = "0.1.0"
-[dependencies.aloe-filebrowser]
-path = "../aloe-filebrowser"
-version = "0.1.0"
-[dependencies.aloe-files]
-path = "../aloe-files"
-version = "0.1.0"
-[dependencies.aloe-filter]
-path = "../aloe-filter"
-version = "0.1.0"
-[dependencies.aloe-fixed-size-function]
-path = "../aloe-fixed-size-function"
-version = "0.1.0"
-[dependencies.aloe-flac]
-path = "../aloe-flac"
-version = "0.1.0"
-[dependencies.aloe-flexbox]
-path = "../aloe-flexbox"
-version = "0.1.0"
-[dependencies.aloe-font]
-path = "../aloe-font"
-version = "0.1.0"
-[dependencies.aloe-geometry]
-path = "../aloe-geometry"
-version = "0.1.0"
-[dependencies.aloe-gif]
-path = "../aloe-gif"
-version = "0.1.0"
-[dependencies.aloe-graphics]
-path = "../aloe-graphics"
-version = "0.1.0"
-[dependencies.aloe-grid]
-path = "../aloe-grid"
-version = "0.1.0"
-[dependencies.aloe-identifier]
-path = "../aloe-identifier"
-version = "0.1.0"
-[dependencies.aloe-image]
-path = "../aloe-image"
-version = "0.1.0"
-[dependencies.aloe-imagecomponent]
-path = "../aloe-imagecomponent"
-version = "0.1.0"
+
 [dependencies.aloe-3p]
 path = "../aloe-3p"
 version = "0.1.0"
+
+[dependencies.aloe-aax]
+path = "../aloe-aax"
+version = "0.1.0"
+
+[dependencies.aloe-adsr]
+path = "../aloe-adsr"
+version = "0.1.0"
+
+[dependencies.aloe-aiff]
+path = "../aloe-aiff"
+version = "0.1.0"
+
+[dependencies.aloe-alert-window]
+path = "../aloe-alert-window"
+version = "0.1.0"
+
+[dependencies.aloe-analytics]
+path = "../aloe-analytics"
+version = "0.1.0"
+
+[dependencies.aloe-android]
+path = "../aloe-android"
+version = "0.1.0"
+
+[dependencies.aloe-android-audio]
+path = "../aloe-android-audio"
+version = "0.1.0"
+
+[dependencies.aloe-android-camera]
+path = "../aloe-android-camera"
+version = "0.1.0"
+
+[dependencies.aloe-android-notifications]
+path = "../aloe-android-notifications"
+version = "0.1.0"
+
+[dependencies.aloe-android-video]
+path = "../aloe-android-video"
+version = "0.1.0"
+
+[dependencies.aloe-animation]
+path = "../aloe-animation"
+version = "0.1.0"
+
+[dependencies.aloe-app]
+path = "../aloe-app"
+version = "0.1.0"
+
+[dependencies.aloe-array]
+path = "../aloe-array"
+version = "0.1.0"
+
+[dependencies.aloe-atomic]
+path = "../aloe-atomic"
+version = "0.1.0"
+
+[dependencies.aloe-au]
+path = "../aloe-au"
+version = "0.1.0"
+
+[dependencies.aloe-au-base]
+path = "../aloe-au-base"
+version = "0.1.0"
+
+[dependencies.aloe-au-buffer]
+path = "../aloe-au-buffer"
+version = "0.1.0"
+
+[dependencies.aloe-au-carbon]
+path = "../aloe-au-carbon"
+version = "0.1.0"
+
+[dependencies.aloe-au-channel]
+path = "../aloe-au-channel"
+version = "0.1.0"
+
+[dependencies.aloe-au-component]
+path = "../aloe-au-component"
+version = "0.1.0"
+
+[dependencies.aloe-au-coreaudio]
+path = "../aloe-au-coreaudio"
+version = "0.1.0"
+
+[dependencies.aloe-au-debug]
+path = "../aloe-au-debug"
+version = "0.1.0"
+
+[dependencies.aloe-au-device]
+path = "../aloe-au-device"
+version = "0.1.0"
+
+[dependencies.aloe-au-dispatch]
+path = "../aloe-au-dispatch"
+version = "0.1.0"
+
+[dependencies.aloe-au-imports]
+path = "../aloe-au-imports"
+version = "0.1.0"
+
+[dependencies.aloe-au-midi]
+path = "../aloe-au-midi"
+version = "0.1.0"
+
+[dependencies.aloe-au-parameter]
+path = "../aloe-au-parameter"
+version = "0.1.0"
+
+[dependencies.aloe-au-streams]
+path = "../aloe-au-streams"
+version = "0.1.0"
+
+[dependencies.aloe-au-time]
+path = "../aloe-au-time"
+version = "0.1.0"
+
+[dependencies.aloe-au-types]
+path = "../aloe-au-types"
+version = "0.1.0"
+
+[dependencies.aloe-audio]
+path = "../aloe-audio"
+version = "0.1.0"
+
+[dependencies.aloe-audio-app-component]
+path = "../aloe-audio-app-component"
+version = "0.1.0"
+
+[dependencies.aloe-audio-block]
+path = "../aloe-audio-block"
+version = "0.1.0"
+
+[dependencies.aloe-audio-device-manager]
+path = "../aloe-audio-device-manager"
+version = "0.1.0"
+
+[dependencies.aloe-audio-devices]
+path = "../aloe-audio-devices"
+version = "0.1.0"
+
+[dependencies.aloe-audio-interface]
+path = "../aloe-audio-interface"
+version = "0.1.0"
+
+[dependencies.aloe-audio-linux-alsa]
+path = "../aloe-audio-linux-alsa"
+version = "0.1.0"
+
+[dependencies.aloe-audio-linux-bela]
+path = "../aloe-audio-linux-bela"
+version = "0.1.0"
+
+[dependencies.aloe-audio-linux-jack]
+path = "../aloe-audio-linux-jack"
+version = "0.1.0"
+
+[dependencies.aloe-audio-plugin-client]
+path = "../aloe-audio-plugin-client"
+version = "0.1.0"
+
+[dependencies.aloe-audio-plugin-format]
+path = "../aloe-audio-plugin-format"
+version = "0.1.0"
+
+[dependencies.aloe-audio-plugin-host]
+path = "../aloe-audio-plugin-host"
+version = "0.1.0"
+
+[dependencies.aloe-audio-plugin-instance]
+path = "../aloe-audio-plugin-instance"
+version = "0.1.0"
+
+[dependencies.aloe-audio-processor]
+path = "../aloe-audio-processor"
+version = "0.1.0"
+
+[dependencies.aloe-audio-processor-editor]
+path = "../aloe-audio-processor-editor"
+version = "0.1.0"
+
+[dependencies.aloe-audio-processor-graph]
+path = "../aloe-audio-processor-graph"
+version = "0.1.0"
+
+[dependencies.aloe-audio-processor-value-tree]
+path = "../aloe-audio-processor-value-tree"
+version = "0.1.0"
+
+[dependencies.aloe-audio-source]
+path = "../aloe-audio-source"
+version = "0.1.0"
+
+[dependencies.aloe-audio-source-player]
+path = "../aloe-audio-source-player"
+version = "0.1.0"
+
+[dependencies.aloe-audio-thumbnail]
+path = "../aloe-audio-thumbnail"
+version = "0.1.0"
+
+[dependencies.aloe-audio-transport-source]
+path = "../aloe-audio-transport-source"
+version = "0.1.0"
+
+[dependencies.aloe-bigint]
+path = "../aloe-bigint"
+version = "0.1.0"
+
+[dependencies.aloe-box2d]
+path = "../aloe-box2d"
+version = "0.1.0"
+
+[dependencies.aloe-bubble]
+path = "../aloe-bubble"
+version = "0.1.0"
+
+[dependencies.aloe-buffers]
+path = "../aloe-buffers"
+version = "0.1.0"
+
+[dependencies.aloe-buttons]
+path = "../aloe-buttons"
+version = "0.1.0"
+
+[dependencies.aloe-callout-box]
+path = "../aloe-callout-box"
+version = "0.1.0"
+
+[dependencies.aloe-camera]
+path = "../aloe-camera"
+version = "0.1.0"
+
+[dependencies.aloe-caret-component]
+path = "../aloe-caret-component"
+version = "0.1.0"
+
+[dependencies.aloe-cd]
+path = "../aloe-cd"
+version = "0.1.0"
+
+[dependencies.aloe-char]
+path = "../aloe-char"
+version = "0.1.0"
+
+[dependencies.aloe-chorus]
+path = "../aloe-chorus"
+version = "0.1.0"
+
+[dependencies.aloe-codec]
+path = "../aloe-codec"
+version = "0.1.0"
+
+[dependencies.aloe-colour]
+path = "../aloe-colour"
+version = "0.1.0"
+
+[dependencies.aloe-colourselector]
+path = "../aloe-colourselector"
+version = "0.1.0"
+
+[dependencies.aloe-combobox]
+path = "../aloe-combobox"
+version = "0.1.0"
+
+[dependencies.aloe-commands]
+path = "../aloe-commands"
+version = "0.1.0"
+
+[dependencies.aloe-component]
+path = "../aloe-component"
+version = "0.1.0"
+
+[dependencies.aloe-concertina]
+path = "../aloe-concertina"
+version = "0.1.0"
+
+[dependencies.aloe-container]
+path = "../aloe-container"
+version = "0.1.0"
+
+[dependencies.aloe-content-sharer]
+path = "../aloe-content-sharer"
+version = "0.1.0"
+
+[dependencies.aloe-convolution]
+path = "../aloe-convolution"
+version = "0.1.0"
+
+[dependencies.aloe-convolution-demo]
+path = "../aloe-convolution-demo"
+version = "0.1.0"
+
+[dependencies.aloe-core]
+path = "../aloe-core"
+version = "0.1.0"
+
+[dependencies.aloe-critical-section]
+path = "../aloe-critical-section"
+version = "0.1.0"
+
+[dependencies.aloe-crypto]
+path = "../aloe-crypto"
+version = "0.1.0"
+
+[dependencies.aloe-delay]
+path = "../aloe-delay"
+version = "0.1.0"
+
+[dependencies.aloe-delay-processor]
+path = "../aloe-delay-processor"
+version = "0.1.0"
+
+[dependencies.aloe-demo]
+path = "../aloe-demo"
+version = "0.1.0"
+
+[dependencies.aloe-derive]
+path = "../aloe-derive"
+version = "0.1.0"
+
+[dependencies.aloe-desktop]
+path = "../aloe-desktop"
+version = "0.1.0"
+
+[dependencies.aloe-dialogwindow]
+path = "../aloe-dialogwindow"
+version = "0.1.0"
+
+[dependencies.aloe-distortion]
+path = "../aloe-distortion"
+version = "0.1.0"
+
+[dependencies.aloe-documentwindow]
+path = "../aloe-documentwindow"
+version = "0.1.0"
+
+[dependencies.aloe-drag-and-drop]
+path = "../aloe-drag-and-drop"
+version = "0.1.0"
+
+[dependencies.aloe-drawables]
+path = "../aloe-drawables"
+version = "0.1.0"
+
+[dependencies.aloe-dsp]
+path = "../aloe-dsp"
+version = "0.1.0"
+
+[dependencies.aloe-dynamic-object]
+path = "../aloe-dynamic-object"
+version = "0.1.0"
+
+[dependencies.aloe-dynamics]
+path = "../aloe-dynamics"
+version = "0.1.0"
+
+[dependencies.aloe-editor]
+path = "../aloe-editor"
+version = "0.1.0"
+
+[dependencies.aloe-embedding]
+path = "../aloe-embedding"
+version = "0.1.0"
+
+[dependencies.aloe-events]
+path = "../aloe-events"
+version = "0.1.0"
+
+[dependencies.aloe-ex]
+path = "../aloe-ex"
+version = "0.1.0"
+
+[dependencies.aloe-ex-app]
+path = "../aloe-ex-app"
+version = "0.1.0"
+
+[dependencies.aloe-ex-assets]
+path = "../aloe-ex-assets"
+version = "0.1.0"
+
+[dependencies.aloe-ex-audio]
+path = "../aloe-ex-audio"
+version = "0.1.0"
+
+[dependencies.aloe-ex-demorunner]
+path = "../aloe-ex-demorunner"
+version = "0.1.0"
+
+[dependencies.aloe-ex-gui]
+path = "../aloe-ex-gui"
+version = "0.1.0"
+
+[dependencies.aloe-ex-plugins]
+path = "../aloe-ex-plugins"
+version = "0.1.0"
+
+[dependencies.aloe-ex-utilities]
+path = "../aloe-ex-utilities"
+version = "0.1.0"
+
+[dependencies.aloe-fft]
+path = "../aloe-fft"
+version = "0.1.0"
+
+[dependencies.aloe-fft-demo]
+path = "../aloe-fft-demo"
+version = "0.1.0"
+
+[dependencies.aloe-filebrowser]
+path = "../aloe-filebrowser"
+version = "0.1.0"
+
+[dependencies.aloe-files]
+path = "../aloe-files"
+version = "0.1.0"
+
+[dependencies.aloe-filter]
+path = "../aloe-filter"
+version = "0.1.0"
+
+[dependencies.aloe-fixed-size-function]
+path = "../aloe-fixed-size-function"
+version = "0.1.0"
+
+[dependencies.aloe-flac]
+path = "../aloe-flac"
+version = "0.1.0"
+
+[dependencies.aloe-flexbox]
+path = "../aloe-flexbox"
+version = "0.1.0"
+
+[dependencies.aloe-font]
+path = "../aloe-font"
+version = "0.1.0"
+
+[dependencies.aloe-geometry]
+path = "../aloe-geometry"
+version = "0.1.0"
+
+[dependencies.aloe-gif]
+path = "../aloe-gif"
+version = "0.1.0"
+
+[dependencies.aloe-graphics]
+path = "../aloe-graphics"
+version = "0.1.0"
+
+[dependencies.aloe-grid]
+path = "../aloe-grid"
+version = "0.1.0"
+
+[dependencies.aloe-identifier]
+path = "../aloe-identifier"
+version = "0.1.0"
+
+[dependencies.aloe-image]
+path = "../aloe-image"
+version = "0.1.0"
+
+[dependencies.aloe-imagecomponent]
+path = "../aloe-imagecomponent"
+version = "0.1.0"
+
 [dependencies.aloe-interp]
 path = "../aloe-interp"
 version = "0.1.0"
+
 [dependencies.aloe-ios-audio]
 path = "../aloe-ios-audio"
 version = "0.1.0"
+
 [dependencies.aloe-ios-camera]
 path = "../aloe-ios-camera"
 version = "0.1.0"
+
 [dependencies.aloe-ios-notifications]
 path = "../aloe-ios-notifications"
 version = "0.1.0"
+
 [dependencies.aloe-jpg]
 path = "../aloe-jpg"
 version = "0.1.0"
+
 [dependencies.aloe-keyboard]
 path = "../aloe-keyboard"
 version = "0.1.0"
+
 [dependencies.aloe-keymapping-editor]
 path = "../aloe-keymapping-editor"
 version = "0.1.0"
+
 [dependencies.aloe-label]
 path = "../aloe-label"
 version = "0.1.0"
+
 [dependencies.aloe-ladspa]
 path = "../aloe-ladspa"
 version = "0.1.0"
+
 [dependencies.aloe-lasso]
 path = "../aloe-lasso"
 version = "0.1.0"
+
 [dependencies.aloe-level-meter]
 path = "../aloe-level-meter"
 version = "0.1.0"
+
 [dependencies.aloe-listbox]
 path = "../aloe-listbox"
 version = "0.1.0"
+
 [dependencies.aloe-live-constant-editor]
 path = "../aloe-live-constant-editor"
 version = "0.1.0"
+
 [dependencies.aloe-log]
 path = "../aloe-log"
 version = "0.1.0"
+
 [dependencies.aloe-lookandfeel]
 path = "../aloe-lookandfeel"
 version = "0.1.0"
+
 [dependencies.aloe-mac-camera]
 path = "../aloe-mac-camera"
 version = "0.1.0"
+
 [dependencies.aloe-mac-notifications]
 path = "../aloe-mac-notifications"
 version = "0.1.0"
+
 [dependencies.aloe-mac-video]
 path = "../aloe-mac-video"
 version = "0.1.0"
+
 [dependencies.aloe-math]
 path = "../aloe-math"
 version = "0.1.0"
+
 [dependencies.aloe-math-expression]
 path = "../aloe-math-expression"
 version = "0.1.0"
+
 [dependencies.aloe-memory]
 path = "../aloe-memory"
 version = "0.1.0"
+
 [dependencies.aloe-menus]
 path = "../aloe-menus"
 version = "0.1.0"
+
 [dependencies.aloe-midi]
 path = "../aloe-midi"
 version = "0.1.0"
+
 [dependencies.aloe-mime]
 path = "../aloe-mime"
 version = "0.1.0"
+
 [dependencies.aloe-mixer]
 path = "../aloe-mixer"
 version = "0.1.0"
+
 [dependencies.aloe-mouse]
 path = "../aloe-mouse"
 version = "0.1.0"
+
 [dependencies.aloe-mp3]
 path = "../aloe-mp3"
 version = "0.1.0"
+
 [dependencies.aloe-mpe]
 path = "../aloe-mpe"
 version = "0.1.0"
+
 [dependencies.aloe-multiband]
 path = "../aloe-multiband"
 version = "0.1.0"
+
 [dependencies.aloe-multidoc]
 path = "../aloe-multidoc"
 version = "0.1.0"
+
 [dependencies.aloe-network]
 path = "../aloe-network"
 version = "0.1.0"
+
 [dependencies.aloe-notifications]
 path = "../aloe-notifications"
 version = "0.1.0"
+
 [dependencies.aloe-nsview]
 path = "../aloe-nsview"
 version = "0.1.0"
+
 [dependencies.aloe-oboe]
 path = "../aloe-oboe"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-audio-loader]
 path = "../aloe-oboe-audio-loader"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-audioclock]
 path = "../aloe-oboe-audioclock"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-audioio]
 path = "../aloe-oboe-audioio"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-core]
 path = "../aloe-oboe-core"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-counters]
 path = "../aloe-oboe-counters"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-devicequirks]
 path = "../aloe-oboe-devicequirks"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-extensions]
 path = "../aloe-oboe-extensions"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-fifo]
 path = "../aloe-oboe-fifo"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-fixedblockrw]
 path = "../aloe-oboe-fixedblockrw"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-flowgraph]
 path = "../aloe-oboe-flowgraph"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-flowgraph-converter]
 path = "../aloe-oboe-flowgraph-converter"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-flowgraph-filter]
 path = "../aloe-oboe-flowgraph-filter"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-flowgraph-node]
 path = "../aloe-oboe-flowgraph-node"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-flowgraph-resampler]
 path = "../aloe-oboe-flowgraph-resampler"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-flowgraph-sink]
 path = "../aloe-oboe-flowgraph-sink"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-flowgraph-source]
 path = "../aloe-oboe-flowgraph-source"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-latencytuner]
 path = "../aloe-oboe-latencytuner"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-no-aaudio]
 path = "../aloe-oboe-no-aaudio"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-session]
 path = "../aloe-oboe-session"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-sles]
 path = "../aloe-oboe-sles"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-sourcefloatcaller]
 path = "../aloe-oboe-sourcefloatcaller"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-stream]
 path = "../aloe-oboe-stream"
 version = "0.1.0"
+
 [dependencies.aloe-oboe-trace]
 path = "../aloe-oboe-trace"
 version = "0.1.0"
+
 [dependencies.aloe-ogg]
 path = "../aloe-ogg"
 version = "0.1.0"
+
 [dependencies.aloe-opengl]
 path = "../aloe-opengl"
 version = "0.1.0"
+
 [dependencies.aloe-osc]
 path = "../aloe-osc"
 version = "0.1.0"
+
 [dependencies.aloe-oscillator]
 path = "../aloe-oscillator"
 version = "0.1.0"
+
 [dependencies.aloe-oversampling]
 path = "../aloe-oversampling"
 version = "0.1.0"
+
 [dependencies.aloe-panner]
 path = "../aloe-panner"
 version = "0.1.0"
+
 [dependencies.aloe-param]
 path = "../aloe-param"
 version = "0.1.0"
+
 [dependencies.aloe-parameter-component]
 path = "../aloe-parameter-component"
 version = "0.1.0"
+
 [dependencies.aloe-parameter-type]
 path = "../aloe-parameter-type"
 version = "0.1.0"
+
 [dependencies.aloe-performance-counter]
 path = "../aloe-performance-counter"
 version = "0.1.0"
+
 [dependencies.aloe-phaser]
 path = "../aloe-phaser"
 version = "0.1.0"
+
 [dependencies.aloe-player]
 path = "../aloe-player"
 version = "0.1.0"
+
 [dependencies.aloe-playhead]
 path = "../aloe-playhead"
 version = "0.1.0"
+
 [dependencies.aloe-plugin-demo]
 path = "../aloe-plugin-demo"
 version = "0.1.0"
+
 [dependencies.aloe-positioning]
 path = "../aloe-positioning"
 version = "0.1.0"
+
 [dependencies.aloe-processor-chain]
 path = "../aloe-processor-chain"
 version = "0.1.0"
+
 [dependencies.aloe-progressbar]
 path = "../aloe-progressbar"
 version = "0.1.0"
+
 [dependencies.aloe-properties]
 path = "../aloe-properties"
 version = "0.1.0"
+
 [dependencies.aloe-random]
 path = "../aloe-random"
 version = "0.1.0"
+
 [dependencies.aloe-resizable]
 path = "../aloe-resizable"
 version = "0.1.0"
+
 [dependencies.aloe-reverb]
 path = "../aloe-reverb"
 version = "0.1.0"
+
 [dependencies.aloe-rtas]
 path = "../aloe-rtas"
 version = "0.1.0"
+
 [dependencies.aloe-sample-type]
 path = "../aloe-sample-type"
 version = "0.1.0"
+
 [dependencies.aloe-scanning]
 path = "../aloe-scanning"
 version = "0.1.0"
+
 [dependencies.aloe-script]
 path = "../aloe-script"
 version = "0.1.0"
+
 [dependencies.aloe-scrollbar]
 path = "../aloe-scrollbar"
 version = "0.1.0"
+
 [dependencies.aloe-selection]
 path = "../aloe-selection"
 version = "0.1.0"
+
 [dependencies.aloe-shadow]
 path = "../aloe-shadow"
 version = "0.1.0"
+
 [dependencies.aloe-sidepanel]
 path = "../aloe-sidepanel"
 version = "0.1.0"
+
 [dependencies.aloe-simd]
 path = "../aloe-simd"
 version = "0.1.0"
+
 [dependencies.aloe-slider]
 path = "../aloe-slider"
 version = "0.1.0"
+
 [dependencies.aloe-smoothed-value]
 path = "../aloe-smoothed-value"
 version = "0.1.0"
+
 [dependencies.aloe-splash]
 path = "../aloe-splash"
 version = "0.1.0"
+
 [dependencies.aloe-standalone]
 path = "../aloe-standalone"
 version = "0.1.0"
+
 [dependencies.aloe-streams]
 path = "../aloe-streams"
 version = "0.1.0"
+
 [dependencies.aloe-stretchable]
 path = "../aloe-stretchable"
 version = "0.1.0"
+
 [dependencies.aloe-string]
 path = "../aloe-string"
 version = "0.1.0"
+
 [dependencies.aloe-surround]
 path = "../aloe-surround"
 version = "0.1.0"
+
 [dependencies.aloe-svg]
 path = "../aloe-svg"
 version = "0.1.0"
+
 [dependencies.aloe-synthesizer]
 path = "../aloe-synthesizer"
 version = "0.1.0"
+
 [dependencies.aloe-system]
 path = "../aloe-system"
 version = "0.1.0"
+
 [dependencies.aloe-system-tray]
 path = "../aloe-system-tray"
 version = "0.1.0"
+
 [dependencies.aloe-tabbed]
 path = "../aloe-tabbed"
 version = "0.1.0"
+
 [dependencies.aloe-table]
 path = "../aloe-table"
 version = "0.1.0"
+
 [dependencies.aloe-test]
 path = "../aloe-test"
 version = "0.1.0"
+
 [dependencies.aloe-text]
 path = "../aloe-text"
 version = "0.1.0"
+
 [dependencies.aloe-texteditor]
 path = "../aloe-texteditor"
 version = "0.1.0"
+
 [dependencies.aloe-thread-with-progress-window]
 path = "../aloe-thread-with-progress-window"
 version = "0.1.0"
+
 [dependencies.aloe-threads]
 path = "../aloe-threads"
 version = "0.1.0"
+
 [dependencies.aloe-time]
 path = "../aloe-time"
 version = "0.1.0"
+
 [dependencies.aloe-toolbar]
 path = "../aloe-toolbar"
 version = "0.1.0"
+
 [dependencies.aloe-tooltip-window]
 path = "../aloe-tooltip-window"
 version = "0.1.0"
+
 [dependencies.aloe-touch]
 path = "../aloe-touch"
 version = "0.1.0"
+
 [dependencies.aloe-transport]
 path = "../aloe-transport"
 version = "0.1.0"
+
 [dependencies.aloe-treeview]
 path = "../aloe-treeview"
 version = "0.1.0"
+
 [dependencies.aloe-undo]
 path = "../aloe-undo"
 version = "0.1.0"
+
 [dependencies.aloe-unity]
 path = "../aloe-unity"
 version = "0.1.0"
+
 [dependencies.aloe-unlocking]
 path = "../aloe-unlocking"
 version = "0.1.0"
+
 [dependencies.aloe-url]
 path = "../aloe-url"
 version = "0.1.0"
+
 [dependencies.aloe-uuid]
 path = "../aloe-uuid"
 version = "0.1.0"
+
 [dependencies.aloe-valuetree]
 path = "../aloe-valuetree"
 version = "0.1.0"
+
 [dependencies.aloe-variant]
 path = "../aloe-variant"
 version = "0.1.0"
+
 [dependencies.aloe-video]
 path = "../aloe-video"
 version = "0.1.0"
+
 [dependencies.aloe-viewport]
 path = "../aloe-viewport"
 version = "0.1.0"
+
 [dependencies.aloe-visualizer]
 path = "../aloe-visualizer"
 version = "0.1.0"
+
 [dependencies.aloe-vst]
 path = "../aloe-vst"
 version = "0.1.0"
+
 [dependencies.aloe-vst-attributes]
 path = "../aloe-vst-attributes"
 version = "0.1.0"
+
 [dependencies.aloe-vst-buffer]
 path = "../aloe-vst-buffer"
 version = "0.1.0"
+
 [dependencies.aloe-vst-channel]
 path = "../aloe-vst-channel"
 version = "0.1.0"
+
 [dependencies.aloe-vst-component]
 path = "../aloe-vst-component"
 version = "0.1.0"
+
 [dependencies.aloe-vst-debug]
 path = "../aloe-vst-debug"
 version = "0.1.0"
+
 [dependencies.aloe-vst-edit]
 path = "../aloe-vst-edit"
 version = "0.1.0"
+
 [dependencies.aloe-vst-events]
 path = "../aloe-vst-events"
 version = "0.1.0"
+
 [dependencies.aloe-vst-host]
 path = "../aloe-vst-host"
 version = "0.1.0"
+
 [dependencies.aloe-vst-inter-app]
 path = "../aloe-vst-inter-app"
 version = "0.1.0"
+
 [dependencies.aloe-vst-message]
 path = "../aloe-vst-message"
 version = "0.1.0"
+
 [dependencies.aloe-vst-midi]
 path = "../aloe-vst-midi"
 version = "0.1.0"
+
 [dependencies.aloe-vst-note-expression]
 path = "../aloe-vst-note-expression"
 version = "0.1.0"
+
 [dependencies.aloe-vst-parameters]
 path = "../aloe-vst-parameters"
 version = "0.1.0"
+
 [dependencies.aloe-vst-persist]
 path = "../aloe-vst-persist"
 version = "0.1.0"
+
 [dependencies.aloe-vst-platform]
 path = "../aloe-vst-platform"
 version = "0.1.0"
+
 [dependencies.aloe-vst-plugin]
 path = "../aloe-vst-plugin"
 version = "0.1.0"
+
 [dependencies.aloe-vst-plugin-client-vst]
 path = "../aloe-vst-plugin-client-vst"
 version = "0.1.0"
+
 [dependencies.aloe-vst-plugin-client-vst3]
 path = "../aloe-vst-plugin-client-vst3"
 version = "0.1.0"
+
 [dependencies.aloe-vst-pluginformat]
 path = "../aloe-vst-pluginformat"
 version = "0.1.0"
+
 [dependencies.aloe-vst-plugview]
 path = "../aloe-vst-plugview"
 version = "0.1.0"
+
 [dependencies.aloe-vst-presetfile]
 path = "../aloe-vst-presetfile"
 version = "0.1.0"
+
 [dependencies.aloe-vst-processor]
 path = "../aloe-vst-processor"
 version = "0.1.0"
+
 [dependencies.aloe-vst-reaper]
 path = "../aloe-vst-reaper"
 version = "0.1.0"
+
 [dependencies.aloe-vst-speaker]
 path = "../aloe-vst-speaker"
 version = "0.1.0"
+
 [dependencies.aloe-vst-stream]
 path = "../aloe-vst-stream"
 version = "0.1.0"
+
 [dependencies.aloe-vst-string]
 path = "../aloe-vst-string"
 version = "0.1.0"
+
 [dependencies.aloe-vst-thread]
 path = "../aloe-vst-thread"
 version = "0.1.0"
+
 [dependencies.aloe-vst-types]
 path = "../aloe-vst-types"
 version = "0.1.0"
+
 [dependencies.aloe-vst-units]
 path = "../aloe-vst-units"
 version = "0.1.0"
+
 [dependencies.aloe-vst3]
 path = "../aloe-vst3"
 version = "0.1.0"
+
 [dependencies.aloe-wav]
 path = "../aloe-wav"
 version = "0.1.0"
+
 [dependencies.aloe-waveshaper]
 path = "../aloe-waveshaper"
 version = "0.1.0"
+
 [dependencies.aloe-webbrowser]
 path = "../aloe-webbrowser"
 version = "0.1.0"
+
 [dependencies.aloe-windowing]
 path = "../aloe-windowing"
 version = "0.1.0"
+
 [dependencies.aloe-x11]
 path = "../aloe-x11"
 version = "0.1.0"
+
 [dependencies.aloe-xembed]
 path = "../aloe-xembed"
 version = "0.1.0"
+
 [dependencies.aloe-xml]
 path = "../aloe-xml"
 version = "0.1.0"
+
 [dependencies.aloe-zip]
 path = "../aloe-zip"
 version = "0.1.0"
+
 [package]
-edition = "2021"
-name = "aloe"
-version = "0.1.0"
+categories = [
+    "asynchronous",
+    "concurrency",
+    "network-programming",
+    "development-tools",
+]
 description = "Aloe provides high-performance support for asynchronous network programming and concurrency in Rust, leveraging modern Rust 2021 edition capabilities. This crate is a translation of the c++ juce module serving the same function."
-keywords = ["asynchronous", "concurrency", "networkprogramming", "rust", "performance"]
-categories = ["asynchronous", "concurrency", "network-programming", "development-tools"]
+edition = "2021"
+keywords = [
+    "asynchronous",
+    "concurrency",
+    "networkprogramming",
+    "rust",
+    "performance",
+]
+name = "aloe"
+version = "0.1.1"
